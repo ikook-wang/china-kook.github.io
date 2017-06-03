@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-06-03T18:08:58.413Z</updated>
+  <updated>2017-06-03T18:49:27.429Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://ikookblog.com/2017/06/04/test/"/>
+    <id>http://ikookblog.com/2017/06/04/test/</id>
+    <published>2017-06-03T18:49:27.000Z</published>
+    <updated>2017-06-03T18:49:27.429Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>设计模式之「概述」</title>
