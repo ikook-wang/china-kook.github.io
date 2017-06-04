@@ -833,9 +833,9 @@
     
       <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
     
-      <category term="Git" scheme="http://ikookblog.com/tags/Git/"/>
-    
       <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Git" scheme="http://ikookblog.com/tags/Git/"/>
     
       <category term="数据库" scheme="http://ikookblog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -985,9 +985,9 @@
     
       <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="hexo" scheme="http://ikookblog.com/tags/hexo/"/>
+    
+      <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -1192,9 +1192,9 @@
       <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-      <category term="Git" scheme="http://ikookblog.com/tags/Git/"/>
-    
       <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Git" scheme="http://ikookblog.com/tags/Git/"/>
     
   </entry>
   
