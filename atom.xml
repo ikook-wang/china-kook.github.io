@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-06-18T16:56:20.093Z</updated>
+  <updated>2017-07-02T10:20:34.317Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2017/06/18/view-text-01/"/>
     <id>http://ikookblog.com/2017/06/18/view-text-01/</id>
     <published>2017-06-17T16:00:00.000Z</published>
-    <updated>2017-06-18T16:56:20.093Z</updated>
+    <updated>2017-07-02T10:20:34.317Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>本文为观文记，原文链接：<a href="http://www.jianshu.com/p/4dc3518089a0" target="_blank" rel="external">http://www.jianshu.com/p/4dc3518089a0</a></p>
@@ -82,7 +82,7 @@
     <link href="http://ikookblog.com/2017/06/16/kotlin01/"/>
     <id>http://ikookblog.com/2017/06/16/kotlin01/</id>
     <published>2017-06-15T16:00:00.000Z</published>
-    <updated>2017-06-16T10:20:40.536Z</updated>
+    <updated>2017-07-02T10:23:48.920Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Kotlin 从入门到放弃–开始</p>
@@ -804,9 +804,9 @@
       <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
     
     
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
       <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
+    
+      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
@@ -1194,8 +1194,8 @@
   
   <entry>
     <title>感悟，16年12月6日1</title>
-    <link href="http://ikookblog.com/2016/12/06/17.12.6_gnosis/"/>
-    <id>http://ikookblog.com/2016/12/06/17.12.6_gnosis/</id>
+    <link href="http://ikookblog.com/2016/12/06/16.12.6_gnosis/"/>
+    <id>http://ikookblog.com/2016/12/06/16.12.6_gnosis/</id>
     <published>2016-12-05T16:00:00.000Z</published>
     <updated>2017-06-18T16:35:33.399Z</updated>
     
