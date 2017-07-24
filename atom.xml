@@ -804,9 +804,9 @@
       <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
     
     
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
       <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
+    
+      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
@@ -1117,9 +1117,9 @@
       <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-      <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="hexo" scheme="http://ikookblog.com/tags/hexo/"/>
     
