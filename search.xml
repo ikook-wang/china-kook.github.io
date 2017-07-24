@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title><![CDATA[mysql 常用命令归纳]]></title>
+      <title><![CDATA[MySQL 常用命令归纳]]></title>
       <url>/2017/07/24/mysql_crash_course/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>《MySQL 必知必会》学习总结&amp;&amp;常用命令归纳</p>
@@ -15,7 +15,7 @@
 <li><strong>列(column)</strong> 表中的一个字段。所有表都是由一个或者多个列组成的。<br><br></li>
 <li><strong>数据类型(datatype)</strong> 所容许的数据的类型。每个表列都有相应的数据类型，它限制（或容许）该列中存储的数据。<br><br></li>
 <li><strong>行(row)</strong> 表中的一个记录。<br><br></li>
-<li><strong>主键(primary key)</strong> 一列（或一组列），其值能够唯一区分表中每个行。<br><br>主键的条件：<br>1.任意两行都不具有相同的主键值；<br>2.每个行都必须具有一个主键值（主键列不允许 NULL 值）</li>
+<li><strong>主键(primary key)</strong> 一列（或一组列），其值能够唯一区分表中每个行。<br>主键的条件：<br>1.任意两行都不具有相同的主键值；<br>2.每个行都必须具有一个主键值（主键列不允许 NULL 值）</li>
 </ul>
 <h3 id="什么是-SQL"><a href="#什么是-SQL" class="headerlink" title="什么是 SQL"></a>什么是 SQL</h3><p>SQL 是结构化查询语言（Structured Query Language）的缩写。SQL 是一种专门用来与数据库通信的语言。</p>
 <h5 id="SQL-有以下优点："><a href="#SQL-有以下优点：" class="headerlink" title="SQL 有以下优点："></a>SQL 有以下优点：</h5><ul>
@@ -789,9 +789,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1650,18 +1650,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1679,6 +1667,18 @@
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25707139&auto=1&height=66"></iframe><br></p>
 <p><br>ikook<br>2016.10.07</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
