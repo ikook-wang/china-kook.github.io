@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-07-24T10:44:33.417Z</updated>
+  <updated>2017-07-24T10:48:16.934Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,60 +20,41 @@
     <link href="http://ikookblog.com/2017/07/24/mysql_crash_course/"/>
     <id>http://ikookblog.com/2017/07/24/mysql_crash_course/</id>
     <published>2017-07-23T16:00:00.000Z</published>
-    <updated>2017-07-24T10:44:33.417Z</updated>
+    <updated>2017-07-24T10:48:16.934Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>《MySQL 必知必会》学习总结&amp;&amp;常用命令归纳</p>
 </blockquote>
 <h2 id="数据库基础概念-amp-amp-什么是-SQL、MySQL"><a href="#数据库基础概念-amp-amp-什么是-SQL、MySQL" class="headerlink" title="数据库基础概念&amp;&amp;什么是 SQL、MySQL"></a>数据库基础概念&amp;&amp;什么是 SQL、MySQL</h2><h3 id="数据库基础概念"><a href="#数据库基础概念" class="headerlink" title="数据库基础概念"></a>数据库基础概念</h3><ul>
-<li><p><strong>数据库(database)</strong> 保存有组织的数据的容器(通常是一个文件或者一组文件)。</p>
-</li>
-<li><p><strong>表(table)</strong> 某种特定类型数据的结构化清单。</p>
-</li>
-<li><p><strong>模式(schema)</strong> 关于数据库和表的布局及特定的信息。<br></p>
-<p>模式可以用来描述数据库中特定的表以及整个数据库(和其中表的关系)。</p>
-</li>
-<li><p><strong>列(column)</strong> 表中的一个字段。所有表都是由一个或者多个列组成的。</p>
-</li>
-<li><p><strong>数据类型(datatype)</strong> 所容许的数据的类型。每个表列都有相应的数据类型，它限制（或容许）该列中存储的数据。</p>
-</li>
-<li><p><strong>行(row)</strong> 表中的一个记录。</p>
-</li>
-<li><p><strong>主键(primary key)</strong> 一列（或一组列），其值能够唯一区分表中每个行。<br></p>
-<p>主键的条件：<br><br>1.任意两行都不具有相同的主键值；<br><br>2.每个行都必须具有一个主键值（主键列不允许 NULL 值）</p>
-</li>
+<li><strong>数据库(database)</strong> 保存有组织的数据的容器(通常是一个文件或者一组文件)。</li>
+<li><strong>表(table)</strong> 某种特定类型数据的结构化清单。</li>
+<li><strong>模式(schema)</strong> 关于数据库和表的布局及特定的信息。<br><br>模式可以用来描述数据库中特定的表以及整个数据库(和其中表的关系)。</li>
+<li><strong>列(column)</strong> 表中的一个字段。所有表都是由一个或者多个列组成的。</li>
+<li><strong>数据类型(datatype)</strong> 所容许的数据的类型。每个表列都有相应的数据类型，它限制（或容许）该列中存储的数据。</li>
+<li><strong>行(row)</strong> 表中的一个记录。</li>
+<li><strong>主键(primary key)</strong> 一列（或一组列），其值能够唯一区分表中每个行。<br><br>主键的条件：<br><br>1.任意两行都不具有相同的主键值；<br><br>2.每个行都必须具有一个主键值（主键列不允许 NULL 值）</li>
 </ul>
 <h3 id="什么是-SQL"><a href="#什么是-SQL" class="headerlink" title="什么是 SQL"></a>什么是 SQL</h3><p>SQL 是结构化查询语言（Structured Query Language）的缩写。SQL 是一种专门用来与数据库通信的语言。</p>
 <h5 id="SQL-有以下优点："><a href="#SQL-有以下优点：" class="headerlink" title="SQL 有以下优点："></a>SQL 有以下优点：</h5><ul>
-<li><p>SQL 不是某个特定数据库供应商专有的语言。几乎所有重要的 DBMS 都支持 SQL，所以，学习此语言几乎能与所有数据库打交道。</p>
-</li>
-<li><p>SQL 简单易学。它的语句全都是由描述性很强的英语单词组成，而且这些单词的数目不多。</p>
-</li>
-<li><p>SQL 尽管看上去很简单，但它实际上是一种强有力的语言，灵活使用其语言元素，可以进行非常复杂和高级的数据库错操作。</p>
-</li>
+<li>SQL 不是某个特定数据库供应商专有的语言。几乎所有重要的 DBMS 都支持 SQL，所以，学习此语言几乎能与所有数据库打交道。</li>
+<li>SQL 简单易学。它的语句全都是由描述性很强的英语单词组成，而且这些单词的数目不多。</li>
+<li>SQL 尽管看上去很简单，但它实际上是一种强有力的语言，灵活使用其语言元素，可以进行非常复杂和高级的数据库错操作。</li>
 </ul>
 <h3 id="什么是-MySQL"><a href="#什么是-MySQL" class="headerlink" title="什么是 MySQL"></a>什么是 MySQL</h3><p>数据的所有存储、检索、管理和处理实际上是由数据库软件 —— DBMS（数据库管理系统）完成的。MySQL 是一种 DBMS，即它是一种数据库软件。</p>
 <h5 id="MySQL-的优点："><a href="#MySQL-的优点：" class="headerlink" title="MySQL 的优点："></a>MySQL 的优点：</h5><ul>
-<li><p>成本 —— MySQL 是开放源代码的，一般可以免费使用（甚至可以免费修改）。</p>
-</li>
-<li><p>性能 —— MySQL 执行很快，非常快。</p>
-</li>
-<li><p>可信赖 —— 某些非常重要和声望很高的公司、站点使用 MySQL，这些公司和站点都用 MySQL 来处理自己的重要数据。</p>
-</li>
-<li><p>简单 —— MySQL 很容易安装和使用。</p>
-</li>
+<li>成本 —— MySQL 是开放源代码的，一般可以免费使用（甚至可以免费修改）。</li>
+<li>性能 —— MySQL 执行很快，非常快。</li>
+<li>可信赖 —— 某些非常重要和声望很高的公司、站点使用 MySQL，这些公司和站点都用 MySQL 来处理自己的重要数据。</li>
+<li>简单 —— MySQL 很容易安装和使用。</li>
 </ul>
 <h2 id="使用-MySQL-的常用命令归纳（前方高能，很长，很详细）"><a href="#使用-MySQL-的常用命令归纳（前方高能，很长，很详细）" class="headerlink" title="使用 MySQL 的常用命令归纳（前方高能，很长，很详细）"></a>使用 MySQL 的常用命令归纳（前方高能，很长，很详细）</h2><h4 id="USE-mysql"><a href="#USE-mysql" class="headerlink" title="USE mysql;"></a><code>USE mysql;</code></h4><p>输出：<code>Database changed</code><br><br>分析：选择并打开「mysql」这个数据库，记住，必须先使用 USE 打开数据库，才能读取其中的数据。</p>
 <blockquote>
 <p>注：这里的 mysql 是指所选数据库的名字。该数据库是 MySQL 软件内部使用的数据库。</p>
 </blockquote>
 <h4 id="SHOW-命令"><a href="#SHOW-命令" class="headerlink" title="SHOW 命令"></a><code>SHOW</code> 命令</h4><ul>
-<li><p><code>SHOW DATABASES;</code><br><br>分析：返回一个可用的数据库列表。该列表中可能包含 MySQL 内部使用的数据库。</p>
-</li>
-<li><p><code>SHOW TABLES;</code><br>分析：获得一个所选数据库内的表的列表，即返回当前选择的数据库内可用表的列表。</p>
-</li>
-<li><p><code>SHOW COLUMNS FROM test_table;</code> <br><br>分析：返回要求显示的表的表列。<code>SHOW COLUMNS</code> 要求给出一个表名(这里例子中的 FROM test_table，test_table 为表名)，它对每个字段返回一行，行中包括字段名、数据类型、是否允许 NULL、键信息、默认值以及其他信息。</p>
-<blockquote>
+<li><code>SHOW DATABASES;</code><br><br>分析：返回一个可用的数据库列表。该列表中可能包含 MySQL 内部使用的数据库。</li>
+<li><code>SHOW TABLES;</code><br>分析：获得一个所选数据库内的表的列表，即返回当前选择的数据库内可用表的列表。</li>
+<li><code>SHOW COLUMNS FROM test_table;</code> <br><br>分析：返回要求显示的表的表列。<code>SHOW COLUMNS</code> 要求给出一个表名(这里例子中的 FROM test_table，test_table 为表名)，它对每个字段返回一行，行中包括字段名、数据类型、是否允许 NULL、键信息、默认值以及其他信息。<blockquote>
 <p>注：DESCRIBE 语句，MySQL 支持用 DESCRIBE 作为 SHOW COLUMNS FROM 的一种快捷方式。即 <code>DESCRIBE test_table;</code> 是 <code>SHOW COLUMNS FROM test_table;</code> 的一种快捷方式。</p>
 </blockquote>
 </li>
@@ -1278,9 +1259,9 @@
     
       <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="数据库" scheme="http://ikookblog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
       <category term="Oracle" scheme="http://ikookblog.com/tags/Oracle/"/>
+    
+      <category term="数据库" scheme="http://ikookblog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
