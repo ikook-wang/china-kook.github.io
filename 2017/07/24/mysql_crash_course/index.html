@@ -516,11 +516,11 @@
 <li><code>SHOW DATABASES;</code><br><br>分析：返回一个可用的数据库列表。该列表中可能包含 MySQL 内部使用的数据库。<br><br></li>
 <li><code>SHOW TABLES;</code><br><br>分析：获得一个所选数据库内的表的列表，即返回当前选择的数据库内可用表的列表。<br><br></li>
 <li><code>SHOW COLUMNS FROM test_table;</code><br><br>分析：返回要求显示的表的表列。<code>SHOW COLUMNS</code> 要求给出一个表名(这里例子中的 FROM test_table，test_table 为表名)，它对每个字段返回一行，行中包括字段名、数据类型、是否允许 NULL、键信息、默认值以及其他信息。<br><br>注：DESCRIBE 语句，MySQL 支持用 DESCRIBE 作为 SHOW COLUMNS FROM 的一种快捷方式。即 <code>DESCRIBE test_table;</code> 是 <code>SHOW COLUMNS FROM test_table;</code> 的一种快捷方式。<br><br></li>
-<li>所支持的其他 <code>SHOW</code> 语句还有：<br><ul>
-<li><code>SHOW STATUS;</code> 用于显示广泛的服务器状态信息；<br></li>
-<li><code>SHOW CREATE DATABASE;</code> 和 <code>SHOW CREATE TABLE;</code> 分别用来显示创建特定数据库或表的 MySQL 语句；<br></li>
-<li><code>SHOW GRANTS;</code> 用来显示授予用户（所有用户或特定用户）的安全权限；<br></li>
-<li><code>SHOW ERRORS;</code> 和 <code>SHOW WARNINGS;</code> 用来显示服务器错误或者警告信息。<br><blockquote>
+<li>所支持的其他 <code>SHOW</code> 语句还有：<br><br><ul>
+<li><code>SHOW STATUS;</code> 用于显示广泛的服务器状态信息；<br><br></li>
+<li><code>SHOW CREATE DATABASE;</code> 和 <code>SHOW CREATE TABLE;</code> 分别用来显示创建特定数据库或表的 MySQL 语句；<br><br></li>
+<li><code>SHOW GRANTS;</code> 用来显示授予用户（所有用户或特定用户）的安全权限；<br><br></li>
+<li><code>SHOW ERRORS;</code> 和 <code>SHOW WARNINGS;</code> 用来显示服务器错误或者警告信息。<br><br><blockquote>
 <p>注：在 MySQL 命令行程序中，执行命令 <code>HELP SHOW</code> 显示允许操作的 SHOW 语句。</p>
 </blockquote>
 </li>
