@@ -781,9 +781,9 @@
         
         <tags>
             
-            <tag> 计算机技术 </tag>
-            
             <tag> java </tag>
+            
+            <tag> 计算机技术 </tag>
             
             <tag> 排序算法 </tag>
             
@@ -819,11 +819,11 @@
         
         <tags>
             
-            <tag> 随笔 </tag>
-            
             <tag> Android </tag>
             
             <tag> java </tag>
+            
+            <tag> 随笔 </tag>
             
         </tags>
         
@@ -1113,9 +1113,9 @@
         
         <tags>
             
-            <tag> 生活 </tag>
-            
             <tag> 常用技术 </tag>
+            
+            <tag> 生活 </tag>
             
             <tag> hexo </tag>
             
@@ -1625,14 +1625,14 @@
     
     <entry>
       <title></title>
-      <url>/google34093f35d7228b4a.html</url>
-      <content type="html"><![CDATA[google-site-verification: google34093f35d7228b4a.html]]></content>
+      <url>/baidu_verify_NPrbnn0mYv.html</url>
+      <content type="html"><![CDATA[NPrbnn0mYv]]></content>
     </entry>
     
     <entry>
       <title></title>
-      <url>/baidu_verify_NPrbnn0mYv.html</url>
-      <content type="html"><![CDATA[NPrbnn0mYv]]></content>
+      <url>/google34093f35d7228b4a.html</url>
+      <content type="html"><![CDATA[google-site-verification: google34093f35d7228b4a.html]]></content>
     </entry>
     
     <entry>
@@ -1668,14 +1668,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
