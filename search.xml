@@ -781,9 +781,9 @@
         
         <tags>
             
-            <tag> 计算机技术 </tag>
-            
             <tag> java </tag>
+            
+            <tag> 计算机技术 </tag>
             
             <tag> 排序算法 </tag>
             
@@ -971,11 +971,11 @@
             
             <tag> Android </tag>
             
-            <tag> 数据库 </tag>
-            
             <tag> Git </tag>
             
             <tag> 常用技术 </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
         
@@ -1174,9 +1174,9 @@
         
         <tags>
             
-            <tag> 数据库 </tag>
-            
             <tag> Oracle </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
         
@@ -1642,6 +1642,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1662,20 +1668,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
