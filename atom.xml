@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-07-25T09:53:24.823Z</updated>
+  <updated>2017-07-26T11:01:29.435Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2017/07/24/mysql_crash_course/"/>
     <id>http://ikookblog.com/2017/07/24/mysql_crash_course/</id>
     <published>2017-07-23T16:00:00.000Z</published>
-    <updated>2017-07-25T09:53:24.823Z</updated>
+    <updated>2017-07-26T11:01:29.435Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>《MySQL 必知必会》学习总结&amp;&amp;常用命令归纳</p>
@@ -60,6 +60,11 @@
 </blockquote>
 </li>
 </ul>
+<h3 id="检索数据"><a href="#检索数据" class="headerlink" title="检索数据"></a>检索数据</h3><p>最经常使用的 SQL 语句可能就是 SELECT 语句了，它的用途是从一个或多个表中检索信息。为了使用 SELECT 检索表数据，必须至少给出两条信息 —— 想选择什么，以及从什么地方选择。</p>
+<blockquote>
+<p>注：以下例子使用的数据库、表名、以及表列名均如下：<br>数据库：<br>crashcourse<br>表：<br><img src="http://meto.chinakook.com/blog-images/mysql/tables.png" alt="SHOW TABLES"></p>
+</blockquote>
+<h4 id="检索单个列"><a href="#检索单个列" class="headerlink" title="检索单个列"></a>检索单个列</h4><p>输入：<code>SELECT test_column FROM</code></p>
 <p>  未完待续…</p>
 <p>  <br>ikook<br>  2017.07.24</p>
 ]]></content>
@@ -831,9 +836,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
-    
       <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -1034,11 +1039,11 @@
     
       <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
     
+      <category term="数据库" scheme="http://ikookblog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
       <category term="Git" scheme="http://ikookblog.com/tags/Git/"/>
     
       <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="数据库" scheme="http://ikookblog.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
