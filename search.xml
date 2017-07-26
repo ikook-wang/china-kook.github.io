@@ -78,7 +78,7 @@
 </blockquote>
 <h4 id="使用完全限定的表名"><a href="#使用完全限定的表名" class="headerlink" title="使用完全限定的表名"></a>使用完全限定的表名</h4><p>到此为止使用的 SQL 例子只通过列名引用列。也可能会使用完全限定的名字来引用列（同时使用表名和列字）。请看以下例子：</p>
 <p>输入：<code>SELECT products.prod_name FROM products;</code><br>分析：这条语句在功能上和 <code>SELECT prod_name FROM products;</code> 语句是一样的。但这里指定了一个完全限定的列名。</p>
-<p>表名也是可以完全限定的，例如：<code>SELECT products.prod_name FROM crashcourse.products;</code>，这条语句和刚才的那条语句是一样的。</p>
+<p>表名也是可以完全限定的，例如：<code>SELECT products.prod_name FROM crashcourse.products;</code> 这条语句和刚才的那条语句是一样的。</p>
 <p>未完待续…</p>
 <p><br>ikook<br>2017.07.24</p>
 ]]></content>
@@ -819,9 +819,9 @@
         
         <tags>
             
-            <tag> 计算机技术 </tag>
-            
             <tag> java </tag>
+            
+            <tag> 计算机技术 </tag>
             
             <tag> 排序算法 </tag>
             
@@ -857,9 +857,9 @@
         
         <tags>
             
-            <tag> 随笔 </tag>
-            
             <tag> Android </tag>
+            
+            <tag> 随笔 </tag>
             
             <tag> java </tag>
             
@@ -1706,14 +1706,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
