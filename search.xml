@@ -3,6 +3,59 @@
   
     
     <entry>
+      <title><![CDATA[java 实现排序算法之「选择排序」]]></title>
+      <url>/2017/08/11/java_sort_algorithm_series2/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>java 实现排序算法系列</p>
+</blockquote>
+<a id="more"></a>
+<p>继冒泡排序算法之后，选择排序终于和大家见面了。为什么冒泡排序之后要说选择排序呢，是因为它俩是最相似的两种排序算法，血缘关系最为接近。</p>
+<p>还是那句话，本人能力拙劣，有不当之处还请不吝赐教，可关注我公号后台留言，见底部二维码。</p>
+<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p>选择排序（Selection sort）是一种简单直观的排序算法，它也是一种交换排序算法，和冒泡排序有一定的相似度。可以把它看做是冒泡排序算法的一种改进算法。</p>
+<h4 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h4><p>假设要给有 n 个元素的数组 arr[] 排序。注意，在数组中第一个元素的下标为 0</p>
+<h5 id="n-1"><a href="#n-1" class="headerlink" title="n = 1:"></a>n = 1:</h5><p>无需排序</p>
+<h5 id="n-gt-1"><a href="#n-gt-1" class="headerlink" title="n &gt; 1:"></a>n &gt; 1:</h5><ul>
+<li>将第一个元素和第二个元素进行比较，如果 arr[0] 大于 arr[1]，那么 arr[0] 一定不是最小元素。里我们暂时不交换元素，而是设置临时变量，将目前较小元素 arr[1] 设置为临时变量 a，用来存储 arr[1] 的下标。然后将目前较小元素 a 继续和第三个元素比较，如果 a 大于 arr[2]，则修改 a 的值为 arr[2] 的下标，即 2；如果不大于 arr[2]，则将 a 和第四个元素比较，如前者大，则修改 a 的值，前者小，则继续往下比较。这样直到与最后一个元素比较，则 a 的值肯定是最小值的下标。</li>
+<li>如果 a 的值不为 0（即元素 arr[0] 的下标)，则交换下标为 0 和 a 的元素，即将 arr[a] 和 arr[0] 进行交换。</li>
+<li>到此，第一趟排序完成，将最小值找出来，然后进行第二趟排序。重复上述过程，从第二个元素（即 arr[1]）开始比较。第一个元素已经是最小元素了，不参与比较。</li>
+<li>重复步骤直到剩下最后一个元素，即 arr[n-1]，可以肯定这个值为最大值。</li>
+<li>排序完成，不够直观？见下面示例动画。</li>
+</ul>
+<center><br><img src="http://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center><br>&gt; 注: 红色表示当前最小值，黄色表示已排序序列，蓝色表示当前位置。<br><br>选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素的表进行排序总共进行至多 n-1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。<br><br>需要注意的是，上述过程只是每次找最小值的办法。实际上也可以每次找最大值，思路是一样的。<br><br>选择排序的示意图（图片来自维基百科）：<br><br><center><br><img src="http://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
+
+<h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> min, temp, len = arr.length;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</div><div class="line">            min = i;<span class="comment">//未排序序列中最小数据数组下标</span></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; len; j++) &#123; <span class="comment">//在未排序元素中继续寻找最小元素，并保存其下标</span></div><div class="line">                <span class="keyword">if</span> (arr[min] &gt; arr[j]) &#123;</div><div class="line">                    min = j;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (min != i) &#123;</div><div class="line">                temp = arr[min]; <span class="comment">//将最小元素放到已排序序列的末尾</span></div><div class="line">                arr[min] = arr[i];</div><div class="line">                arr[i] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<h3 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h3><p>选择排序需要进行 n-1 轮比较。很显然，比较次数 O(n^2)，比较次数与关键字的初始状态无关，总的比较次数 N = (n-1) + (n-2) + … + 1 = nx(n-1)/2。</p>
+<p>交换次数 O(n)，最好情况是，已经有序，交换 0 次；最坏情况是，逆序，交换 n-1 次。交换次数比冒泡排序较少，由于交换所需CPU时间比比较所需的CPU时间多，n 值较小时，选择排序比冒泡排序快。</p>
+<p>选择排序的赋值次数：最坏情形下需要交换 n-1 次，对于上面的代码，需要赋值 3(n-1) 次。而最佳情况下，则需要 0 次。如果假定平均分布，大约需要3n/2。</p>
+<p>冒泡排序可以在最佳情况下有 O(n) 复杂度，那么选择排序行不行呢？ 很遗憾，不行。选择排序每次只找最小值，但它并不能知道其他值是否有序排列。因此，选择排序在最优、最坏、平均情况下的<strong>时间复杂度</strong>均为 O(n^2)，<strong>空间复杂度</strong>（额外空间）为 O(1).</p>
+<h3 id="算法稳定性"><a href="#算法稳定性" class="headerlink" title="算法稳定性"></a>算法稳定性</h3><p>对于选择排序的稳定性是存在一定争议的。但在本例中，最小值和另一个值相同的时候我们并不需要交换它们，选择排序是稳定排序。其实排序算法中，有些稳定算法可以变换成不稳定算法，而不稳定排序算法又有很多办法可以变成稳定的，这在《算法》第四版中有所提及。所以，没有严格意义上的稳定与不稳定排序。</p>
+<h3 id="算法适用场景"><a href="#算法适用场景" class="headerlink" title="算法适用场景"></a>算法适用场景</h3><p>选择排序实现也比较简单，并且由于在各种情况下复杂度波动小，因此一般是优于冒泡排序的。在所有的完全交换排序中，选择排序也是比较不错的一种算法。但是，由于固有的 O(n^2) 复杂度，选择排序在数据量较大的时候显得力不从心。因此，它适用于简单数据排序。</p>
+<p><br>ikook<br>2017.08.11</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 论算法 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
+            
+            <tag> 排序算法 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[你付费了吗？]]></title>
       <url>/2017/07/28/essay01/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -821,59 +874,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[java 实现排序算法之「选择排序」]]></title>
-      <url>/2017/03/09/java_sort_algorithm_series2/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>java 实现排序算法系列</p>
-</blockquote>
-<a id="more"></a>
-<p>继冒泡排序算法之后，选择排序终于和大家见面了。为什么冒泡排序之后要说选择排序呢，是因为它俩是最相似的两种排序算法，血缘关系最为接近。</p>
-<p>还是那句话，本人能力拙劣，有不当之处还请不吝赐教，可关注我公号后台留言，见底部二维码。</p>
-<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><p>选择排序（Selection sort）是一种简单直观的排序算法，它也是一种交换排序算法，和冒泡排序有一定的相似度。可以把它看做是冒泡排序算法的一种改进算法。</p>
-<h4 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h4><p>假设要给有 n 个元素的数组 arr[] 排序。注意，在数组中第一个元素的下标为 0</p>
-<h5 id="n-1"><a href="#n-1" class="headerlink" title="n = 1:"></a>n = 1:</h5><p>无需排序</p>
-<h5 id="n-gt-1"><a href="#n-gt-1" class="headerlink" title="n &gt; 1:"></a>n &gt; 1:</h5><ul>
-<li>将第一个元素和第二个元素进行比较，如果 arr[0] 大于 arr[1]，那么 arr[0] 一定不是最小元素。里我们暂时不交换元素，而是设置临时变量，将目前较小元素 arr[1] 设置为临时变量 a，用来存储 arr[1] 的下标。然后将目前较小元素 a 继续和第三个元素比较，如果 a 大于 arr[2]，则修改 a 的值为 arr[2] 的下标，即 2；如果不大于 arr[2]，则将 a 和第四个元素比较，如前者大，则修改 a 的值，前者小，则继续往下比较。这样直到与最后一个元素比较，则 a 的值肯定是最小值的下标。</li>
-<li>如果 a 的值不为 0（即元素 arr[0] 的下标)，则交换下标为 0 和 a 的元素，即将 arr[a] 和 arr[0] 进行交换。</li>
-<li>到此，第一趟排序完成，将最小值找出来，然后进行第二趟排序。重复上述过程，从第二个元素（即 arr[1]）开始比较。第一个元素已经是最小元素了，不参与比较。</li>
-<li>重复步骤直到剩下最后一个元素，即 arr[n-1]，可以肯定这个值为最大值。</li>
-<li>排序完成，不够直观？见下面示例动画。</li>
-</ul>
-<center><br><img src="http://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center><br>&gt; 注: 红色表示当前最小值，黄色表示已排序序列，蓝色表示当前位置。<br><br>选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素的表进行排序总共进行至多 n-1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。<br><br>需要注意的是，上述过程只是每次找最小值的办法。实际上也可以每次找最大值，思路是一样的。<br><br>选择排序的示意图（图片来自维基百科）：<br><br><center><br><img src="http://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
-
-<h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> min, temp, len = arr.length;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</div><div class="line">            min = i;<span class="comment">//未排序序列中最小数据数组下标</span></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; len; j++) &#123; <span class="comment">//在未排序元素中继续寻找最小元素，并保存其下标</span></div><div class="line">                <span class="keyword">if</span> (arr[min] &gt; arr[j]) &#123;</div><div class="line">                    min = j;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (min != i) &#123;</div><div class="line">                temp = arr[min]; <span class="comment">//将最小元素放到已排序序列的末尾</span></div><div class="line">                arr[min] = arr[i];</div><div class="line">                arr[i] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
-<h3 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h3><p>选择排序需要进行 n-1 轮比较。很显然，比较次数 O(n^2)，比较次数与关键字的初始状态无关，总的比较次数 N = (n-1) + (n-2) + … + 1 = nx(n-1)/2。</p>
-<p>交换次数 O(n)，最好情况是，已经有序，交换 0 次；最坏情况是，逆序，交换 n-1 次。交换次数比冒泡排序较少，由于交换所需CPU时间比比较所需的CPU时间多，n 值较小时，选择排序比冒泡排序快。</p>
-<p>选择排序的赋值次数：最坏情形下需要交换 n-1 次，对于上面的代码，需要赋值 3(n-1) 次。而最佳情况下，则需要 0 次。如果假定平均分布，大约需要3n/2。</p>
-<p>冒泡排序可以在最佳情况下有 O(n) 复杂度，那么选择排序行不行呢？ 很遗憾，不行。选择排序每次只找最小值，但它并不能知道其他值是否有序排列。因此，选择排序在最优、最坏、平均情况下的<strong>时间复杂度</strong>均为 O(n^2)，<strong>空间复杂度</strong>（额外空间）为 O(1).</p>
-<h3 id="算法稳定性"><a href="#算法稳定性" class="headerlink" title="算法稳定性"></a>算法稳定性</h3><p>对于选择排序的稳定性是存在一定争议的。但在本例中，最小值和另一个值相同的时候我们并不需要交换它们，选择排序是稳定排序。其实排序算法中，有些稳定算法可以变换成不稳定算法，而不稳定排序算法又有很多办法可以变成稳定的，这在《算法》第四版中有所提及。所以，没有严格意义上的稳定与不稳定排序。</p>
-<h3 id="算法适用场景"><a href="#算法适用场景" class="headerlink" title="算法适用场景"></a>算法适用场景</h3><p>选择排序实现也比较简单，并且由于在各种情况下复杂度波动小，因此一般是优于冒泡排序的。在所有的完全交换排序中，选择排序也是比较不错的一种算法。但是，由于固有的 O(n^2) 复杂度，选择排序在数据量较大的时候显得力不从心。因此，它适用于简单数据排序。</p>
-<p><br>ikook<br>2017.08.11</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 论算法 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> java </tag>
-            
-            <tag> 排序算法 </tag>
-            
-            <tag> 算法 </tag>
-            
-            <tag> 计算机技术 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[java 实现排序算法之「冒泡排序」]]></title>
       <url>/2017/03/09/java_sort_algorithm_series1/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -928,13 +928,13 @@
         
         <tags>
             
+            <tag> 计算机技术 </tag>
+            
             <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
             <tag> 算法 </tag>
-            
-            <tag> 计算机技术 </tag>
             
         </tags>
         
@@ -966,11 +966,11 @@
         
         <tags>
             
+            <tag> 随笔 </tag>
+            
             <tag> Android </tag>
             
             <tag> java </tag>
-            
-            <tag> 随笔 </tag>
             
         </tags>
         
@@ -1286,9 +1286,9 @@
         
         <tags>
             
-            <tag> 数据库 </tag>
-            
             <tag> Oracle </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
         
