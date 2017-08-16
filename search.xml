@@ -3,19 +3,9 @@
   
     
     <entry>
-      <title></title>
+      <title><![CDATA[religion-and-apply]]></title>
       <url>/2017/08/16/religion-and-apply/</url>
-      <content type="html"><![CDATA[<hr>
-<p>title: 宗教和苹果<br>date: 2017-08-07<br>tags:</p>
-<pre><code>- 转载
-- 感悟
-- 随笔
-- 观文
-</code></pre><p>categories: 观文记</p>
-<h2 id="thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg"><a href="#thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg" class="headerlink" title="thumbnail: http://meto.chinakook.com/blog-images/sierra.jpg"></a>thumbnail: <a href="http://meto.chinakook.com/blog-images/sierra.jpg" target="_blank" rel="external">http://meto.chinakook.com/blog-images/sierra.jpg</a></h2><blockquote>
-<p>本文转载自《一天世界》博客，作者：不鸟万如一</p>
-</blockquote>
-<a id="more"></a>]]></content>
+      <content type="html"></content>
       
         
     </entry>
@@ -69,9 +59,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1127,9 +1117,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1485,9 +1475,9 @@
         
         <tags>
             
-            <tag> 数据库 </tag>
-            
             <tag> Oracle </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
         
@@ -1973,12 +1963,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[gallery]]></title>
       <url>/gallery/index.html</url>
       <content type="html"></content>
@@ -1987,6 +1971,12 @@
     <entry>
       <title><![CDATA[tags]]></title>
       <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
