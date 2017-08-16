@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-08-16T15:01:22.512Z</updated>
+  <updated>2017-08-16T15:05:32.415Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://ikookblog.com/2017/08/16/religion-and-apple/"/>
     <id>http://ikookblog.com/2017/08/16/religion-and-apple/</id>
     <published>2017-08-16T14:59:00.358Z</published>
-    <updated>2017-08-16T15:01:22.512Z</updated>
+    <updated>2017-08-16T15:05:32.415Z</updated>
     
     <content type="html"><![CDATA[<hr>
-<p>title: 学习是个啥？<br>date: 2017-08-07<br>tags:</p>
+<p>title: 宗教和苹果<br>date: 2017-08-07<br>tags:</p>
 <pre><code>- 转载
 - 感悟
 - 随笔
@@ -32,6 +32,7 @@
 <h2 id="thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg"><a href="#thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg" class="headerlink" title="thumbnail: http://meto.chinakook.com/blog-images/sierra.jpg"></a>thumbnail: <a href="http://meto.chinakook.com/blog-images/sierra.jpg" target="_blank" rel="external">http://meto.chinakook.com/blog-images/sierra.jpg</a></h2><blockquote>
 <p>本文转载自《一天世界》博客，作者：不鸟万如一</p>
 </blockquote>
+<a id="more"></a>
 <p>苹果第八号员工贴了一张苹果早期天使投资人 Mike Markkula 一九七七年写的营销哲学，只有短短三段，翻译如下：</p>
 <ul>
 <li><p>同理心：我们真的要比任何其它公司更了解她们的需求。</p>
@@ -61,13 +62,15 @@
     <summary type="html">
     
       &lt;hr&gt;
-&lt;p&gt;title: 学习是个啥？&lt;br&gt;date: 2017-08-07&lt;br&gt;tags:&lt;/p&gt;
+&lt;p&gt;title: 宗教和苹果&lt;br&gt;date: 2017-08-07&lt;br&gt;tags:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;- 转载
 - 感悟
 - 随笔
 - 观文
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;categories: 观文记&lt;/p&gt;
-&lt;h2 id=&quot;thumbnail-
+&lt;h2 id=&quot;thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg&quot;&gt;&lt;a href=&quot;#thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg&quot; class=&quot;headerlink&quot; title=&quot;thumbnail: http://meto.chinakook.com/blog-images/sierra.jpg&quot;&gt;&lt;/a&gt;thumbnail: &lt;a href=&quot;http://meto.chinakook.com/blog-images/sierra.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://meto.chinakook.com/blog-images/sierra.jpg&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;本文转载自《一天世界》博客，作者：不鸟万如一&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -129,9 +132,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
-    
       <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -285,11 +288,12 @@
     <link href="http://ikookblog.com/2017/07/28/essay01/"/>
     <id>http://ikookblog.com/2017/07/28/essay01/</id>
     <published>2017-07-27T16:00:00.000Z</published>
-    <updated>2017-07-28T15:39:55.393Z</updated>
+    <updated>2017-08-16T15:05:33.746Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>时间是世界上的一切成就的土壤。时间给空想者痛苦，给创造者幸福。  —— 麦金西</p>
 </blockquote>
+<a id="more"></a>
 <p>今天的重点不是时间，上面的引用语也许会误导你。今天，我要和你们说说付费。付费省下来的就是时间，所以拿时间做引用也就合理了。</p>
 <h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><p>免费，免除费用，也就是不要钱。可免费真的就是「免费」吗？免费，免掉的是钱，可付出的是时间和效率成本。</p>
 <p>之前一直想学习投资理财，可苦于不知道如何入手迟迟没有接触。前些日子无意中在一位前辈的博客中看到「21 天小白理财训练营」，付费，9 块钱。钱很少，但就是有人不买单。</p>
@@ -325,7 +329,6 @@
       &lt;blockquote&gt;
 &lt;p&gt;时间是世界上的一切成就的土壤。时间给空想者痛苦，给创造者幸福。  —— 麦金西&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;今天的重点不是时间，上面的引用语也许会误导你。今天，我要和你们说说付费。付费省下来的就是时间，所以拿时间做引用也就合理了。&lt;/
     
     </summary>
     
@@ -1237,9 +1240,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
-    
       <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -1277,9 +1280,9 @@
       <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
     
     
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
       <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
+    
+      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     

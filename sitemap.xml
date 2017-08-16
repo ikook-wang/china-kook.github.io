@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ikookblog.com/2016/10/15/git_learn/</loc>
+    
+    <lastmod>2017-08-16T15:05:35.229Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/07/28/essay01/</loc>
+    
+    <lastmod>2017-08-16T15:05:33.746Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ikookblog.com/2017/08/16/religion-and-apple/</loc>
     
-    <lastmod>2017-08-16T15:01:22.512Z</lastmod>
+    <lastmod>2017-08-16T15:05:32.415Z</lastmod>
     
   </url>
   
@@ -40,13 +54,6 @@
     <loc>http://ikookblog.com/2017/07/24/mysql_crash_course/</loc>
     
     <lastmod>2017-08-06T13:25:45.407Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/07/28/essay01/</loc>
-    
-    <lastmod>2017-07-28T15:39:55.393Z</lastmod>
     
   </url>
   
@@ -166,13 +173,6 @@
     <loc>http://ikookblog.com/2017/01/06/rebuild_blog/</loc>
     
     <lastmod>2017-06-03T16:58:16.337Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2016/10/15/git_learn/</loc>
-    
-    <lastmod>2017-06-03T16:37:33.522Z</lastmod>
     
   </url>
   

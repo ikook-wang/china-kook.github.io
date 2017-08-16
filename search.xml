@@ -6,7 +6,7 @@
       <title></title>
       <url>/2017/08/16/religion-and-apple/</url>
       <content type="html"><![CDATA[<hr>
-<p>title: 学习是个啥？<br>date: 2017-08-07<br>tags:</p>
+<p>title: 宗教和苹果<br>date: 2017-08-07<br>tags:</p>
 <pre><code>- 转载
 - 感悟
 - 随笔
@@ -15,6 +15,7 @@
 <h2 id="thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg"><a href="#thumbnail-http-meto-chinakook-com-blog-images-sierra-jpg" class="headerlink" title="thumbnail: http://meto.chinakook.com/blog-images/sierra.jpg"></a>thumbnail: <a href="http://meto.chinakook.com/blog-images/sierra.jpg" target="_blank" rel="external">http://meto.chinakook.com/blog-images/sierra.jpg</a></h2><blockquote>
 <p>本文转载自《一天世界》博客，作者：不鸟万如一</p>
 </blockquote>
+<a id="more"></a>
 <p>苹果第八号员工贴了一张苹果早期天使投资人 Mike Markkula 一九七七年写的营销哲学，只有短短三段，翻译如下：</p>
 <ul>
 <li><p>同理心：我们真的要比任何其它公司更了解她们的需求。</p>
@@ -93,9 +94,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -242,6 +243,7 @@
       <content type="html"><![CDATA[<blockquote>
 <p>时间是世界上的一切成就的土壤。时间给空想者痛苦，给创造者幸福。  —— 麦金西</p>
 </blockquote>
+<a id="more"></a>
 <p>今天的重点不是时间，上面的引用语也许会误导你。今天，我要和你们说说付费。付费省下来的就是时间，所以拿时间做引用也就合理了。</p>
 <h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><p>免费，免除费用，也就是不要钱。可免费真的就是「免费」吗？免费，免掉的是钱，可付出的是时间和效率成本。</p>
 <p>之前一直想学习投资理财，可苦于不知道如何入手迟迟没有接触。前些日子无意中在一位前辈的博客中看到「21 天小白理财训练营」，付费，9 块钱。钱很少，但就是有人不买单。</p>
@@ -1150,9 +1152,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1188,9 +1190,9 @@
         
         <tags>
             
-            <tag> 随笔 </tag>
-            
             <tag> Android </tag>
+            
+            <tag> 随笔 </tag>
             
             <tag> java </tag>
             
@@ -1508,9 +1510,9 @@
         
         <tags>
             
-            <tag> 数据库 </tag>
-            
             <tag> Oracle </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
         
@@ -2002,14 +2004,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
