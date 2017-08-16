@@ -85,7 +85,7 @@
     <link href="http://ikookblog.com/2017/08/07/religion-and-apply/"/>
     <id>http://ikookblog.com/2017/08/07/religion-and-apply/</id>
     <published>2017-08-07T15:11:08.000Z</published>
-    <updated>2017-08-16T15:14:44.462Z</updated>
+    <updated>2017-08-16T15:17:23.589Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>本文转载自《一天世界》博客，作者：不鸟万如一</p>
@@ -93,12 +93,9 @@
 <a id="more"></a>
 <p>苹果第八号员工贴了一张苹果早期天使投资人 Mike Markkula 一九七七年写的营销哲学，只有短短三段，翻译如下：</p>
 <ul>
-<li><p>同理心：我们真的要比任何其它公司更了解她们的需求。</p>
-</li>
-<li><p>专注：为了把决定要做的事做好，我们必须放弃所有不重要的机会。</p>
-</li>
-<li><p>转嫁：以貌取人乃人类天性。就算我们的产品品质最高，软件最有用，如果用潦草的方式呈现出来，人们就会认为它们是潦草的。若用富于创意的、专业的方式呈现出来，我们就能把那些吸引人的品质转嫁给顾客。</p>
-</li>
+<li>同理心：我们真的要比任何其它公司更了解她们的需求。<br><br></li>
+<li>专注：为了把决定要做的事做好，我们必须放弃所有不重要的机会。<br><br></li>
+<li>转嫁：以貌取人乃人类天性。就算我们的产品品质最高，软件最有用，如果用潦草的方式呈现出来，人们就会认为它们是潦草的。若用富于创意的、专业的方式呈现出来，我们就能把那些吸引人的品质转嫁给顾客。</li>
 </ul>
 <p>一九七七年的电脑世界和今天大不相同。微软成立两年，苹果才成立一年。那是「家酿电脑俱乐部」的玩票时代，组织、管理和规范都还远未成形。大多数人完全不知道电脑能干什么，以及为什么家里要放台电脑。这也是为什么今人看 Markkula 的这份文档，只看到了一些人尽皆知的大白话道理。这些道理在当年是需要特地提出的。</p>
 <p>不过最奇特的还是「转嫁」一词。原文 impute，今天比较少见，通常的意思是指把某种不好的东西归咎于人。这是怎么回事？</p>
@@ -128,7 +125,13 @@
       <category term="观文记" scheme="http://ikookblog.com/categories/%E8%A7%82%E6%96%87%E8%AE%B0/"/>
     
     
-      <category term="转载 - 感悟 - 随笔 - 观文" scheme="http://ikookblog.com/tags/%E8%BD%AC%E8%BD%BD-%E6%84%9F%E6%82%9F-%E9%9A%8F%E7%AC%94-%E8%A7%82%E6%96%87/"/>
+      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="转载" scheme="http://ikookblog.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="观文" scheme="http://ikookblog.com/tags/%E8%A7%82%E6%96%87/"/>
     
   </entry>
   
@@ -1270,9 +1273,9 @@
       <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
     
     
-      <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
-    
       <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
     
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
