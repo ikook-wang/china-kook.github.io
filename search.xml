@@ -3,14 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[religion-and-apply]]></title>
-      <url>/2017/08/16/religion-and-apply/</url>
-      <content type="html"></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[java 实现排序算法之「选择排序」]]></title>
       <url>/2017/08/11/java_sort_algorithm_series2/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -59,13 +51,33 @@
         
         <tags>
             
-            <tag> 计算机技术 </tag>
-            
             <tag> java </tag>
+            
+            <tag> 计算机技术 </tag>
             
             <tag> 排序算法 </tag>
             
             <tag> 算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[宗教和苹果]]></title>
+      <url>/2017/08/07/religion-and-apply/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> 观文记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 转载 - 感悟 - 随笔 - 观文 </tag>
             
         </tags>
         
@@ -1117,9 +1129,9 @@
         
         <tags>
             
-            <tag> 计算机技术 </tag>
-            
             <tag> java </tag>
+            
+            <tag> 计算机技术 </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1943,6 +1955,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -1963,20 +1981,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[tags]]></title>
       <url>/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     

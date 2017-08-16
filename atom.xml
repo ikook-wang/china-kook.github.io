@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-08-16T15:11:08.171Z</updated>
+  <updated>2017-08-11T12:04:31.768Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,20 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>religion-and-apply</title>
-    <link href="http://ikookblog.com/2017/08/16/religion-and-apply/"/>
-    <id>http://ikookblog.com/2017/08/16/religion-and-apply/</id>
-    <published>2017-08-16T15:11:08.000Z</published>
-    <updated>2017-08-16T15:11:08.171Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>java 实现排序算法之「选择排序」</title>
@@ -84,13 +70,31 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
+    
+      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
       <category term="算法" scheme="http://ikookblog.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宗教和苹果</title>
+    <link href="http://ikookblog.com/2017/08/07/religion-and-apply/"/>
+    <id>http://ikookblog.com/2017/08/07/religion-and-apply/</id>
+    <published>2017-08-07T15:11:08.000Z</published>
+    <updated>2017-08-16T15:13:00.276Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="观文记" scheme="http://ikookblog.com/categories/%E8%A7%82%E6%96%87%E8%AE%B0/"/>
+    
+    
+      <category term="转载 - 感悟 - 随笔 - 观文" scheme="http://ikookblog.com/tags/%E8%BD%AC%E8%BD%BD-%E6%84%9F%E6%82%9F-%E9%9A%8F%E7%AC%94-%E8%A7%82%E6%96%87/"/>
     
   </entry>
   
@@ -1192,9 +1196,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
+    
+      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
