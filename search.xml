@@ -3,14 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[test_mac]]></title>
-      <url>/2017/08/20/test-mac/</url>
-      <content type="html"></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[java 实现排序算法之「选择排序」]]></title>
       <url>/2017/08/11/java_sort_algorithm_series2/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -59,9 +51,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             
@@ -1168,9 +1160,9 @@
         
         <tags>
             
-            <tag> java </tag>
-            
             <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
             
             <tag> 排序算法 </tag>
             

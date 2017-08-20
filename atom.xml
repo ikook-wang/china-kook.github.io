@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-08-20T03:35:07.000Z</updated>
+  <updated>2017-08-11T12:04:31.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,20 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test_mac</title>
-    <link href="http://ikookblog.com/2017/08/20/test-mac/"/>
-    <id>http://ikookblog.com/2017/08/20/test-mac/</id>
-    <published>2017-08-20T03:35:07.000Z</published>
-    <updated>2017-08-20T03:35:07.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>java 实现排序算法之「选择排序」</title>
@@ -84,9 +70,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
-    
       <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -1247,9 +1233,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
-    
       <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="java" scheme="http://ikookblog.com/tags/java/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -1523,6 +1509,53 @@
       <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
     
       <category term="年终总结" scheme="http://ikookblog.com/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重建 Blog</title>
+    <link href="http://ikookblog.com/2017/01/06/rebuild_blog/"/>
+    <id>http://ikookblog.com/2017/01/06/rebuild_blog/</id>
+    <published>2017-01-05T16:00:00.000Z</published>
+    <updated>2017-06-03T16:58:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>重新搭建起个人blog：<a href="http://ikookblog.com">http://ikookblog.com</a></p>
+</blockquote>
+<a id="more"></a>
+<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a><strong>起因</strong></h2><p>由于参加全国软件测试大赛，导致11月份和12月上半月没时间写博客，都在弄测试和被老师拉去辅导同学。比赛之后想要写篇博客记录下的，可是由于期间重装了笔记本系统，导致博客崩塌。只怪自己一时疏忽忘记备份配置文件。。让我哭会吧，只能重新折腾了。又由于要期末考试了，一学期基本没有上课、根本没听课的我，只能临时抱佛脚了。所以打算先放一放blog 的事，一心复习。</p>
+<h2 id="Material"><a href="#Material" class="headerlink" title="Material"></a>Material</h2><p>恩，事情都有两面性。虽然由于自己的失误导致不得不重新折腾blog，但是如果没有这件事，好像自己会错过使用这么好的主题的机会，那就是—— Material。这个主题给我的第一印象就是好看，简洁，爽。简洁又不失个性。我自己本身对Google非常来感，对Google推出的设计语言Material Design情有独钟，MD给我的感觉就是比iOS好看的多。交互上的设计，视觉上的设计等，让我相信Android会发展的更好，Android程序员再也不用去想如何去做一个iOS风格的Android App了。</p>
+<p>今天的主题不是Android，是Material，所以来说说<a href="https://material.viosey.com/" target="_blank" rel="external">Material</a>。该主题是由一位在校大学生写了，我只能说: 服！16年下半年才上线的吧，具体时间我也不清楚，好像是国庆节后。该主题遵循Material Design设计风格，并且非常简洁大方，又不失可观赏性。喜欢的可以加入到Material阵营了，目测该主题要火。GitHub地址为：<a href="https://github.com/viosey/hexo-theme-material" target="_blank" rel="external">hexo-theme-material</a>，作者博客地址: <a href="https://blog.viosey.com/" target="_blank" rel="external">Viosey’s Blog</a>。</p>
+<h2 id="填坑"><a href="#填坑" class="headerlink" title="填坑"></a><strong>填坑</strong></h2><p>今天顺便把以前遗留的一个坑给填上了。GitHub上博客的仓库主页空荡荡，没有README。并且GitHub建议填写README。如果把README.md放入到 source 文件夹，<code>hexo g</code> 生成时会被解析成 html 文件，放到 public 文件夹，生成时又会自动删除。在GitHub添加时，在本地<code>hexo g -d</code>也会自动删除(删除的原因和以上说的一样)。</p>
+<p>试了很多办法，查了好久，终于解决。</p>
+<p>解决方法很简单，在 source 目录下新建文件<code>README.mdown</code>，在里面写README即可。<code>hexo g</code> 会把它复制到 public 文件夹，且不会被解析成 html。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a><strong>结语</strong></h2><p>就写这么多，关于如何搭建blog，网上一搜一大些，教程多的数不过来。hexo官方文档也有说明，每个主题也都有相应说明。这里就不做这些无用功了。再说明一下，本人以前的主题是Next，该主题很好用，并且很简洁。</p>
+<p><strong>推荐几篇较为完整的教程:</strong></p>
+<ul>
+<li><a href="https://note.leodev.me/2016/09/01/Hexo-3-1-1-Staic-Blog-Build-Guide/" target="_blank" rel="external">Hexo 3.1.1 静态博客搭建指南</a></li>
+<li><a href="http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">小白独立搭建博客-Github-Pages和Hexo简明教程</a></li>
+<li><a href="http://dukecuichen.com/2016/04/08/%E5%9F%BA%E4%BA%8EHexo%E6%A1%86%E6%9E%B6-GitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">基于Hexo框架+GitHub Pages搭建个人博客</a></li>
+<li><a href="https://material.viosey.com/" target="_blank" rel="external">Material Theme官方文档</a></li>
+</ul>
+<p><br>ikook<br>2017.01.06</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;重新搭建起个人blog：&lt;a href=&quot;http://ikookblog.com&quot;&gt;http://ikookblog.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+      <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="常用技术" scheme="http://ikookblog.com/tags/%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="hexo" scheme="http://ikookblog.com/tags/hexo/"/>
     
   </entry>
   
