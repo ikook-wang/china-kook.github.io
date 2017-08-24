@@ -8,7 +8,7 @@
       <content type="html"><![CDATA[<blockquote>
 <p>本文来自 App Store 软件「青稞 - 找寻诗和远方」推文，作者：王海桑</p>
 </blockquote>
-<p>\&lt;!– more –></p>
+<a id="more"></a>
 <h4 id="1"><a href="#1" class="headerlink" title="1"></a>1</h4><p>在同一个一百年里，你来了我来了<br>一一不早，也不迟<br>在同一朵云彩下，你看见我我看见你<br>一一不远，也不近<br>你就在那儿，有树有水<br>所以，我爱你。  </p>
 <h4 id="2"><a href="#2" class="headerlink" title="2"></a>2</h4><p>我没有找到你我碰见你了<br>我没有想到你我看见你了<br>我看见你了，你还能往哪儿跑呢<br>你是我今生今世最大的意外<br>这不是在梦里，也不是在画里<br>你和我携手同行<br>走进落日与大地的亲吻</p>
 <p>天地如此宁静，我听见了<br>我心如此感恩，你听见了吗<br>你就说吧说吧，今晚我住在哪儿呢<br>瞧你的长发森林你的明眸流水<br>都是我的家  </p>
@@ -2090,14 +2090,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[links]]></title>
+      <url>/links/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[links]]></title>
-      <url>/links/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
