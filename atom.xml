@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-11-06T02:31:04.000Z</updated>
+  <updated>2017-11-06T02:32:57.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2017/11/06/alfred/"/>
     <id>http://ikookblog.com/2017/11/06/alfred/</id>
     <published>2017-11-05T16:00:00.000Z</published>
-    <updated>2017-11-06T02:31:04.000Z</updated>
+    <updated>2017-11-06T02:32:57.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。</p>
@@ -28,7 +28,7 @@
 <a id="more"></a>
 <p>自从用上「MacOS」之后就各种玩软件。用了软件，好用的东西很多，当然被我卸载的也很多。其中，Alfred 是我不会卸载的软件之一。</p>
 <p>由于，学生一枚（隐喻，穷屌丝），没办法只能用破解版，就像我「MacOS」一样，是黑的 —— 黑苹果。因为是破解版，随之而来的就有一些烦人的问题，Alfred 也一样，它每次开机的时候，都会提示是否允许访问通讯录。</p>
-<p>!()[<a href="http://meto.chinakook.com/blog-images/alfred1.png" target="_blank" rel="external">http://meto.chinakook.com/blog-images/alfred1.png</a>]</p>
+<p><img src="http://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
 <p>这个问题我忍受了很久，大约有将近一个月吧，我去，我绑不住了，搞他。其实很简单。</p>
 <p>在终端输入一下命令，解决。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Alfred\ Framework</div></pre></td></tr></table></figure>
