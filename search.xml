@@ -3,6 +3,209 @@
   
     
     <entry>
+      <title><![CDATA[Alfred 每次开机运行提示「访问通讯录」问题]]></title>
+      <url>/2017/11/06/alfred/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。</p>
+</blockquote>
+<a id="more"></a>
+<p>自从用上「MacOS」之后就各种玩软件。用了软件，好用的东西很多，当然被我卸载的也很多。其中，Alfred 是我不会卸载的软件之一。</p>
+<p>由于，学生一枚（隐喻，穷屌丝），没办法只能用破解版，就像我「MacOS」一样，是黑的 —— 黑苹果。因为是破解版，随之而来的就有一些烦人的问题，Alfred 也一样，它每次开机的时候，都会提示是否允许访问通讯录。</p>
+<p>[<a href="http://meto.chinakook.com/blog-images/alfred1.png" target="_blank" rel="external">http://meto.chinakook.com/blog-images/alfred1.png</a>]</p>
+<p>这个问题我忍受了很久，大约有将近一个月吧，我去，我绑不住了，搞他。其实很简单。</p>
+<p>在终端输入一下命令，解决。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Alfred\ Framework</div></pre></td></tr></table></figure>
+<p>想要下载「Alfred 破解版」扫描下方二维码关注公众号，后台回复：<strong>Alfred</strong> 即可获取。</p>
+<p><br>ikook<br>2017.11.06</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 软件说 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> Alfred </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[无扩展，不 Chrome]]></title>
+      <url>/2017/09/01/chrome-extended/</url>
+      <content type="html"><![CDATA[<p>大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。</p>
+<a id="more"></a>
+<p>为大家推荐一些我常用的 Chrome 扩展，相信 Chrome 大家并不陌生吧，一款优雅的超好用的浏览器。由于某些东西的存在，下载安装稍微有点限制。关注公众号「ikook」后台回复「Chrome」可获取各个离线版本 Chrome。</p>
+<p>好了，正文开始。想要用好 Chrome，非扩展不可，正所谓「无扩展，不 Chrome」。下面给大家介绍几款让 Chrome 变得更加优雅用起来更优雅的扩展。</p>
+<h3 id="为什么你们就是不能加个空格呢？"><a href="#为什么你们就是不能加个空格呢？" class="headerlink" title="为什么你们就是不能加个空格呢？"></a>为什么你们就是不能加个空格呢？</h3><p>你没看错，名字就是「为什么你们就是不能加个空格呢？」。有没有因为汉字与英文之间没有空格引起强迫症？其内置的空格之神，可以自动为一切中文字和半形的英文、数字、符号之间插入空白。</p>
+<center><br><img src="http://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
+
+<p>下载安装：<a href="http://t.cn/zlnOv4n" target="_blank" rel="external">http://t.cn/zlnOv4n</a></p>
+<p>Chrome 应用商店链接，要访问… 你懂得，下同</p>
+<h3 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h3><p>有没有过「查看原图」但是原图不够大的情况？有了 Imagus 扩展，鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑。</p>
+<center><br><img src="http://meto.chinakook.com/Imagus.jpg" alt=""></center>
+
+<p>下载安装：<a href="http://t.cn/8sDMJm6" target="_blank" rel="external">http://t.cn/8sDMJm6</a></p>
+<h3 id="Flatbook"><a href="#Flatbook" class="headerlink" title="Flatbook"></a>Flatbook</h3><p>是否厌倦了 Facebook 亘古不变的页面，来给你的脸书换个脸吧，瞬间清爽到爆啊。</p>
+<center><br><img src="http://meto.chinakook.com/flatbook.jpg" alt=""></center>
+
+<p>下载安装：<a href="http://t.cn/RNiRhcj" target="_blank" rel="external">http://t.cn/RNiRhcj</a></p>
+<h3 id="Darkness"><a href="#Darkness" class="headerlink" title="Darkness"></a>Darkness</h3><p>Darkness 可以为 Google，Facebook，YouTube，Reddit 等不存在的网站提供完美的夜间模式支持，不会有图片反转，文字颜色奇怪等尴尬问题。当然了，Darkness 适配的网站还很少，如果你需要广泛适用的，可能需要这款神级扩展：Stylish，在下面。</p>
+<center><br><img src="http://meto.chinakook.com/Darkness.jpg" alt=""></center>
+
+<p>下载安装：<a href="http://t.cn/RNinpUu" target="_blank" rel="external">http://t.cn/RNinpUu</a></p>
+<h3 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a>Stylish</h3><p>许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的了。通过安装 CSS，可以把知乎「拍扁」，让微博网页版变得简洁无比，让 Feedly 用上 Material Design 等等等…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
+<center><br><img src="http://meto.chinakook.com/1504266030349.jpg" alt=""></center>
+
+<p>关于 Stylish 更详细的介绍见：<a href="https://sspai.com/post/34508" target="_blank" rel="external">https://sspai.com/post/34508</a></p>
+<p>下载安装：<a href="http://t.cn/R9hCUIk" target="_blank" rel="external">http://t.cn/R9hCUIk</a></p>
+<h3 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a>Wikiwand</h3><p>多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代。Wikiwand 让你看到一个属于 21 世纪的维基百科。除了视觉上的提升，Wikiwand 也添加了一些人性化的交互：比如超链接悬浮窗，搜索联想，黑色模式等等…</p>
+<center><br><img src="http://meto.chinakook.com/1504266756635.jpg" alt=""></center>
+
+
+<p>下载安装：<a href="http://t.cn/R4TGWCh" target="_blank" rel="external">http://t.cn/R4TGWCh</a></p>
+<h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><p>「阅读模式」可以为 Chrome 带来了类似 Safari 的阅读体验。点击图标即可进入，再次点击退出，完全的无痛体验啊。有一种 Chrome 原生阅读模式的错觉，爽。</p>
+<center><br><img src="http://meto.chinakook.com/1504267091779.jpg" alt=""></center>
+
+<p>下载安装：<a href="http://t.cn/RNiFaDw" target="_blank" rel="external">http://t.cn/RNiFaDw</a></p>
+<p>今天主要介绍的是利用 Chrome 扩展改变网页视觉感觉，让浏览网页变得更加优雅，后面有机会再和大家说说其他实用扩展。</p>
+<p>完。</p>
+<p><br>ikook<br>2017.09.01</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[七夕，过得怎样？]]></title>
+      <url>/2017/08/28/seven-month-seven/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<p><br><br><br></p>
+<center><strong>七夕</strong></center>
+
+<center>这个狗吐血的特殊日子</center>
+
+<center>我是这样度过的</center>
+
+<center><br><img src="http://meto.chinakook.com/1503916978099.jpg" alt=""></center>
+
+<p><br></p>
+<center>我的心情是这样的</center>
+
+
+<center><br><img src="http://meto.chinakook.com/17.08.28.jpg" alt=""></center>
+
+<p><br><br><br></p>
+<center>祝</center>
+
+<center>虐狗节快乐</center>
+
+
+
+<p><br>ikook<br>2017.08.28</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔集 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[java 实现排序算法之「插入排序」]]></title>
+      <url>/2017/08/26/java-sort-series3/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>java 实现排序算法系列</p>
+</blockquote>
+<a id="more"></a>
+<p>这是 Java 实现排序算法的第三篇文章——插入排序算法。插入排序可以说成是「一类」简单的排序算法，因为插入排序可以有变种，比如二分查找插入排序算法，本文讲述的是直接插入排序。</p>
+<p>如文中出现错误，请在公众号「ikook」聊天窗口留言，十分感谢。</p>
+<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><p>插入排序「Insertion Sort」是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。</p>
+<p>来看一下插入排序算法的思路：<br></p>
+<ul>
+<li>将需排序的数据分成已排序和未排序两部分，从第一个元素开始，并将该元素看做已排序。<br><br></li>
+<li>取得下一个元素，即第二个元素，在已排序的序列中由后向前扫描，找出合适的位置将该元素插入。<br><br></li>
+<li>重复上述步骤，直到最后一个元素被插入到已排序序列中。<br><br></li>
+<li>排序完成。<br><br></li>
+</ul>
+<p>使用插入排序为一列数字进行排序的过程示意图（来自维基百科）：</p>
+<center><br><img src="http://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
+
+<p>插入排序算法示意图（来自维基百科）：</p>
+<center><br><img src="http://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
+
+<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>从上面可以看到，算法思路非常简单，但是代码就不那么简单易写了。算法本身是没有问题的，之所以不易写我觉得是由于编程语言的问题。这里我们使用 Java 来实现，那就拿 Java 来讲。</p>
+<p>在上述思路中我们可以提出几个问题，先来看下。首先，我们该如何判断合适的位置？边界条件该怎么处理？在数组中插入元素，必然会移动数据，如何控制数据的移动？</p>
+<p>为了解决这些问题，我们可以在算法思路的第二步做手脚，将第二步细化。我们不在已排序的序列起始位置开始比较，从已排序序列的尾部开始逆序比较，只要比待插入的数据大，那就向后移动，直到不大于该数据，此时空出来的位置就放入待插入数据。</p>
+<p>上代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</div><div class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;arr.length; i++)&#123;</div><div class="line">          <span class="keyword">int</span> value = arr[i];</div><div class="line">          <span class="keyword">int</span> position=i;</div><div class="line">          <span class="keyword">while</span> (position&gt;<span class="number">0</span> &amp;&amp; arr[position-<span class="number">1</span>]&gt;value)&#123;</div><div class="line">              arr[position] = arr[position-<span class="number">1</span>];</div><div class="line">              position--;</div><div class="line">          &#125;</div><div class="line">          arr[position] = value;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如果在代码的理解上遇到困难，可以利用 IDE 的调试功能来学习。如下图（IntelliJ IDEA）：</p>
+<center><br><img src="http://meto.chinakook.com/insert_debug.jpg" alt=""></center>
+
+<h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><p>从上述内容容易看出，无论输入的数据怎样，插入排序算法总会进行 n-1 次排序。</p>
+<p>由于每个元素插入点的不确定性，该算法复杂度并不是一定的。假设我们要将 n 个元素的序列升序排序，这时存在最好情况和最坏情况。</p>
+<p>最好情况就是，序列已经是升序排列了（即数据本身的顺序和我们需要的顺序相同）。此时，需要进行的比较操作需（n-1）次即可，时间复杂度为 O(n)。</p>
+<p>最坏情况很显然，序列为逆序排列时，即降序排序时为最坏。此时，需要进行的比较共有 1/2n(n-1) 次，时间复杂度为 O(n^2)。</p>
+<p>平均来说，插入排序算法复杂度为 O(n^2)。插入排序的赋值操作是比较操作的次数加上（n-1）次。</p>
+<p>空间复杂度，插入排序所有的数据移动均在内部进行，唯一的开销是我们使用了一个临时变量，则空间复杂度为 O(1)。</p>
+<h2 id="插入排序算法分析"><a href="#插入排序算法分析" class="headerlink" title="插入排序算法分析"></a>插入排序算法分析</h2><p><strong>算法稳定性：</strong><br>拿本文中的例子来讲，只需要找到需插入元素的位置即可，并不需要交换，则直接插入排序是稳定排序算法。</p>
+<p><strong>适用场景：</strong><br>从算法复杂度可以看出，该排序算法不适合数据较大的情况，数量级小于千时，插入排序是一个不错的选择。在 STL 的 sort 算法和 stdlib 的 qsort 算法中，都将插入排序作为快速排序的补充，用于少量数据的排序。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>关于插入排序算法的变种大家有兴趣的自己 Google 一下，本文只讲述了基本的直接插入排序。插入排序的变种大概有这几种：二分查找插入排序、2 - 路插入排序、表插入排序。二分查找插入排序有的文献叫做折半插入排序，2 - 路插入排序和表插入排序可以参考《数据结构》（严蔚敏、吴伟民著）一书。</p>
+<p>完。</p>
+<p>相关阅读：<br><a href="http://ikookblog.com/2017/03/09/java_sort_algorithm_series1/">Java 实现「冒泡排序」</a><br><a href="http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/">Java 实现「选择排序」</a></p>
+<p>PS：如果你觉得本文对你有一点帮助，点赞、转发，不胜感激。</p>
+<p><br>ikook<br>2017.08.26</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 论算法 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 计算机技术 </tag>
+            
+            <tag> java </tag>
+            
+            <tag> 排序算法 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[我是你流浪过的一个地方]]></title>
       <url>/2017/08/17/view-text-02/</url>
       <content type="html"><![CDATA[<blockquote>
