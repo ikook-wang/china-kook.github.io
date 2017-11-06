@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-11-06T02:32:57.000Z</updated>
+  <updated>2017-11-06T02:34:51.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2017/11/06/alfred/"/>
     <id>http://ikookblog.com/2017/11/06/alfred/</id>
     <published>2017-11-05T16:00:00.000Z</published>
-    <updated>2017-11-06T02:32:57.000Z</updated>
+    <updated>2017-11-06T02:34:51.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。</p>
@@ -228,9 +228,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
+    
+      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -375,9 +375,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
+    
+      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -1538,9 +1538,9 @@
       <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="java" scheme="http://ikookblog.com/tags/java/"/>
+    
+      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
     
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
