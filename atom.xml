@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2017-11-29T09:16:03.000Z</updated>
+  <updated>2017-12-03T14:14:00.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>坚持总会有回报</title>
+    <link href="http://ikookblog.com/2017/12/02/persistence/"/>
+    <id>http://ikookblog.com/2017/12/02/persistence/</id>
+    <published>2017-12-01T16:00:00.000Z</published>
+    <updated>2017-12-03T14:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>今天公众号来了不少的新朋友，热烈欢迎他们的到来。他们的到来让公众号蓬荜生辉，就像公号的欢迎语一样，愿我们在此相遇、从此为伴，一起成长。</p>
+<p>stormzhang 突然的公号推荐，令我很是震惊，同样也很是兴奋、高兴。由于他本人影响力较大，公号读者也非常多，导致我公号的关注量飞涨。说实话，我的公众号从来没有刻意去推广过，要说推广，就只在小密圈分享了几次，所以关注量非常小，也就几十个人吧，没 100 人，真的。之所以没去推广，是因为公众号最初的定位是记录自己的成长，分享自己的经验。</p>
+<p>可能是因为公号最初的定位原因，导致我坚持下去的动力不是很大，以至于中间还停更了一段时间。读者的鼓励，让我回到这里继续分享；前几天，拿到原创又给了我很大的鼓励和动力；今天 stormzhang 的推荐，再次给了我非常大的鼓励，把我的信心推向了最高点，我更加坚定了自己的脚步，一定会坚持分享下去。</p>
+<p>之前写博客非常随意，想写的时候就写，不想写就扔那儿，太过随性。公众号则不一样，它直接与读者相关联，各种数据非常明显，较为「正统」，每发一篇文章，总会反复去看阅读量等数据。读者的直接约束，加之对公号期望的约束，致使我刻意的去坚持，坚持隔几天一篇文章，坚持输出。</p>
+<p>我个人对公众号充满了期望，我希望大家在这里能有所收获和成长，也希望自己有所收获和成长。能够看到自己分享的东西对大家有所帮助，我想这应该是对我最大的鼓励了，同时也就不辜负这个号的存在了。</p>
+<p>就像 stormzhang 所说，用心做事的人，运气不会太差。能够用心去做事，是非常可贵的，我觉得只要肯用心肯下功夫，基本是没什么事做不成的，就算没做成，期间的收获也会使你收益匪浅。现在有了你们的到来，有了你们的支持，我会更加用心，会更容易坚持下去。</p>
+<p>最后，感谢 stormzhang 的推荐，感谢大家的支持，希望我们能够共同成长。对了，公众号有一项数据是我非常不愿看到的，就是取关量，有不足之处希望大家指出，取关多伤感情。</p>
+<p>微信扫下方二维码关注</p>
+<p><br>ikook<br>2017.12.02</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;今天公众号来了不少的新朋友，热烈欢迎他们的到来。他们的到来让公众号蓬荜生辉，就像公号的欢迎语一样，愿我们在此相遇、从此为伴，一起成长。&lt;/p&gt;
+&lt;p&gt;stormzhang 突然的公号推荐，令我很是震惊，同样也很是兴奋、高兴。由于他本人影响
+    
+    </summary>
+    
+      <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
+    
+    
+      <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>原创</title>
@@ -1323,102 +1357,6 @@
       <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 官方 Training 文档学习总结系列之「支持不同的设备」</title>
-    <link href="http://ikookblog.com/2017/03/16/android_training_study2/"/>
-    <id>http://ikookblog.com/2017/03/16/android_training_study2/</id>
-    <published>2017-03-15T16:00:00.000Z</published>
-    <updated>2017-06-16T07:03:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>Android 官方 Training 文档学习总结系列</p>
-</blockquote>
-<a id="more"></a>
-<p>官方 Training 总结系列第二篇：支持不同的设备。</p>
-<h2 id="支持不同的语言"><a href="#支持不同的语言" class="headerlink" title="支持不同的语言"></a>支持不同的语言</h2><p>在任何情况下，从应用代码中提取 UI 字符串并将其存放在外部文件中都是个好办法。Android 可以通过工程中的资源目录轻松实现这一功能。</p>
-<h3 id="创建语言区域目录和字符串文件"><a href="#创建语言区域目录和字符串文件" class="headerlink" title="创建语言区域目录和字符串文件"></a>创建语言区域目录和字符串文件</h3><p>如需添加对更多语言的支持，在res/中创建一个额外的values目录，并以连字符和ISO国家代码结尾命名。例如，values-es/ 目录包含的简单资源用于语言代码为“es”的语言区域。Android 根据运行时设备的语言区域设置加载相应的资源。</p>
-<p>一旦确定了为哪些语言提供支持，便可创建资源子目录和字符串资源文件。例如：</p>
-<p>MyProject/<br>    res/<br>    values/<br>      strings.xml<br>    values-es/<br>      strings.xml<br>    values-fr/<br>      strings.xml</p>
-<p>将各个语言区域的字符串值添加到相应文件中。</p>
-<p>在运行时，Android 系统会根据当前为用户设备设置的语言区域使用相应的字符串资源集。</p>
-<p>例如：英文，/values/strings.xml：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">resources</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">string</span> <span class="attr">name</span>=<span class="string">"title"</span>&gt;</span>My Application<span class="tag">&lt;/<span class="name">string</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">string</span> <span class="attr">name</span>=<span class="string">"hello_world"</span>&gt;</span>Hello World!<span class="tag">&lt;/<span class="name">string</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">resources</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>西班牙文，/values-es/strings.xml：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">resources</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">string</span> <span class="attr">name</span>=<span class="string">"title"</span>&gt;</span>Mi Aplicación<span class="tag">&lt;/<span class="name">string</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">string</span> <span class="attr">name</span>=<span class="string">"hello_world"</span>&gt;</span>Hola Mundo!<span class="tag">&lt;/<span class="name">string</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">resources</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>注：可以在任何资源类型上使用语言区域限定符（或任何配置限定符），例如，可以提供本地化版本的可绘制位图。</p>
-</blockquote>
-<h3 id="使用字符串资源"><a href="#使用字符串资源" class="headerlink" title="使用字符串资源"></a>使用字符串资源</h3><p>可以在源代码和其他 XML 文件中通过 &lt; string >元素的 name 属性来引用自己的字符串资源。</p>
-<p>在源代码中，可以使用语法 R.string.&lt; string_name > 引用字符串资源。有许多方法都接受以这种方式引用的字符串资源。</p>
-<p>例如：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Get a string resource from your app's Resources</span></div><div class="line">String hello = getResources().getString(R.string.hello_world);</div><div class="line"></div><div class="line"><span class="comment">// Or supply a string resource to a method that requires a string</span></div><div class="line">TextView textView = <span class="keyword">new</span> TextView(<span class="keyword">this</span>);</div><div class="line">textView.setText(R.string.hello_world);</div></pre></td></tr></table></figure>
-<p>在其他 XML 文件中，只要 XML 属性接受字符串值，可以使用语法 @string/<string_name> 引用字符串资源。</string_name></p>
-<p>例如：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">TextView</span></span></div><div class="line">    <span class="attr">android:layout_width</span>=<span class="string">"wrap_content"</span></div><div class="line">    <span class="attr">android:layout_height</span>=<span class="string">"wrap_content"</span></div><div class="line">    <span class="attr">android:text</span>=<span class="string">"@string/hello_world"</span> /&gt;</div></pre></td></tr></table></figure></p>
-<h2 id="适配不同的屏幕"><a href="#适配不同的屏幕" class="headerlink" title="适配不同的屏幕"></a>适配不同的屏幕</h2><p>Android 使用两种常规属性对不同的设备屏幕进行分类：尺寸和密度。我们应该在 APP 中包含一些替代资源，来适应不同的屏幕尺寸和密度，以优化 APP 的外观。</p>
-<ul>
-<li>4 种普遍尺寸：小(small)，普通(normal)，大(large)，超大(xlarge)</li>
-<li>4 种普遍密度：低精度(ldpi), 中精度(mdpi), 高精度(hdpi), 超高精度(xhdpi)</li>
-</ul>
-<p>要为不同的屏幕声明不同的 layout 和 bitmap，必须将这些替代资源放在不同的目录中，类似于对不同语言字符串的做法</p>
-<p>另请注意，屏幕方向（横向或纵向）被认为是屏幕尺寸的变化，因此许多应用程序应修改 layout，以优化每个方向的用户体验。</p>
-<h3 id="创建不同的-layout"><a href="#创建不同的-layout" class="headerlink" title="创建不同的 layout"></a>创建不同的 layout</h3><p>要在不同的屏幕尺寸上优化用户体验，应该为要支持的每个屏幕尺寸创建一个唯一的布局 XML 文件。每个 layout 都应该保存到相应的资源目录中，并以 -&lt; screen_size &gt; 为后缀命名。例如，大尺寸屏幕(large screens)的唯一的 layout 文件应该保存在 res/layout-large/ 中。</p>
-<blockquote>
-<p>注意: 为了匹配合适的屏幕尺寸Android会自动地测量我们的layout文件。所以不需要因不同的屏幕尺寸去担心UI元素的大小，而应该专注于layout结构对用户体验的影响。(比如关键视图相对于同级视图的尺寸或位置)</p>
-</blockquote>
-<p>例如，此项目包括默认 layout 和大尺寸屏幕的替代布局：</p>
-<p>MyProject/<br>    res/<br>    layout/<br>      main.xml<br>    layout-large/<br>      main.xml</p>
-<p>layout 文件的名字必须完全一样，为了对相应的屏幕尺寸提供最优的 UI，文件的内容不同。</p>
-<p>如平常一样在 app 中简单引用：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</div><div class="line">    <span class="keyword">super</span>.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.main);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>系统会根据 app 所运行的设备屏幕尺寸，在与之对应的 layout 目录中加载 layout。</p>
-<blockquote>
-<p>注意：Android 3.2及以上版本支持定义屏幕尺寸的高级方法，它允许我们根据屏幕最小长度和宽度，为各种屏幕尺寸指定与密度无关的layout资源。</p>
-</blockquote>
-<h3 id="创建不同的位图"><a href="#创建不同的位图" class="headerlink" title="创建不同的位图"></a>创建不同的位图</h3><p>应该为 4 种普遍密度(分辨率):低，中，高，超高精度，都提供相适配的 bitmap 资源。这能使 app 在所有屏幕分辨率中都能有良好的画质和效果。</p>
-<p>要生成这些图像，应该从原始的矢量图像资源着手，然后根据下列尺寸比例，生成各种密度下的图像。</p>
-<ul>
-<li>xhdpi: 2.0</li>
-<li>hdpi: 1.5</li>
-<li>mdpi: 1.0 (基准)</li>
-<li>ldpi: 0.75</li>
-</ul>
-<p>这意味着，如果针对 xhdpi 的设备生成了一张 200x200 的图像，那么应该为 hdpi 生成 150x150,为 mdpi 生成 100x100, 和为 ldpi 生成 75x75 的图片资源。</p>
-<p>然后，将文件放在相应的 drawable 资源目录中：</p>
-<p>MyProject/<br>    res/<br>     drawable-xhdpi/<br>      awesomeimage.png<br>    drawable-hdpi/<br>      awesomeimage.png<br>    drawable-mdpi/<br>      awesomeimage.png<br>    drawable-ldpi/<br>      awesomeimage.png</p>
-<p>任何时候引用@ drawable / awesomeimage，系统都会根据屏幕的密度选择适当的 bitmap。</p>
-<blockquote>
-<p>注意：低密度(ldpi)资源是非必要的，当提供了hdpi的图像，系统会把hdpi的图像按比例缩小一半，去适配ldpi的屏幕。</p>
-</blockquote>
-<h2 id="支持不同的平台版本"><a href="#支持不同的平台版本" class="headerlink" title="支持不同的平台版本"></a>支持不同的平台版本</h2><p>一般情况下，在更新 app 至最新 Android 版本时，最好先保证新版的 app 可以支持 90% 的设备使用。</p>
-<blockquote>
-<p>注：为了能在几个 Android 版本中都能提供最好的特性和功能，应该在我们的 app 中使用 Android Support Library，它能使我们的app能在旧平台上使用最近的几个平台的APIs。</p>
-</blockquote>
-<h3 id="指定最小和目标API级别"><a href="#指定最小和目标API级别" class="headerlink" title="指定最小和目标API级别"></a>指定最小和目标API级别</h3><p>AndroidManifest.xml 文件中描述了 app 的细节及 app 支持哪些 Android 版本。具体来说，&lt; uses-sdk &gt; 元素中的 minSdkVersion 和 targetSdkVersion 属性，标明在设计和测试 app 时，最低兼容 API 的级别和最高适用的 API 级别(这个最高的级别是需要通过测试的)。例如：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">manifest</span> <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span> <span class="attr">...</span> &gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">uses-sdk</span> <span class="attr">android:minSdkVersion</span>=<span class="string">"4"</span> <span class="attr">android:targetSdkVersion</span>=<span class="string">"15"</span> /&gt;</span></div><div class="line">    ...</div><div class="line"><span class="tag">&lt;/<span class="name">manifest</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>随着新版本 Android 的发布，一些风格和行为可能会改变，为了能使app能利用这些变化，而且能适配不同风格的用户的设备，应该将 targetSdkVersion 的值尽量的设置与最新可用的 Android 版本匹配。</p>
-<h3 id="运行时检查系统版本"><a href="#运行时检查系统版本" class="headerlink" title="运行时检查系统版本"></a>运行时检查系统版本</h3><p>Android 在 Build 常量类中提供了对每一个版本的唯一代号，在 app 中使用这些代号可以建立条件，保证依赖于高级别的 API 的代码，只会在这些 API 在当前系统中可用时，才会执行。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">setUpActionBar</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="comment">// Make sure we're running on Honeycomb or higher to use ActionBar APIs</span></div><div class="line">    <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.HONEYCOMB) &#123;</div><div class="line">        ActionBar actionBar = getActionBar();</div><div class="line">        actionBar.setDisplayHomeAsUpEnabled(<span class="keyword">true</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<blockquote>
-<p>注意：当解析 XML 资源时，Android 会忽略当前设备不支持的 XML 属性。所以可以安全地使用较新版本的 XML 属性，而不需要担心旧版本 Android 遇到这些代码时会崩溃。例如如果设置 targetSdkVersion=”11”，app 会在 Android 3.0 或更高时默认包含 ActionBar。然后添加 menu items到 action bar 时，需要在自己的 menu XML 资源中设置 android:showAsAction=”ifRoom”。在跨版本的 XML 文件中这么做是安全的，因为旧版本的 Android 会简单地忽略 showAsAction 属性(就是这样，你并不需要用到 res/menu-v11/ 中单独版本的文件)。</p>
-</blockquote>
-<h3 id="使用平台样式和主题"><a href="#使用平台样式和主题" class="headerlink" title="使用平台样式和主题"></a>使用平台样式和主题</h3><p>Android 提供了用户体验主题，为 app 提供基础操作系统的外观和体验。这些主题可以在 manifest 文件中被应用于 app 中。通过使用内置的风格和主题，app 自然地随着 Android 新版本的发布，自动适配最新的外观和体验。</p>
-<p>使 activity 看起来像对话框：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">activity</span> <span class="attr">android:theme</span>=<span class="string">"@android:style/Theme.Dialog"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>使 activity 有一个透明背景：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">activity</span> <span class="attr">android:theme</span>=<span class="string">"@android:style/Theme.Translucent"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>应用在 /res/values/styles.xml 中定义的自定义主题：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">activity</span> <span class="attr">android:theme</span>=<span class="string">"@style/CustomTheme"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>使整个app应用一个主题(全部 activities )在元素中添加 android:theme 属性：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">application</span> <span class="attr">android:theme</span>=<span class="string">"@style/CustomTheme"</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p><br>ikook<br>2017.03.16</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Android 官方 Training 文档学习总结系列&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://ikookblog.com/categories/Android/"/>
-    
-    
-      <category term="Android" scheme="http://ikookblog.com/tags/Android/"/>
     
   </entry>
   
