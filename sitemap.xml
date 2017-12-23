@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ikookblog.com/about/index.html</loc>
+    
+    <lastmod>2017-12-23T03:14:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ikookblog.com/2017/12/09/java-res/</loc>
     
     <lastmod>2017-12-10T09:24:56.000Z</lastmod>
@@ -166,13 +173,6 @@
     <loc>http://ikookblog.com/2016/12/11/oracle_database12c/</loc>
     
     <lastmod>2017-07-24T10:54:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/about/index.html</loc>
-    
-    <lastmod>2017-07-02T10:39:40.000Z</lastmod>
     
   </url>
   
