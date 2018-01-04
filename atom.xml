@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-04T07:55:24.000Z</updated>
+  <updated>2018-01-04T08:03:59.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -16,11 +16,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>请为迷失的自己照亮希望的方向</title>
+    <link href="http://ikookblog.com/2017/12/27/view-text-03/"/>
+    <id>http://ikookblog.com/2017/12/27/view-text-03/</id>
+    <published>2017-12-26T16:00:00.000Z</published>
+    <updated>2018-01-04T08:03:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>长大的途中，会遇到各种困难 <a id="more"></a><br>可能是思念的距离<br>是职场竞争的压力<br>是初入社会的现实<br>是生存之道的艰辛<br>是情感失利的感伤<br>…</p>
+<p>我觉得每个人的人生都不一样<br>有的人从小就很坚强<br>但长大时困苦击溃了最后的心防<br>有的人从未认识困难<br>所以面对成长的高墙时手足无措<br>我们一直很勇敢<br>只是“长大”这道关卡太难闯<br>那些曾握过的手<br>唱过的歌<br>流过的泪<br>爱过的人<br>一起携手走过的时光<br>又何尝不是生命中最值得珍惜<br>最美好的记忆呢？</p>
+<p>也许<br>正是有了这么多的相遇与别离<br>正是有了这么多人闯进我们的生命里<br>才会让我们成长之路变得不一样</p>
+<p>但无论是与你携手同行的亲人、朋友<br>还是爱人<br>他们都终将离你而去<br>终将会在某个渡口处与你离散</p>
+<p>如果此刻的你正身处黑暗中彷徨<br>在生活的暗流中迷失了方向<br>不管过去是如何度过的<br>只要你还对未来还抱有幻想<br>就不要轻易放弃希望</p>
+<p>既然无人能懂无人愿帮<br>何不试着给自己勇气<br>前方是黑暗的话就撕开一道口<br>是迷宫就找到一条出路<br>是高墙跨越不了那就绕过它</p>
+<p>谁的青春不迷茫？<br>只是自己愿不愿意坚持罢了</p>
+<p><br>ikook<br>2017.12.27</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;长大的途中，会遇到各种困难
+    
+    </summary>
+    
+      <category term="观文记" scheme="http://ikookblog.com/categories/%E8%A7%82%E6%96%87%E8%AE%B0/"/>
+    
+    
+      <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="观文" scheme="http://ikookblog.com/tags/%E8%A7%82%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>前端基础学习资料来啦 ！！！</title>
     <link href="http://ikookblog.com/2017/12/25/web-data/"/>
     <id>http://ikookblog.com/2017/12/25/web-data/</id>
     <published>2017-12-24T16:00:00.000Z</published>
-    <updated>2018-01-04T07:55:24.000Z</updated>
+    <updated>2018-01-04T07:57:23.000Z</updated>
     
     <content type="html"><![CDATA[<p>前些日子逛 CSDN，无意中看到一个博客专栏：讲给 Android 程序员看的前端教程。<a id="more"></a>打开文章认真读了一篇，感觉质量真的很不错，并且每篇文章都有配套的视频教程，简直良心。这个系列的作者是谷哥的小弟，经常逛 CSDN 的朋友应该不陌生，是 CSDN 的博客专家，文章质量都很不错。</p>
 <p>看到这么良心并且高质量的教程忍不住去读，索性全都看了一遍，刚好可以回顾一下之前学的知识。文章中所涉及的知识点比较全面，内容整理的非常系统，很有条理。</p>
@@ -52,7 +84,7 @@
 <p>最后给大家推荐几本有关学习前端的书籍，这些书籍谷哥的小弟在其系列教程中也有推荐。</p>
 <p>《Head First JavaScript》，通过这本书籍可以轻松入门 JavaScript（当然通过我整理的资料一样轻松入门）， Head First 系列的书籍质量不用我多说了吧。</p>
 <p>《JavaScript 权威指南》，这本书质量非常高，更值得一提的是，中文版由阿里巴巴前端技术团队翻译，中文版质量也非常有保障。全面讲述了 JavaScript 语言的核心，第 6 版还包含了 HTML5 等知识点，非常值得一读。</p>
-<p>《ECMAScript 6 入门》，这本书的作者是阮一峰前辈的作品，并且在其网站免费公开，质量同样非常高。地址：<a href="http://es6.ruanyifeng.com/。" target="_blank" rel="external">http://es6.ruanyifeng.com/。</a></p>
+<p>《ECMAScript 6 入门》，这本书的作者是阮一峰前辈的作品，并且在其网站免费公开，质量同样非常高。地址：<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a>。</p>
 <p>学习资料就推荐这些，书不在多，精才是最重要的，能够啃透上面提到的书籍就很不错了，我也还在啃的过程中。在我的公号后台回复「前端基础」获取文中所有的链接。</p>
 <p>PS：如果文章对大家有所帮助，希望大家多多分享。</p>
 <p><br>ikook<br>2017.12.25</p>
@@ -1046,50 +1078,6 @@
       <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
       <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这次，我认真了</title>
-    <link href="http://ikookblog.com/2017/07/27/2017.07.27-gnosis/"/>
-    <id>http://ikookblog.com/2017/07/27/2017.07.27-gnosis/</id>
-    <published>2017-07-26T16:00:00.000Z</published>
-    <updated>2017-08-11T12:40:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>没有人知道自己将来会从事何种职业，认真对待每一件事才是最重要的。—— (美)特怀拉·萨普<br><a id="more"></a></p>
-<blockquote>
-<p>文在公众号首发，原文：<a href="https://mp.weixin.qq.com/s/zO66EnIWROhv0xbpxhl0nQ" target="_blank" rel="external">这次，我认真了</a>。底部可扫码关注</p>
-</blockquote>
-</blockquote>
-<p>我是 ikook，也许你并不知道我是谁，也许你在其他地方了解过我。但，今天我们在这里相遇便是缘分。</p>
-<p>两年间我断断续续玩过三个公众号，包括你正在的看这一个。前两个我都没有认真的对待过，并且都没有坚持维护下来，都被我无情的丢在那里，可以说是任何人都不得而知。</p>
-<p>第二号我曾试图维护，但好景不长，连续推送一周之后，被我的感冒所打倒，再也没有起来过。那时也许是真想好好维护下去，可唯独没有非常认真的对待，不然也不会因为一个小小的感冒就放弃了。我想就算没有那场感冒，也会给自己找无数个理由放弃。</p>
-<p>那次感冒之后，我不光放弃维护公号，好像也放弃了自己。我开始停止学习，停止前进的脚步，停止了一切让我有所成长的做法。我开始各种玩游戏，整天混迹在王者大陆不能自拔。</p>
-<p>这一切都是人的惰性所指使，你没有以一颗坚定不移的心开始，抱着试试的心态，注定要失败。可这次，我认真了。</p>
-<p>我认真了，不知道原因，也许是因为自己颓废了太久，也许是因为连自己都开始讨厌游离状态下的自己，也许我就是想认真干一件事。无论什么原因，我就想把这件事坚持下去。每天有那么一件事总在提醒着我，鞭策着我，也许改变就会发生在不知不觉中。</p>
-<p>有人会问，为什么选择了这种方式呢，为什么要写公众号呢？我不知道啊，想写。我热爱文字，喜欢记录。有个能够记录自己成长的地方不是很好吗。你不是有博客吗？我想利用这种方式让更多人知道我，我想换种方式改变自己，想要用不同的方式来激励自己。</p>
-<p>今天我看了自己在 17 年年初写下的文章（想看这篇文章点击下方阅读原文）。想来惭愧，定下的目标慢慢都忘记了，忘记了去履行自己的诺言，忘记了自己定下的目标 —— 学习的目标、生活的目标。当初定下的学习目标包括「继续学习 Android、Java、React Native、英语、阅读还有实习等」，看到这也许会问，这么多学的过来么？其实如果把这些任务量化到一年当中去学习是很轻松的事情。</p>
-<p>我会拾起年初定下的目标，努力把每件事情做好。同时，我会用心认真的去维护这个公众号，我会坚持下去。我在写下这篇文章的时候就已经下定决心了，改变自己。不为了什么，就为了看看自己还有救没。在此立个 flag，17 年年末，完成年初定下的目标；认真维护公号和博客；认真对待每一天。</p>
-<p>改变从现在开始，我就想认认真真的做自己，不要再混下去，况且我还有理想，我还有梦。</p>
-<p><br>ikook<br>2017.07.27</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;没有人知道自己将来会从事何种职业，认真对待每一件事才是最重要的。—— (美)特怀拉·萨普&lt;br&gt;
-    
-    </summary>
-    
-      <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
-    
-    
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="生活" scheme="http://ikookblog.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
