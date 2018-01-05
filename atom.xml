@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-04T08:35:21.000Z</updated>
+  <updated>2018-01-05T05:36:27.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,140 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用谷歌云免费搭建你想要的服务</title>
+    <link href="http://ikookblog.com/2018/01/04/google-cloud/"/>
+    <id>http://ikookblog.com/2018/01/04/google-cloud/</id>
+    <published>2018-01-03T16:00:00.000Z</published>
+    <updated>2018-01-05T05:36:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于众所周知的原因，在国内不能够在网络上自由的浏览信息，但是有没有解决方法呢？<a id="more"></a>肯定是没有啊，身处国门之内，要学会遵守规则不要踩踏红线。</p>
+<p>明确说明，<strong>这篇文章只是教给大家如何利用谷歌云「学习」搭建一个免费的服务器，学习搭建服务</strong>这个技术。至于利用谷歌云做什么，与本文及本人无关。</p>
+<p>要想利用谷歌云搭建服务有两个前提条件：</p>
+<ol>
+<li>拥有其中一张信用卡：Visa、MasterCard、JCB；</li>
+<li>有一个可以临时「自由访问」的网络。</li>
+</ol>
+<p>这两个条件都是硬性条件，缺一不可。信用卡，可以在某宝淘，临时注册用，也就 20 来块，不易搜索，大家用心寻找应该能找到，需要提醒的是：超过 20 块的不要买，更高价格就更不用说了，完全可以找到 20 以下的，某宝还是有不良商家的；临时「自由访问」网络，这个在“百毒”上可以搜索到，比如那个带颜色的灯，可以免费使用，如果实在找不到，那就再找找。</p>
+<p>首先，要拥有一个谷歌账户，只要可以「自由访问」网络便可注册，这里就不赘述了，谷歌全家桶都使用这一个账户登录，谷歌云也不例外。</p>
+<p>打开谷歌云：<a href="https://cloud.google.com/" target="_blank" rel="external">https://cloud.google.com/</a>，登录你的谷歌账户然后点击免费试用。</p>
+<center><img src="http://meto.chinakook.com/blog-images/0.jpeg" alt=""></center>
+
+<p>然后如下所示：</p>
+<center><img src="http://meto.chinakook.com/blog-images/1.jpeg" alt=""></center>
+
+<p>地区请选择<strong>美国</strong>，当然任性选择中国我也没辙，只是有什么问题就自己受着吧。继续之后出现如下信息：</p>
+<center><img src="http://meto.chinakook.com/blog-images/2.jpeg" alt=""></center>
+
+<p>账号选择个人，然后填写「名称和地址」，不知道怎么填？我教你。在浏览器打开：<a href="http://t.cn/Rt85282" target="_blank" rel="external">http://t.cn/Rt85282</a>，会随机生成一个美国公民的身份，然后按照提示填写即可。需要注意的是，如果有去广告插件先把该站点加入白名单。随机生成的身份如下：</p>
+<center><img src="http://meto.chinakook.com/blog-images/3.jpeg" alt=""></center>
+
+<p>不要填写图中的信息，自己去生成。</p>
+<p>然后填写「付款方式」中的「信用卡卡号」，当然是填写淘到的卡号了，当然， 如果自己有支持的信用卡的话，直接用就可以了，不会扣费，到期之后也不会。谷歌不会这么干，某些公司会，你懂！！！</p>
+<center><img src="http://meto.chinakook.com/blog-images/4.png" alt=""></center>
+
+<p>如果你是在某宝上买的虚拟信用卡，「持卡人姓名」填写上面生成的名字即可。如果你是使用自己的信用卡，请填写自己的姓名。</p>
+<p>然后点击开始免费试用，再进入「我的控制台」，会创建一个默认项目，项目名称是自己生成的，不用我们管，创建之后如下：</p>
+<center><img src="http://meto.chinakook.com/blog-images/05.jpeg" alt=""></center>
+
+<p>点击左上角按钮，然后点击「结算」查看谷歌赠送给的 $300 是否到位了。</p>
+<center><img src="http://meto.chinakook.com/blog-images/6.jpeg" alt=""></center>
+
+<p>我的用过了，所以是这样的，刚注册会显示剩余的赠金：$300，剩余天数：365。</p>
+<p>然后点击：计算 - Compute Engine - VM 实例 - 创建实例。如下：</p>
+<center><img src="http://meto.chinakook.com/blog-images/7.png" alt=""></center>
+
+<center><img src="http://meto.chinakook.com/blog-images/8.png" alt=""></center>
+
+<p>按照下图中标注的信息填写，其他默认即可。</p>
+<center><img src="http://meto.chinakook.com/blog-images/9.jpeg" alt=""></center>
+
+<p>正在创建：</p>
+<center><img src="http://meto.chinakook.com/blog-images/10.png" alt=""></center>
+
+<p>创建完成：</p>
+<center><img src="http://meto.chinakook.com/blog-images/11.png" alt=""></center>
+
+<p>创建完成之后，「外部 IP」就是服务器的地址，我这里不适合给你们看。因为我之前创建过一个实例，所以会显示两个，大家如果第一次，肯定是一个。</p>
+<p>然后去测试一下实例的速度如何，当然也可以不测试，基本是没问题的。测试地址：<a href="http://t.cn/Ry2GtDf" target="_blank" rel="external">http://t.cn/Ry2GtDf</a>。下图中框起来的地方，大家选择离自己所在地最近的即可。</p>
+<center><img src="http://meto.chinakook.com/blog-images/12.jpeg" alt=""></center>
+
+<p>可见速度杠杠的，只要均在 100 毫秒之内，说明就没问题，如果超出就删除这个实例，重新建一个实例试试。</p>
+<p>配置服务器，这一步非常关键，非常关键，非常关键。务必仔细操作。</p>
+<p>首先，连接 SSH 服务器，如下所示：</p>
+<center><img src="http://meto.chinakook.com/blog-images/13.png" alt=""></center>
+
+<center><img src="http://meto.chinakook.com/blog-images/14.png" alt=""></center>
+
+<p>之后提到的所有关于代码的部分均在类似下图窗口中输入：</p>
+<center><img src="http://meto.chinakook.com/blog-images/15.jpeg" alt=""></center>
+
+<p>1.输入：sudo -i（注意，sudo 之后有个空格），回车。</p>
+<p>2.输入下列代码（注意，这里的代码为一行，中间切不可有回车）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh &amp;&amp; bash bbr.sh install</div></pre></td></tr></table></figure>
+<p>输入之后回车。然后耐心等待，直到出现第三步中的窗口。</p>
+<p>3.出现如下窗口：</p>
+<center><img src="http://meto.chinakook.com/blog-images/16.jpeg" alt=""></center>
+
+<p>按键盘上的 <strong>Tab</strong> 键，选择 <no>，然后会跳回刚才的窗口：</no></p>
+<center><img src="http://meto.chinakook.com/blog-images/17.png" alt=""></center>
+
+<p>然后输入 <strong>y</strong>，回车。可以等待重启，或者直接关闭该窗口，重新打开，不记得怎么打开就往上翻。</p>
+<p>4.输入：sudo -i（和第一步一样）</p>
+<p>5.输入：bash bbr.sh start</p>
+<p>6.输入以下代码（注意，代码中间没有回车）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh &amp;&amp; chmod +x shadowsocksR.sh</div></pre></td></tr></table></figure>
+<p>7.输入：./shadowsocksR.sh</p>
+<p>出现下图所示内容，则证明上面的工作成功。</p>
+<center><img src="http://meto.chinakook.com/blog-images/18.png" alt=""></center>
+
+<p>8.设置密码和端口。在上面所示窗口中输入密码，随便，自己记住就可以，回车；然后会提示输入端口，也是随便，只要在 1-65535 之间就行，我设置的是 789。</p>
+<p>9.设置完密码和端口，会提示输入编码方式、混淆方式等，这里直接默认就好，一路回车。如下图所示（图中有提示，认真看）：</p>
+<center><img src="http://meto.chinakook.com/blog-images/019.png" alt=""></center>
+
+<p>10.在上一步骤回车之后，大约需要等待 5、6 分钟，这个过程是在配置服务器，耐心等待就好，千万不要关闭窗口，更不要关闭浏览器，更更不能关闭电脑，马上就完工，现在放弃就可惜了。</p>
+<p>11.出现以下画面，嗯，恭喜，你成功了。当然，先别记着关闭，复制红色部分到你的电脑中，之后会用到的。然后就可以关闭这个 SSH 窗口了。</p>
+<center><img src="http://meto.chinakook.com/blog-images/20.png" alt=""></center>
+
+<p>配置防火墙规则，这是最后的设置了。</p>
+<p>1.点击边栏中：网络 - VPC 网络 - 防火墙规则。</p>
+<center><img src="http://meto.chinakook.com/blog-images/21.png" alt=""></center>
+
+<p>2.设置协议端口：</p>
+<center><img src="http://meto.chinakook.com/blog-images/22.jpeg" alt=""></center>
+
+<p>把端口号设置成刚才我们自己规定的端口号，我的是 789。修改时输入：tcp:789; udp:789，注意，分号“；”后面紧跟一个空格。只设置图中圈红的两个，这两个必须设置，不要漏掉，其余默认。</p>
+<p>到此，谷歌云搭建完毕。</p>
+<p>搭建完就可以在你的设备上使用了，全平台支持，只需要下载对应的客户端。Mac、Windows、Android 的客户端可以在 GitHub 上搜索 shadowsocks 自行查找。iOS 的客户端需要 App Store 登录国外 ID，然后搜索 Shadowrocket 或者 Wingy。这些客户端如何使用自行搜索，我不知道怎么使用，你懂。</p>
+<p>这个速度怎么样呢，反正看某 tube 视频网站的 4k 视频毫无压力，能说明速度如何了吗？</p>
+<p>今天的文章主要和大家交流<strong>如何搭建服务器，其他任何目的都没有</strong>。那为什么要以谷歌云为例子呢？因为它可以免费使用一年啊。学会这篇文章之后，再搭建类似服务的服务器时，比如在国内的阿里云、腾讯云上搭建；在自己买的国外服务器上搭建，原理是一模一样的，流程基本一样。对了，话说亚马逊也有免费一年的优惠。</p>
+<hr>
+<p>写这篇文章我是忐忑的，我是不安的，考虑了很长时间才动笔，大约在一个多月之前就开始思考了。虽然只讨论技术，但毕竟有些不妥之处，希望大家珍重。</p>
+<p>现在终于写完了，这篇文章从下午 4 点钟开始下笔，一直写到 8 点多钟，期间要通过操作模拟流程，比较麻烦，也比较辛苦，希望大家能够多多支持，能够分享转发一下让更多人学习。留言、转发都是对我的支持。</p>
+<p>我也知道这篇文章可能不会存在太久，但也希望能发挥它的作用。</p>
+<p><strong>需要再次声明的是，本文只讨论搭建服务这项技术，请不要用作其他任何商业用途，否则后果自负。</strong></p>
+<p><br>ikook<br>2018.01.04</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由于众所周知的原因，在国内不能够在网络上自由的浏览信息，但是有没有解决方法呢？
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+      <category term="网络" scheme="http://ikookblog.com/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="Google" scheme="http://ikookblog.com/tags/Google/"/>
+    
+      <category term="科学上网" scheme="http://ikookblog.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>回顾 2017，展望 2018</title>
@@ -1016,61 +1150,6 @@
       <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
       <category term="算法" scheme="http://ikookblog.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宗教和苹果</title>
-    <link href="http://ikookblog.com/2017/08/07/religion-and-apply/"/>
-    <id>http://ikookblog.com/2017/08/07/religion-and-apply/</id>
-    <published>2017-08-07T15:11:08.000Z</published>
-    <updated>2017-08-16T15:17:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>本文转载自《一天世界》博客，作者：不鸟万如一</p>
-</blockquote>
-<a id="more"></a>
-<p>苹果第八号员工贴了一张苹果早期天使投资人 Mike Markkula 一九七七年写的营销哲学，只有短短三段，翻译如下：</p>
-<ul>
-<li>同理心：我们真的要比任何其它公司更了解她们的需求。<br><br></li>
-<li>专注：为了把决定要做的事做好，我们必须放弃所有不重要的机会。<br><br></li>
-<li>转嫁：以貌取人乃人类天性。就算我们的产品品质最高，软件最有用，如果用潦草的方式呈现出来，人们就会认为它们是潦草的。若用富于创意的、专业的方式呈现出来，我们就能把那些吸引人的品质转嫁给顾客。</li>
-</ul>
-<p>一九七七年的电脑世界和今天大不相同。微软成立两年，苹果才成立一年。那是「家酿电脑俱乐部」的玩票时代，组织、管理和规范都还远未成形。大多数人完全不知道电脑能干什么，以及为什么家里要放台电脑。这也是为什么今人看 Markkula 的这份文档，只看到了一些人尽皆知的大白话道理。这些道理在当年是需要特地提出的。</p>
-<p>不过最奇特的还是「转嫁」一词。原文 impute，今天比较少见，通常的意思是指把某种不好的东西归咎于人。这是怎么回事？</p>
-<p>查《New Oxford American Dictionary》（macOS 自带），impute 在神学语境有如下涵义：</p>
-<blockquote>
-<p>Ascribe (righteousness, guilt, etc.) to someone by virtue of a similar quality in another: Christ’s righteousness has been imputed to us.</p>
-</blockquote>
-<p>稍稍搜索可知，impute 的确是《圣经》里常用的词。和日后的一般用法不同，在神学领域，转嫁的有时是好东西，有时是坏东西。例如上帝把正义转嫁给信众，而有罪的世人则把罪转嫁给基督。（《圣经》中文版往往根据具体的上下文简单译成「归于」。）</p>
-<p>如果用今天的语言改写 Markkula 的第三段，同样会变成平淡无奇的教条。光是产品好是不够的，这是看脸的世界，设计不只是漂亮的皮囊，更是内在品质的外化反映。恐怕没人会觉得这是什么了不起的洞见。</p>
-<p>这并不是早年的苹果使用的唯一有宗教意味的词。软件传教士（evangelist）就是 Mac 部门的 Mike Murray 发明的说法，早期在苹果负责营销的川崎盖伊（Guy Kawasaki）也很可能是史上最有名的软件传教士。今人戏称苹果为苹果教，但苹果的宗教情绪是从创始之初就浸透在企业文化当中的。活用 impute 这样的词，甚至把它单独拎出来作为小标题，反映了苹果的使命感和道德义务感。我们可以转嫁各种东西于她人，有好的东西，也有坏的东西，请诸君谨记自己所负担的义务，扬善惩恶。</p>
-<p>这是扮演上帝的狂妄吗？我认为这是诚实。产品的设计者在消费者面前拥有的绝对权力，在产品被使用的过程中，完全可以比之于上帝。而恰恰由于产品设计者是会犯错的人而非上帝，才需要如履薄冰的道德义务感。这个道理，在今天耻谈道德的「Don’t judge」主义、相对主义、和中立至上主义年代，是需要特地提出的。</p>
-<p>而作为顾客的我们，又转嫁了什么样的东西给产品的设计者呢？</p>
-<p>完。</p>
-<p>PS：<a href="https://t.me/yifenshijie/313" target="_blank" rel="external">https://t.me/yifenshijie/313</a> ，复制链接至浏览器，在《一分世界》收听本文语音版。（需要 <strong>Telegram</strong>）</p>
-<p>PPS：点击<a href="https://blog.yitianshijie.net/2017/08/07/religion-and-apple/" target="_blank" rel="external">阅读原文</a>可跳转至原文</p>
-<p><br>ikook<br>2017.08.07</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;本文转载自《一天世界》博客，作者：不鸟万如一&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="观文记" scheme="http://ikookblog.com/categories/%E8%A7%82%E6%96%87%E8%AE%B0/"/>
-    
-    
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
-    
-      <category term="转载" scheme="http://ikookblog.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="观文" scheme="http://ikookblog.com/tags/%E8%A7%82%E6%96%87/"/>
     
   </entry>
   
