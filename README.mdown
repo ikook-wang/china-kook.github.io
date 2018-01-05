@@ -1,5 +1,5 @@
 ## **ikook的个人博客**
-基于hexo和GitHub Pages搭建的个人博客站点: [http://ikookblog.com](http://ikookblog.com)。
+基于hexo和GitHub Pages搭建的个人博客站点: [https://ikookblog.com](https://ikookblog.com)。
 
 ## **关于我**
 我，学生党一枚。相信你们通过 code 和 blog 会了解我的。
@@ -10,7 +10,7 @@
 ## **联系我**
 
  - [GitHub](https://github.com/china-kook)
- - [简书](http://www.jianshu.com/users/c7a6bbb6855a/latest_articles)
- - [CSDN](http://blog.csdn.net/applydev)
- - [掘金](http://gold.xitu.io/user/576e6f2379bc44005bf4500e)
- - [weibo](http://weibo.com/chinakook?sudaref=ikookblog.com&retcode=6102&is_all=1)
+ - [简书](https://www.jianshu.com/users/c7a6bbb6855a/latest_articles)
+ - [CSDN](https://blog.csdn.net/applydev)
+ - [掘金](https://gold.xitu.io/user/576e6f2379bc44005bf4500e)
+ - [weibo](https://weibo.com/chinakook?sudaref=ikookblog.com&retcode=6102&is_all=1)
