@@ -76,7 +76,7 @@ java 实现排序算法系列
 
     
         <meta property="article:published_time" content="8月 11, 2017" />
-        <meta property="article:modified_time" content="12月 10, 2017" />
+        <meta property="article:modified_time" content="1月 05, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -119,7 +119,7 @@ java 实现排序算法系列
     "headline": "java 实现排序算法之「选择排序」",
     "url": "http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/index.html",
     "datePublished": "8月 11, 2017",
-    "dateModified": "12月 10, 2017",
+    "dateModified": "1月 05, 2018",
     "description": "
 java 实现排序算法系列
 ",
@@ -373,7 +373,7 @@ java 实现排序算法系列
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://meto.chinakook.com/blog-images/DISLP06PJL.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/blog-images/DISLP06PJL.jpg)">
     
             <p class="article-headline-p">
                 java 实现排序算法之「选择排序」
@@ -519,7 +519,7 @@ java 实现排序算法系列
 <li>重复步骤直到剩下最后一个元素，即 arr[n-1]，可以肯定这个值为最大值。 <br><br></li>
 <li>排序完成，不够直观？见下面示例动画。</li>
 </ul>
-<center><br><img src="http://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
 
 <blockquote>
 <p>注: 红色表示当前最小值，黄色表示已排序序列，蓝色表示当前位置。</p>
@@ -527,7 +527,7 @@ java 实现排序算法系列
 <p>选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素进行排序总共进行至多 n-1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。</p>
 <p>需要注意的是，上述过程只是每次找最小值的办法。实际上也可以每次找最大值，思路是一样的。</p>
 <p>选择排序的示意图（图片来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
 
 <h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> min, temp, len = arr.length;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</div><div class="line">            min = i;<span class="comment">//未排序序列中最小数据数组下标</span></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; len; j++) &#123; <span class="comment">//在未排序元素中继续寻找最小元素，并保存其下标</span></div><div class="line">                <span class="keyword">if</span> (arr[min] &gt; arr[j]) &#123;</div><div class="line">                    min = j;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (min != i) &#123;</div><div class="line">                temp = arr[min]; <span class="comment">//将最小元素放到已排序序列的末尾</span></div><div class="line">                arr[min] = arr[i];</div><div class="line">                arr[i] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>

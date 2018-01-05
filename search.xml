@@ -15,67 +15,67 @@
 <p>这两个条件都是硬性条件，缺一不可。信用卡，可以在某宝淘，临时注册用，也就 20 来块，不易搜索，大家用心寻找应该能找到，需要提醒的是：超过 20 块的不要买，更高价格就更不用说了，完全可以找到 20 以下的，某宝还是有不良商家的；临时「自由访问」网络，这个在“百毒”上可以搜索到，比如那个带颜色的灯，可以免费使用，如果实在找不到，那就再找找。</p>
 <p>首先，要拥有一个谷歌账户，只要可以「自由访问」网络便可注册，这里就不赘述了，谷歌全家桶都使用这一个账户登录，谷歌云也不例外。</p>
 <p>打开谷歌云：<a href="https://cloud.google.com/" target="_blank" rel="external">https://cloud.google.com/</a>，登录你的谷歌账户然后点击免费试用。</p>
-<center><img src="http://meto.chinakook.com/blog-images/0.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/0.jpeg" alt=""></center>
 
 <p>然后如下所示：</p>
-<center><img src="http://meto.chinakook.com/blog-images/1.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/1.jpeg" alt=""></center>
 
 <p>地区请选择<strong>美国</strong>，当然任性选择中国我也没辙，只是有什么问题就自己受着吧。继续之后出现如下信息：</p>
-<center><img src="http://meto.chinakook.com/blog-images/2.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/2.jpeg" alt=""></center>
 
 <p>账号选择个人，然后填写「名称和地址」，不知道怎么填？我教你。在浏览器打开：<a href="http://t.cn/Rt85282" target="_blank" rel="external">http://t.cn/Rt85282</a>，会随机生成一个美国公民的身份，然后按照提示填写即可。需要注意的是，如果有去广告插件先把该站点加入白名单。随机生成的身份如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/3.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/3.jpeg" alt=""></center>
 
 <p>不要填写图中的信息，自己去生成。</p>
 <p>然后填写「付款方式」中的「信用卡卡号」，当然是填写淘到的卡号了。如果自己有支持的信用卡的话，直接用就可以了，就是直接填写自己的信用卡卡号，不会扣费，到期之后也不会。谷歌不会这么干，某些公司会，你懂！！！</p>
-<center><img src="http://meto.chinakook.com/blog-images/4.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/4.png" alt=""></center>
 
 <p>如果你是在某宝上买的虚拟信用卡，「持卡人姓名」填写上面生成的名字即可。如果你是使用自己的信用卡，请填写自己的姓名。</p>
 <p>然后点击开始免费试用，再进入「我的控制台」，会创建一个默认项目，项目名称是自己生成的，不用我们管，创建之后如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/05.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/05.jpeg" alt=""></center>
 
 <p>点击左上角按钮，然后点击「结算」查看谷歌赠送给的 $300 是否到位了。</p>
-<center><img src="http://meto.chinakook.com/blog-images/6.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/6.jpeg" alt=""></center>
 
 <p>我的用过了，所以是这样的，刚注册会显示剩余的赠金：$300，剩余天数：365。</p>
 <p>然后点击：计算 - Compute Engine - VM 实例 - 创建实例。如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/7.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/7.png" alt=""></center>
 
 
-<center><img src="http://meto.chinakook.com/blog-images/8.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/8.png" alt=""></center>
 
 <p>按照下图中标注的信息填写，其他默认即可。</p>
-<center><img src="http://meto.chinakook.com/blog-images/9.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/9.jpeg" alt=""></center>
 
 <p>正在创建：</p>
-<center><img src="http://meto.chinakook.com/blog-images/10.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/10.png" alt=""></center>
 
 <p>创建完成：</p>
-<center><img src="http://meto.chinakook.com/blog-images/11.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/11.png" alt=""></center>
 
 <p>创建完成之后，「外部 IP」就是服务器的地址，我这里不适合给你们看。因为我之前创建过一个实例，所以会显示两个，大家如果第一次，肯定是一个。</p>
 <p>然后去测试一下实例的速度如何，当然也可以不测试，基本是没问题的。测试地址：<a href="http://t.cn/Ry2GtDf" target="_blank" rel="external">http://t.cn/Ry2GtDf</a>。下图中框起来的地方，大家选择离自己所在地最近的即可。</p>
-<center><img src="http://meto.chinakook.com/blog-images/12.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/12.jpeg" alt=""></center>
 
 <p>可见速度杠杠的，只要均在 100 毫秒之内，说明就没问题，如果超出就删除这个实例，重新建一个实例试试。</p>
 <p>配置服务器，这一步非常关键，非常关键，非常关键。务必仔细操作。</p>
 <p>首先，连接 SSH 服务器，如下所示：</p>
-<center><img src="http://meto.chinakook.com/blog-images/13.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/13.png" alt=""></center>
 
-<center><img src="http://meto.chinakook.com/blog-images/14.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/14.png" alt=""></center>
 
 <p>之后提到的所有关于代码的部分均在类似下图窗口中输入：</p>
-<center><img src="http://meto.chinakook.com/blog-images/15.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/15.jpeg" alt=""></center>
 
 <p>1.输入：sudo -i（注意，sudo 之后有个空格），回车。</p>
 <p>2.输入下列代码（注意，这里的代码为一行，中间切不可有回车）：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh &amp;&amp; bash bbr.sh install</div></pre></td></tr></table></figure>
 <p>输入之后回车。然后耐心等待，直到出现第三步中的窗口。</p>
 <p>3.出现如下窗口：</p>
-<center><img src="http://meto.chinakook.com/blog-images/16.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/16.jpeg" alt=""></center>
 
 <p>按键盘上的 <strong>Tab</strong> 键，选择 <no>，然后会跳回刚才的窗口：</no></p>
-<center><img src="http://meto.chinakook.com/blog-images/17.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/17.png" alt=""></center>
 
 <p>然后输入 <strong>y</strong>，回车。可以等待重启，或者直接关闭该窗口，重新打开，不记得怎么打开就往上翻。</p>
 <p>4.输入：sudo -i（和第一步一样）</p>
@@ -84,22 +84,22 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh &amp;&amp; chmod +x shadowsocksR.sh</div></pre></td></tr></table></figure>
 <p>7.输入：./shadowsocksR.sh</p>
 <p>出现下图所示内容，则证明上面的工作成功。</p>
-<center><img src="http://meto.chinakook.com/blog-images/18.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/18.png" alt=""></center>
 
 <p>8.设置密码和端口。在上面所示窗口中输入密码，随便，自己记住就可以，回车；然后会提示输入端口，也是随便，只要在 1-65535 之间就行，我设置的是 789。</p>
 <p>9.设置完密码和端口，会提示输入编码方式、混淆方式等，这里直接默认就好，一路回车。如下图所示（图中有提示，认真看）：</p>
-<center><img src="http://meto.chinakook.com/blog-images/019.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/019.png" alt=""></center>
 
 <p>10.在上一步骤回车之后，大约需要等待 5、6 分钟，这个过程是在配置服务器，耐心等待就好，千万不要关闭窗口，更不要关闭浏览器，更更不能关闭电脑，马上就完工，现在放弃就可惜了。</p>
 <p>11.出现以下画面，嗯，恭喜，你成功了。当然，先别记着关闭，复制红色部分到你的电脑中，之后会用到的。然后就可以关闭这个 SSH 窗口了。</p>
-<center><img src="http://meto.chinakook.com/blog-images/20.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/20.png" alt=""></center>
 
 <p>配置防火墙规则，这是最后的设置了。</p>
 <p>1.点击边栏中：网络 - VPC 网络 - 防火墙规则。</p>
-<center><img src="http://meto.chinakook.com/blog-images/21.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/21.png" alt=""></center>
 
 <p>2.设置协议端口：</p>
-<center><img src="http://meto.chinakook.com/blog-images/22.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/22.jpeg" alt=""></center>
 
 <p>把端口号设置成刚才我们自己规定的端口号，我的是 789。修改时输入：tcp:789; udp:789，注意，分号“；”后面紧跟一个空格。只设置图中圈红的两个，这两个必须设置，不要漏掉，其余默认。</p>
 <p>到此，谷歌云搭建完毕。</p>
@@ -206,36 +206,36 @@
 </ol>
 <p>具体见微信官方公号发表的文章：<a href="http://mp.weixin.qq.com/s?__biz=MjM5NDAwMTA2MA==&amp;mid=2695730045&amp;idx=1&amp;sn=c93080476258430accd5a08924c4a1db&amp;chksm=83d74ab6b4a0c3a05163dcf8fc306dab562071fd170f3087f40fdcddec5e61bde57ac9f9e886&amp;scene=21#wechat_redirect" target="_blank" rel="external">小程序功能升级</a></p>
 <p>更新到最新版微信就可以去体验以上的功能了。安装更新之后，其中最惹人瞩目的莫过于小游戏「跳一跳」，打开即可看到以下界面。</p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG4.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG4.jpeg" alt=""></p>
 <p>立即开始游戏体验一下，真的蛮不错的，因为是第一次进入游戏就光顾着体验游戏的玩法了，没有太在意一些细节，玩了两把之后就退出了。然后在接下来的一段时间里，朋友圈、微信群等等都在晒战绩，讨论小游戏「跳一跳」，还真是火的够快的。晚上躺在被窝里又认真体验了一下这款游戏，发现这游戏远没有想象的那么「简单」，然后立马上网查了下，果然。</p>
 <p>这款小游戏其实讲述了一些的故事，游戏里包含了许多童年陪伴我们成长的事物。</p>
 <p>游戏中跳跃的角色是一个英文字母“ i ”，我的觉得应该是“我”的意思，代表着游戏者、游戏的主人公，也就是你。</p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG5.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG5.jpeg" alt=""></p>
 <p>游戏中被「我们」踩的小物体，也就是使我们跳跃的介质，其实包含了许多有内涵的元素。</p>
 <p><strong>魔方：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG6.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG6.jpeg" alt=""></p>
 <p>相信我们小时候都玩过魔方吧，甚至现在我还经常拿出来拧两把。</p>
 <p><strong>井盖：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG7.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG7.jpeg" alt=""></p>
 <p>小时候走在路上的时候，总是不由自主地踩各种井盖玩。</p>
 <p><strong>卷纸：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG8.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG8.jpeg" alt=""></p>
 <p>这个可就了不得了，青春时期的我们免不了使用卷纸吧？不管男生、女生。尤其是男生，都懂得吧？😏</p>
 <p><strong>闹钟：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG9.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG9.jpeg" alt=""></p>
 <p>长大以后就再也离不开闹钟了。高中为了早起上自习要定闹钟；大学还好，不用早起，但还是会有自律的同学利用闹钟来督促自己，早起学习；工作之后就更加离不开了。</p>
 <p><strong>便利店：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG10.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG10.jpeg" alt=""></p>
 <p>长大后，为了节省时间，便利店也许是我们经常光顾的地方了。</p>
 <p><strong>快递包裹：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG11.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG11.jpeg" alt=""></p>
 <p>嗯，剁手快乐。</p>
 <p>当然还有微信的故事。</p>
 <p><strong>微信红包：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG13.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG13.jpeg" alt=""></p>
 <p>在微信群里抢红包，错过了一分好像错过了一个亿。</p>
 <p><strong>用户过亿：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG12.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG12.jpeg" alt=""></p>
 <p>记录了微信推出 433 天注册用户过亿的辉煌历史。</p>
 <p>游戏中还有很多有趣的「小事物」，这里就不一一介绍了，强烈建议大家去体验一番，真的蛮不错的。</p>
 <p>不知道大家有没有看出这个小游戏的「深意」：现代社会，我们「关注」的东西越来越多，而我们「关心」的事情却越来越少，就像最开始进入更新后的微信，小游戏界面说的那样：玩一个小游戏才是正经事。我们应该停下来，放松下来，玩一个小游戏。</p>
@@ -357,24 +357,24 @@
 <p>说实话之所以会把这个系列的教程从头到尾看一遍，是因为之前折腾前端的时候也没有做整理，时间长了不怎么用忘得也差不多了。有这么好的资源当然不能放过，正好可以整理下知识点，也好不时拿出来回顾下。</p>
 <p>今天把我整理的这些知识点拿出来分享给大家，希望能帮助到有需要的朋友。整理出来的内容都是出自上面提到的教程，有时间有耐心的朋友不妨直接看教程，地址：<a href="http://t.cn/RHy9s8Y" target="_blank" rel="external">http://t.cn/RHy9s8Y</a>。没时间的朋友可以直接看我整理的内容，下面是部分内容的截图。</p>
 <p><strong>1.HTML：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/HTML5%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/HTML5%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
 <center>HTML5 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/HTML5%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/HTML5%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>HTML5 整理（脑图版）</center>
 
 <p><strong>2.CSS:</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/CSS%E6%96%87%E6%A1%A3%E6%88%AA%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/CSS%E6%96%87%E6%A1%A3%E6%88%AA%E5%9B%BE.jpeg" alt=""></p>
 <center>CSS 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/CSS%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/CSS%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>CSS 整理（脑图版）</center>
 
 <p><strong>3.JavaScript：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/JS%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/JS%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
 <center>JS 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/JS%20%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/JS%20%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>JS 整理（脑图版）</center>
 
 
@@ -459,7 +459,7 @@
 <p>公众号从申请到被 stormzhang 推荐之前，关注人数一直就那么几十个人，之后被推荐关注量迅速破千，虽然不是多么惊人的数字，但对我来说已经是很“重”了，我从来都没想过自己的公众号会被推荐，也没想过能够有这么多人关注，更没有想过有很多读者表示支持和感谢。经过这些事情，我觉得应该更加用心的去做，不然真的有些对不起支持和鼓励我的那些朋友。</p>
 <p>经过最近一段时间的考虑，为了能够更好运营和维护，我觉得有必要对这个号做出一些改变。首先，说一下最直观的感受：一个公众号最具有辨识度的应该是头像而不是名称，头像就像是一个人的脸，好比你刚认识了一个陌生人，下次再见面，你一定能记起他的模样，但名字就不一定能够记住了。在这里是同一个道理，别人能记得住公号的头像但不一定能记住公号 ID。</p>
 <p>这个号曾经尴尬的被误认为是另一个号，原因就是头像撞了。虽然这个头像我已经用了有几年了，但毕竟是来自网络，撞了的可能性还是比较大的，怪不得别人，所以我决定将公号头像做一下改变。最近几天我一直在各种做图各种找头像，想过不少点子，甚至想把拍一张自己的照片扔上去，后来想想还是算了吧，别回头再吓的大家伙儿都取关就玩现了。最后我决定用「脸萌」结合自己的一些特点做个头像，虽然是自己拼起来的，但也还是有撞的可能性，然后我就用 PS 做了点小改动，又加了一个「ikook」作为标识，最后就有了下面的头像。</p>
-<p><center><img src="http://meto.chinakook.com/ikook.jpg" alt="ikook 头像"></center></p>
+<p><center><img src="https://meto.chinakook.com/ikook.jpg" alt="ikook 头像"></center></p>
 <p><center>公号 <strong>ikook</strong> 新头像</center><br><br></p>
 <p>再者就是公号的定位，「<strong>ikook</strong>」最初的定位是「分享科技、生活、技术、人生、经验感悟等，同时记录个人成长历程」，一段时间之后我回过头看公号的定位，怎么看怎么杂，怎么看怎么乱，写这么多不就是说什么都写吗？然后我就把功能介绍改成了「就想写点东西，随便什么」。这句话虽然是这样写，但不可能想写什么就写什么，随便写打发大家，那是对自己不负责更是对你们的不负责，这话更多是想告诉大家这里是一个较为自由的地方，我本身不想给自己设限，更想随意一点。</p>
 <p>我并不想把它做成一个纯技术的号，我想的是：在那里能够有帮助到大家东西（不限于技术），能够给大家带来启发，同时记录下自己的点滴。本着这个原则，结合这几天的思考，我想在公号开设一个小栏目 —— 加油站，这个加油站，可不卖油。这个小栏目会收录一些激励、感悟、思维方式等文章，我希望能够通过这么一种方式为大家带去一点鼓励和改变。这个栏目的文章会通过转载等方式呈现给大家，转载的内容可能会来自其他公众号、书籍等，当然也会有我的原创，但不会很多，毕竟自己还没活明白。同时，欢迎大家投稿，不限于这个「加油」文，技术之类也一样。</p>
@@ -495,15 +495,15 @@
 <p>既然是这样，那我就负责到底（还不是给自己挖了坑，哈哈）。今天给大家分享下 Java 整套的学习资源，包括：视频、书籍（电子书）、编程工具。初学者学习编程的正确方式是：视频 + 书籍。</p>
 <p>书籍比较系统，由浅入深，但是如果只看书籍容易造成抵抗心理，技术类书籍比较枯燥，想要认真看完一本技术类书籍非常困难，尤其是初学者，更何况一旦遇到知识难点，初学者只看书会很难看懂；有人会说了，那只看视频不就完了，就技术类视频来说：视频所讲解的内容会比较浅显，有时候一些小的知识点会一句话带过，而且由于视频本身限制更不会去讲解知识点的原理是什么，再者，视频不如书籍系统。所以视频 + 书籍结合一起学习对初学者最友好。</p>
 <p>好了，废话不多说，上干货。</p>
-<h3 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h3><h5 id="Java-基础："><a href="#Java-基础：" class="headerlink" title="Java 基础："></a>Java 基础：</h5><p><img src="http://meto.chinakook.com/blog-images/Java%E5%9F%BA%E7%A1%80.jpeg" alt="Java 基础视频"></p>
+<h3 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h3><h5 id="Java-基础："><a href="#Java-基础：" class="headerlink" title="Java 基础："></a>Java 基础：</h5><p><img src="https://meto.chinakook.com/blog-images/Java%E5%9F%BA%E7%A1%80.jpeg" alt="Java 基础视频"></p>
 <p>这些都是业内评价较高的 Java 基础入门视频，前 4 个视频就是围绕 Java SE 来讲，而最后一个主要讲解 Android 学习中要用到的一些 Java 基础，区别不大。毕向东老师的视频评价是非常高的，非常多的人是通过这个视频入门的，唯一不好的就是有点老了，现在 Java 都到 9 了，有些特性没有涉及到。第四个是比较新的视频，涉及到了 Lamda 表达式等一些 Java 8 的新特性。</p>
 <p>获取地址：<a href="https://pan.baidu.com/s/1jIkrYj8" target="_blank" rel="external">https://pan.baidu.com/s/1jIkrYj8</a>；密码：h8su</p>
-<h5 id="Java-Web："><a href="#Java-Web：" class="headerlink" title="Java Web："></a>Java Web：</h5><p><img src="http://meto.chinakook.com/blog-images/JavaWeb.jpeg" alt="JavaWeb 视频"></p>
-<h5 id="Java-EE："><a href="#Java-EE：" class="headerlink" title="Java EE："></a>Java EE：</h5><p><img src="http://meto.chinakook.com/blog-images/JavaEE.jpeg" alt="JavaEE 视频"></p>
+<h5 id="Java-Web："><a href="#Java-Web：" class="headerlink" title="Java Web："></a>Java Web：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaWeb.jpeg" alt="JavaWeb 视频"></p>
+<h5 id="Java-EE："><a href="#Java-EE：" class="headerlink" title="Java EE："></a>Java EE：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaEE.jpeg" alt="JavaEE 视频"></p>
 <p>Java Web、Java EE 的视频均来自某培训机构公开的视频教程，我看过其中一些 Java Web 的，还算不错。</p>
 <p>Java Web 获取地址：<a href="https://pan.baidu.com/s/1eS4cWCy" target="_blank" rel="external">https://pan.baidu.com/s/1eS4cWCy</a>; 密码：ypx2</p>
 <p>Java EE 获取地址：<a href="https://pan.baidu.com/s/1i5J5QN7" target="_blank" rel="external">https://pan.baidu.com/s/1i5J5QN7</a>; 密码：7op4</p>
-<h3 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h3><p><img src="http://meto.chinakook.com/blog-images/Java%E4%B9%A6%E7%B1%8D.jpeg" alt="Java 书籍"></p>
+<h3 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h3><p><img src="https://meto.chinakook.com/blog-images/Java%E4%B9%A6%E7%B1%8D.jpeg" alt="Java 书籍"></p>
 <p>以上差不多均为 Java 基础书籍，入门我推荐「Head First Java」，这本书能够让你轻松入门 Java，不过其中一些知识点没有讲解到。「Java 核心技术（上、下两卷）」这本书涉及知识非常全面，基本涵盖了 Java SE 所有的知识点，看起来有点困难，有些枯燥，不过还好，用心看，结合视频，坚持看完会有很大收货。</p>
 <p>Java Web 书籍我推荐传智播客推出的「Java Web 程序开发入门」和「Java  Web 程序开发进阶」两本书，基本涉及 Java Web 所有基础知识点，并且内容比较容易看懂，结合上面的视频掌握 Java Web 基础知识不成问题。</p>
 <p>关于 Java EE 的书籍我暂时无法推荐给大家，毕竟我也才开始踩坑，所以就暂时不给大家推荐了。不过需要的同学可以上网查一下，或是问一下身边的前辈，基本能够找到好的书籍。</p>
@@ -622,7 +622,7 @@
 <p>先说下「原创」，官方对它是这样介绍的：为鼓励优质内容在微信公众平台产生，维护作者权益，微信公众平台给文章原创作者进行声明的机会并对原创内容进行标识。</p>
 <p>原创特指自己写的、独立完成创作的作品。歪曲、篡改他人创作或者抄袭、剽窃他人创作而产生的作品，改编、翻译、注释、整理他人已有创作而产生的作品均不能说是原创。</p>
 <p>在这个号之前我还维护过两个。一个拿来当做实验品，玩了几天就扔那儿再也没理会过，另一个我想认真维护，但没坚持下去。自从开通了这个，我下决心维护下去，也一直在期盼着能够早一天拿到「原创」。今天晚饭过后，拿起手机看到“微信公众平台”发来的原创邀请，那一刻，真的非常开心，喜出望外，真的没有预料到。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%8E%9F%E5%88%9B-2017.11.28.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%8E%9F%E5%88%9B-2017.11.28.jpg" alt=""></p>
 <p>因为之前停更过一段时间，现在想想如果没有那位读者，真的要与「原创」擦肩而过了，这里再次表示感谢。再想想，要是没有停更应该会早一些拿到，但结果总算是美好的。</p>
 <p>我为什么非常想要拿到原创呢？</p>
 <p>一、原创功能是对每一个公众号原创作者的一种尊重和版权的保护，现在互联网发达，很多人都开始写博客，抄袭者涌现，不尊重别人的劳动成果，这个功能一定程度上能够抑制这种现象，虽然抑制力不大。</p>
@@ -658,26 +658,26 @@
       <content type="html"><![CDATA[<a id="more"></a>
 <p>前几天，为了缓解心中的焦虑，决定出去走一走。之前就听闻「青州」是个好地方，正好前些日子同学考试被安排在青州，归来之时，难以抑制喜悦之情（注意，并不是考试考得好，逃…）。我便决定去这个地方看看。</p>
 <p>到达时，已是傍晚，按照早已安排好的行程直接去了「青州古城」。在古城外附近安排好的宾馆，放置好行李，稍微休息了下，便走进了古城。</p>
-<h3 id="1-古城夜景"><a href="#1-古城夜景" class="headerlink" title="1. 古城夜景"></a>1. 古城夜景</h3><p><img src="http://meto.chinakook.com/blog-images/%E9%98%9C%E8%B4%A2%E9%97%A8%E5%9F%8E%E6%A5%BC%E5%90%8E1.jpeg" alt=""></p>
+<h3 id="1-古城夜景"><a href="#1-古城夜景" class="headerlink" title="1. 古城夜景"></a>1. 古城夜景</h3><p><img src="https://meto.chinakook.com/blog-images/%E9%98%9C%E8%B4%A2%E9%97%A8%E5%9F%8E%E6%A5%BC%E5%90%8E1.jpeg" alt=""></p>
 <p>进入古城，并没有太多的感触，更多的感受是映入眼帘的古建筑，在璀璨灯光的照耀下，金光闪闪，很是美丽。</p>
 <p>由于没有吃晚饭，在这古城的第一件事当然是吃。古城内，街边小吃不少，我作为少数民族里不算少数的回族人，自然是找「清真」食物。没想到的是，城内回族不少，那晚饭自然好解决了。</p>
 <p>在街边买了清真小吃，边吃边走。街道很长，一路走过去，都是古建筑，在现代文明的“帮助”下，没有了古时该有的样子，灯光太夺目，剥夺了古城内该有气息。</p>
 <h3 id="2-古城风韵"><a href="#2-古城风韵" class="headerlink" title="2. 古城风韵"></a>2. 古城风韵</h3><p>清晨的青州还没在睡梦中苏醒，没有喧闹声，没有来往的车鸣声，一切都是那么的安静。如果有充足的时间，我真想在阳台上静坐一上午。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%8F%A4%E8%A1%97%E9%81%93.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%8F%A4%E8%A1%97%E9%81%93.jpg" alt=""></p>
 <p>进入清晨的古城，青石路在脚下伸展，极少的车辆在高低不平的青石上有节奏地起伏，缓缓开去。我随着青石路走去，仿佛一切都变得慢了下来，行人走得很慢，路旁的大树带着几分深沉。在这一刻我仿佛抓住了时光，融入在这古城之中，把人引入了一种宁静，这份宁静来自心灵深处，你会不自觉的轻言轻语，生怕惊扰了什么。</p>
 <p>也许是在现代化喧闹的生活环境中待久了，很是向往这种生活，街坊邻里之间，相处融洽，没有勾心斗角，以诚相待。在这里，每一个置身其中的人，都能切身感到舒适和幸福。在路边走累了，你可以青石凳上、古槐下或者在别人家台阶上休息一下，无论走到哪里，坐到哪里，你会觉得这个地方是生动的，能够感受到这里是欢迎你的，是可以被你占有的， 你可以清楚感受到自己的存在。</p>
 <p>往古城深处走去，路上行人来来往往，路旁小商贩卖着特色的古城小吃及物品，看似忙碌，却又闲适。古槐下坐着几个白发老人，手持木杖，欢声笑语。十里古街，眼到之处无不其乐融融。这也许就是生活吧。</p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_43.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_43.jpg" alt=""></p>
 <h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><p>大禹治水，天下九分 —— 为九州，华夏九州，青州便是其一。素有“东方第一州”美誉的古城青州，其丰厚且辉煌的历史文化令人叹为观止。据考察，早在七千多年前，就有人类在此生息，是“东夷文化”的发源地。可见人文资源积淀之深厚。</p>
 <p>古城内有 120 多处景点，主要有：阜财门、魁星楼、名人牌坊（柱国坊、大学士坊、尚书里坊、太子少保坊等十余座）、东门街、偶园、蓝溪谷等；古城历史人物：王曾、赵秉忠、李清照、欧阳修、范仲淹、冯溥等。</p>
 <p>对青州历史有兴趣可以上网了解下，有条件当然要亲自去看看。我相信去过一定不会后悔，也相信会有所收获。</p>
 <p>本想着给大家介绍下古城内具体景点的，后来想想还是算了，就算我说的再好也不如自己去体验一番。何况我在那里收获地更多的是古城本身带给我的感受、感触，而不是景色。景过情留。</p>
 <p>最后放几张照片，拍照技术很差，别打我。</p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_2.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_45.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_49.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_39.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_7d.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_2.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_45.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_49.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_39.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_7d.jpg" alt=""></p>
 <p><br>ikook<br>2017.11.25</p>
 ]]></content>
       
@@ -735,7 +735,7 @@
 <a id="more"></a>
 <p>自从用上「MacOS」之后就各种玩软件。用了软件，好用的东西很多，当然被我卸载的也很多。其中，Alfred 是我不会卸载的软件之一。</p>
 <p>由于，学生一枚（隐喻，穷屌丝），没办法只能用破解版，就像我「MacOS」一样，是黑的 —— 黑苹果。因为是破解版，随之而来的就有一些烦人的问题，Alfred 也一样，它每次开机的时候，都会提示是否允许访问通讯录。</p>
-<p><img src="http://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
 <p>这个问题我忍受了很久，大约有将近一个月吧，我去，我绑不住了，搞他。其实很简单。</p>
 <p>在终端输入一下命令，解决。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Alfred\ Framework</div></pre></td></tr></table></figure>
@@ -768,34 +768,34 @@
 <p>为大家推荐一些我常用的 Chrome 扩展，相信 Chrome 大家并不陌生吧，一款优雅的超好用的浏览器。由于某些东西的存在，下载安装稍微有点限制。关注公众号「ikook」后台回复「Chrome」可获取各个离线版本 Chrome。</p>
 <p>好了，正文开始。想要用好 Chrome，非扩展不可，正所谓「无扩展，不 Chrome」。下面给大家介绍几款让 Chrome 变得更加优雅用起来更优雅的扩展。</p>
 <h3 id="为什么你们就是不能加个空格呢？"><a href="#为什么你们就是不能加个空格呢？" class="headerlink" title="为什么你们就是不能加个空格呢？"></a>为什么你们就是不能加个空格呢？</h3><p>你没看错，名字就是「为什么你们就是不能加个空格呢？」。有没有因为汉字与英文之间没有空格引起强迫症？其内置的空格之神，可以自动为一切中文字和半形的英文、数字、符号之间插入空白。</p>
-<center><br><img src="http://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/zlnOv4n" target="_blank" rel="external">http://t.cn/zlnOv4n</a></p>
 <p>Chrome 应用商店链接，要访问… 你懂得，下同</p>
 <h3 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h3><p>有没有过「查看原图」但是原图不够大的情况？有了 Imagus 扩展，鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑。</p>
-<center><br><img src="http://meto.chinakook.com/Imagus.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Imagus.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/8sDMJm6" target="_blank" rel="external">http://t.cn/8sDMJm6</a></p>
 <h3 id="Flatbook"><a href="#Flatbook" class="headerlink" title="Flatbook"></a>Flatbook</h3><p>是否厌倦了 Facebook 亘古不变的页面，来给你的脸书换个脸吧，瞬间清爽到爆啊。</p>
-<center><br><img src="http://meto.chinakook.com/flatbook.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/flatbook.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNiRhcj" target="_blank" rel="external">http://t.cn/RNiRhcj</a></p>
 <h3 id="Darkness"><a href="#Darkness" class="headerlink" title="Darkness"></a>Darkness</h3><p>Darkness 可以为 Google，Facebook，YouTube，Reddit 等不存在的网站提供完美的夜间模式支持，不会有图片反转，文字颜色奇怪等尴尬问题。当然了，Darkness 适配的网站还很少，如果你需要广泛适用的，可能需要这款神级扩展：Stylish，在下面。</p>
-<center><br><img src="http://meto.chinakook.com/Darkness.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Darkness.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNinpUu" target="_blank" rel="external">http://t.cn/RNinpUu</a></p>
 <h3 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a>Stylish</h3><p>许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的了。通过安装 CSS，可以把知乎「拍扁」，让微博网页版变得简洁无比，让 Feedly 用上 Material Design 等等等…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
-<center><br><img src="http://meto.chinakook.com/1504266030349.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504266030349.jpg" alt=""></center>
 
 <p>关于 Stylish 更详细的介绍见：<a href="https://sspai.com/post/34508" target="_blank" rel="external">https://sspai.com/post/34508</a></p>
 <p>下载安装：<a href="http://t.cn/R9hCUIk" target="_blank" rel="external">http://t.cn/R9hCUIk</a></p>
 <h3 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a>Wikiwand</h3><p>多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代。Wikiwand 让你看到一个属于 21 世纪的维基百科。除了视觉上的提升，Wikiwand 也添加了一些人性化的交互：比如超链接悬浮窗，搜索联想，黑色模式等等…</p>
-<center><br><img src="http://meto.chinakook.com/1504266756635.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504266756635.jpg" alt=""></center>
 
 
 <p>下载安装：<a href="http://t.cn/R4TGWCh" target="_blank" rel="external">http://t.cn/R4TGWCh</a></p>
 <h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><p>「阅读模式」可以为 Chrome 带来了类似 Safari 的阅读体验。点击图标即可进入，再次点击退出，完全的无痛体验啊。有一种 Chrome 原生阅读模式的错觉，爽。</p>
-<center><br><img src="http://meto.chinakook.com/1504267091779.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504267091779.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNiFaDw" target="_blank" rel="external">http://t.cn/RNiFaDw</a></p>
 <p>今天主要介绍的是利用 Chrome 扩展改变网页视觉感觉，让浏览网页变得更加优雅，后面有机会再和大家说说其他实用扩展。</p>
@@ -829,13 +829,13 @@
 
 <center>我是这样度过的</center>
 
-<center><br><img src="http://meto.chinakook.com/1503916978099.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1503916978099.jpg" alt=""></center>
 
 <p><br></p>
 <center>我的心情是这样的</center>
 
 
-<center><br><img src="http://meto.chinakook.com/17.08.28.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/17.08.28.jpg" alt=""></center>
 
 <p><br><br><br></p>
 <center>祝</center>
@@ -880,10 +880,10 @@
 <li>排序完成。<br><br></li>
 </ul>
 <p>使用插入排序为一列数字进行排序的过程示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
 
 <p>插入排序算法示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
 
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>从上面可以看到，算法思路非常简单，但是代码就不那么简单易写了。算法本身是没有问题的，之所以不易写我觉得是由于编程语言的问题。这里我们使用 Java 来实现，那就拿 Java 来讲。</p>
 <p>在上述思路中我们可以提出几个问题，先来看下。首先，我们该如何判断合适的位置？边界条件该怎么处理？在数组中插入元素，必然会移动数据，如何控制数据的移动？</p>
@@ -891,7 +891,7 @@
 <p>上代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</div><div class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;arr.length; i++)&#123;</div><div class="line">          <span class="keyword">int</span> value = arr[i];</div><div class="line">          <span class="keyword">int</span> position=i;</div><div class="line">          <span class="keyword">while</span> (position&gt;<span class="number">0</span> &amp;&amp; arr[position-<span class="number">1</span>]&gt;value)&#123;</div><div class="line">              arr[position] = arr[position-<span class="number">1</span>];</div><div class="line">              position--;</div><div class="line">          &#125;</div><div class="line">          arr[position] = value;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>如果在代码的理解上遇到困难，可以利用 IDE 的调试功能来学习。如下图（IntelliJ IDEA）：</p>
-<center><br><img src="http://meto.chinakook.com/insert_debug.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/insert_debug.jpg" alt=""></center>
 
 <h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><p>从上述内容容易看出，无论输入的数据怎样，插入排序算法总会进行 n-1 次排序。</p>
 <p>由于每个元素插入点的不确定性，该算法复杂度并不是一定的。假设我们要将 n 个元素的序列升序排序，这时存在最好情况和最坏情况。</p>
@@ -1026,7 +1026,7 @@
 <li>重复步骤直到剩下最后一个元素，即 arr[n-1]，可以肯定这个值为最大值。 <br><br></li>
 <li>排序完成，不够直观？见下面示例动画。</li>
 </ul>
-<center><br><img src="http://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
 
 <blockquote>
 <p>注: 红色表示当前最小值，黄色表示已排序序列，蓝色表示当前位置。</p>
@@ -1034,7 +1034,7 @@
 <p>选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素进行排序总共进行至多 n-1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。</p>
 <p>需要注意的是，上述过程只是每次找最小值的办法。实际上也可以每次找最大值，思路是一样的。</p>
 <p>选择排序的示意图（图片来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
 
 <h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> min, temp, len = arr.length;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</div><div class="line">            min = i;<span class="comment">//未排序序列中最小数据数组下标</span></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; len; j++) &#123; <span class="comment">//在未排序元素中继续寻找最小元素，并保存其下标</span></div><div class="line">                <span class="keyword">if</span> (arr[min] &gt; arr[j]) &#123;</div><div class="line">                    min = j;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (min != i) &#123;</div><div class="line">                temp = arr[min]; <span class="comment">//将最小元素放到已排序序列的末尾</span></div><div class="line">                arr[min] = arr[i];</div><div class="line">                arr[i] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1147,7 +1147,7 @@
 <p>对于如何选择封面图，前面已经提到了如何找到优质的图片。用作封面图有两个关键点，一个是要展示出文章主题，比如写一篇关于使用苹果电脑的文章，找一张苹果电脑的图片最合适不过了。第二是不要有太多的字，并且千万不要把标题的字放到封面图，如果和标题一样的字，那还有什么意义。</p>
 <p>另外，在尺寸方面，建议图片比例保持在 9:5 的状态，因为微信官方给出封面尺寸是 900*500 像素。</p>
 <p>推荐一款非常适合来做封面图的工具给大家，叫创客贴，地址：<a href="https://www.chuangkit.com/" target="_blank" rel="external">https://www.chuangkit.com/</a> ，我的文章封面图基本都是在创客贴上做。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E5%88%9B%E5%AE%A2%E8%B4%B4.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E5%88%9B%E5%AE%A2%E8%B4%B4.png" alt=""></p>
 <p>建议大家去试试它，很好用，在线做，做完下载，非常方便快捷。</p>
 <h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><p>其他</p>
 <p>关于公众号排版的重要东西差不多也就这些，如果再说几点的话，那就是摘要和预览了，我认为这两点也比较重要。</p>
@@ -1189,21 +1189,21 @@
 <p>随着微信的极速发展，公众号体量越来越大，随之产生了很多的排版工具，我自己也折腾过不少的第三方排版工具，可以说各有千秋，各有各的好处。下面几款是我比较常用的、也是比较好用的排版工具。</p>
 <p><strong>i 排版</strong></p>
 <p>地址：<a href="http://ipaiban.com/" target="_blank" rel="external">http://ipaiban.com/</a> 。i 排版是我比较喜欢的一个排版工具，它的特点是功能强大，有很多贴心的服务，比如新媒体课程之类的，不缺钱的可以去看看。还有就是它的界面与其他相比较为美观。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_i%E6%8E%92%E7%89%88.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_i%E6%8E%92%E7%89%88.png" alt=""></p>
 <p>i 排版会提供一些比较好玩的样式，而且还有一些公众号运营的经验技巧，很多都值得学习，所以推荐给大家。</p>
 <p><strong>秀米</strong></p>
 <p>地址：<a href="https://xiumi.us/" target="_blank" rel="external">https://xiumi.us/</a> 。秀米是很多人都在使用的排版工具，它的特点是样式较多，而且都很主流；秀米的排版器操作方便、简单，新手也可以很快上手，并且模板拖拽即用，非常方便。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E7%A7%80%E7%B1%B3.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E7%A7%80%E7%B1%B3.png" alt=""></p>
 <p>它设置文字排版样式的功能非常好用，比如字与字之间的间距宽于标准间距，文章对于手机边框的留白间距等，这些都可以通过秀米设置。</p>
 <p><strong>135 编辑器</strong></p>
 <p>地址：<a href="http://www.135editor.com/" target="_blank" rel="external">http://www.135editor.com/</a> 。135 编辑器应该也是很多人在用的一款编辑器。它的最大特点就是：样式非常多，而且都很好看，并且一键复制到微信后台，非常方便。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_135%E7%BC%96%E8%BE%91%E5%99%A8.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_135%E7%BC%96%E8%BE%91%E5%99%A8.png" alt=""></p>
 <p>使用 135 编辑器最好是注册一个账号，它上面很多样式需要收藏到样式库里面之后使用，可以选择自己喜欢常用的样式收藏，下次登录账号就可以直接使用。</p>
 <p>135 编辑器有一点必须要介绍给大家，那就是 HTML 编辑模式，对于我们有开发能力的人来说简直是福音，可以玩出很多新花样。</p>
 <p>建议有条件的人可以开一个会员，开通会员后使用起来更加的方便快捷，并且开通会员后所获得的权限和样式也会更多。</p>
 <p><strong>壹伴·小插件（重点推荐）</strong></p>
 <p>地址：<a href="https://yiban.io/" target="_blank" rel="external">https://yiban.io/</a> 。重点推荐，现在我写公号主要就是用它来完成，它的最大特点就是方便；可以直接在微信公众号后台使用，并且非常好用。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E5%A3%B9%E4%BC%B4.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_%E5%A3%B9%E4%BC%B4.png" alt=""></p>
 <p>壹伴·小插件可以安装在各大主流浏览器（Chrome、360、UC、猎豹等）。安装之后，它将会对微信公众号后台页面进行优化升级，提供一些非常实用的功能，比如两端缩进、字间距等。</p>
 <p>具体先介绍下它提供的图文排版功能，后面再说它提供的其他功能。</p>
 <p>图文排版：<br>排版增强，对后台自带的编辑器提供排版增强；素材导入，提供样式导入，可以将复制的样式直接导入到自己常用的样式库；编辑增强，表情包、GIF、无版权图等。</p>
@@ -1213,15 +1213,15 @@
 <p>怎么找到优质图片？</p>
 <p><strong>高质量图片网站</strong><br>关于高质量的图片网站，我不会推荐太多，只推荐我经常使用的几个网站，有时候推荐太多了反而会让一些人不知道该怎么选择。不废话，上图，上链接（噢，对了，链接不能跳转，应该都知道，复制到浏览器吧）。</p>
 <p>1.Pixabay，地址：<a href="https://pixabay.com/" target="_blank" rel="external">https://pixabay.com/</a><br>这个网站上的所有图片都是没有版权的，可以随意使用， 这是一个非常大的好处，优先推荐。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Pixabay.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Pixabay.png" alt=""></p>
 <p>2.500px，地址：<a href="https://500px.com/" target="_blank" rel="external">https://500px.com/</a> ，简直不要太美。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_500px.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_500px.png" alt=""></p>
 <p>3.Flickr，地址：<a href="https://www.flickr.com/" target="_blank" rel="external">https://www.flickr.com/</a> ，雅虎旗下产品，要想访问，你懂得。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Flickr.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Flickr.png" alt=""></p>
 <p>我就推荐这几个，优质图片网站还有很多，像 “花瓣网”、“全景网” 等，推荐多了反而会影响大家选择，可以自己去这几个网站看看，找几个比较喜欢的长期使用。</p>
 <p><strong>图片搜索引擎</strong><br>图片搜索引擎也有不少，比如：Google 图库、百度图库、必应图库，还有就是站酷。关于图片搜索引擎我优先推荐 Google 图库，数据库非常强大，搜索结果的可选择性也非常大，来张图体验下。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Google.png" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Google01.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Google.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%85%AC%E5%8F%B7%E6%8E%92%E7%89%88_Google01.png" alt=""></p>
 <p>搜索出来结果非常精准，并且质量非常高。不过，要想访问，还是那句话，你懂得。这就是为什么刚才要提百度图库的原因，如果实在看不到外面的世界，那就用百度图库吧，当然还可以用站酷（地址：<a href="http://www.zcool.com.cn/" target="_blank" rel="external">http://www.zcool.com.cn/</a> ）。</p>
 <p>再给大家推荐一个图片采集工具，就是上面提到的「壹伴·小插件」，它提供了几种对图片采集和上传图片到素材库的功能。下面介绍给大家：</p>
 <p>一键采图，可以对网页上喜欢的图片一键采取，图片就自动上传到微信素材库；截屏上传，插件提供网页截屏功能，截屏直接上传到素材库；手机相册传图，手机微信关注「壹伴助手」公众号，只需发送图片到公众号，就可以上传到素材库；桌面传图，可以使用壹伴本地上传器，只需将图片拖动到桌面的同步文件夹即可上传。</p>
@@ -1388,14 +1388,14 @@
 </ul>
 <h3 id="检索数据"><a href="#检索数据" class="headerlink" title="检索数据"></a>检索数据</h3><p>最经常使用的 SQL 语句可能就是 SELECT 语句了，它的用途是从一个或多个表中检索信息。为了使用 SELECT 检索表数据，必须至少给出两条信息 —— 想选择什么，以及从什么地方选择。</p>
 <blockquote>
-<p>注：以下例子使用的数据库、表名、以及表列等如下：<br>数据库：<br>crashcourse<br>表：<br><img src="http://meto.chinakook.com/blog-images/mysql/tables.png" alt="SHOW TABLES"><br><br>表列：</p>
+<p>注：以下例子使用的数据库、表名、以及表列等如下：<br>数据库：<br>crashcourse<br>表：<br><img src="https://meto.chinakook.com/blog-images/mysql/tables.png" alt="SHOW TABLES"><br><br>表列：</p>
 <ul>
-<li>customers<br><img src="http://meto.chinakook.com/blog-images/mysql/customers.png" alt=""><br><br></li>
-<li>orderitems<br><img src="http://meto.chinakook.com/blog-images/mysql/orderitems.png" alt=""><br><br></li>
-<li>orders;<br><img src="http://meto.chinakook.com/blog-images/mysql/orders.png" alt=""><br><br></li>
-<li>productnotes;<br><img src="http://meto.chinakook.com/blog-images/mysql/productnotes.png" alt=""><br><br></li>
-<li>products;<br><img src="http://meto.chinakook.com/blog-images/mysql/products.png" alt=""><br><br></li>
-<li>vendors;<br><img src="http://meto.chinakook.com/blog-images/mysql/vendors.png" alt=""></li>
+<li>customers<br><img src="https://meto.chinakook.com/blog-images/mysql/customers.png" alt=""><br><br></li>
+<li>orderitems<br><img src="https://meto.chinakook.com/blog-images/mysql/orderitems.png" alt=""><br><br></li>
+<li>orders;<br><img src="https://meto.chinakook.com/blog-images/mysql/orders.png" alt=""><br><br></li>
+<li>productnotes;<br><img src="https://meto.chinakook.com/blog-images/mysql/productnotes.png" alt=""><br><br></li>
+<li>products;<br><img src="https://meto.chinakook.com/blog-images/mysql/products.png" alt=""><br><br></li>
+<li>vendors;<br><img src="https://meto.chinakook.com/blog-images/mysql/vendors.png" alt=""></li>
 </ul>
 </blockquote>
 <h4 id="检索单个列"><a href="#检索单个列" class="headerlink" title="检索单个列"></a>检索单个列</h4><p>输入：<code>SELECT prod_name FROM products;</code><br>分析：上述语句利用 SELECT 语句从 products 表中检索一个名为 prod_name 的列。所需的列名在 SELECT 关键字之后给出，FROM 关键字指出从其中检索数据的表名。</p>
@@ -1410,7 +1410,7 @@
 <h4 id="检索不同的行"><a href="#检索不同的行" class="headerlink" title="检索不同的行"></a>检索不同的行</h4><p>如何检索出有不同值的列表呢？解决办法是使用 DISTINCT 关键字，顾名思义，此关键字指示 MySQL 只返回不同的值。</p>
 <p>输入：<code>SELECT DISTINCT vend_id FROM products;</code><br>分析：SELECT DISTINCT vend_id 告诉 MySQL 只返回不同（唯一）的 vend_id 行。如果使用 DISTINCT 关键字，它必须直接放在列名的前面。</p>
 <blockquote>
-<p>注：不能部分使用 DISTINCT。DISTINCT 关键字应用于所有列而不仅是前置它的列。如果给出 SELECT DISTINCT vend_id, prod_price，除非指定的两个列的值相同，否则所有行都将被检索出来。<br>如下：<br>没有使用 DISTINCT 关键字<br><img src="http://meto.chinakook.com/blog-images/mysql/no_distinct.png" alt=""><br><br><br>使用 DISTINCT 关键字<br><img src="http://meto.chinakook.com/blog-images/mysql/distinct.png" alt=""></p>
+<p>注：不能部分使用 DISTINCT。DISTINCT 关键字应用于所有列而不仅是前置它的列。如果给出 SELECT DISTINCT vend_id, prod_price，除非指定的两个列的值相同，否则所有行都将被检索出来。<br>如下：<br>没有使用 DISTINCT 关键字<br><img src="https://meto.chinakook.com/blog-images/mysql/no_distinct.png" alt=""><br><br><br>使用 DISTINCT 关键字<br><img src="https://meto.chinakook.com/blog-images/mysql/distinct.png" alt=""></p>
 </blockquote>
 <h4 id="限制结果"><a href="#限制结果" class="headerlink" title="限制结果"></a>限制结果</h4><p>输入：<code>SELECT prod_name FROM products LIMIT 5;</code><br>分析：为了返回第一行或者前几行，可使用 LIMIT 子句。此语句使用 SELECT 语句检索单个列。LIMIT 5 指示 MySQL 返回不多于5行。</p>
 <p>为得出下一个 5 行，可指定要检索的开始行和行数。</p>
@@ -1450,13 +1450,13 @@
       <title><![CDATA[如果你很忙，你一定在什么地方做错了]]></title>
       <url>/2017/06/18/view-text-01/</url>
       <content type="html"><![CDATA[<blockquote>
-<p>本文为观文记，原文链接：<a href="http://www.jianshu.com/p/4dc3518089a0" target="_blank" rel="external">http://www.jianshu.com/p/4dc3518089a0</a></p>
+<p>本文为观文记，原文链接：<a href="https://www.jianshu.com/p/4dc3518089a0" target="_blank" rel="external">https://www.jianshu.com/p/4dc3518089a0</a></p>
 </blockquote>
 <a id="more"></a>
 <p>如果你很忙，你一定是在什么地方做错了。我们不应艰苦地工作，而应艰苦工作。艰苦工作不是艰苦地工作，两个有本质的区别。如果你的目标是为了创造一种卓越的人生和生活，那么，忙碌和精疲力竭就是你最大的敌人。</p>
 <h2 id="柏林研究项目"><a href="#柏林研究项目" class="headerlink" title="柏林研究项目"></a>柏林研究项目</h2><p>1990 年初，三名心理学家组成研究小组拜访了柏林艺术大学。他们此行的目的是为了专门研究小提琴演奏者。</p>
 <p>他们分别对比研究了两个小组：优秀演奏者小组、普通演奏者小组。这三位研究者参照不同主题安排了一系列的深度访谈。他们给了两个小组的每个成员人手一册日记本，日记本把每 24 小时划分为一个个 50 分钟的时间区块。他们请小组成员返回宿舍并且要求他们对今后每天的活动情况进行详细的记录。</p>
-<center> <img src="http://meto.chinakook.com/blog-images/view-text-01.jpg" alt="Violinist Diana Yukawa"> </center><br><center> <em>Violinist Diana Yukawa</em> </center>
+<center> <img src="https://meto.chinakook.com/blog-images/view-text-01.jpg" alt="Violinist Diana Yukawa"> </center><br><center> <em>Violinist Diana Yukawa</em> </center>
 
 <p>研究者们希望通过这些数据分析出一个最基本的问题： <strong>为什么优秀演奏者比普通演奏者更加出色？</strong></p>
 <h2 id="解密优秀演奏者模式"><a href="#解密优秀演奏者模式" class="headerlink" title="解密优秀演奏者模式"></a>解密优秀演奏者模式</h2><p>在时间上，<strong>两个小组花费在音乐上的时间，平均计算的话，几乎完全一样（大约每周 50 个小时）。</strong> 差异在于他们如何利用这些时间。<strong>优秀演奏者在刻意练习「deliberate practice」上投入的时间几乎是普通演奏者的三倍。</strong></p>
@@ -1946,7 +1946,7 @@
 <p>于是决定系统学习官方 Training 文档，学习不总结是不会提高的。也许之前学的一塌糊涂，甚至导致学过之后都不知道学了什么，可能就是不总结不思考造成的。然后，就有了这个系列的总结。</p>
 <p>总结系列第一篇：My First App涉及知识点总结。代码仓库: <a href="https://github.com/china-kook/Android-Official_Training_Study/tree/master/MyFirstApp" target="_blank" rel="external">Training First App</a></p>
 <h2 id="View"><a href="#View" class="headerlink" title="View"></a>View</h2><p>Android 应用的图形界面使用 View 对象以及 ViewGroup对象层次结构而构建。View 对象通常为按钮或文本字段之类的 UI 小部件。而 ViewGroup 对象则为不可见的视图容器，它们定义子视图的布局。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-b1a9438498f9b2de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ViewGroup 对象如何在布局中形成分支并容纳其他 View 对象的图解"></p>
+<p><img src="https://meto.chinakook.com/blog-images/ving1.png" alt="ViewGroup 对象如何在布局中形成分支并容纳其他 View 对象的图解"></p>
 <h2 id="替代布局"><a href="#替代布局" class="headerlink" title="替代布局"></a>替代布局</h2><p>以 XML 格式（而不是运行时代码的方式）声明 UI 布局有若干用处，但其中最重要的用处便是，可以创建不同的布局来适应不同的屏幕尺寸。 例如，可以创建两个版本的布局，并指示系统在“小”屏幕上使用哪个版本，在“大”屏幕上使用哪个版本。</p>
 <h2 id="LinearLayout"><a href="#LinearLayout" class="headerlink" title="LinearLayout"></a>LinearLayout</h2><p>LinearLayout 是一个视图组(ViewGroup的子类)，它会按照 android:orientation 属性的指定，将子视图设置为垂直或水平方向布局。LinearLayout 的每个子视图都会按照它们各自在 XML 中的出现顺序显示在屏幕上。</p>
 <p>如果 LinearLayout 是布局中的根视图，则应将宽度和高度设置为 “match_parent”，从而填满可供应用使用的整个屏幕区域。 该值表示视图应扩大其宽度或高度，以匹配父视图的宽度或高度。</p>
@@ -2027,7 +2027,7 @@
 </li>
 <li><h4 id="布局参数"><a href="#布局参数" class="headerlink" title="布局参数"></a>布局参数</h4><p>名为 layout_something 的 XML 布局属性可为视图定义与其所在的 ViewGroup 相适的布局参数。</p>
 <p>每个 ViewGroup 类都会实现一个扩展 ViewGroup.LayoutParams 的嵌套类。此子类包含的属性类型会根据需要为视图组的每个子视图定义尺寸和位置。 正如在下图中所见，父视图组为每个子视图（包括子视图组）定义布局参数。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-665b837668ca7fb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="以可视化方式表示的视图层次结构，其中包含与每个视图关联的布局参数"></p>
+<p><img src="https://meto.chinakook.com/blog-images/ving2.png" alt="以可视化方式表示的视图层次结构，其中包含与每个视图关联的布局参数"></p>
 <p>请注意，每个 LayoutParams 子类都有自己的值设置语法。 每个子元素都必须定义适合其父元素的 LayoutParams，但父元素也可为其子元素定义不同的 LayoutParams。</p>
 <p>所有视图组都包括宽度和高度（layout_width 和 layout_height），并且每个视图都必须定义它们。许多 LayoutParams 还包括可选的外边距和边框。</p>
 <p>可以指定具有确切尺寸的宽度和高度，但多半不想经常这样做。 在更多的情况下，会使用以下常量之一来设置宽度或高度：</p>
@@ -2051,17 +2051,17 @@
 <p>注：尽管可以通过将一个或多个布局嵌套在另一个布局内来实现您的 UI 设计，但应该使您的布局层次结构尽可能简略。布局的嵌套布局越少，绘制速度越快（扁平的视图层次结构优于深层的视图层次结构）。</p>
 </blockquote>
 <p> <strong>线性布局：</strong> 一种使用单个水平行或垂直行来组织子项的布局。它会在窗口长度超出屏幕长度时创建一个滚动条。</p>
-<p>   <img src="http://upload-images.jianshu.io/upload_images/2012773-aca120b19beb318d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>   <img src="https://meto.chinakook.com/blog-images/ving3.png" alt=""></p>
 <p> <strong>相对布局：</strong> 能够指定子对象彼此之间的相对位置（子对象 A 在子对象 B 左侧）或子对象与父对象的相对位置（与父对象顶部对齐）。</p>
-<p>  <img src="http://upload-images.jianshu.io/upload_images/2012773-fef7943700710fda.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>  <img src="https://meto.chinakook.com/blog-images/ving4.png" alt=""></p>
 <p> <strong>网页视图：</strong> 显示网页。</p>
-<p>  <img src="http://upload-images.jianshu.io/upload_images/2012773-fb76e8f7ba6eee92.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>  <img src="https://meto.chinakook.com/blog-images/ving5.png" alt=""></p>
 <h3 id="使用适配器构建布局"><a href="#使用适配器构建布局" class="headerlink" title="使用适配器构建布局"></a>使用适配器构建布局</h3><p>如果布局的内容是属于动态或未预先确定的内容，您可以使用这样一种布局：在运行时通过子类 AdapterView 用视图填充布局。 AdapterView 类的子类使用 Adapter 将数据与其布局绑定。Adapter 充当数据源与 AdapterView 布局之间的中间人—Adapter（从数组或数据库查询等来源）检索数据，并将每个条目转换为可以添加到 AdapterView 布局中的视图。</p>
 <p> 适配器支持的常见布局包括：</p>
 <p> <strong>列表视图：</strong> 显示滚动的单列列表。</p>
-<p> <img src="http://upload-images.jianshu.io/upload_images/2012773-7aa83a3ea429eea8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p> <img src="https://meto.chinakook.com/blog-images/ving6.png" alt=""></p>
 <p> <strong>网格视图：</strong> 显示滚动的行列网格。</p>
-<p> <img src="http://upload-images.jianshu.io/upload_images/2012773-f1643ed1a47e1026.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p> <img src="https://meto.chinakook.com/blog-images/ving7.png" alt=""></p>
 <ul>
 <li><h4 id="使用数据填充适配器视图"><a href="#使用数据填充适配器视图" class="headerlink" title="使用数据填充适配器视图"></a>使用数据填充适配器视图</h4><p>可以通过将 AdapterView 实例与 Adapter 绑定来填充 AdapterView（如 ListView 或 GridView），此操作会从外部来源检索数据，并创建表示每个数据条目的 View。</p>
 <p>Android 提供了几个 Adapter 子类，用于检索不同种类的数据和构建 AdapterView 的视图。 两种最常见的适配器是：</p>
@@ -2136,19 +2136,19 @@
 <li><h5 id="第一轮排序"><a href="#第一轮排序" class="headerlink" title="第一轮排序"></a>第一轮排序</h5><p>比较相邻两个元素，如果第一个比第二个大，则交换两个元素的值。<br><br>进行下两个元素的比较，即比较第二个和第三个元素，如前者大于后者，则交换。<br><br>再进行下两个元素的比较。直到第 n-1 个元素和第 n 元素进行比较，如前者大于后者，则交换。<br><br>可以肯定，最后一个元素 n，肯定是 n 个元素中最大的元素。</p>
 </li>
 <li><h5 id="第二轮排序"><a href="#第二轮排序" class="headerlink" title="第二轮排序"></a>第二轮排序</h5><p>重复执行第一轮执行的动作，直到第 n-2 个元素和第 n-1 个元素进行比较。如前者大于后者，则交换。<br><br>由于第一轮排序已经将最大元素放置到第 n 个位置，所以本次排序无考虑第 n 个元素。即第 n 个元素不参加本次排序。<br><br>…..<br><br>示例图片:</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-c645e3f59131b465.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/shi1.png" alt=""></p>
 </li>
 <li><h5 id="重复执行"><a href="#重复执行" class="headerlink" title="重复执行"></a>重复执行</h5><p>直到只剩一个元素，那么这个元素一定是最小元素，排序结束。显然，进行了 n-1 次排序。</p>
 </li>
 </ul>
 <p>上述过程，每次排序(即每轮排序)都会有一个元素从某个位置慢慢“浮动”到最终所属的位置,就像气泡总会浮动到水的最顶端。在冒泡排序中，每一轮排序都会有一个元素(气泡)替换到本次排序的最后一个位置(水的最顶端)，注意，是本次排序的最后一个位置(第一轮，则为 n；第二轮，则为 n-1；第三轮，则为 n-2 ~~~ )。</p>
 <p>因为，排序的过程像是冒泡一样，则称为“冒泡排序”。如下为冒泡排序示意图(来自维基百科)</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-ce2db11388ddf4d1.gif?imageMogr2/auto-orient/strip" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/shi2.gif" alt=""></p>
 <h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">public static void bubbleSort(int[] arr) &#123;</div><div class="line">    int temp = 0;</div><div class="line">    for (int i = arr.length - 1; i &gt; 0; --i) &#123; // 每次需要排序的长度</div><div class="line">        for (int j = 0; j &lt; i; ++j) &#123; // 从第一个元素到第i个元素</div><div class="line">            if (arr[j] &gt; arr[j + 1]) &#123;</div><div class="line">                temp = arr[j];</div><div class="line">                arr[j] = arr[j + 1];</div><div class="line">                arr[j + 1] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h3 id="算法优化"><a href="#算法优化" class="headerlink" title="算法优化"></a>算法优化</h3><p>假如有一组数据为：1,2,3,4,5,6,7,8,9,0。 如果用上面的方法实现排序会有什么情况，当然，实现排序肯定没有问题。但是，这组数据的前面一大部分已经是有序的了，如果还是用上面的代码会使效率降低很多(数据比较大的情况下)。所以，将代码进行优化。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">public static void bubbleSort(int[] arr) &#123;</div><div class="line">    int temp = 0;</div><div class="line">    boolean swap;</div><div class="line">    for (int i = arr.length - 1; i &gt; 0; --i) &#123; // 每次需要排序的长度</div><div class="line">        swap=false;</div><div class="line">        for (int j = 0; j &lt; i; ++j) &#123; // 从第一个元素到第i个元素</div><div class="line">            if (arr[j] &gt; arr[j + 1]) &#123;</div><div class="line">                temp = arr[j];</div><div class="line">                arr[j] = arr[j + 1];</div><div class="line">                arr[j + 1] = temp;</div><div class="line">                swap=true;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        if (swap==false)&#123;</div><div class="line">            break;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>在实际使用过程中，由于在大量数据的情况下几乎不使用冒泡排序，而使用小数据的时候增加的布尔变量反而会造成额外的开销。通常，冒泡排序就使用前一种就行了。</p>
 <h3 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h3><ul>
-<li><h4 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h4>当最好的情况，也就是要排序的表本身就是有序的，那么我们比较次数，根据最后改进的代码，可以推断出就是n-1次的比较，没有数据交换，时间复杂度为O(n)。当最坏的情况，即待排序表是逆序的况，此时需要比较<img src="http://upload-images.jianshu.io/upload_images/2012773-7f485f78193e61ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""> 次，并作等数量级的记录移动。因此，总的时间复杂度为O(n^2)。</li>
+<li><h4 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h4>当最好的情况，也就是要排序的表本身就是有序的，那么我们比较次数，根据最后改进的代码，可以推断出就是n-1次的比较，没有数据交换，时间复杂度为O(n)。当最坏的情况，即待排序表是逆序的况，此时需要比较<img src="https://meto.chinakook.com/blog-images/shi3.jpg" alt=""> 次，并作等数量级的记录移动。因此，总的时间复杂度为O(n^2)。</li>
 <li><h4 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h4>由以上算法步骤分析，可轻易得知冒泡排序的空间复杂度为 O(n), 需要辅助空间 O(1)</li>
 </ul>
 <h3 id="算法稳定性"><a href="#算法稳定性" class="headerlink" title="算法稳定性"></a>算法稳定性</h3><p>容易看出，在相邻元素相等时，我们并不需要交换它们的位置，所以，冒泡排序是稳定排序。</p>
@@ -2433,7 +2433,7 @@
       <title><![CDATA[重建 Blog]]></title>
       <url>/2017/01/06/rebuild_blog/</url>
       <content type="html"><![CDATA[<blockquote>
-<p>重新搭建起个人blog：<a href="http://ikookblog.com">http://ikookblog.com</a></p>
+<p>重新搭建起个人blog：<a href="https://ikookblog.com">https://ikookblog.com</a></p>
 </blockquote>
 <a id="more"></a>
 <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a><strong>起因</strong></h2><p>由于参加全国软件测试大赛，导致11月份和12月上半月没时间写博客，都在弄测试和被老师拉去辅导同学。比赛之后想要写篇博客记录下的，可是由于期间重装了笔记本系统，导致博客崩塌。只怪自己一时疏忽忘记备份配置文件。。让我哭会吧，只能重新折腾了。又由于要期末考试了，一学期基本没有上课、根本没听课的我，只能临时抱佛脚了。所以打算先放一放blog 的事，一心复习。</p>
@@ -2446,8 +2446,8 @@
 <p><strong>推荐几篇较为完整的教程:</strong></p>
 <ul>
 <li><a href="https://note.leodev.me/2016/09/01/Hexo-3-1-1-Staic-Blog-Build-Guide/" target="_blank" rel="external">Hexo 3.1.1 静态博客搭建指南</a></li>
-<li><a href="http://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">小白独立搭建博客-Github-Pages和Hexo简明教程</a></li>
-<li><a href="http://dukecuichen.com/2016/04/08/%E5%9F%BA%E4%BA%8EHexo%E6%A1%86%E6%9E%B6-GitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">基于Hexo框架+GitHub Pages搭建个人博客</a></li>
+<li><a href="https://lijianchang.xyz/2016/03/16/%E5%B0%8F%E7%99%BD%E7%8B%AC%E7%AB%8B%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-Github-Pages%E5%92%8CHexo%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">小白独立搭建博客-Github-Pages和Hexo简明教程</a></li>
+<li><a href="https://dukecuichen.com/2016/04/08/%E5%9F%BA%E4%BA%8EHexo%E6%A1%86%E6%9E%B6-GitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">基于Hexo框架+GitHub Pages搭建个人博客</a></li>
 <li><a href="https://material.viosey.com/" target="_blank" rel="external">Material Theme官方文档</a></li>
 </ul>
 <p><br>ikook<br>2017.01.06</p>
@@ -2488,26 +2488,26 @@
 </ul>
 </li>
 </ul>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-16ca839eadf91a7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="datebase文件夹"></p>
+<p><img src="https://meto.chinakook.com/blog-images/ping.png" alt="datebase文件夹"></p>
 <ul>
 <li><h3 id="Servers安装"><a href="#Servers安装" class="headerlink" title="Servers安装"></a>Servers安装</h3><ul>
-<li>以管理员的身份运行”setup.exe”进行安装：<br>软件会加载并初步校验系统是否可以达到了数据库安装的最低配置,如果达到要求,就会直接加载程序并进行下一步的安装;<br><img src="http://upload-images.jianshu.io/upload_images/2012773-7c3ba26b0fc19b29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“配置安全更新”窗口：<br>取消“我希望通过My Oracle Support接受安全更新”，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-8783c23dd97dbce0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png">此时可能遇到的问题：在[INS-30131] 执行安装程序验证所需的初始设置失败<br><img src="http://upload-images.jianshu.io/upload_images/2012773-2848fabe61dfab99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>问题原因及解决办法：<br>1.问题：用户文件中含有中文（如你的账户名字包含汉字   C:\Users\张三）<br>解决办法：打开计算机管理——本地用户和组——用户——Administrator（右键属性）——账户已禁用（取消勾选）——确定<br><img src="http://upload-images.jianshu.io/upload_images/2012773-651503d9d35b1247.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png">到此，就可以切换到Administrator用户，在Administrator用户下安装。<br>2.问题：未共享C盘<br>解决方法：打开计算机管理——共享文件夹——共享（右键“新建共享”）——下一步——（文件路径填）C:\——下一步——是——共享名C$——下一步——选中（“管理员有完全访问权限；其他管理员只有读写权限”）——完成——完成。由于大部分人都不是这个原因，这里就不上图了，并且网上有很多。</li>
-<li>“安装选项”窗口<br>选择“创建和配置数据库”，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-0a5d7ab1637c4660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>选择”桌面类”还是”服务器类”<br>选择”服务器类”可以进行高级的配置,我这里选择”桌面类”,单击”下一步“，大多数情况下是选择“桌面类”，原因操作说明很清楚；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-390df2805f16217c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>创建oracle管理用户<br>这步是其他版本没有的,这个的作用就可以更安全的管理orcl,主要是防止登录win系统勿删了oracle文件，这里选择第二个”创建新windows用户“，输入用户名和口令，专门管理oracle文件的，单击”下一步“；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-18a8bd41b730faf8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“典型安装”窗口(安装位置)<br>选择Oracle的基目录，选择“企业版”和“默认值”并输入统一的密码为：Oracle12c，单击“下一步”;<br>注意：Oracle为了安全起见，要求密码强度比较高，你输入的密码Oracle认为不能复制,我试过了，即使简单的数字字母组合Oracle也认为是不符合).Oracle建议的标准密码组合为：小写字母+数字+大写字母，这回就合格了，当然字符长度还必须保持着Oracle 12c数据库要求的范围之内。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-4a0e32cb2db4f70d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“执行先决条件检查”窗口<br>上一步设置好了后,将进行检查，在“执行先决条件检查”窗口中，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-ee2ae5571f0627b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>上一步检查没有问题后<br>会生成安装设置概要信息,可以保持这些设置到本地,方便以后查阅,在这步确认后,单击”安装”,数据库通过这些配置将进行整个的安装过程:注意:在安装过程中,最好将杀毒软件,安全卫士什么的都强行关闭,安装成功后重启电脑就可以了.<br><img src="http://upload-images.jianshu.io/upload_images/2012773-e7178d16c6683d27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>安装过程中<br>这里是一个漫长的等待过程，切勿不小心关闭了程序，或者断电，电脑重启。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-1c081d7a0f3c3395.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>创建数据库实例<br>“Database Configuration Assistant”界面,特别的长时间等待，大约半个钟头，需耐心等待；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-acd9874acd7b1aa8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>数据库实例安装成功后，会弹出口令管理,进入口令管理<br>选择“口令管理”，查看并修改以下用户：<br><strong>（1）普通管理员：SYSTEM（密码：”自己填写”）</strong><br><strong>（2）超级管理员：SYS（密码：“自己填写”）</strong><br>修改完成后，单击“确定”。 这里的口令也是需要符合oracle口令规范的，参考前面设置数据库实例口令设置方式。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-cd57bd444b061435.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>安装完成<br>会出现如下界面，单击“关闭”即可。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-58b3b070a999930a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>至此Servers安装完毕。</li>
+<li>以管理员的身份运行”setup.exe”进行安装：<br>软件会加载并初步校验系统是否可以达到了数据库安装的最低配置,如果达到要求,就会直接加载程序并进行下一步的安装;<br><img src="https://meto.chinakook.com/blog-images/ping2.png" alt="Paste_Image.png"></li>
+<li>“配置安全更新”窗口：<br>取消“我希望通过My Oracle Support接受安全更新”，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping3.png" alt="Paste_Image.png">此时可能遇到的问题：在[INS-30131] 执行安装程序验证所需的初始设置失败<br><img src="https://meto.chinakook.com/blog-images/ping4.png" alt="Paste_Image.png"><br>问题原因及解决办法：<br>1.问题：用户文件中含有中文（如你的账户名字包含汉字   C:\Users\张三）<br>解决办法：打开计算机管理——本地用户和组——用户——Administrator（右键属性）——账户已禁用（取消勾选）——确定<br><img src="https://meto.chinakook.com/blog-images/ping5.png" alt="Paste_Image.png">到此，就可以切换到Administrator用户，在Administrator用户下安装。<br>2.问题：未共享C盘<br>解决方法：打开计算机管理——共享文件夹——共享（右键“新建共享”）——下一步——（文件路径填）C:\——下一步——是——共享名C$——下一步——选中（“管理员有完全访问权限；其他管理员只有读写权限”）——完成——完成。由于大部分人都不是这个原因，这里就不上图了，并且网上有很多。</li>
+<li>“安装选项”窗口<br>选择“创建和配置数据库”，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping6.png" alt="Paste_Image.png"></li>
+<li>选择”桌面类”还是”服务器类”<br>选择”服务器类”可以进行高级的配置,我这里选择”桌面类”,单击”下一步“，大多数情况下是选择“桌面类”，原因操作说明很清楚；<br><img src="https://meto.chinakook.com/blog-images/ping7.png" alt="Paste_Image.png"></li>
+<li>创建oracle管理用户<br>这步是其他版本没有的,这个的作用就可以更安全的管理orcl,主要是防止登录win系统勿删了oracle文件，这里选择第二个”创建新windows用户“，输入用户名和口令，专门管理oracle文件的，单击”下一步“；<br><img src="https://meto.chinakook.com/blog-images/ping8.png" alt="Paste_Image.png"></li>
+<li>“典型安装”窗口(安装位置)<br>选择Oracle的基目录，选择“企业版”和“默认值”并输入统一的密码为：Oracle12c，单击“下一步”;<br>注意：Oracle为了安全起见，要求密码强度比较高，你输入的密码Oracle认为不能复制,我试过了，即使简单的数字字母组合Oracle也认为是不符合).Oracle建议的标准密码组合为：小写字母+数字+大写字母，这回就合格了，当然字符长度还必须保持着Oracle 12c数据库要求的范围之内。<br><img src="https://meto.chinakook.com/blog-images/ping9.png" alt="Paste_Image.png"></li>
+<li>“执行先决条件检查”窗口<br>上一步设置好了后,将进行检查，在“执行先决条件检查”窗口中，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping10.png" alt="Paste_Image.png"></li>
+<li>上一步检查没有问题后<br>会生成安装设置概要信息,可以保持这些设置到本地,方便以后查阅,在这步确认后,单击”安装”,数据库通过这些配置将进行整个的安装过程:注意:在安装过程中,最好将杀毒软件,安全卫士什么的都强行关闭,安装成功后重启电脑就可以了.<br><img src="https://meto.chinakook.com/blog-images/ping11.png" alt="Paste_Image.png"></li>
+<li>安装过程中<br>这里是一个漫长的等待过程，切勿不小心关闭了程序，或者断电，电脑重启。<br><img src="https://meto.chinakook.com/blog-images/ping12.png" alt="Paste_Image.png"></li>
+<li>创建数据库实例<br>“Database Configuration Assistant”界面,特别的长时间等待，大约半个钟头，需耐心等待；<br><img src="https://meto.chinakook.com/blog-images/ping13.png" alt="Paste_Image.png"></li>
+<li>数据库实例安装成功后，会弹出口令管理,进入口令管理<br>选择“口令管理”，查看并修改以下用户：<br><strong>（1）普通管理员：SYSTEM（密码：”自己填写”）</strong><br><strong>（2）超级管理员：SYS（密码：“自己填写”）</strong><br>修改完成后，单击“确定”。 这里的口令也是需要符合oracle口令规范的，参考前面设置数据库实例口令设置方式。<br><img src="https://meto.chinakook.com/blog-images/ping14.png" alt="Paste_Image.png"></li>
+<li>安装完成<br>会出现如下界面，单击“关闭”即可。<br><img src="https://meto.chinakook.com/blog-images/ping15.png" alt="Paste_Image.png"><br>至此Servers安装完毕。</li>
 </ul>
 </li>
 <li><h3 id="Client安装："><a href="#Client安装：" class="headerlink" title="Client安装："></a>Client安装：</h3><p>Client安装非常简单，有了Servers的安装我相信Client肯定能自己装好，毕竟连我这么笨的人都装好了。因此就不再赘述了。<br>需要说明的是，在Servers安装中说到可能会遇到<strong>“在[INS-30131] 执行安装程序验证所需的初始设置失败”</strong>的问题，如果是第一种情况的话，Client也要使用Servers安装时的方法，在Administrator用户下安装。安装完成后再切换回原来用户模式下，再禁用Administrator即可。</p>
 </li>
-<li><h3 id="检查是否安装成功："><a href="#检查是否安装成功：" class="headerlink" title="检查是否安装成功："></a>检查是否安装成功：</h3><p>可在安装后软件中找到“SQL Plus”，后以管理员身份运行。<br>输入用户名和口令，在保证用户名和口令正确的情况下，查看是否连接，连接后输入select sysdate from dual;<br>打印出当前系统日期则说明安装完全成功。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-177e407f42a6c535.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<li><h3 id="检查是否安装成功："><a href="#检查是否安装成功：" class="headerlink" title="检查是否安装成功："></a>检查是否安装成功：</h3><p>可在安装后软件中找到“SQL Plus”，后以管理员身份运行。<br>输入用户名和口令，在保证用户名和口令正确的情况下，查看是否连接，连接后输入select sysdate from dual;<br>打印出当前系统日期则说明安装完全成功。<br><img src="https://meto.chinakook.com/blog-images/ping16.png" alt="Paste_Image.png"></p>
 </li>
 <li><h3 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h3>以上就是Oracle Database 12c windows64位安装教程。其中部分内容来自网络借鉴。</li>
 </ul>
@@ -2654,7 +2654,7 @@
 <p>  附上跨平台技术专场的PPT及Demo，大家自行研究。<br><a href="https://github.com/MDCC2016/Cross-Platform-Session" target="_blank" rel="external">MDCC 2016跨平台开发专场的演讲 PPT 以及 Demo</a></p>
 </li>
 </ul>
-<h3 id="9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。"><a href="#9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。" class="headerlink" title="9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。"></a>9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。</h3><h4 id="先附上一张议题和演讲嘉宾的表格："><a href="#先附上一张议题和演讲嘉宾的表格：" class="headerlink" title="先附上一张议题和演讲嘉宾的表格："></a><strong>先附上一张议题和演讲嘉宾的表格</strong>：</h4><p><img src="http://oe94sy64u.bkt.clouddn.com/%5DY%603%6008GY%7D3%7B%7D%29240F2T%29CP.png" alt=""><br><br><strong>有必要重点说明的是这次Android会场的主持人是<em>秋百万（廖祜秋）</em>前辈。</strong> 他在主持的同时也讲解了不少东西，实在佩服<em>秋百万</em>前辈</p>
+<h3 id="9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。"><a href="#9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。" class="headerlink" title="9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。"></a>9月24日，终于到了拭目以待的Android开发峰会了，此次峰会可谓大神云集，往届肯定也是，不过我没有参加也没有关注，毕竟是才走入正途。</h3><h4 id="先附上一张议题和演讲嘉宾的表格："><a href="#先附上一张议题和演讲嘉宾的表格：" class="headerlink" title="先附上一张议题和演讲嘉宾的表格："></a><strong>先附上一张议题和演讲嘉宾的表格</strong>：</h4><p><img src="https://meto.chinakook.com/%5DY%603%6008GY%7D3%7B%7D%29240F2T%29CP.png" alt=""><br><br><strong>有必要重点说明的是这次Android会场的主持人是<em>秋百万（廖祜秋）</em>前辈。</strong> 他在主持的同时也讲解了不少东西，实在佩服<em>秋百万</em>前辈</p>
 <ul>
 <li><h2 id="滴滴国际化Android端演进——吴更新"><a href="#滴滴国际化Android端演进——吴更新" class="headerlink" title="滴滴国际化Android端演进——吴更新"></a>滴滴国际化Android端演进——<em>吴更新</em></h2><h3 id="1-国家化技术上的特殊性"><a href="#1-国家化技术上的特殊性" class="headerlink" title="1.国家化技术上的特殊性"></a>1.国家化技术上的特殊性</h3><ul>
 <li><strong>地图</strong><br>  地图选型、地图切换。国内用户使用国外地图服务的限制。</li>
@@ -2662,19 +2662,19 @@
 <li><strong>运力来源</strong><br>   运力的来源问题。需要与其他国家合作来提供司机，在国内只需要司机注册就可以使用，而在国外需要和其他国家的合作伙伴做接入。</li>
 </ul>
 <h3 id="2-地图（地图选型、地图切换）"><a href="#2-地图（地图选型、地图切换）" class="headerlink" title="2.地图（地图选型、地图切换）"></a>2.地图（地图选型、地图切换）</h3><ul>
-<li><strong>地图选型</strong><br>考虑的方面很全面。主要在功能与需求，数据源，技术支持力度，性能，用户，包大小，demo和文档等方面。选取了Bing、Tomtom、Here、Nutiteq、Mapbox作为研究对象。综合分析来看Mapbox是最合适的。<br>分析如下图：<br><img src="http://upload-images.jianshu.io/upload_images/2012773-c44a8ed88be3712e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li><strong>地图切换</strong><br>选型可能无法通用，随意切换。对地图切换来说，关键是要有一套自己的抽象，再对应具体的实现搞一个Adapter就行。<br>好处：解耦、通用、学习成本低<br><img src="http://upload-images.jianshu.io/upload_images/2012773-3761c0ebb6ea8894.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-078b38896820811e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>问题：Api规范、适配所有的Api、标尺（如：缩放尺度、经纬度）、未支持API<br>解决方案：<br>1.主要按照Google Map的API为标准来做标准的API、对用到Mapbox的API做完全的适配<br>2.先对初始版本的API做完整的适配，后面再对其他版本做竞争<br>3.要保持地图的缩放级别是保持不变的，以国际的标尺为准。<br>4.debug 版本抛出异常 crash，release 版本打 log。</li>
+<li><strong>地图选型</strong><br>考虑的方面很全面。主要在功能与需求，数据源，技术支持力度，性能，用户，包大小，demo和文档等方面。选取了Bing、Tomtom、Here、Nutiteq、Mapbox作为研究对象。综合分析来看Mapbox是最合适的。<br>分析如下图：<br><img src="https://meto.chinakook.com/blog-images/0.png" alt="Paste_Image.png"></li>
+<li><strong>地图切换</strong><br>选型可能无法通用，随意切换。对地图切换来说，关键是要有一套自己的抽象，再对应具体的实现搞一个Adapter就行。<br>好处：解耦、通用、学习成本低<br><img src="https://meto.chinakook.com/blog-images/1.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/222.png" alt="Paste_Image.png"><br>问题：Api规范、适配所有的Api、标尺（如：缩放尺度、经纬度）、未支持API<br>解决方案：<br>1.主要按照Google Map的API为标准来做标准的API、对用到Mapbox的API做完全的适配<br>2.先对初始版本的API做完整的适配，后面再对其他版本做竞争<br>3.要保持地图的缩放级别是保持不变的，以国际的标尺为准。<br>4.debug 版本抛出异常 crash，release 版本打 log。</li>
 </ul>
-<h3 id="3-漫游网络"><a href="#3-漫游网络" class="headerlink" title="3.漫游网络"></a>3.漫游网络</h3><p>滴滴主要服务的是国内用户去国外的情况。地图服务器是 不在AWS上面的。所以主要有海外运营商、用户依然使用国内版本的app在海外漫游的情况。主要讨论用户在海外漫游的情况。<br>国内用户在国外漫游访问国外服务器慢。<br>漫游网络，运营商，aws……<br>用户在国外访问网络的简单流程：<br>先访问海外运营商，通过海外运营商访问国内运营商，再去访问web。由于墙的存在一般用户是访问不到网络的。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-ab05e9f46b6ba0ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="在国外访问网络的简单流程"><br>为了解决这个问题使用了通过国内运营商去访问公网，通过公网访问AWS上的服务器。这种访问方式是比较慢的。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-15b3771ea233eaed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="通过访问公网来获取数据"><br>为了解决访问慢的缺陷，做了网络优化。在去访问AWS的时候在中间加一个中转服务器来实现专线访问<br><img src="http://upload-images.jianshu.io/upload_images/2012773-53a46ac92f4c5301.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="专线访问"><br>对于客户端来说，访问专线网络时大概会有三步：<br>1.拉取中转服务器域名列表<br>2.对于漫游用户访问中转服务器<br>3.一定时机及推送更新域名列表<br><strong>这样做速度大概会比之前快一倍。</strong></p>
+<h3 id="3-漫游网络"><a href="#3-漫游网络" class="headerlink" title="3.漫游网络"></a>3.漫游网络</h3><p>滴滴主要服务的是国内用户去国外的情况。地图服务器是 不在AWS上面的。所以主要有海外运营商、用户依然使用国内版本的app在海外漫游的情况。主要讨论用户在海外漫游的情况。<br>国内用户在国外漫游访问国外服务器慢。<br>漫游网络，运营商，aws……<br>用户在国外访问网络的简单流程：<br>先访问海外运营商，通过海外运营商访问国内运营商，再去访问web。由于墙的存在一般用户是访问不到网络的。<br><img src="https://meto.chinakook.com/blog-images/ni.png" alt="在国外访问网络的简单流程"><br>为了解决这个问题使用了通过国内运营商去访问公网，通过公网访问AWS上的服务器。这种访问方式是比较慢的。<br><img src="https://meto.chinakook.com/blog-images/ws.png" alt="通过访问公网来获取数据"><br>为了解决访问慢的缺陷，做了网络优化。在去访问AWS的时候在中间加一个中转服务器来实现专线访问<br><img src="https://meto.chinakook.com/blog-images/qw.png" alt="专线访问"><br>对于客户端来说，访问专线网络时大概会有三步：<br>1.拉取中转服务器域名列表<br>2.对于漫游用户访问中转服务器<br>3.一定时机及推送更新域名列表<br><strong>这样做速度大概会比之前快一倍。</strong></p>
 <h3 id="4-项目演进"><a href="#4-项目演进" class="headerlink" title="4.项目演进"></a>4.项目演进</h3><ul>
 <li>问题<br>1.按照包名划分，仍会存在大量的耦合。<br>2.由于不同国家业务不同的原因等，添加新业务不便。<ul>
 <li>解决方案<br>分SDK和业务模块，但都作为独立的Module，最后再整合成一个apk。</li>
 </ul>
 </li>
-<li>实现技术<br>单项目依赖：按照SDK和业务模块拆分成单独的项目，单项目依赖单独的SDK。之后再整合到成一个SDK，聚合成整个的工程，再实现SDK分层。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-a1ec2a6fd51eed17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="单项目依赖"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-086d0db69a9f193d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="整个工程"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-7f0ae68ccffd609a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="SDK分层"><br>使用模块划分的原则：单一、开闭原则，依赖关系，拓展规范，避免重复依赖。<br>好处：解耦，并行开发、测试，组件单独测试。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-ba43909e9fd7686b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-d400d31faa9f08dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><h3 id="5-现场问答"><a href="#5-现场问答" class="headerlink" title="5.现场问答"></a>5.现场问答</h3><strong>问题：Integrated Project怎么个打包法？Lyft、GradTaxi这些合并吗？还是它们会被打包成独立的apk？<br>回答：所有的module都是输出aar，最后一个整合成滴滴app。</strong><br>我讲解的可能是比较乱，同时可能也不怎么清晰，因为我自身理解的也是不怎么深刻。Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224531?sign=ccab65bdcd9d4f36269aefb249d85666&amp;group_id=272492" target="_blank" rel="external">滴滴国际化 Android 端演进（包括冯老师分享的开头）</a> 有时间可以自行观看。</li>
+<li>实现技术<br>单项目依赖：按照SDK和业务模块拆分成单独的项目，单项目依赖单独的SDK。之后再整合到成一个SDK，聚合成整个的工程，再实现SDK分层。<br><img src="https://meto.chinakook.com/blog-images/xm.png" alt="单项目依赖"><br><img src="https://meto.chinakook.com/blog-images/zxm.png" alt="整个工程"><br><img src="https://meto.chinakook.com/blog-images/fc.png" alt="SDK分层"><br>使用模块划分的原则：单一、开闭原则，依赖关系，拓展规范，避免重复依赖。<br>好处：解耦，并行开发、测试，组件单独测试。<br><img src="https://meto.chinakook.com/blog-images/cb.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/ip.png" alt="Paste_Image.png"><h3 id="5-现场问答"><a href="#5-现场问答" class="headerlink" title="5.现场问答"></a>5.现场问答</h3><strong>问题：Integrated Project怎么个打包法？Lyft、GradTaxi这些合并吗？还是它们会被打包成独立的apk？<br>回答：所有的module都是输出aar，最后一个整合成滴滴app。</strong><br>我讲解的可能是比较乱，同时可能也不怎么清晰，因为我自身理解的也是不怎么深刻。Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224531?sign=ccab65bdcd9d4f36269aefb249d85666&amp;group_id=272492" target="_blank" rel="external">滴滴国际化 Android 端演进（包括冯老师分享的开头）</a> 有时间可以自行观看。</li>
 </ul>
 </li>
-<li><h2 id="回归初心，从容器化到组件化——冯森林"><a href="#回归初心，从容器化到组件化——冯森林" class="headerlink" title="回归初心，从容器化到组件化——冯森林"></a>回归初心，从容器化到组件化——<em>冯森林</em></h2><p>近年来插件化，module化的原因，已经不再像过去那样，庞大的软件，改一行代码，测试，耗费开发人员较长时间（虽然我没有亲身体验过以前开发的难度，但是可想而知）。组件化作为独立模块，协同开发时，可以提供release版本进行集成。平时，只须在自己的dev分支上进行开发。大大提高开发效率。各模块之间解耦，当然这其中也面临相关的问题，如大量的反射方式。各rom厂商对系统的改动，就很容易产生各种问题。何俊林在会上请教了apk与apk数据之间如何共享的问题。冯老师建议可用contentprovider。建议在项目的早期做拆分，避免后期组件化的抽离困难。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-5eafa557d71c20b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><strong>以我现在的能力是很难听懂冯老师这个分享的，或者说我完全听不懂这个分享。是的，完全没有听懂。<br>还是分享一下别人的理解吧。</strong></p>
+<li><h2 id="回归初心，从容器化到组件化——冯森林"><a href="#回归初心，从容器化到组件化——冯森林" class="headerlink" title="回归初心，从容器化到组件化——冯森林"></a>回归初心，从容器化到组件化——<em>冯森林</em></h2><p>近年来插件化，module化的原因，已经不再像过去那样，庞大的软件，改一行代码，测试，耗费开发人员较长时间（虽然我没有亲身体验过以前开发的难度，但是可想而知）。组件化作为独立模块，协同开发时，可以提供release版本进行集成。平时，只须在自己的dev分支上进行开发。大大提高开发效率。各模块之间解耦，当然这其中也面临相关的问题，如大量的反射方式。各rom厂商对系统的改动，就很容易产生各种问题。何俊林在会上请教了apk与apk数据之间如何共享的问题。冯老师建议可用contentprovider。建议在项目的早期做拆分，避免后期组件化的抽离困难。<br><img src="https://meto.chinakook.com/blog-images/ap.png" alt="Paste_Image.png"><br><strong>以我现在的能力是很难听懂冯老师这个分享的，或者说我完全听不懂这个分享。是的，完全没有听懂。<br>还是分享一下别人的理解吧。</strong></p>
 <h5 id="Piasy"><a href="#Piasy" class="headerlink" title="Piasy"></a><strong>Piasy</strong></h5><p>原文链接：<a href="http://mp.weixin.qq.com/s?__biz=MzAxMjM0OTA3Nw==&amp;mid=2650203819&amp;idx=1&amp;sn=1e5a7a2ae8195d5e85b0918a96916526&amp;chksm=83b17d51b4c6f447ca4a15dc82c872a1c902c635230aee1455d63086fd435da4ba451684eda4" target="_blank" rel="external">MDCC 参会纪要</a><br>【大公司的方案，不一定符合小公司<br>模块化，从硬件，系统到软件<br>APP 的模块化</p>
 <ul>
 <li>隔离各个模块</li>
@@ -2703,16 +2703,16 @@
 <li><strong>特性</strong><br>1.独立性<br>2.可替换性<br>3.互操作性</li>
 <li><strong>成本</strong><br>1.解耦<br>2.契约<br>3.兼容性</li>
 <li><strong>收益</strong><br>1.强制建立一个解耦<br>2.模块的独立性<br>3.组件粒度的测试<br>4.灵活的测试<br>5.组件粒度的升级<br>6.混合开发性平滑地过渡</li>
-<li><strong>基础解决方案</strong><br>1.Java package name<br>2.Gradle Library modules<br>3.multiple App<br><img src="http://upload-images.jianshu.io/upload_images/2012773-2746602090672c8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>进一步解决方案<br>1.multi-Dex<br>2.Container<br>3.semi-Container<br><img src="http://upload-images.jianshu.io/upload_images/2012773-b377b13b4f577e9f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>由于我自己能力的限制，不能讲解清楚，所以附上Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224573?sign=4358a1148993c705e4e896cd5b912c5f&amp;group_id=272492" target="_blank" rel="external">回归初心，从容器化到组件化</a></li>
+<li><strong>基础解决方案</strong><br>1.Java package name<br>2.Gradle Library modules<br>3.multiple App<br><img src="https://meto.chinakook.com/blog-images/bs.png" alt="Paste_Image.png"></li>
+<li>进一步解决方案<br>1.multi-Dex<br>2.Container<br>3.semi-Container<br><img src="https://meto.chinakook.com/blog-images/if.png" alt="Paste_Image.png"><br>由于我自己能力的限制，不能讲解清楚，所以附上Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224573?sign=4358a1148993c705e4e896cd5b912c5f&amp;group_id=272492" target="_blank" rel="external">回归初心，从容器化到组件化</a></li>
 </ul>
 </li>
 <li><h2 id="云信-IM-推送保障及网络优化实践——周江华"><a href="#云信-IM-推送保障及网络优化实践——周江华" class="headerlink" title="云信 IM 推送保障及网络优化实践——周江华"></a>云信 IM 推送保障及网络优化实践——<em>周江华</em></h2><p>现在IM应用范围很广泛，人与人要通过网络交流就离不开IM，可以说现在大多数的应用都有IM。<br>比如：社交、电商、教育、医疗等…</p>
 <ul>
 <li><h5 id="IM是什么"><a href="#IM是什么" class="headerlink" title="IM是什么"></a><strong>IM是什么</strong></h5><strong>Instant：</strong>有新消息能立即收到，消息推送无延迟<br><strong>Messaging：</strong>稳定可靠，安全，消息不丢，不乱，不重复</li>
 <li><h5 id="怎么推"><a href="#怎么推" class="headerlink" title="怎么推"></a><strong>怎么推</strong></h5>后台运行。答案就是后台运行。</li>
-<li><h5 id="LMK"><a href="#LMK" class="headerlink" title="LMK"></a>LMK</h5>需解决的问题：内存占用、进程优先级<br>方案：<br>1.Sticky Service、Alarm、Receiver、JobSchedule<br>2.建立多进程、双进程。避免使用单进程。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-4c6f75f8c49fc3d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>SDK架构的设计<br><img src="http://upload-images.jianshu.io/upload_images/2012773-74eefa2c727b4d48.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li><h5 id="方案"><a href="#方案" class="headerlink" title="方案"></a>方案</h5>云信IM SDK使用的连接类型有：TCP，UDP，HTTP。<br>TCP实现长连接，UDP实现一个需要加密处理的连接，HTTP实现收发文件等。<br>在复杂的Android生态环境下，多种因素都会造成消息推送不能及时达到客户端。另外，不稳定的移动网络也给数据传输的速率和可靠性增加了障碍。演讲从这两个方面出发，讲述了云信IM SDK如何实现不影响用户体验的后台保活，改善的长连接加推送组合方案，以及在弱网环境大数据传输的优化实践。<br>关于进程怎么在后台活，目前较好的解决方案包括：长连接+推送，系统推送（MIUI、华为为代表）。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-cd8414ff29ae9d80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="长连接+推送"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-844fda5ae816e914.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="长连接+推送优化"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-2d9b7564a1fb6096.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="系统优化"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-217c6ed098dcc2a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="系统推送优化"><br>而关于如何活好（主要问题是慢、断、贵），解决办法包括协议选择；<br>协议选择使用二进制的协议，牺牲了可读性换来的是包非常非常的小，同时拓展性也是比较好的。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-c3fd0163b302beba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="协议选择"><br>登录加速（长连接中经常使用，步骤包括Lbs、Connect、Handshake、Login，Sync；优化思路为：尽量减少交互步骤，尽可能并行步骤）；<br>使用TCP的连接方式。<br>通过减少交互的步骤，尽可能的使用并行步骤来实现登录的加速。连接和LBS并行、捂手和登录并行。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-a4ca94323a854376.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="登录加速"><br>UDP优化（常用于音视频服务，对弱网环境更敏感，优化包括：FEC，自适应初始化包频，动态包频和码率调整，数据缓冲Buffer，音频PLC丢包补偿，Temporal Scalability视频编码，以及视频关键帧多重保障）；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-2e939cdb103a1c8e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="实时音视频优化"><br>HTTP优化（断点续传，图片预加载，pipeline，边录边传）。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-55918f9227a792d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="文件传输优化"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-4214715e3990cbf0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="pipeline优化"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-ff80c9e30e044af9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="边录边传"><br>周江华老师讲的还是比较清晰，内容比较丰富的，基本涵盖了IM开发所要主要的问题。由于我自身能力的限制，理解的还是比较浅显的。附上Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224631?sign=4b126eaf9de530cd39095e676b5933c6&amp;group_id=272492" target="_blank" rel="external">【云信 IM 推送保障及网络优化实践上】</a><a href="https://share.yoloyolo.tv/bcs/1224642?sign=b2cbf4d2bf962aeb8502de27aa8da70b&amp;group_id=272492" target="_blank" rel="external">【云信 IM 推送保障及网络优化实践下】</a></li>
+<li><h5 id="LMK"><a href="#LMK" class="headerlink" title="LMK"></a>LMK</h5>需解决的问题：内存占用、进程优先级<br>方案：<br>1.Sticky Service、Alarm、Receiver、JobSchedule<br>2.建立多进程、双进程。避免使用单进程。<br><img src="https://meto.chinakook.com/blog-images/er.png" alt="Paste_Image.png"><br>SDK架构的设计<br><img src="https://meto.chinakook.com/blog-images/sd.png" alt="Paste_Image.png"></li>
+<li><h5 id="方案"><a href="#方案" class="headerlink" title="方案"></a>方案</h5>云信IM SDK使用的连接类型有：TCP，UDP，HTTP。<br>TCP实现长连接，UDP实现一个需要加密处理的连接，HTTP实现收发文件等。<br>在复杂的Android生态环境下，多种因素都会造成消息推送不能及时达到客户端。另外，不稳定的移动网络也给数据传输的速率和可靠性增加了障碍。演讲从这两个方面出发，讲述了云信IM SDK如何实现不影响用户体验的后台保活，改善的长连接加推送组合方案，以及在弱网环境大数据传输的优化实践。<br>关于进程怎么在后台活，目前较好的解决方案包括：长连接+推送，系统推送（MIUI、华为为代表）。<br><img src="https://meto.chinakook.com/blog-images/chang.png" alt="长连接+推送"><br><img src="https://meto.chinakook.com/blog-images/chang2.png" alt="长连接+推送优化"><br><img src="https://meto.chinakook.com/blog-images/os.png" alt="系统优化"><br><img src="https://meto.chinakook.com/blog-images/os2.png" alt="系统推送优化"><br>而关于如何活好（主要问题是慢、断、贵），解决办法包括协议选择；<br>协议选择使用二进制的协议，牺牲了可读性换来的是包非常非常的小，同时拓展性也是比较好的。<br><img src="https://meto.chinakook.com/blog-images/xie.png" alt="协议选择"><br>登录加速（长连接中经常使用，步骤包括Lbs、Connect、Handshake、Login，Sync；优化思路为：尽量减少交互步骤，尽可能并行步骤）；<br>使用TCP的连接方式。<br>通过减少交互的步骤，尽可能的使用并行步骤来实现登录的加速。连接和LBS并行、捂手和登录并行。<br><img src="https://meto.chinakook.com/blog-images/deng.png" alt="登录加速"><br>UDP优化（常用于音视频服务，对弱网环境更敏感，优化包括：FEC，自适应初始化包频，动态包频和码率调整，数据缓冲Buffer，音频PLC丢包补偿，Temporal Scalability视频编码，以及视频关键帧多重保障）；<br><img src="https://meto.chinakook.com/blog-images/shi.png" alt="实时音视频优化"><br>HTTP优化（断点续传，图片预加载，pipeline，边录边传）。<br><img src="https://meto.chinakook.com/blog-images/wenjian.png" alt="文件传输优化"><br><img src="https://meto.chinakook.com/blog-images/pi.png" alt="pipeline优化"><br><img src="https://meto.chinakook.com/blog-images/bian.png" alt="边录边传"><br>周江华老师讲的还是比较清晰，内容比较丰富的，基本涵盖了IM开发所要主要的问题。由于我自身能力的限制，理解的还是比较浅显的。附上Piasy的视频连接：<a href="https://share.yoloyolo.tv/bcs/1224631?sign=4b126eaf9de530cd39095e676b5933c6&amp;group_id=272492" target="_blank" rel="external">【云信 IM 推送保障及网络优化实践上】</a><a href="https://share.yoloyolo.tv/bcs/1224642?sign=b2cbf4d2bf962aeb8502de27aa8da70b&amp;group_id=272492" target="_blank" rel="external">【云信 IM 推送保障及网络优化实践下】</a></li>
 </ul>
 </li>
 <li><h2 id="微信Tinker热补丁实践演进之路——张绍文"><a href="#微信Tinker热补丁实践演进之路——张绍文" class="headerlink" title="微信Tinker热补丁实践演进之路——张绍文"></a><strong>微信Tinker热补丁实践演进之路</strong>——<em>张绍文</em></h2><h5 id="总体说明："><a href="#总体说明：" class="headerlink" title="总体说明："></a>总体说明：</h5><ul>
@@ -2725,27 +2725,27 @@
 <h5 id="具体说明："><a href="#具体说明：" class="headerlink" title="具体说明："></a><strong>具体说明：</strong></h5><ul>
 <li>热补丁两大流派：<br>1.Native：AndFix、KKFix<br>2.Java： Qzone、nuwa、rocooFix、Tinker、amigo、 robust</li>
 <li>微信的设计目标<br>“高可用”的补丁框架：<br>1.稳定性与兼容性：微信数亿用户的设备上稳定运行；<br>2.性能：非补丁版本影响补丁大小；<br>3.易用性：简单易用，完整支持。</li>
-<li><h4 id="1-0-小试牛刀"><a href="#1-0-小试牛刀" class="headerlink" title="1.0 小试牛刀"></a>1.0 小试牛刀</h4>基于 classloader 的方案<br>preverify 问题，内存地址错乱，性能差，补丁包大<br><img src="http://upload-images.jianshu.io/upload_images/2012773-849d6c64a126aba7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="classloader方案"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-e447316488cd51c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="V1.0-结果"></li>
+<li><h4 id="1-0-小试牛刀"><a href="#1-0-小试牛刀" class="headerlink" title="1.0 小试牛刀"></a>1.0 小试牛刀</h4>基于 classloader 的方案<br>preverify 问题，内存地址错乱，性能差，补丁包大<br><img src="https://meto.chinakook.com/blog-images/t.png" alt="classloader方案"><br><img src="https://meto.chinakook.com/blog-images/t2.png" alt="V1.0-结果"></li>
 <li><h4 id="2-0-自创功法"><a href="#2-0-自创功法" class="headerlink" title="2.0 自创功法"></a>2.0 自创功法</h4><ol>
 <li><strong>基于全量合并方式：</strong><br>Gradle Instant run<br>Buck exopackage</li>
 <li><strong>Diff算法：</strong><br>BsDiff<br>DexMerge<br>DexDiff</li>
 <li><p><strong>Diff设计目标：</strong><br>Diff结果小<br>占用内存小、合成速度快<br>支持新增、删除、修改class</p>
-<h5 id="Dex格式：直接上图。"><a href="#Dex格式：直接上图。" class="headerlink" title="Dex格式：直接上图。"></a>Dex格式：直接上图。</h5><p><img src="http://upload-images.jianshu.io/upload_images/2012773-9d06ac95b5b9a43d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Dex格式"></p>
-<h5 id="Diff方案："><a href="#Diff方案：" class="headerlink" title="Diff方案："></a>Diff方案：</h5><p><img src="http://upload-images.jianshu.io/upload_images/2012773-44d2b4fabcf095d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Diff方案"></p>
+<h5 id="Dex格式：直接上图。"><a href="#Dex格式：直接上图。" class="headerlink" title="Dex格式：直接上图。"></a>Dex格式：直接上图。</h5><p><img src="https://meto.chinakook.com/blog-images/v.png" alt="Dex格式"></p>
+<h5 id="Diff方案："><a href="#Diff方案：" class="headerlink" title="Diff方案："></a>Diff方案：</h5><p><img src="https://meto.chinakook.com/blog-images/v2.png" alt="Diff方案"></p>
 <ul>
-<li>anr，dex 太大，分平台合成 dex，art 上合成小 dex<br><img src="http://upload-images.jianshu.io/upload_images/2012773-e5e1f2db372b1eb7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="挑战"></li>
+<li>anr，dex 太大，分平台合成 dex，art 上合成小 dex<br><img src="https://meto.chinakook.com/blog-images/tiao.png" alt="挑战"></li>
 <li>illegal access。</li>
-<li>性能好，兼容性和稳定性差<br><img src="http://upload-images.jianshu.io/upload_images/2012773-6147a23d4516f87d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="V2.0-结果"></li>
+<li>性能好，兼容性和稳定性差<br><img src="https://meto.chinakook.com/blog-images/jie.png" alt="V2.0-结果"></li>
 </ul>
 </li>
 </ol>
 </li>
-<li><h4 id="3-0-修炼内功"><a href="#3-0-修炼内功" class="headerlink" title="3.0 修炼内功"></a>3.0 修炼内功</h4><p>主要在异常熔断、监控回调、安全、一致性、合成、加载方面进行优化。比较不容易理解，上图。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-510c6200ff06f9a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="V3.0目标"></p>
+<li><h4 id="3-0-修炼内功"><a href="#3-0-修炼内功" class="headerlink" title="3.0 修炼内功"></a>3.0 修炼内功</h4><p>主要在异常熔断、监控回调、安全、一致性、合成、加载方面进行优化。比较不容易理解，上图。<br><img src="https://meto.chinakook.com/blog-images/mubiao.png" alt="V3.0目标"></p>
 <ul>
-<li><strong>异常熔断</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-144a543d41fae809.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="异常熔断"></li>
-<li><strong>监控回调</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-b08c807869752db9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="监控回调"></li>
-<li><strong>一致性</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-476760b52384ac20.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="一致性"></li>
-<li><strong>加载与合成</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-8ff84938d77a850d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="加载与合成"><h5 id="结果："><a href="#结果：" class="headerlink" title="结果："></a>结果：</h5><img src="http://upload-images.jianshu.io/upload_images/2012773-5e782390b02540f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="V3.0-结果"></li>
+<li><strong>异常熔断</strong><br><img src="https://meto.chinakook.com/blog-images/duan.png" alt="异常熔断"></li>
+<li><strong>监控回调</strong><br><img src="https://meto.chinakook.com/blog-images/diao.png" alt="监控回调"></li>
+<li><strong>一致性</strong><br><img src="https://meto.chinakook.com/blog-images/yizhi.png" alt="一致性"></li>
+<li><strong>加载与合成</strong><br><img src="https://meto.chinakook.com/blog-images/jiazai.png" alt="加载与合成"><h5 id="结果："><a href="#结果：" class="headerlink" title="结果："></a>结果：</h5><img src="https://meto.chinakook.com/blog-images/v3.png" alt="V3.0-结果"></li>
 </ul>
 </li>
 <li><h4 id="4-0-内外兼修"><a href="#4-0-内外兼修" class="headerlink" title="4.0 内外兼修"></a>4.0 内外兼修</h4><p>提升易用性和稳定性</p>
@@ -2753,9 +2753,9 @@
 <li><h5 id="Library处理"><a href="#Library处理" class="headerlink" title="Library处理"></a><strong>Library处理</strong></h5>核心问题：<br>1.多API获取不准确，反射出问题<br>2.32位与64位问题<br>尽量少的hook：<br>1.LoadLibraryFromTinker(“assets/86”，“stloprt_shared”)；<br>2.LoadLibrary(“stlport_shared”);</li>
 <li><h5 id="资源处理"><a href="#资源处理" class="headerlink" title="资源处理"></a><strong>资源处理</strong></h5>预埋entry count：<br>1.编译强耦合<br>2.影响基础版本<br>3.无法随心所欲<br>全量替换<br>1.Atlas或者携程的插件化框架<br>2.Gradle-instant run</li>
 <li><h5 id="异常情况"><a href="#异常情况" class="headerlink" title="异常情况"></a><strong>异常情况</strong></h5>Transition动画：ResID无法新增、删除，可能出现Res not found<br>Notification：ResID无法新增、删除，可能出现Res not found<br>ShortcutResID无法新增、删除，可能会变成默认图标<br>Assets：读取 source apk方式无法修改</li>
-<li><h5 id="资源问题"><a href="#资源问题" class="headerlink" title="资源问题"></a><strong>资源问题</strong></h5>直接上图<br><img src="http://upload-images.jianshu.io/upload_images/2012773-e21993d4ded447c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="资源包生成"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-a744c40f4884db98.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="资源处理-资源包生成"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-efa404f2e9e048d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="资源处理-资源包校验"></li>
+<li><h5 id="资源问题"><a href="#资源问题" class="headerlink" title="资源问题"></a><strong>资源问题</strong></h5>直接上图<br><img src="https://meto.chinakook.com/blog-images/ziyuan.png" alt="资源包生成"><br><img src="https://meto.chinakook.com/blog-images/ziz.png" alt="资源处理-资源包生成"><br><img src="https://meto.chinakook.com/blog-images/yan.png" alt="资源处理-资源包校验"></li>
 <li><h5 id="编译目标"><a href="#编译目标" class="headerlink" title="编译目标"></a><strong>编译目标</strong></h5>简单易用：<br>1.只要输入一个旧的基础包，即可生成补丁包<br>2.proguard<br>3.mainDex<br>4.日志与校验<br>灵活控制<br>1.可通过pattern灵活控制需要的内容<br>2.版本控制<br>减少补丁包<br>1.applyMapping<br>2.appyResourceMapping<br>3.force jumbo<br>4.7zip<br>…</li>
-<li><h5 id="V4-0结果"><a href="#V4-0结果" class="headerlink" title="V4.0结果"></a><strong>V4.0结果</strong></h5><img src="http://upload-images.jianshu.io/upload_images/2012773-d2c3655a58ad2f8d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="V4.0-结果"></li>
+<li><h5 id="V4-0结果"><a href="#V4-0结果" class="headerlink" title="V4.0结果"></a><strong>V4.0结果</strong></h5><img src="https://meto.chinakook.com/blog-images/v4.png" alt="V4.0-结果"></li>
 </ul>
 <p><strong>微信开源计划</strong>：<a href="https://github.com/Tencent/tinker" target="_blank" rel="external">Tinker开源地址</a><br><strong>同样附上Piasy视频网址</strong>：<a href="https://share.yoloyolo.tv/bcs/1224654?sign=8459ca748f9dc1508a920880f2acaaf1&amp;group_id=272492" target="_blank" rel="external">微信Tinker热补丁实践演进之路</a><br><strong>YouTube上Jacks录制的网址</strong>：<a href="https://www.youtube.com/playlist?list=PLmUDvA65lNp28eLBicTEt9oOdpdnGBl9O" target="_blank" rel="external">微信 Tinker 热补丁实践演进之路——张绍文</a><br><strong>微信开发团队公号：</strong><a href="http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=2649286384&amp;idx=1&amp;sn=f1aff31d6a567674759be476bcd12549&amp;scene=0#wechat_redirect" target="_blank" rel="external">微信开发团队公号</a> (详细介绍可点击链接，非常详细的介绍，基本是按照演讲的时候介绍思路进行的)</p>
 <p><strong>方案选择，最重要的依据还是我们的需求，回到初心。</strong></p>
@@ -2767,7 +2767,7 @@
 <li>Fresco一个目前为止非常好用的或者说是最好用的加载图片、显示图片的框架。Fresco（单词的中文含义是湿壁画）是运用于Android设备的图片加载组件，使用了Fresco就可以不必烦恼图片的加载、显示这种繁琐的问题。Fresco中设计有Image Pipeline模块。它负责从网络、从本地文件系统、本地资源加载图片。为了最大限度节省空间和CPU时间，它含有3级缓存设计（2级内存，1级磁盘）。Fresco中的Drawees模块，会在图片加载完成前显示占位图，加载成功后自动替换为目标图片。当图片不再显示在屏幕上时，会及时释放内存和空间占用。解压后的图片，即Android中的Bitmap，占用大量的内存。大的内存占用势必引发更加频繁的GC。在5.0以下，GC将会显著地引发界面卡顿。在5.0以下系统，Fresco将图片放到一个特别的内存区域。当然，在图片不显示的时候，占用的内存会自动被释放。这会使得APP更加流畅，减少因图片内存占用而引发的OOM。Fresco在低端机器上表现一样出色，再也不用因图片内存占用而思前想后。未来Fresco的目标包括：更小的库和.so，令Image Pipeline插件化等</li>
 <li><strong>这里引用一段<em>秋百万</em>前辈的一点简单点评</strong><br>【王洁同学中文已经没有她的英文流利了，:)。作为 Fresco 文档的译者，也反复看了源码，以为对 Fresco 已   经足够了解了。还是补了好多知识。<br>对于不能 wrap_content 的事情，如何做到提前知道图片的宽高，我现在的做法是把宽高信息放到 uri 中。】</li>
 <li>这里再次引用别人的点评和理解——<em>何俊林</em>前辈<br>【分想了fresco一些思想及实现，主要用到了匿名共享内存Ashmem ，在native层处理，减少在java层内存的处理问题。现场有人提问，如果都来申请这样一个匿名共享内存，会不会导致机器很卡，等。这个Ashmem实际上是直接站在巨人的肩膀（Linux 共享内存机制）上的，对于Android基于Linux系统，各个app都是一个process，当然一个app也有可能多个process,共享内存的创建（open）、映射（mmap）、读写（read/write）以及锁定和解锁（pin/unpin）四个使用情景.详细了解Ashmem可以参考：<a href="http://blog.chinaunix.net/uid-20321537-id-3482938.html" target="_blank" rel="external">http://blog.chinaunix.net/uid-20321537-id-3482938.html</a>。另一个问题是说fresco用Drawee的问题，提问的小伙伴说他们之前都是用ImageView，现在切fresco，发现Drawee不是继承ImageView，王洁告知在起初定用Drawee,就不会把Drawee继承ImageView，我觉得应该有相应的解决方案吧，毕竟那么多人都在用fresco。哈哈】</li>
-<li>附上几张图，我本人英文惨不忍睹，基本翻译不出来。所以直接上图。（当然为了更好的理解<em>王洁</em>前辈所分析的干货，我私下会想办法翻译理解的，各位自行解决，有利无害）<br><img src="http://upload-images.jianshu.io/upload_images/2012773-a3758a416a6fb635.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-518a180fc267c3a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-1bcb7dd2d233efb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-ccef804cdacc3560.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-8d4accebb4559ce9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-49f3a86acb0efb01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-0ffc24affa3fb034.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
+<li>附上几张图，我本人英文惨不忍睹，基本翻译不出来。所以直接上图。（当然为了更好的理解<em>王洁</em>前辈所分析的干货，我私下会想办法翻译理解的，各位自行解决，有利无害）<br><img src="https://meto.chinakook.com/blog-images/fa.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa2.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa3.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa4.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa5.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa6.png" alt="Paste_Image.png"><br><img src="https://meto.chinakook.com/blog-images/fa7.png" alt="Paste_Image.png"></li>
 <li><strong>抱歉，别找了，没视频。官方视频没出来之前别指望找到了，静等官方视频吧，不过官方也不一定会放出来。</strong></li>
 <li>我只有PPT，<a href="https://github.com/MDCC2016/Android-Session-Slides/blob/master/05-Fresco-loading-image-faster.pdf" target="_blank" rel="external">05-Fresco-loading-image-faster.pdf</a><br>其余的全部会在文末放上。<br>其中包括：<br>[01-滴滴国际化 Android 端演进.pdf]<br>[02-From.Containerization.To.Modularity.pdf]<br>[03-云信 IM 推送保障及网络优化实践.pptx]<br>[04-微信 Tinker 热补丁实践演进之路.pdf]<br>[05-Fresco-loading-image-faster.pdf]<br>[06-如何开发一款优雅的 SDK.pptx]<br>[09-Android应用性能优化经验分享-张明云.pdf]</li>
 </ul>
@@ -2778,7 +2778,7 @@
 <li>个推推送数亿SDK独立设备上稳定运行多年的经验为切口，从SDK的开发、集成、发布等多方面深挖SDK与APP开发的不同之处，从架构、接口设计、兼容性等多维度来阐述如何开发一款优雅的SDK，使其满足易用、稳定、灵活等特点。吕观祥认为SDK的设计要点包括：开发方面需要接入简单，可自解释，可定制，防止误用；接口设计要周全考虑生命周期和异常处理；兼容性则考虑Android API、ROM版本，so版本，SDK版本；安全性要考虑本地和通信数据安全（HTTPS ECDHE-AES-GCM）；性能指标（电量、流量、内存、包大小）。发布方面，则需要实现灰度发布，补货Crash趋势和详情。发布包管理方面，需要包含日志更新，Sample工程代码等。其他还需要关注的有：第三方jar包，低污染（及时清理运行过程中创建的临时文件），以及全平台支持（Cocos2dx、Unity3D等）。</li>
 <li><em>秋百万</em>前辈的简单点评：开发，CI，测试三个方面，尤其 CI 方面的介绍，如果目前还没 CI 的团队，可以立刻按照这个配备搭建一个了。</li>
 <li>还是说以我目前的能力理解的不怎么样，或者说根本没怎么听懂。所以大家自行学习，我也会继续学习。</li>
-<li>附几张图，体会一下。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-edd56a1410e3f0de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="架构设计——APP"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-10700761e486b1ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="架构设计——SDK"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-a8e8b95185ef0d08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="CI"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-55705f22463eff1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="发布"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-a4bca0b1e08220de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="其他"></li>
+<li>附几张图，体会一下。<br><img src="https://meto.chinakook.com/blog-images/jia1.png" alt="架构设计——APP"><br><img src="https://meto.chinakook.com/blog-images/jia2.png" alt="架构设计——SDK"><br><img src="https://meto.chinakook.com/blog-images/jia3.png" alt="CI"><br><img src="https://meto.chinakook.com/blog-images/jia4.png" alt="发布"><br><img src="https://meto.chinakook.com/blog-images/jia5.png" alt="其他"></li>
 <li>继续学习才能深入理解</li>
 </ul>
 </li>
@@ -2826,21 +2826,21 @@
 <li>改善后一定要验证，保证每一次改善都有效，不会导致其他的问题</li>
 </ul>
 </li>
-<li>性能优化指标<br>在指标、现象、原因、检测工具几个方面讨论，上图。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-43c5da319ff4558d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="性能优化指标"></li>
+<li>性能优化指标<br>在指标、现象、原因、检测工具几个方面讨论，上图。<br><img src="https://meto.chinakook.com/blog-images/xing1.png" alt="性能优化指标"></li>
 <li>性能优化工具<ul>
-<li>AS Inspect Code<br><img src="http://upload-images.jianshu.io/upload_images/2012773-c7764e0ab3f80332.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="AS Inspect Code"></li>
-<li>AS Performance Monitor<br><img src="http://upload-images.jianshu.io/upload_images/2012773-864f7fa249433163.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="AS Performance Monitor"></li>
-<li>AS Date Analysis<br><img src="http://upload-images.jianshu.io/upload_images/2012773-ba8ee8af305529bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="AS Date Analysis"></li>
+<li>AS Inspect Code<br><img src="https://meto.chinakook.com/blog-images/xing2.png" alt="AS Inspect Code"></li>
+<li>AS Performance Monitor<br><img src="https://meto.chinakook.com/blog-images/xing3.png" alt="AS Performance Monitor"></li>
+<li>AS Date Analysis<br><img src="https://meto.chinakook.com/blog-images/xing4.png" alt="AS Date Analysis"></li>
 <li>开发者选项<ul>
-<li>过度描绘<br><img src="http://upload-images.jianshu.io/upload_images/2012773-e9f6d8b2048032b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="开发者选项——过度描绘"></li>
-<li>GPU呈现模式分析<br><img src="http://upload-images.jianshu.io/upload_images/2012773-825c6dff01519725.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="开发者选项——GPU呈现模式分析"></li>
+<li>过度描绘<br><img src="https://meto.chinakook.com/blog-images/xing5.png" alt="开发者选项——过度描绘"></li>
+<li>GPU呈现模式分析<br><img src="https://meto.chinakook.com/blog-images/xing6.png" alt="开发者选项——GPU呈现模式分析"></li>
 </ul>
 </li>
-<li>StrictMode<br><img src="http://upload-images.jianshu.io/upload_images/2012773-4d62fbfecdd52281.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="StrictMode"></li>
-<li>TraceView<br><img src="http://upload-images.jianshu.io/upload_images/2012773-cbe5b9f8366bbc66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="TraceView"></li>
-<li>方法耗时打印Hugo<br><img src="http://upload-images.jianshu.io/upload_images/2012773-5fb591d37e69549e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="方法耗时打印"></li>
-<li>布局性能查看 Hierarcher Viewer<br><img src="http://upload-images.jianshu.io/upload_images/2012773-3f95f7c1cb0e4474.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="布局性能查看Hierarcher Viewer"></li>
-<li>内存泄露检测 Leakcanary<br><img src="http://upload-images.jianshu.io/upload_images/2012773-96aeea69acd68143.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Leakcanary"></li>
+<li>StrictMode<br><img src="https://meto.chinakook.com/blog-images/xing7.png" alt="StrictMode"></li>
+<li>TraceView<br><img src="https://meto.chinakook.com/blog-images/xing8.png" alt="TraceView"></li>
+<li>方法耗时打印Hugo<br><img src="https://meto.chinakook.com/blog-images/xing9.png" alt="方法耗时打印"></li>
+<li>布局性能查看 Hierarcher Viewer<br><img src="https://meto.chinakook.com/blog-images/xing10.png" alt="布局性能查看Hierarcher Viewer"></li>
+<li>内存泄露检测 Leakcanary<br><img src="https://meto.chinakook.com/blog-images/xing11.png" alt="Leakcanary"></li>
 </ul>
 </li>
 <li><p>性能优化实战</p>
@@ -2855,15 +2855,15 @@
 </ol>
 <p><strong>应该以冷启动速度为优化指标，首次启动频次低，热启动耗时少，没多大意义。</strong></p>
 </li>
-<li>冷启动平均耗时统计<br><img src="http://upload-images.jianshu.io/upload_images/2012773-b9267dd0444e9006.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="冷启动平均耗时统计"><br>详情扫码<br><strong>Google Play排名前100的非游戏类应用：39个冷启动时间在2秒内，73个冷启动时间在3秒内</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-e5df4aa2800d5195.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="启动速度优化"></li>
-<li>Hugo大致定位耗时位置<br><img src="http://upload-images.jianshu.io/upload_images/2012773-3a4b58a04bdcb002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Hugo大致耗时位置"></li>
-<li>TraceView精确定位<br><img src="http://upload-images.jianshu.io/upload_images/2012773-548812f9e11746e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="TraceView精确定位"></li>
-<li>改善后<br><img src="http://upload-images.jianshu.io/upload_images/2012773-8085a0b15f1ee5f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="改善后"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-9827330a71ee0b0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="改善后"><br><img src="http://upload-images.jianshu.io/upload_images/2012773-9fdaa612536fd538.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="改善后"></li>
+<li>冷启动平均耗时统计<br><img src="https://meto.chinakook.com/blog-images/ing1.png" alt="冷启动平均耗时统计"><br>详情扫码<br><strong>Google Play排名前100的非游戏类应用：39个冷启动时间在2秒内，73个冷启动时间在3秒内</strong><br><img src="https://meto.chinakook.com/blog-images/ing2.png" alt="启动速度优化"></li>
+<li>Hugo大致定位耗时位置<br><img src="https://meto.chinakook.com/blog-images/ing3.png" alt="Hugo大致耗时位置"></li>
+<li>TraceView精确定位<br><img src="https://meto.chinakook.com/blog-images/ing4.png" alt="TraceView精确定位"></li>
+<li>改善后<br><img src="https://meto.chinakook.com/blog-images/ing5.png" alt="改善后"><br><img src="https://meto.chinakook.com/blog-images/ing6.png" alt="改善后"><br><img src="https://meto.chinakook.com/blog-images/ing7.png" alt="改善后"></li>
 </ul>
 </li>
-<li>流畅度优化<br><img src="http://upload-images.jianshu.io/upload_images/2012773-668fd37fd7b4d79e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="流畅度优化"></li>
-<li>内存优化<br><img src="http://upload-images.jianshu.io/upload_images/2012773-a25f3ccdeccaab9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="内存优化"></li>
-<li>功耗优化<br><img src="http://upload-images.jianshu.io/upload_images/2012773-790aee3586ebebe9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="功耗优化"></li>
+<li>流畅度优化<br><img src="https://meto.chinakook.com/blog-images/ing8.png" alt="流畅度优化"></li>
+<li>内存优化<br><img src="https://meto.chinakook.com/blog-images/ing9.png" alt="内存优化"></li>
+<li>功耗优化<br><img src="https://meto.chinakook.com/blog-images/ing10.png" alt="功耗优化"></li>
 </ul>
 </li>
 </ol>
@@ -2884,7 +2884,7 @@
 <li><p>2016MDCC大会 Android开发峰会讲师PPT<br><a href="https://github.com/MDCC2016/Android-Session-Slides" target="_blank" rel="external">https://github.com/MDCC2016/Android-Session-Slides</a></p>
 </li>
 </ul>
-<p><strong>最后附上Android峰会结束后的合影</strong><br><img src="http://upload-images.jianshu.io/upload_images/2012773-53b54210e9066490.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Android峰会合影"></p>
+<p><strong>最后附上Android峰会结束后的合影</strong><br><img src="https://meto.chinakook.com/blog-images/ing11.jpg" alt="Android峰会合影"></p>
 <h4 id="以上是我此次参加MDCC大会总结的全部内容。大多数材料来自于讲师PPT，秋百万前辈、Piasy前辈、何俊林前辈的总结等。欢迎大家提意见，共同进步。有不对的地方还请见谅，请指出我会加以改正。"><a href="#以上是我此次参加MDCC大会总结的全部内容。大多数材料来自于讲师PPT，秋百万前辈、Piasy前辈、何俊林前辈的总结等。欢迎大家提意见，共同进步。有不对的地方还请见谅，请指出我会加以改正。" class="headerlink" title=" 以上是我此次参加MDCC大会总结的全部内容。大多数材料来自于讲师PPT，秋百万前辈、Piasy前辈、何俊林前辈的总结等。欢迎大家提意见，共同进步。有不对的地方还请见谅，请指出我会加以改正。"></a><strong> 以上是我此次参加MDCC大会总结的全部内容。大多数材料来自于讲师PPT，<em>秋百万</em>前辈、<em>Piasy</em>前辈、<em>何俊林</em>前辈的总结等。欢迎大家提意见，共同进步。有不对的地方还请见谅，请指出我会加以改正。</strong></h4><h4 id="再次感谢stormzhang张哥给的机会，非常感谢，我会继续努力。"><a href="#再次感谢stormzhang张哥给的机会，非常感谢，我会继续努力。" class="headerlink" title="再次感谢stormzhang张哥给的机会，非常感谢，我会继续努力。"></a>再次感谢<em>stormzhang</em>张哥给的机会，非常感谢，我会继续努力。</h4><p><br>ikook<br>2016.09.27</p>
 ]]></content>
       

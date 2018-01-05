@@ -76,7 +76,7 @@ java 实现排序算法系列
 
     
         <meta property="article:published_time" content="3月 09, 2017" />
-        <meta property="article:modified_time" content="12月 10, 2017" />
+        <meta property="article:modified_time" content="1月 05, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -119,7 +119,7 @@ java 实现排序算法系列
     "headline": "java 实现排序算法之「冒泡排序」",
     "url": "http://ikookblog.com/2017/03/09/java_sort_algorithm_series1/index.html",
     "datePublished": "3月 09, 2017",
-    "dateModified": "12月 10, 2017",
+    "dateModified": "1月 05, 2018",
     "description": "
 java 实现排序算法系列
 ",
@@ -373,7 +373,7 @@ java 实现排序算法系列
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://oe94sy64u.bkt.clouddn.com/java_sort_algorithm_series1.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/java_sort_algorithm_series1.jpg)">
     
             <p class="article-headline-p">
                 java 实现排序算法之「冒泡排序」
@@ -526,19 +526,19 @@ java 实现排序算法系列
 <li><h5 id="第一轮排序"><a href="#第一轮排序" class="headerlink" title="第一轮排序"></a>第一轮排序</h5><p>比较相邻两个元素，如果第一个比第二个大，则交换两个元素的值。<br><br>进行下两个元素的比较，即比较第二个和第三个元素，如前者大于后者，则交换。<br><br>再进行下两个元素的比较。直到第 n-1 个元素和第 n 元素进行比较，如前者大于后者，则交换。<br><br>可以肯定，最后一个元素 n，肯定是 n 个元素中最大的元素。</p>
 </li>
 <li><h5 id="第二轮排序"><a href="#第二轮排序" class="headerlink" title="第二轮排序"></a>第二轮排序</h5><p>重复执行第一轮执行的动作，直到第 n-2 个元素和第 n-1 个元素进行比较。如前者大于后者，则交换。<br><br>由于第一轮排序已经将最大元素放置到第 n 个位置，所以本次排序无考虑第 n 个元素。即第 n 个元素不参加本次排序。<br><br>…..<br><br>示例图片:</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-c645e3f59131b465.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/shi1.png" alt=""></p>
 </li>
 <li><h5 id="重复执行"><a href="#重复执行" class="headerlink" title="重复执行"></a>重复执行</h5><p>直到只剩一个元素，那么这个元素一定是最小元素，排序结束。显然，进行了 n-1 次排序。</p>
 </li>
 </ul>
 <p>上述过程，每次排序(即每轮排序)都会有一个元素从某个位置慢慢“浮动”到最终所属的位置,就像气泡总会浮动到水的最顶端。在冒泡排序中，每一轮排序都会有一个元素(气泡)替换到本次排序的最后一个位置(水的最顶端)，注意，是本次排序的最后一个位置(第一轮，则为 n；第二轮，则为 n-1；第三轮，则为 n-2 ~~~ )。</p>
 <p>因为，排序的过程像是冒泡一样，则称为“冒泡排序”。如下为冒泡排序示意图(来自维基百科)</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-ce2db11388ddf4d1.gif?imageMogr2/auto-orient/strip" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/shi2.gif" alt=""></p>
 <h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">public static void bubbleSort(int[] arr) &#123;</div><div class="line">    int temp = 0;</div><div class="line">    for (int i = arr.length - 1; i &gt; 0; --i) &#123; // 每次需要排序的长度</div><div class="line">        for (int j = 0; j &lt; i; ++j) &#123; // 从第一个元素到第i个元素</div><div class="line">            if (arr[j] &gt; arr[j + 1]) &#123;</div><div class="line">                temp = arr[j];</div><div class="line">                arr[j] = arr[j + 1];</div><div class="line">                arr[j + 1] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h3 id="算法优化"><a href="#算法优化" class="headerlink" title="算法优化"></a>算法优化</h3><p>假如有一组数据为：1,2,3,4,5,6,7,8,9,0。 如果用上面的方法实现排序会有什么情况，当然，实现排序肯定没有问题。但是，这组数据的前面一大部分已经是有序的了，如果还是用上面的代码会使效率降低很多(数据比较大的情况下)。所以，将代码进行优化。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">public static void bubbleSort(int[] arr) &#123;</div><div class="line">    int temp = 0;</div><div class="line">    boolean swap;</div><div class="line">    for (int i = arr.length - 1; i &gt; 0; --i) &#123; // 每次需要排序的长度</div><div class="line">        swap=false;</div><div class="line">        for (int j = 0; j &lt; i; ++j) &#123; // 从第一个元素到第i个元素</div><div class="line">            if (arr[j] &gt; arr[j + 1]) &#123;</div><div class="line">                temp = arr[j];</div><div class="line">                arr[j] = arr[j + 1];</div><div class="line">                arr[j + 1] = temp;</div><div class="line">                swap=true;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        if (swap==false)&#123;</div><div class="line">            break;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>在实际使用过程中，由于在大量数据的情况下几乎不使用冒泡排序，而使用小数据的时候增加的布尔变量反而会造成额外的开销。通常，冒泡排序就使用前一种就行了。</p>
 <h3 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h3><ul>
-<li><h4 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h4>当最好的情况，也就是要排序的表本身就是有序的，那么我们比较次数，根据最后改进的代码，可以推断出就是n-1次的比较，没有数据交换，时间复杂度为O(n)。当最坏的情况，即待排序表是逆序的况，此时需要比较<img src="http://upload-images.jianshu.io/upload_images/2012773-7f485f78193e61ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""> 次，并作等数量级的记录移动。因此，总的时间复杂度为O(n^2)。</li>
+<li><h4 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h4>当最好的情况，也就是要排序的表本身就是有序的，那么我们比较次数，根据最后改进的代码，可以推断出就是n-1次的比较，没有数据交换，时间复杂度为O(n)。当最坏的情况，即待排序表是逆序的况，此时需要比较<img src="https://meto.chinakook.com/blog-images/shi3.jpg" alt=""> 次，并作等数量级的记录移动。因此，总的时间复杂度为O(n^2)。</li>
 <li><h4 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h4>由以上算法步骤分析，可轻易得知冒泡排序的空间复杂度为 O(n), 需要辅助空间 O(1)</li>
 </ul>
 <h3 id="算法稳定性"><a href="#算法稳定性" class="headerlink" title="算法稳定性"></a>算法稳定性</h3><p>容易看出，在相邻元素相等时，我们并不需要交换它们的位置，所以，冒泡排序是稳定排序。</p>

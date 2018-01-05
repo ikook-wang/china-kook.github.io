@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-05T05:43:10.000Z</updated>
+  <updated>2018-01-05T13:29:34.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2018/01/04/google-cloud/"/>
     <id>http://ikookblog.com/2018/01/04/google-cloud/</id>
     <published>2018-01-03T16:00:00.000Z</published>
-    <updated>2018-01-05T05:43:10.000Z</updated>
+    <updated>2018-01-05T13:29:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>由于众所周知的原因，在国内不能够在网络上自由的浏览信息，但是有没有解决方法呢？<a id="more"></a>肯定是没有啊，身处国门之内，要学会遵守规则不要踩踏红线。</p>
 <p>明确说明，<strong>这篇文章只是教给大家如何利用谷歌云「学习」搭建一个免费的服务器，学习搭建服务</strong>这个技术。至于利用谷歌云做什么，与本文及本人无关。</p>
@@ -32,67 +32,67 @@
 <p>这两个条件都是硬性条件，缺一不可。信用卡，可以在某宝淘，临时注册用，也就 20 来块，不易搜索，大家用心寻找应该能找到，需要提醒的是：超过 20 块的不要买，更高价格就更不用说了，完全可以找到 20 以下的，某宝还是有不良商家的；临时「自由访问」网络，这个在“百毒”上可以搜索到，比如那个带颜色的灯，可以免费使用，如果实在找不到，那就再找找。</p>
 <p>首先，要拥有一个谷歌账户，只要可以「自由访问」网络便可注册，这里就不赘述了，谷歌全家桶都使用这一个账户登录，谷歌云也不例外。</p>
 <p>打开谷歌云：<a href="https://cloud.google.com/" target="_blank" rel="external">https://cloud.google.com/</a>，登录你的谷歌账户然后点击免费试用。</p>
-<center><img src="http://meto.chinakook.com/blog-images/0.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/0.jpeg" alt=""></center>
 
 <p>然后如下所示：</p>
-<center><img src="http://meto.chinakook.com/blog-images/1.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/1.jpeg" alt=""></center>
 
 <p>地区请选择<strong>美国</strong>，当然任性选择中国我也没辙，只是有什么问题就自己受着吧。继续之后出现如下信息：</p>
-<center><img src="http://meto.chinakook.com/blog-images/2.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/2.jpeg" alt=""></center>
 
 <p>账号选择个人，然后填写「名称和地址」，不知道怎么填？我教你。在浏览器打开：<a href="http://t.cn/Rt85282" target="_blank" rel="external">http://t.cn/Rt85282</a>，会随机生成一个美国公民的身份，然后按照提示填写即可。需要注意的是，如果有去广告插件先把该站点加入白名单。随机生成的身份如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/3.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/3.jpeg" alt=""></center>
 
 <p>不要填写图中的信息，自己去生成。</p>
 <p>然后填写「付款方式」中的「信用卡卡号」，当然是填写淘到的卡号了。如果自己有支持的信用卡的话，直接用就可以了，就是直接填写自己的信用卡卡号，不会扣费，到期之后也不会。谷歌不会这么干，某些公司会，你懂！！！</p>
-<center><img src="http://meto.chinakook.com/blog-images/4.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/4.png" alt=""></center>
 
 <p>如果你是在某宝上买的虚拟信用卡，「持卡人姓名」填写上面生成的名字即可。如果你是使用自己的信用卡，请填写自己的姓名。</p>
 <p>然后点击开始免费试用，再进入「我的控制台」，会创建一个默认项目，项目名称是自己生成的，不用我们管，创建之后如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/05.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/05.jpeg" alt=""></center>
 
 <p>点击左上角按钮，然后点击「结算」查看谷歌赠送给的 $300 是否到位了。</p>
-<center><img src="http://meto.chinakook.com/blog-images/6.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/6.jpeg" alt=""></center>
 
 <p>我的用过了，所以是这样的，刚注册会显示剩余的赠金：$300，剩余天数：365。</p>
 <p>然后点击：计算 - Compute Engine - VM 实例 - 创建实例。如下：</p>
-<center><img src="http://meto.chinakook.com/blog-images/7.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/7.png" alt=""></center>
 
 
-<center><img src="http://meto.chinakook.com/blog-images/8.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/8.png" alt=""></center>
 
 <p>按照下图中标注的信息填写，其他默认即可。</p>
-<center><img src="http://meto.chinakook.com/blog-images/9.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/9.jpeg" alt=""></center>
 
 <p>正在创建：</p>
-<center><img src="http://meto.chinakook.com/blog-images/10.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/10.png" alt=""></center>
 
 <p>创建完成：</p>
-<center><img src="http://meto.chinakook.com/blog-images/11.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/11.png" alt=""></center>
 
 <p>创建完成之后，「外部 IP」就是服务器的地址，我这里不适合给你们看。因为我之前创建过一个实例，所以会显示两个，大家如果第一次，肯定是一个。</p>
 <p>然后去测试一下实例的速度如何，当然也可以不测试，基本是没问题的。测试地址：<a href="http://t.cn/Ry2GtDf" target="_blank" rel="external">http://t.cn/Ry2GtDf</a>。下图中框起来的地方，大家选择离自己所在地最近的即可。</p>
-<center><img src="http://meto.chinakook.com/blog-images/12.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/12.jpeg" alt=""></center>
 
 <p>可见速度杠杠的，只要均在 100 毫秒之内，说明就没问题，如果超出就删除这个实例，重新建一个实例试试。</p>
 <p>配置服务器，这一步非常关键，非常关键，非常关键。务必仔细操作。</p>
 <p>首先，连接 SSH 服务器，如下所示：</p>
-<center><img src="http://meto.chinakook.com/blog-images/13.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/13.png" alt=""></center>
 
-<center><img src="http://meto.chinakook.com/blog-images/14.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/14.png" alt=""></center>
 
 <p>之后提到的所有关于代码的部分均在类似下图窗口中输入：</p>
-<center><img src="http://meto.chinakook.com/blog-images/15.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/15.jpeg" alt=""></center>
 
 <p>1.输入：sudo -i（注意，sudo 之后有个空格），回车。</p>
 <p>2.输入下列代码（注意，这里的代码为一行，中间切不可有回车）：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh &amp;&amp; bash bbr.sh install</div></pre></td></tr></table></figure>
 <p>输入之后回车。然后耐心等待，直到出现第三步中的窗口。</p>
 <p>3.出现如下窗口：</p>
-<center><img src="http://meto.chinakook.com/blog-images/16.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/16.jpeg" alt=""></center>
 
 <p>按键盘上的 <strong>Tab</strong> 键，选择 <no>，然后会跳回刚才的窗口：</no></p>
-<center><img src="http://meto.chinakook.com/blog-images/17.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/17.png" alt=""></center>
 
 <p>然后输入 <strong>y</strong>，回车。可以等待重启，或者直接关闭该窗口，重新打开，不记得怎么打开就往上翻。</p>
 <p>4.输入：sudo -i（和第一步一样）</p>
@@ -101,22 +101,22 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh &amp;&amp; chmod +x shadowsocksR.sh</div></pre></td></tr></table></figure>
 <p>7.输入：./shadowsocksR.sh</p>
 <p>出现下图所示内容，则证明上面的工作成功。</p>
-<center><img src="http://meto.chinakook.com/blog-images/18.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/18.png" alt=""></center>
 
 <p>8.设置密码和端口。在上面所示窗口中输入密码，随便，自己记住就可以，回车；然后会提示输入端口，也是随便，只要在 1-65535 之间就行，我设置的是 789。</p>
 <p>9.设置完密码和端口，会提示输入编码方式、混淆方式等，这里直接默认就好，一路回车。如下图所示（图中有提示，认真看）：</p>
-<center><img src="http://meto.chinakook.com/blog-images/019.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/019.png" alt=""></center>
 
 <p>10.在上一步骤回车之后，大约需要等待 5、6 分钟，这个过程是在配置服务器，耐心等待就好，千万不要关闭窗口，更不要关闭浏览器，更更不能关闭电脑，马上就完工，现在放弃就可惜了。</p>
 <p>11.出现以下画面，嗯，恭喜，你成功了。当然，先别记着关闭，复制红色部分到你的电脑中，之后会用到的。然后就可以关闭这个 SSH 窗口了。</p>
-<center><img src="http://meto.chinakook.com/blog-images/20.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/20.png" alt=""></center>
 
 <p>配置防火墙规则，这是最后的设置了。</p>
 <p>1.点击边栏中：网络 - VPC 网络 - 防火墙规则。</p>
-<center><img src="http://meto.chinakook.com/blog-images/21.png" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/21.png" alt=""></center>
 
 <p>2.设置协议端口：</p>
-<center><img src="http://meto.chinakook.com/blog-images/22.jpeg" alt=""></center>
+<center><img src="https://meto.chinakook.com/blog-images/22.jpeg" alt=""></center>
 
 <p>把端口号设置成刚才我们自己规定的端口号，我的是 789。修改时输入：tcp:789; udp:789，注意，分号“；”后面紧跟一个空格。只设置图中圈红的两个，这两个必须设置，不要漏掉，其余默认。</p>
 <p>到此，谷歌云搭建完毕。</p>
@@ -155,7 +155,7 @@
     <link href="http://ikookblog.com/2017/12/31/old2017_new2018/"/>
     <id>http://ikookblog.com/2017/12/31/old2017_new2018/</id>
     <published>2017-12-30T16:00:00.000Z</published>
-    <updated>2018-01-04T08:35:21.000Z</updated>
+    <updated>2018-01-05T15:47:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>又到年末了，今天是 2017 年的最后一天。<a id="more"></a>去年开始养成了写年终总结的习惯，毕竟过了一年，也该回顾一下，审视一下自己，以便在下一年有更好的发展。</p>
 <p>今天提笔之前看了下<a href="http://ikookblog.com/2017/01/07/old2016_new2017/"> 16 年的总结</a>，恩，我过了糟糕的一年，非常糟糕。</p>
@@ -217,7 +217,7 @@
     <link href="http://ikookblog.com/2017/12/29/wechat-tiaoyitiao/"/>
     <id>http://ikookblog.com/2017/12/29/wechat-tiaoyitiao/</id>
     <published>2017-12-28T16:00:00.000Z</published>
-    <updated>2018-01-04T08:24:21.000Z</updated>
+    <updated>2018-01-05T15:47:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>昨天微信官方公布了几条关于小程序的重要消息，并且微信 APP 在同一天进行了更新。<a id="more"></a>小程序的功能升级主要包含以下几个部分：</p>
 <ol>
@@ -227,36 +227,36 @@
 </ol>
 <p>具体见微信官方公号发表的文章：<a href="http://mp.weixin.qq.com/s?__biz=MjM5NDAwMTA2MA==&amp;mid=2695730045&amp;idx=1&amp;sn=c93080476258430accd5a08924c4a1db&amp;chksm=83d74ab6b4a0c3a05163dcf8fc306dab562071fd170f3087f40fdcddec5e61bde57ac9f9e886&amp;scene=21#wechat_redirect" target="_blank" rel="external">小程序功能升级</a></p>
 <p>更新到最新版微信就可以去体验以上的功能了。安装更新之后，其中最惹人瞩目的莫过于小游戏「跳一跳」，打开即可看到以下界面。</p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG4.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG4.jpeg" alt=""></p>
 <p>立即开始游戏体验一下，真的蛮不错的，因为是第一次进入游戏就光顾着体验游戏的玩法了，没有太在意一些细节，玩了两把之后就退出了。然后在接下来的一段时间里，朋友圈、微信群等等都在晒战绩，讨论小游戏「跳一跳」，还真是火的够快的。晚上躺在被窝里又认真体验了一下这款游戏，发现这游戏远没有想象的那么「简单」，然后立马上网查了下，果然。</p>
 <p>这款小游戏其实讲述了一些的故事，游戏里包含了许多童年陪伴我们成长的事物。</p>
 <p>游戏中跳跃的角色是一个英文字母“ i ”，我的觉得应该是“我”的意思，代表着游戏者、游戏的主人公，也就是你。</p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG5.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG5.jpeg" alt=""></p>
 <p>游戏中被「我们」踩的小物体，也就是使我们跳跃的介质，其实包含了许多有内涵的元素。</p>
 <p><strong>魔方：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG6.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG6.jpeg" alt=""></p>
 <p>相信我们小时候都玩过魔方吧，甚至现在我还经常拿出来拧两把。</p>
 <p><strong>井盖：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG7.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG7.jpeg" alt=""></p>
 <p>小时候走在路上的时候，总是不由自主地踩各种井盖玩。</p>
 <p><strong>卷纸：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG8.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG8.jpeg" alt=""></p>
 <p>这个可就了不得了，青春时期的我们免不了使用卷纸吧？不管男生、女生。尤其是男生，都懂得吧？😏</p>
 <p><strong>闹钟：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG9.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG9.jpeg" alt=""></p>
 <p>长大以后就再也离不开闹钟了。高中为了早起上自习要定闹钟；大学还好，不用早起，但还是会有自律的同学利用闹钟来督促自己，早起学习；工作之后就更加离不开了。</p>
 <p><strong>便利店：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG10.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG10.jpeg" alt=""></p>
 <p>长大后，为了节省时间，便利店也许是我们经常光顾的地方了。</p>
 <p><strong>快递包裹：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG11.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG11.jpeg" alt=""></p>
 <p>嗯，剁手快乐。</p>
 <p>当然还有微信的故事。</p>
 <p><strong>微信红包：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG13.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG13.jpeg" alt=""></p>
 <p>在微信群里抢红包，错过了一分好像错过了一个亿。</p>
 <p><strong>用户过亿：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/WechatIMG12.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/WechatIMG12.jpeg" alt=""></p>
 <p>记录了微信推出 433 天注册用户过亿的辉煌历史。</p>
 <p>游戏中还有很多有趣的「小事物」，这里就不一一介绍了，强烈建议大家去体验一番，真的蛮不错的。</p>
 <p>不知道大家有没有看出这个小游戏的「深意」：现代社会，我们「关注」的东西越来越多，而我们「关心」的事情却越来越少，就像最开始进入更新后的微信，小游戏界面说的那样：玩一个小游戏才是正经事。我们应该停下来，放松下来，玩一个小游戏。</p>
@@ -294,7 +294,7 @@
     <link href="http://ikookblog.com/2017/12/28/python-data/"/>
     <id>http://ikookblog.com/2017/12/28/python-data/</id>
     <published>2017-12-27T16:00:00.000Z</published>
-    <updated>2018-01-04T08:32:25.000Z</updated>
+    <updated>2018-01-05T15:46:12.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>本文转载自公众号「红猴子」</p>
@@ -347,7 +347,7 @@
     <link href="http://ikookblog.com/2017/12/27/view-text-03/"/>
     <id>http://ikookblog.com/2017/12/27/view-text-03/</id>
     <published>2017-12-26T16:00:00.000Z</published>
-    <updated>2018-01-04T08:03:59.000Z</updated>
+    <updated>2018-01-05T15:45:43.000Z</updated>
     
     <content type="html"><![CDATA[<p>长大的途中，会遇到各种困难 <a id="more"></a><br>可能是思念的距离<br>是职场竞争的压力<br>是初入社会的现实<br>是生存之道的艰辛<br>是情感失利的感伤<br>…</p>
 <p>我觉得每个人的人生都不一样<br>有的人从小就很坚强<br>但长大时困苦击溃了最后的心防<br>有的人从未认识困难<br>所以面对成长的高墙时手足无措<br>我们一直很勇敢<br>只是“长大”这道关卡太难闯<br>那些曾握过的手<br>唱过的歌<br>流过的泪<br>爱过的人<br>一起携手走过的时光<br>又何尝不是生命中最值得珍惜<br>最美好的记忆呢？</p>
@@ -379,31 +379,31 @@
     <link href="http://ikookblog.com/2017/12/25/web-data/"/>
     <id>http://ikookblog.com/2017/12/25/web-data/</id>
     <published>2017-12-24T16:00:00.000Z</published>
-    <updated>2018-01-04T07:57:23.000Z</updated>
+    <updated>2018-01-05T15:45:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>前些日子逛 CSDN，无意中看到一个博客专栏：讲给 Android 程序员看的前端教程。<a id="more"></a>打开文章认真读了一篇，感觉质量真的很不错，并且每篇文章都有配套的视频教程，简直良心。这个系列的作者是谷哥的小弟，经常逛 CSDN 的朋友应该不陌生，是 CSDN 的博客专家，文章质量都很不错。</p>
 <p>看到这么良心并且高质量的教程忍不住去读，索性全都看了一遍，刚好可以回顾一下之前学的知识。文章中所涉及的知识点比较全面，内容整理的非常系统，很有条理。</p>
 <p>说实话之所以会把这个系列的教程从头到尾看一遍，是因为之前折腾前端的时候也没有做整理，时间长了不怎么用忘得也差不多了。有这么好的资源当然不能放过，正好可以整理下知识点，也好不时拿出来回顾下。</p>
 <p>今天把我整理的这些知识点拿出来分享给大家，希望能帮助到有需要的朋友。整理出来的内容都是出自上面提到的教程，有时间有耐心的朋友不妨直接看教程，地址：<a href="http://t.cn/RHy9s8Y" target="_blank" rel="external">http://t.cn/RHy9s8Y</a>。没时间的朋友可以直接看我整理的内容，下面是部分内容的截图。</p>
 <p><strong>1.HTML：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/HTML5%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/HTML5%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
 <center>HTML5 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/HTML5%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/HTML5%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>HTML5 整理（脑图版）</center>
 
 <p><strong>2.CSS:</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/CSS%E6%96%87%E6%A1%A3%E6%88%AA%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/CSS%E6%96%87%E6%A1%A3%E6%88%AA%E5%9B%BE.jpeg" alt=""></p>
 <center>CSS 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/CSS%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/CSS%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>CSS 整理（脑图版）</center>
 
 <p><strong>3.JavaScript：</strong></p>
-<p><img src="http://meto.chinakook.com/blog-images/JS%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/JS%E6%96%87%E6%A1%A3.jpeg" alt=""></p>
 <center>JS 整理（文档版）</center>
 
-<p><img src="http://meto.chinakook.com/blog-images/JS%20%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/JS%20%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.jpeg" alt=""></p>
 <center>JS 整理（脑图版）</center>
 
 
@@ -439,7 +439,7 @@
     <link href="http://ikookblog.com/2017/12/22/self-ignite/"/>
     <id>http://ikookblog.com/2017/12/22/self-ignite/</id>
     <published>2017-12-21T16:00:00.000Z</published>
-    <updated>2017-12-23T04:05:18.000Z</updated>
+    <updated>2018-01-05T15:44:27.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>本文节选自书籍「干法」；作者：稻盛和夫</p>
@@ -487,14 +487,14 @@
     <link href="http://ikookblog.com/2017/12/15/brand/"/>
     <id>http://ikookblog.com/2017/12/15/brand/</id>
     <published>2017-12-14T16:00:00.000Z</published>
-    <updated>2017-12-23T04:18:59.000Z</updated>
+    <updated>2018-01-05T15:44:05.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>自从开通公众号「ikook」之后也算是用心维护了，基本没有违背当初开号时许下的承诺 —— 认真坚持维护此公号。虽说中间差点放弃，好在坚持过来了，也总算没有辜负自己。</p>
 <p>公众号从申请到被 stormzhang 推荐之前，关注人数一直就那么几十个人，之后被推荐关注量迅速破千，虽然不是多么惊人的数字，但对我来说已经是很“重”了，我从来都没想过自己的公众号会被推荐，也没想过能够有这么多人关注，更没有想过有很多读者表示支持和感谢。经过这些事情，我觉得应该更加用心的去做，不然真的有些对不起支持和鼓励我的那些朋友。</p>
 <p>经过最近一段时间的考虑，为了能够更好运营和维护，我觉得有必要对这个号做出一些改变。首先，说一下最直观的感受：一个公众号最具有辨识度的应该是头像而不是名称，头像就像是一个人的脸，好比你刚认识了一个陌生人，下次再见面，你一定能记起他的模样，但名字就不一定能够记住了。在这里是同一个道理，别人能记得住公号的头像但不一定能记住公号 ID。</p>
 <p>这个号曾经尴尬的被误认为是另一个号，原因就是头像撞了。虽然这个头像我已经用了有几年了，但毕竟是来自网络，撞了的可能性还是比较大的，怪不得别人，所以我决定将公号头像做一下改变。最近几天我一直在各种做图各种找头像，想过不少点子，甚至想把拍一张自己的照片扔上去，后来想想还是算了吧，别回头再吓的大家伙儿都取关就玩现了。最后我决定用「脸萌」结合自己的一些特点做个头像，虽然是自己拼起来的，但也还是有撞的可能性，然后我就用 PS 做了点小改动，又加了一个「ikook」作为标识，最后就有了下面的头像。</p>
-<p><center><img src="http://meto.chinakook.com/ikook.jpg" alt="ikook 头像"></center></p>
+<p><center><img src="https://meto.chinakook.com/ikook.jpg" alt="ikook 头像"></center></p>
 <p><center>公号 <strong>ikook</strong> 新头像</center><br><br></p>
 <p>再者就是公号的定位，「<strong>ikook</strong>」最初的定位是「分享科技、生活、技术、人生、经验感悟等，同时记录个人成长历程」，一段时间之后我回过头看公号的定位，怎么看怎么杂，怎么看怎么乱，写这么多不就是说什么都写吗？然后我就把功能介绍改成了「就想写点东西，随便什么」。这句话虽然是这样写，但不可能想写什么就写什么，随便写打发大家，那是对自己不负责更是对你们的不负责，这话更多是想告诉大家这里是一个较为自由的地方，我本身不想给自己设限，更想随意一点。</p>
 <p>我并不想把它做成一个纯技术的号，我想的是：在那里能够有帮助到大家东西（不限于技术），能够给大家带来启发，同时记录下自己的点滴。本着这个原则，结合这几天的思考，我想在公号开设一个小栏目 —— 加油站，这个加油站，可不卖油。这个小栏目会收录一些激励、感悟、思维方式等文章，我希望能够通过这么一种方式为大家带去一点鼓励和改变。这个栏目的文章会通过转载等方式呈现给大家，转载的内容可能会来自其他公众号、书籍等，当然也会有我的原创，但不会很多，毕竟自己还没活明白。同时，欢迎大家投稿，不限于这个「加油」文，技术之类也一样。</p>
@@ -527,22 +527,22 @@
     <link href="http://ikookblog.com/2017/12/09/java-res/"/>
     <id>http://ikookblog.com/2017/12/09/java-res/</id>
     <published>2017-12-08T16:00:00.000Z</published>
-    <updated>2017-12-10T09:24:56.000Z</updated>
+    <updated>2018-01-05T15:43:32.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>前几天的文章：<a href="http://ikookblog.com/2017/12/05/back-end_dev/">后端开发基础都有哪些？</a>给大家简单介绍了下 JavaWeb 开发需要掌握的基础知识，文章中所涉及的都是必备知识。虽然给大家介绍了要学习什么知识，但还是会有同学不知怎么开始学习。</p>
 <p>既然是这样，那我就负责到底（还不是给自己挖了坑，哈哈）。今天给大家分享下 Java 整套的学习资源，包括：视频、书籍（电子书）、编程工具。初学者学习编程的正确方式是：视频 + 书籍。</p>
 <p>书籍比较系统，由浅入深，但是如果只看书籍容易造成抵抗心理，技术类书籍比较枯燥，想要认真看完一本技术类书籍非常困难，尤其是初学者，更何况一旦遇到知识难点，初学者只看书会很难看懂；有人会说了，那只看视频不就完了，就技术类视频来说：视频所讲解的内容会比较浅显，有时候一些小的知识点会一句话带过，而且由于视频本身限制更不会去讲解知识点的原理是什么，再者，视频不如书籍系统。所以视频 + 书籍结合一起学习对初学者最友好。</p>
 <p>好了，废话不多说，上干货。</p>
-<h3 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h3><h5 id="Java-基础："><a href="#Java-基础：" class="headerlink" title="Java 基础："></a>Java 基础：</h5><p><img src="http://meto.chinakook.com/blog-images/Java%E5%9F%BA%E7%A1%80.jpeg" alt="Java 基础视频"></p>
+<h3 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h3><h5 id="Java-基础："><a href="#Java-基础：" class="headerlink" title="Java 基础："></a>Java 基础：</h5><p><img src="https://meto.chinakook.com/blog-images/Java%E5%9F%BA%E7%A1%80.jpeg" alt="Java 基础视频"></p>
 <p>这些都是业内评价较高的 Java 基础入门视频，前 4 个视频就是围绕 Java SE 来讲，而最后一个主要讲解 Android 学习中要用到的一些 Java 基础，区别不大。毕向东老师的视频评价是非常高的，非常多的人是通过这个视频入门的，唯一不好的就是有点老了，现在 Java 都到 9 了，有些特性没有涉及到。第四个是比较新的视频，涉及到了 Lamda 表达式等一些 Java 8 的新特性。</p>
 <p>获取地址：<a href="https://pan.baidu.com/s/1jIkrYj8" target="_blank" rel="external">https://pan.baidu.com/s/1jIkrYj8</a>；密码：h8su</p>
-<h5 id="Java-Web："><a href="#Java-Web：" class="headerlink" title="Java Web："></a>Java Web：</h5><p><img src="http://meto.chinakook.com/blog-images/JavaWeb.jpeg" alt="JavaWeb 视频"></p>
-<h5 id="Java-EE："><a href="#Java-EE：" class="headerlink" title="Java EE："></a>Java EE：</h5><p><img src="http://meto.chinakook.com/blog-images/JavaEE.jpeg" alt="JavaEE 视频"></p>
+<h5 id="Java-Web："><a href="#Java-Web：" class="headerlink" title="Java Web："></a>Java Web：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaWeb.jpeg" alt="JavaWeb 视频"></p>
+<h5 id="Java-EE："><a href="#Java-EE：" class="headerlink" title="Java EE："></a>Java EE：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaEE.jpeg" alt="JavaEE 视频"></p>
 <p>Java Web、Java EE 的视频均来自某培训机构公开的视频教程，我看过其中一些 Java Web 的，还算不错。</p>
 <p>Java Web 获取地址：<a href="https://pan.baidu.com/s/1eS4cWCy" target="_blank" rel="external">https://pan.baidu.com/s/1eS4cWCy</a>; 密码：ypx2</p>
 <p>Java EE 获取地址：<a href="https://pan.baidu.com/s/1i5J5QN7" target="_blank" rel="external">https://pan.baidu.com/s/1i5J5QN7</a>; 密码：7op4</p>
-<h3 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h3><p><img src="http://meto.chinakook.com/blog-images/Java%E4%B9%A6%E7%B1%8D.jpeg" alt="Java 书籍"></p>
+<h3 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h3><p><img src="https://meto.chinakook.com/blog-images/Java%E4%B9%A6%E7%B1%8D.jpeg" alt="Java 书籍"></p>
 <p>以上差不多均为 Java 基础书籍，入门我推荐「Head First Java」，这本书能够让你轻松入门 Java，不过其中一些知识点没有讲解到。「Java 核心技术（上、下两卷）」这本书涉及知识非常全面，基本涵盖了 Java SE 所有的知识点，看起来有点困难，有些枯燥，不过还好，用心看，结合视频，坚持看完会有很大收货。</p>
 <p>Java Web 书籍我推荐传智播客推出的「Java Web 程序开发入门」和「Java  Web 程序开发进阶」两本书，基本涉及 Java Web 所有基础知识点，并且内容比较容易看懂，结合上面的视频掌握 Java Web 基础知识不成问题。</p>
 <p>关于 Java EE 的书籍我暂时无法推荐给大家，毕竟我也才开始踩坑，所以就暂时不给大家推荐了。不过需要的同学可以上网查一下，或是问一下身边的前辈，基本能够找到好的书籍。</p>
@@ -581,7 +581,7 @@
     <link href="http://ikookblog.com/2017/12/05/back-end_dev/"/>
     <id>http://ikookblog.com/2017/12/05/back-end_dev/</id>
     <published>2017-12-04T16:00:00.000Z</published>
-    <updated>2017-12-10T09:05:40.000Z</updated>
+    <updated>2018-01-05T15:42:30.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>由于近来国内移动开发现状所致，应该有不少移动开发者在考虑转别的方向，个人感觉后端开发是个不错的选择。当然，人工智能、大数据异常火爆，有能力的同学不妨试一试。</p>
@@ -631,7 +631,7 @@
     <link href="http://ikookblog.com/2017/12/02/persistence/"/>
     <id>http://ikookblog.com/2017/12/02/persistence/</id>
     <published>2017-12-01T16:00:00.000Z</published>
-    <updated>2017-12-03T14:14:00.000Z</updated>
+    <updated>2018-01-05T15:42:10.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>今天公众号来了不少的新朋友，热烈欢迎他们的到来。他们的到来让公众号蓬荜生辉，就像公号的欢迎语一样，愿我们在此相遇、从此为伴，一起成长。</p>
@@ -665,14 +665,14 @@
     <link href="http://ikookblog.com/2017/11/28/original/"/>
     <id>http://ikookblog.com/2017/11/28/original/</id>
     <published>2017-11-27T16:00:00.000Z</published>
-    <updated>2017-11-29T09:16:03.000Z</updated>
+    <updated>2018-01-05T15:41:52.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>不知从何下笔，有点抑制不住喜悦之情，真的是发自内心的高兴。我拿到微信公众号的「原创」了。</p>
 <p>先说下「原创」，官方对它是这样介绍的：为鼓励优质内容在微信公众平台产生，维护作者权益，微信公众平台给文章原创作者进行声明的机会并对原创内容进行标识。</p>
 <p>原创特指自己写的、独立完成创作的作品。歪曲、篡改他人创作或者抄袭、剽窃他人创作而产生的作品，改编、翻译、注释、整理他人已有创作而产生的作品均不能说是原创。</p>
 <p>在这个号之前我还维护过两个。一个拿来当做实验品，玩了几天就扔那儿再也没理会过，另一个我想认真维护，但没坚持下去。自从开通了这个，我下决心维护下去，也一直在期盼着能够早一天拿到「原创」。今天晚饭过后，拿起手机看到“微信公众平台”发来的原创邀请，那一刻，真的非常开心，喜出望外，真的没有预料到。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%8E%9F%E5%88%9B-2017.11.28.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%8E%9F%E5%88%9B-2017.11.28.jpg" alt=""></p>
 <p>因为之前停更过一段时间，现在想想如果没有那位读者，真的要与「原创」擦肩而过了，这里再次表示感谢。再想想，要是没有停更应该会早一些拿到，但结果总算是美好的。</p>
 <p>我为什么非常想要拿到原创呢？</p>
 <p>一、原创功能是对每一个公众号原创作者的一种尊重和版权的保护，现在互联网发达，很多人都开始写博客，抄袭者涌现，不尊重别人的劳动成果，这个功能一定程度上能够抑制这种现象，虽然抑制力不大。</p>
@@ -707,31 +707,31 @@
     <link href="http://ikookblog.com/2017/11/25/qingzhou/"/>
     <id>http://ikookblog.com/2017/11/25/qingzhou/</id>
     <published>2017-11-24T16:00:00.000Z</published>
-    <updated>2017-11-29T08:59:52.000Z</updated>
+    <updated>2018-01-05T15:40:53.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>前几天，为了缓解心中的焦虑，决定出去走一走。之前就听闻「青州」是个好地方，正好前些日子同学考试被安排在青州，归来之时，难以抑制喜悦之情（注意，并不是考试考得好，逃…）。我便决定去这个地方看看。</p>
 <p>到达时，已是傍晚，按照早已安排好的行程直接去了「青州古城」。在古城外附近安排好的宾馆，放置好行李，稍微休息了下，便走进了古城。</p>
-<h3 id="1-古城夜景"><a href="#1-古城夜景" class="headerlink" title="1. 古城夜景"></a>1. 古城夜景</h3><p><img src="http://meto.chinakook.com/blog-images/%E9%98%9C%E8%B4%A2%E9%97%A8%E5%9F%8E%E6%A5%BC%E5%90%8E1.jpeg" alt=""></p>
+<h3 id="1-古城夜景"><a href="#1-古城夜景" class="headerlink" title="1. 古城夜景"></a>1. 古城夜景</h3><p><img src="https://meto.chinakook.com/blog-images/%E9%98%9C%E8%B4%A2%E9%97%A8%E5%9F%8E%E6%A5%BC%E5%90%8E1.jpeg" alt=""></p>
 <p>进入古城，并没有太多的感触，更多的感受是映入眼帘的古建筑，在璀璨灯光的照耀下，金光闪闪，很是美丽。</p>
 <p>由于没有吃晚饭，在这古城的第一件事当然是吃。古城内，街边小吃不少，我作为少数民族里不算少数的回族人，自然是找「清真」食物。没想到的是，城内回族不少，那晚饭自然好解决了。</p>
 <p>在街边买了清真小吃，边吃边走。街道很长，一路走过去，都是古建筑，在现代文明的“帮助”下，没有了古时该有的样子，灯光太夺目，剥夺了古城内该有气息。</p>
 <h3 id="2-古城风韵"><a href="#2-古城风韵" class="headerlink" title="2. 古城风韵"></a>2. 古城风韵</h3><p>清晨的青州还没在睡梦中苏醒，没有喧闹声，没有来往的车鸣声，一切都是那么的安静。如果有充足的时间，我真想在阳台上静坐一上午。</p>
-<p><img src="http://meto.chinakook.com/blog-images/%E5%8F%A4%E8%A1%97%E9%81%93.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/%E5%8F%A4%E8%A1%97%E9%81%93.jpg" alt=""></p>
 <p>进入清晨的古城，青石路在脚下伸展，极少的车辆在高低不平的青石上有节奏地起伏，缓缓开去。我随着青石路走去，仿佛一切都变得慢了下来，行人走得很慢，路旁的大树带着几分深沉。在这一刻我仿佛抓住了时光，融入在这古城之中，把人引入了一种宁静，这份宁静来自心灵深处，你会不自觉的轻言轻语，生怕惊扰了什么。</p>
 <p>也许是在现代化喧闹的生活环境中待久了，很是向往这种生活，街坊邻里之间，相处融洽，没有勾心斗角，以诚相待。在这里，每一个置身其中的人，都能切身感到舒适和幸福。在路边走累了，你可以青石凳上、古槐下或者在别人家台阶上休息一下，无论走到哪里，坐到哪里，你会觉得这个地方是生动的，能够感受到这里是欢迎你的，是可以被你占有的， 你可以清楚感受到自己的存在。</p>
 <p>往古城深处走去，路上行人来来往往，路旁小商贩卖着特色的古城小吃及物品，看似忙碌，却又闲适。古槐下坐着几个白发老人，手持木杖，欢声笑语。十里古街，眼到之处无不其乐融融。这也许就是生活吧。</p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_43.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_43.jpg" alt=""></p>
 <h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><p>大禹治水，天下九分 —— 为九州，华夏九州，青州便是其一。素有“东方第一州”美誉的古城青州，其丰厚且辉煌的历史文化令人叹为观止。据考察，早在七千多年前，就有人类在此生息，是“东夷文化”的发源地。可见人文资源积淀之深厚。</p>
 <p>古城内有 120 多处景点，主要有：阜财门、魁星楼、名人牌坊（柱国坊、大学士坊、尚书里坊、太子少保坊等十余座）、东门街、偶园、蓝溪谷等；古城历史人物：王曾、赵秉忠、李清照、欧阳修、范仲淹、冯溥等。</p>
 <p>对青州历史有兴趣可以上网了解下，有条件当然要亲自去看看。我相信去过一定不会后悔，也相信会有所收获。</p>
 <p>本想着给大家介绍下古城内具体景点的，后来想想还是算了，就算我说的再好也不如自己去体验一番。何况我在那里收获地更多的是古城本身带给我的感受、感触，而不是景色。景过情留。</p>
 <p>最后放几张照片，拍照技术很差，别打我。</p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_2.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_45.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_49.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_39.jpg" alt=""></p>
-<p><img src="http://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_7d.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_2.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_45.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_49.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_39.jpg" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/UNADJUSTEDNONRAW_thumb_7d.jpg" alt=""></p>
 <p><br>ikook<br>2017.11.25</p>
 ]]></content>
     
@@ -757,7 +757,7 @@
     <link href="http://ikookblog.com/2017/11/22/passing-day/"/>
     <id>http://ikookblog.com/2017/11/22/passing-day/</id>
     <published>2017-11-21T16:00:00.000Z</published>
-    <updated>2017-11-29T09:02:15.000Z</updated>
+    <updated>2018-01-05T15:40:04.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>自从 9 月份参加学校实训之后，莫名停更(公众号、博客)，实训一月之后，瞎忙，回想起来好像什么都没干。</p>
@@ -789,7 +789,7 @@
     <link href="http://ikookblog.com/2017/11/06/alfred/"/>
     <id>http://ikookblog.com/2017/11/06/alfred/</id>
     <published>2017-11-05T16:00:00.000Z</published>
-    <updated>2017-11-06T02:34:51.000Z</updated>
+    <updated>2018-01-05T15:39:35.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。</p>
@@ -797,7 +797,7 @@
 <a id="more"></a>
 <p>自从用上「MacOS」之后就各种玩软件。用了软件，好用的东西很多，当然被我卸载的也很多。其中，Alfred 是我不会卸载的软件之一。</p>
 <p>由于，学生一枚（隐喻，穷屌丝），没办法只能用破解版，就像我「MacOS」一样，是黑的 —— 黑苹果。因为是破解版，随之而来的就有一些烦人的问题，Alfred 也一样，它每次开机的时候，都会提示是否允许访问通讯录。</p>
-<p><img src="http://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
+<p><img src="https://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
 <p>这个问题我忍受了很久，大约有将近一个月吧，我去，我绑不住了，搞他。其实很简单。</p>
 <p>在终端输入一下命令，解决。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Alfred\ Framework</div></pre></td></tr></table></figure>
@@ -827,41 +827,41 @@
     <link href="http://ikookblog.com/2017/09/01/chrome-extended/"/>
     <id>http://ikookblog.com/2017/09/01/chrome-extended/</id>
     <published>2017-08-31T16:00:00.000Z</published>
-    <updated>2017-09-01T13:51:24.000Z</updated>
+    <updated>2018-01-05T15:39:02.000Z</updated>
     
     <content type="html"><![CDATA[<p>大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。</p>
 <a id="more"></a>
 <p>为大家推荐一些我常用的 Chrome 扩展，相信 Chrome 大家并不陌生吧，一款优雅的超好用的浏览器。由于某些东西的存在，下载安装稍微有点限制。关注公众号「ikook」后台回复「Chrome」可获取各个离线版本 Chrome。</p>
 <p>好了，正文开始。想要用好 Chrome，非扩展不可，正所谓「无扩展，不 Chrome」。下面给大家介绍几款让 Chrome 变得更加优雅用起来更优雅的扩展。</p>
 <h3 id="为什么你们就是不能加个空格呢？"><a href="#为什么你们就是不能加个空格呢？" class="headerlink" title="为什么你们就是不能加个空格呢？"></a>为什么你们就是不能加个空格呢？</h3><p>你没看错，名字就是「为什么你们就是不能加个空格呢？」。有没有因为汉字与英文之间没有空格引起强迫症？其内置的空格之神，可以自动为一切中文字和半形的英文、数字、符号之间插入空白。</p>
-<center><br><img src="http://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/zlnOv4n" target="_blank" rel="external">http://t.cn/zlnOv4n</a></p>
 <p>Chrome 应用商店链接，要访问… 你懂得，下同</p>
 <h3 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h3><p>有没有过「查看原图」但是原图不够大的情况？有了 Imagus 扩展，鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑。</p>
-<center><br><img src="http://meto.chinakook.com/Imagus.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Imagus.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/8sDMJm6" target="_blank" rel="external">http://t.cn/8sDMJm6</a></p>
 <h3 id="Flatbook"><a href="#Flatbook" class="headerlink" title="Flatbook"></a>Flatbook</h3><p>是否厌倦了 Facebook 亘古不变的页面，来给你的脸书换个脸吧，瞬间清爽到爆啊。</p>
-<center><br><img src="http://meto.chinakook.com/flatbook.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/flatbook.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNiRhcj" target="_blank" rel="external">http://t.cn/RNiRhcj</a></p>
 <h3 id="Darkness"><a href="#Darkness" class="headerlink" title="Darkness"></a>Darkness</h3><p>Darkness 可以为 Google，Facebook，YouTube，Reddit 等不存在的网站提供完美的夜间模式支持，不会有图片反转，文字颜色奇怪等尴尬问题。当然了，Darkness 适配的网站还很少，如果你需要广泛适用的，可能需要这款神级扩展：Stylish，在下面。</p>
-<center><br><img src="http://meto.chinakook.com/Darkness.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Darkness.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNinpUu" target="_blank" rel="external">http://t.cn/RNinpUu</a></p>
 <h3 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a>Stylish</h3><p>许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的了。通过安装 CSS，可以把知乎「拍扁」，让微博网页版变得简洁无比，让 Feedly 用上 Material Design 等等等…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
-<center><br><img src="http://meto.chinakook.com/1504266030349.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504266030349.jpg" alt=""></center>
 
 <p>关于 Stylish 更详细的介绍见：<a href="https://sspai.com/post/34508" target="_blank" rel="external">https://sspai.com/post/34508</a></p>
 <p>下载安装：<a href="http://t.cn/R9hCUIk" target="_blank" rel="external">http://t.cn/R9hCUIk</a></p>
 <h3 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a>Wikiwand</h3><p>多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代。Wikiwand 让你看到一个属于 21 世纪的维基百科。除了视觉上的提升，Wikiwand 也添加了一些人性化的交互：比如超链接悬浮窗，搜索联想，黑色模式等等…</p>
-<center><br><img src="http://meto.chinakook.com/1504266756635.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504266756635.jpg" alt=""></center>
 
 
 <p>下载安装：<a href="http://t.cn/R4TGWCh" target="_blank" rel="external">http://t.cn/R4TGWCh</a></p>
 <h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><p>「阅读模式」可以为 Chrome 带来了类似 Safari 的阅读体验。点击图标即可进入，再次点击退出，完全的无痛体验啊。有一种 Chrome 原生阅读模式的错觉，爽。</p>
-<center><br><img src="http://meto.chinakook.com/1504267091779.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1504267091779.jpg" alt=""></center>
 
 <p>下载安装：<a href="http://t.cn/RNiFaDw" target="_blank" rel="external">http://t.cn/RNiFaDw</a></p>
 <p>今天主要介绍的是利用 Chrome 扩展改变网页视觉感觉，让浏览网页变得更加优雅，后面有机会再和大家说说其他实用扩展。</p>
@@ -887,7 +887,7 @@
     <link href="http://ikookblog.com/2017/08/28/seven-month-seven/"/>
     <id>http://ikookblog.com/2017/08/28/seven-month-seven/</id>
     <published>2017-08-28T13:04:46.000Z</published>
-    <updated>2017-09-01T13:14:34.000Z</updated>
+    <updated>2018-01-05T15:37:50.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><br><br><br></p>
@@ -897,13 +897,13 @@
 
 <center>我是这样度过的</center>
 
-<center><br><img src="http://meto.chinakook.com/1503916978099.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/1503916978099.jpg" alt=""></center>
 
 <p><br></p>
 <center>我的心情是这样的</center>
 
 
-<center><br><img src="http://meto.chinakook.com/17.08.28.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/17.08.28.jpg" alt=""></center>
 
 <p><br><br><br></p>
 <center>祝</center>
@@ -941,7 +941,7 @@
     <link href="http://ikookblog.com/2017/08/26/java-sort-series3/"/>
     <id>http://ikookblog.com/2017/08/26/java-sort-series3/</id>
     <published>2017-08-25T16:00:00.000Z</published>
-    <updated>2017-12-10T08:59:49.000Z</updated>
+    <updated>2018-01-05T15:37:07.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>java 实现排序算法系列</p>
@@ -958,10 +958,10 @@
 <li>排序完成。<br><br></li>
 </ul>
 <p>使用插入排序为一列数字进行排序的过程示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
 
 <p>插入排序算法示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
 
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>从上面可以看到，算法思路非常简单，但是代码就不那么简单易写了。算法本身是没有问题的，之所以不易写我觉得是由于编程语言的问题。这里我们使用 Java 来实现，那就拿 Java 来讲。</p>
 <p>在上述思路中我们可以提出几个问题，先来看下。首先，我们该如何判断合适的位置？边界条件该怎么处理？在数组中插入元素，必然会移动数据，如何控制数据的移动？</p>
@@ -969,7 +969,7 @@
 <p>上代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</div><div class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;arr.length; i++)&#123;</div><div class="line">          <span class="keyword">int</span> value = arr[i];</div><div class="line">          <span class="keyword">int</span> position=i;</div><div class="line">          <span class="keyword">while</span> (position&gt;<span class="number">0</span> &amp;&amp; arr[position-<span class="number">1</span>]&gt;value)&#123;</div><div class="line">              arr[position] = arr[position-<span class="number">1</span>];</div><div class="line">              position--;</div><div class="line">          &#125;</div><div class="line">          arr[position] = value;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>如果在代码的理解上遇到困难，可以利用 IDE 的调试功能来学习。如下图（IntelliJ IDEA）：</p>
-<center><br><img src="http://meto.chinakook.com/insert_debug.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/insert_debug.jpg" alt=""></center>
 
 <h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><p>从上述内容容易看出，无论输入的数据怎样，插入排序算法总会进行 n-1 次排序。</p>
 <p>由于每个元素插入点的不确定性，该算法复杂度并不是一定的。假设我们要将 n 个元素的序列升序排序，这时存在最好情况和最坏情况。</p>
@@ -1012,7 +1012,7 @@
     <link href="http://ikookblog.com/2017/08/17/view-text-02/"/>
     <id>http://ikookblog.com/2017/08/17/view-text-02/</id>
     <published>2017-08-17T14:02:27.000Z</published>
-    <updated>2017-08-26T05:11:50.000Z</updated>
+    <updated>2018-01-05T15:36:14.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>本文来自 App Store 软件「青稞 - 找寻诗和远方」推文，作者：王海桑</p>
@@ -1094,7 +1094,7 @@
     <link href="http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/"/>
     <id>http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/</id>
     <published>2017-08-10T16:00:00.000Z</published>
-    <updated>2017-12-10T08:59:43.000Z</updated>
+    <updated>2018-01-05T15:35:25.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>java 实现排序算法系列</p>
@@ -1112,7 +1112,7 @@
 <li>重复步骤直到剩下最后一个元素，即 arr[n-1]，可以肯定这个值为最大值。 <br><br></li>
 <li>排序完成，不够直观？见下面示例动画。</li>
 </ul>
-<center><br><img src="http://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/java_sort_algorithm_series2.gif" alt=""></center>
 
 <blockquote>
 <p>注: 红色表示当前最小值，黄色表示已排序序列，蓝色表示当前位置。</p>
@@ -1120,7 +1120,7 @@
 <p>选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素进行排序总共进行至多 n-1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。</p>
 <p>需要注意的是，上述过程只是每次找最小值的办法。实际上也可以每次找最大值，思路是一样的。</p>
 <p>选择排序的示意图（图片来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/blog-images/Selection_sort_animation.gif" alt=""></center>
 
 <h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><p>设要给数组 arr[] 排序，它有 n 个元素。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">selectionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> min, temp, len = arr.length;</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len - <span class="number">1</span>; i++) &#123;</div><div class="line">            min = i;<span class="comment">//未排序序列中最小数据数组下标</span></div><div class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; len; j++) &#123; <span class="comment">//在未排序元素中继续寻找最小元素，并保存其下标</span></div><div class="line">                <span class="keyword">if</span> (arr[min] &gt; arr[j]) &#123;</div><div class="line">                    min = j;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">if</span> (min != i) &#123;</div><div class="line">                temp = arr[min]; <span class="comment">//将最小元素放到已排序序列的末尾</span></div><div class="line">                arr[min] = arr[i];</div><div class="line">                arr[i] = temp;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>

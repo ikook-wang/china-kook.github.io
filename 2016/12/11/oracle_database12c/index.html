@@ -76,7 +76,7 @@
 
     
         <meta property="article:published_time" content="12月 11, 2016" />
-        <meta property="article:modified_time" content="7月 24, 2017" />
+        <meta property="article:modified_time" content="1月 05, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -119,7 +119,7 @@
     "headline": "Oracle Database 12c安装教程(Windows版)",
     "url": "http://ikookblog.com/2016/12/11/oracle_database12c/index.html",
     "datePublished": "12月 11, 2016",
-    "dateModified": "7月 24, 2017",
+    "dateModified": "1月 05, 2018",
     "description": "
 自己在安装过程中踩了好多坑，记录一下。
 ",
@@ -373,7 +373,7 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://oe94sy64u.bkt.clouddn.com/unsplash3.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/unsplash3.jpg)">
     
             <p class="article-headline-p">
                 Oracle Database 12c安装教程(Windows版)
@@ -516,26 +516,26 @@
 </ul>
 </li>
 </ul>
-<p><img src="http://upload-images.jianshu.io/upload_images/2012773-16ca839eadf91a7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="datebase文件夹"></p>
+<p><img src="https://meto.chinakook.com/blog-images/ping.png" alt="datebase文件夹"></p>
 <ul>
 <li><h3 id="Servers安装"><a href="#Servers安装" class="headerlink" title="Servers安装"></a>Servers安装</h3><ul>
-<li>以管理员的身份运行”setup.exe”进行安装：<br>软件会加载并初步校验系统是否可以达到了数据库安装的最低配置,如果达到要求,就会直接加载程序并进行下一步的安装;<br><img src="http://upload-images.jianshu.io/upload_images/2012773-7c3ba26b0fc19b29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“配置安全更新”窗口：<br>取消“我希望通过My Oracle Support接受安全更新”，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-8783c23dd97dbce0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png">此时可能遇到的问题：在[INS-30131] 执行安装程序验证所需的初始设置失败<br><img src="http://upload-images.jianshu.io/upload_images/2012773-2848fabe61dfab99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>问题原因及解决办法：<br>1.问题：用户文件中含有中文（如你的账户名字包含汉字   C:\Users\张三）<br>解决办法：打开计算机管理——本地用户和组——用户——Administrator（右键属性）——账户已禁用（取消勾选）——确定<br><img src="http://upload-images.jianshu.io/upload_images/2012773-651503d9d35b1247.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png">到此，就可以切换到Administrator用户，在Administrator用户下安装。<br>2.问题：未共享C盘<br>解决方法：打开计算机管理——共享文件夹——共享（右键“新建共享”）——下一步——（文件路径填）C:\——下一步——是——共享名C$——下一步——选中（“管理员有完全访问权限；其他管理员只有读写权限”）——完成——完成。由于大部分人都不是这个原因，这里就不上图了，并且网上有很多。</li>
-<li>“安装选项”窗口<br>选择“创建和配置数据库”，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-0a5d7ab1637c4660.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>选择”桌面类”还是”服务器类”<br>选择”服务器类”可以进行高级的配置,我这里选择”桌面类”,单击”下一步“，大多数情况下是选择“桌面类”，原因操作说明很清楚；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-390df2805f16217c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>创建oracle管理用户<br>这步是其他版本没有的,这个的作用就可以更安全的管理orcl,主要是防止登录win系统勿删了oracle文件，这里选择第二个”创建新windows用户“，输入用户名和口令，专门管理oracle文件的，单击”下一步“；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-18a8bd41b730faf8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“典型安装”窗口(安装位置)<br>选择Oracle的基目录，选择“企业版”和“默认值”并输入统一的密码为：Oracle12c，单击“下一步”;<br>注意：Oracle为了安全起见，要求密码强度比较高，你输入的密码Oracle认为不能复制,我试过了，即使简单的数字字母组合Oracle也认为是不符合).Oracle建议的标准密码组合为：小写字母+数字+大写字母，这回就合格了，当然字符长度还必须保持着Oracle 12c数据库要求的范围之内。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-4a0e32cb2db4f70d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>“执行先决条件检查”窗口<br>上一步设置好了后,将进行检查，在“执行先决条件检查”窗口中，单击“下一步”；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-ee2ae5571f0627b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>上一步检查没有问题后<br>会生成安装设置概要信息,可以保持这些设置到本地,方便以后查阅,在这步确认后,单击”安装”,数据库通过这些配置将进行整个的安装过程:注意:在安装过程中,最好将杀毒软件,安全卫士什么的都强行关闭,安装成功后重启电脑就可以了.<br><img src="http://upload-images.jianshu.io/upload_images/2012773-e7178d16c6683d27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>安装过程中<br>这里是一个漫长的等待过程，切勿不小心关闭了程序，或者断电，电脑重启。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-1c081d7a0f3c3395.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>创建数据库实例<br>“Database Configuration Assistant”界面,特别的长时间等待，大约半个钟头，需耐心等待；<br><img src="http://upload-images.jianshu.io/upload_images/2012773-acd9874acd7b1aa8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>数据库实例安装成功后，会弹出口令管理,进入口令管理<br>选择“口令管理”，查看并修改以下用户：<br><strong>（1）普通管理员：SYSTEM（密码：”自己填写”）</strong><br><strong>（2）超级管理员：SYS（密码：“自己填写”）</strong><br>修改完成后，单击“确定”。 这里的口令也是需要符合oracle口令规范的，参考前面设置数据库实例口令设置方式。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-cd57bd444b061435.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></li>
-<li>安装完成<br>会出现如下界面，单击“关闭”即可。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-58b3b070a999930a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>至此Servers安装完毕。</li>
+<li>以管理员的身份运行”setup.exe”进行安装：<br>软件会加载并初步校验系统是否可以达到了数据库安装的最低配置,如果达到要求,就会直接加载程序并进行下一步的安装;<br><img src="https://meto.chinakook.com/blog-images/ping2.png" alt="Paste_Image.png"></li>
+<li>“配置安全更新”窗口：<br>取消“我希望通过My Oracle Support接受安全更新”，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping3.png" alt="Paste_Image.png">此时可能遇到的问题：在[INS-30131] 执行安装程序验证所需的初始设置失败<br><img src="https://meto.chinakook.com/blog-images/ping4.png" alt="Paste_Image.png"><br>问题原因及解决办法：<br>1.问题：用户文件中含有中文（如你的账户名字包含汉字   C:\Users\张三）<br>解决办法：打开计算机管理——本地用户和组——用户——Administrator（右键属性）——账户已禁用（取消勾选）——确定<br><img src="https://meto.chinakook.com/blog-images/ping5.png" alt="Paste_Image.png">到此，就可以切换到Administrator用户，在Administrator用户下安装。<br>2.问题：未共享C盘<br>解决方法：打开计算机管理——共享文件夹——共享（右键“新建共享”）——下一步——（文件路径填）C:\——下一步——是——共享名C$——下一步——选中（“管理员有完全访问权限；其他管理员只有读写权限”）——完成——完成。由于大部分人都不是这个原因，这里就不上图了，并且网上有很多。</li>
+<li>“安装选项”窗口<br>选择“创建和配置数据库”，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping6.png" alt="Paste_Image.png"></li>
+<li>选择”桌面类”还是”服务器类”<br>选择”服务器类”可以进行高级的配置,我这里选择”桌面类”,单击”下一步“，大多数情况下是选择“桌面类”，原因操作说明很清楚；<br><img src="https://meto.chinakook.com/blog-images/ping7.png" alt="Paste_Image.png"></li>
+<li>创建oracle管理用户<br>这步是其他版本没有的,这个的作用就可以更安全的管理orcl,主要是防止登录win系统勿删了oracle文件，这里选择第二个”创建新windows用户“，输入用户名和口令，专门管理oracle文件的，单击”下一步“；<br><img src="https://meto.chinakook.com/blog-images/ping8.png" alt="Paste_Image.png"></li>
+<li>“典型安装”窗口(安装位置)<br>选择Oracle的基目录，选择“企业版”和“默认值”并输入统一的密码为：Oracle12c，单击“下一步”;<br>注意：Oracle为了安全起见，要求密码强度比较高，你输入的密码Oracle认为不能复制,我试过了，即使简单的数字字母组合Oracle也认为是不符合).Oracle建议的标准密码组合为：小写字母+数字+大写字母，这回就合格了，当然字符长度还必须保持着Oracle 12c数据库要求的范围之内。<br><img src="https://meto.chinakook.com/blog-images/ping9.png" alt="Paste_Image.png"></li>
+<li>“执行先决条件检查”窗口<br>上一步设置好了后,将进行检查，在“执行先决条件检查”窗口中，单击“下一步”；<br><img src="https://meto.chinakook.com/blog-images/ping10.png" alt="Paste_Image.png"></li>
+<li>上一步检查没有问题后<br>会生成安装设置概要信息,可以保持这些设置到本地,方便以后查阅,在这步确认后,单击”安装”,数据库通过这些配置将进行整个的安装过程:注意:在安装过程中,最好将杀毒软件,安全卫士什么的都强行关闭,安装成功后重启电脑就可以了.<br><img src="https://meto.chinakook.com/blog-images/ping11.png" alt="Paste_Image.png"></li>
+<li>安装过程中<br>这里是一个漫长的等待过程，切勿不小心关闭了程序，或者断电，电脑重启。<br><img src="https://meto.chinakook.com/blog-images/ping12.png" alt="Paste_Image.png"></li>
+<li>创建数据库实例<br>“Database Configuration Assistant”界面,特别的长时间等待，大约半个钟头，需耐心等待；<br><img src="https://meto.chinakook.com/blog-images/ping13.png" alt="Paste_Image.png"></li>
+<li>数据库实例安装成功后，会弹出口令管理,进入口令管理<br>选择“口令管理”，查看并修改以下用户：<br><strong>（1）普通管理员：SYSTEM（密码：”自己填写”）</strong><br><strong>（2）超级管理员：SYS（密码：“自己填写”）</strong><br>修改完成后，单击“确定”。 这里的口令也是需要符合oracle口令规范的，参考前面设置数据库实例口令设置方式。<br><img src="https://meto.chinakook.com/blog-images/ping14.png" alt="Paste_Image.png"></li>
+<li>安装完成<br>会出现如下界面，单击“关闭”即可。<br><img src="https://meto.chinakook.com/blog-images/ping15.png" alt="Paste_Image.png"><br>至此Servers安装完毕。</li>
 </ul>
 </li>
 <li><h3 id="Client安装："><a href="#Client安装：" class="headerlink" title="Client安装："></a>Client安装：</h3><p>Client安装非常简单，有了Servers的安装我相信Client肯定能自己装好，毕竟连我这么笨的人都装好了。因此就不再赘述了。<br>需要说明的是，在Servers安装中说到可能会遇到<strong>“在[INS-30131] 执行安装程序验证所需的初始设置失败”</strong>的问题，如果是第一种情况的话，Client也要使用Servers安装时的方法，在Administrator用户下安装。安装完成后再切换回原来用户模式下，再禁用Administrator即可。</p>
 </li>
-<li><h3 id="检查是否安装成功："><a href="#检查是否安装成功：" class="headerlink" title="检查是否安装成功："></a>检查是否安装成功：</h3><p>可在安装后软件中找到“SQL Plus”，后以管理员身份运行。<br>输入用户名和口令，在保证用户名和口令正确的情况下，查看是否连接，连接后输入select sysdate from dual;<br>打印出当前系统日期则说明安装完全成功。<br><img src="http://upload-images.jianshu.io/upload_images/2012773-177e407f42a6c535.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<li><h3 id="检查是否安装成功："><a href="#检查是否安装成功：" class="headerlink" title="检查是否安装成功："></a>检查是否安装成功：</h3><p>可在安装后软件中找到“SQL Plus”，后以管理员身份运行。<br>输入用户名和口令，在保证用户名和口令正确的情况下，查看是否连接，连接后输入select sysdate from dual;<br>打印出当前系统日期则说明安装完全成功。<br><img src="https://meto.chinakook.com/blog-images/ping16.png" alt="Paste_Image.png"></p>
 </li>
 <li><h3 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h3>以上就是Oracle Database 12c windows64位安装教程。其中部分内容来自网络借鉴。</li>
 </ul>

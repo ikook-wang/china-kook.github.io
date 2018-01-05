@@ -2,51 +2,310 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ikookblog.com/2018/01/04/google-cloud/</loc>
-    
-    <lastmod>2018-01-05T05:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/05/RESTful_summary/</loc>
-    
-    <lastmod>2018-01-05T05:07:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ikookblog.com/2017/12/31/old2017_new2018/</loc>
     
-    <lastmod>2018-01-04T08:35:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/28/python-data/</loc>
-    
-    <lastmod>2018-01-04T08:32:25.000Z</lastmod>
+    <lastmod>2018-01-05T15:47:52.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://ikookblog.com/2017/12/29/wechat-tiaoyitiao/</loc>
     
-    <lastmod>2018-01-04T08:24:21.000Z</lastmod>
+    <lastmod>2018-01-05T15:47:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/28/python-data/</loc>
+    
+    <lastmod>2018-01-05T15:46:12.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://ikookblog.com/2017/12/27/view-text-03/</loc>
     
-    <lastmod>2018-01-04T08:03:59.000Z</lastmod>
+    <lastmod>2018-01-05T15:45:43.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://ikookblog.com/2017/12/25/web-data/</loc>
     
-    <lastmod>2018-01-04T07:57:23.000Z</lastmod>
+    <lastmod>2018-01-05T15:45:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/22/self-ignite/</loc>
+    
+    <lastmod>2018-01-05T15:44:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/15/brand/</loc>
+    
+    <lastmod>2018-01-05T15:44:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/09/java-res/</loc>
+    
+    <lastmod>2018-01-05T15:43:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/05/back-end_dev/</loc>
+    
+    <lastmod>2018-01-05T15:42:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/12/02/persistence/</loc>
+    
+    <lastmod>2018-01-05T15:42:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/11/28/original/</loc>
+    
+    <lastmod>2018-01-05T15:41:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/11/25/qingzhou/</loc>
+    
+    <lastmod>2018-01-05T15:40:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/11/22/passing-day/</loc>
+    
+    <lastmod>2018-01-05T15:40:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/11/06/alfred/</loc>
+    
+    <lastmod>2018-01-05T15:39:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/09/01/chrome-extended/</loc>
+    
+    <lastmod>2018-01-05T15:39:02.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/28/seven-month-seven/</loc>
+    
+    <lastmod>2018-01-05T15:37:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/26/java-sort-series3/</loc>
+    
+    <lastmod>2018-01-05T15:37:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/17/view-text-02/</loc>
+    
+    <lastmod>2018-01-05T15:36:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/</loc>
+    
+    <lastmod>2018-01-05T15:35:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/07/religion-and-apply/</loc>
+    
+    <lastmod>2018-01-05T15:34:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/03/wechat02/</loc>
+    
+    <lastmod>2018-01-05T15:33:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/08/01/wechat01/</loc>
+    
+    <lastmod>2018-01-05T15:32:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/07/28/essay01/</loc>
+    
+    <lastmod>2018-01-05T15:30:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/07/27/2017.07.27-gnosis/</loc>
+    
+    <lastmod>2018-01-05T15:29:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/07/24/mysql_crash_course/</loc>
+    
+    <lastmod>2018-01-05T15:29:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/06/18/view-text-01/</loc>
+    
+    <lastmod>2018-01-05T15:26:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/06/16/kotlin01/</loc>
+    
+    <lastmod>2018-01-05T15:24:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/04/18/design_pattern_summarize/</loc>
+    
+    <lastmod>2018-01-05T15:24:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/23/what_is_learn/</loc>
+    
+    <lastmod>2018-01-05T15:23:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/16/android_training_study2/</loc>
+    
+    <lastmod>2018-01-05T15:22:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/13/android_training_study1/</loc>
+    
+    <lastmod>2018-01-05T15:21:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/09/java_sort_algorithm_series1/</loc>
+    
+    <lastmod>2018-01-05T15:14:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/08/introduction_learn_method/</loc>
+    
+    <lastmod>2018-01-05T15:05:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/03/05/RESTful_summary/</loc>
+    
+    <lastmod>2018-01-05T15:04:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/02/25/cpu_ram_detailed/</loc>
+    
+    <lastmod>2018-01-05T15:02:41.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/02/21/skill_learn_collect/</loc>
+    
+    <lastmod>2018-01-05T15:01:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/01/07/old2016_new2017/</loc>
+    
+    <lastmod>2018-01-05T15:00:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2017/01/06/rebuild_blog/</loc>
+    
+    <lastmod>2018-01-05T14:59:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2016/12/11/oracle_database12c/</loc>
+    
+    <lastmod>2018-01-05T14:57:19.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2016/12/06/16.12.6_gnosis/</loc>
+    
+    <lastmod>2018-01-05T14:45:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2016/10/15/git_learn/</loc>
+    
+    <lastmod>2018-01-05T14:45:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2016/09/27/2016mdcc/</loc>
+    
+    <lastmod>2018-01-05T14:43:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2018/01/04/google-cloud/</loc>
+    
+    <lastmod>2018-01-05T13:29:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ikookblog.com/2016/08/28/hello-world/</loc>
+    
+    <lastmod>2018-01-05T13:14:16.000Z</lastmod>
     
   </url>
   
@@ -58,268 +317,9 @@
   </url>
   
   <url>
-    <loc>http://ikookblog.com/2016/10/15/git_learn/</loc>
-    
-    <lastmod>2018-01-02T10:57:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/15/brand/</loc>
-    
-    <lastmod>2017-12-23T04:18:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/22/self-ignite/</loc>
-    
-    <lastmod>2017-12-23T04:05:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ikookblog.com/about/index.html</loc>
     
     <lastmod>2017-12-23T03:38:37.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/09/java-res/</loc>
-    
-    <lastmod>2017-12-10T09:24:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/05/back-end_dev/</loc>
-    
-    <lastmod>2017-12-10T09:05:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/26/java-sort-series3/</loc>
-    
-    <lastmod>2017-12-10T08:59:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/</loc>
-    
-    <lastmod>2017-12-10T08:59:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/09/java_sort_algorithm_series1/</loc>
-    
-    <lastmod>2017-12-10T08:59:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/08/introduction_learn_method/</loc>
-    
-    <lastmod>2017-12-10T08:59:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/04/18/design_pattern_summarize/</loc>
-    
-    <lastmod>2017-12-10T08:59:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/12/02/persistence/</loc>
-    
-    <lastmod>2017-12-03T14:14:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/11/28/original/</loc>
-    
-    <lastmod>2017-11-29T09:16:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/11/22/passing-day/</loc>
-    
-    <lastmod>2017-11-29T09:02:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/11/25/qingzhou/</loc>
-    
-    <lastmod>2017-11-29T08:59:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/11/06/alfred/</loc>
-    
-    <lastmod>2017-11-06T02:34:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/09/01/chrome-extended/</loc>
-    
-    <lastmod>2017-09-01T13:51:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/28/seven-month-seven/</loc>
-    
-    <lastmod>2017-09-01T13:14:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/17/view-text-02/</loc>
-    
-    <lastmod>2017-08-26T05:11:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/07/religion-and-apply/</loc>
-    
-    <lastmod>2017-08-16T15:17:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/07/28/essay01/</loc>
-    
-    <lastmod>2017-08-16T15:05:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/03/wechat02/</loc>
-    
-    <lastmod>2017-08-11T13:02:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/08/01/wechat01/</loc>
-    
-    <lastmod>2017-08-11T12:56:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/07/27/2017.07.27-gnosis/</loc>
-    
-    <lastmod>2017-08-11T12:40:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/07/24/mysql_crash_course/</loc>
-    
-    <lastmod>2017-08-06T13:25:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/01/07/old2016_new2017/</loc>
-    
-    <lastmod>2017-07-26T14:13:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2016/12/11/oracle_database12c/</loc>
-    
-    <lastmod>2017-07-24T10:54:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2016/12/06/16.12.6_gnosis/</loc>
-    
-    <lastmod>2017-07-02T10:33:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/06/16/kotlin01/</loc>
-    
-    <lastmod>2017-07-02T10:23:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/06/18/view-text-01/</loc>
-    
-    <lastmod>2017-07-02T10:20:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/13/android_training_study1/</loc>
-    
-    <lastmod>2017-06-16T07:03:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/16/android_training_study2/</loc>
-    
-    <lastmod>2017-06-16T07:03:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/03/23/what_is_learn/</loc>
-    
-    <lastmod>2017-06-03T17:54:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/02/25/cpu_ram_detailed/</loc>
-    
-    <lastmod>2017-06-03T17:14:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/02/21/skill_learn_collect/</loc>
-    
-    <lastmod>2017-06-03T17:10:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2016/08/28/hello-world/</loc>
-    
-    <lastmod>2017-06-03T17:02:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/01/06/rebuild_blog/</loc>
-    
-    <lastmod>2017-06-03T16:58:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2016/09/27/2016mdcc/</loc>
-    
-    <lastmod>2017-06-03T16:32:19.000Z</lastmod>
     
   </url>
   

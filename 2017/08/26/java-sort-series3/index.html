@@ -76,7 +76,7 @@ java 实现排序算法系列
 
     
         <meta property="article:published_time" content="8月 26, 2017" />
-        <meta property="article:modified_time" content="12月 10, 2017" />
+        <meta property="article:modified_time" content="1月 05, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -119,7 +119,7 @@ java 实现排序算法系列
     "headline": "java 实现排序算法之「插入排序」",
     "url": "http://ikookblog.com/2017/08/26/java-sort-series3/index.html",
     "datePublished": "8月 26, 2017",
-    "dateModified": "12月 10, 2017",
+    "dateModified": "1月 05, 2018",
     "description": "
 java 实现排序算法系列
 ",
@@ -373,7 +373,7 @@ java 实现排序算法系列
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://meto.chinakook.com/macbook-2617705_1920.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/macbook-2617705_1920.jpg)">
     
             <p class="article-headline-p">
                 java 实现排序算法之「插入排序」
@@ -518,10 +518,10 @@ java 实现排序算法系列
 <li>排序完成。<br><br></li>
 </ul>
 <p>使用插入排序为一列数字进行排序的过程示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
 
 <p>插入排序算法示意图（来自维基百科）：</p>
-<center><br><img src="http://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
 
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>从上面可以看到，算法思路非常简单，但是代码就不那么简单易写了。算法本身是没有问题的，之所以不易写我觉得是由于编程语言的问题。这里我们使用 Java 来实现，那就拿 Java 来讲。</p>
 <p>在上述思路中我们可以提出几个问题，先来看下。首先，我们该如何判断合适的位置？边界条件该怎么处理？在数组中插入元素，必然会移动数据，如何控制数据的移动？</p>
@@ -529,7 +529,7 @@ java 实现排序算法系列
 <p>上代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</div><div class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;arr.length; i++)&#123;</div><div class="line">          <span class="keyword">int</span> value = arr[i];</div><div class="line">          <span class="keyword">int</span> position=i;</div><div class="line">          <span class="keyword">while</span> (position&gt;<span class="number">0</span> &amp;&amp; arr[position-<span class="number">1</span>]&gt;value)&#123;</div><div class="line">              arr[position] = arr[position-<span class="number">1</span>];</div><div class="line">              position--;</div><div class="line">          &#125;</div><div class="line">          arr[position] = value;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>如果在代码的理解上遇到困难，可以利用 IDE 的调试功能来学习。如下图（IntelliJ IDEA）：</p>
-<center><br><img src="http://meto.chinakook.com/insert_debug.jpg" alt=""></center>
+<center><br><img src="https://meto.chinakook.com/insert_debug.jpg" alt=""></center>
 
 <h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><p>从上述内容容易看出，无论输入的数据怎样，插入排序算法总会进行 n-1 次排序。</p>
 <p>由于每个元素插入点的不确定性，该算法复杂度并不是一定的。假设我们要将 n 个元素的序列升序排序，这时存在最好情况和最坏情况。</p>
