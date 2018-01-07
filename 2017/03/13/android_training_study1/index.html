@@ -699,7 +699,7 @@ Android 官方 Training 文档学习总结系列
             // facebook-like distraction free mode
             distractionFreeMode: false,
             labels: 'Gitalk',
-            id: '{{ page.url }}',
+            id: window.location.pathname,
         })
    gitalk.render('gitalk-container')
 </script>
