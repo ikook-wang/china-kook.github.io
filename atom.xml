@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-12T14:29:33.000Z</updated>
+  <updated>2018-01-12T14:34:32.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2018/01/12/js-closure/"/>
     <id>http://ikookblog.com/2018/01/12/js-closure/</id>
     <published>2018-01-11T16:00:00.000Z</published>
-    <updated>2018-01-12T14:29:33.000Z</updated>
+    <updated>2018-01-12T14:34:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>相信学习 JavaScript 的同学都知道「<strong>闭包(Closure)</strong>」<a id="more"></a>，这个概念在 JavaScript 中是非常重要的，并且在大多数人看来闭包是非常难以理解的概念。既然这样，那今天就带大家一起来看看这到底是何方神圣。</p>
 <p>维基百科是这样解释的：</p>
@@ -36,15 +36,13 @@
 <p>要理解闭包，首先我们要弄明白什么是<strong>词法作用域</strong>和<strong>作用域链</strong>。</p>
 <p>作用域一般有两种常见的模型，一种叫做<strong>词法作用域</strong>，另一种叫做<strong>动态作用域</strong>。我们的 JavaScript 就是基于词法作用域的语言。</p>
 <p>简单来讲，<strong>词法作用域就是一个变量的作用在出生(定义)时就已经被设定好了，当在本作用域中找不到变量时，就会一直向父作用域中去查找，直到直到为止</strong>。如果不明白的话，看下面的代码大概就能理解了。</p>
-<center><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%811.png" alt=""></center>
-
+<p><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%811.png" alt=""></p>
 <p>代码中 fun1 在其内部已经定义了变量 y，所以在查找 y 时在该作用域(内部函数 fun1 中)内可以找到，则无需再往父作用域中去查找；如果在其作用域内没有查找到，则会在父作用域内查找，也就是使用 fun 函数中的变量 y。</p>
 <p>既然 JavaScript 中的函数和变量都有其作用域，那么作用域之间就会产生一条链，我们称之为<strong>作用域链</strong>。假设我们编写了一段 JS 代码，那这段代码就会有一个与之关联的作用域链。这个作用域链就是由全局对象(如：window)、我们自定义的对象(函数，局部变量)组成。比如上面的代码，其作用域链上是这样的：函数 fun1、变量 y ==&gt; 函数 fun、变量 x、y ==&gt; 全局对象。这就是所谓的<strong>作用域链</strong>。</p>
 <p>理解了上面的内容，就可以来看看咱们今天的主人公「闭包」了。</p>
 <p><strong>函数对象可以通过作用域链相互关联起来，函数体内部的变量都可以保存在函数作用域内，也就是函数变量可以被藏在作用域链之内，这种特性在计算机科学文献中称为闭包</strong>。看上去变量被“封闭包裹”了起来。由此可见，从理论上讲，所有的 JavaScript 函数全都是闭包的，因为它们都是对象，它们都关联在作用域链上。</p>
 <p>那么怎么才能<strong>显式</strong>的形成闭包呢？先来看下面的例子。</p>
-<center><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%812.png" alt=""></center>
-
+<p><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%812.png" alt=""></p>
 <p>注意这段代码中标记的地方：内部函数 fun1 在执行前通过外部函数被返回了，外部函数被赋值给了变量 result。这时，变量 result 的值就变成了函数 fun1，也就是说内部变量 name 在所属函数外部被调用了。我们来证实一下：</p>
 <center><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%813.png" alt=""></center>
 
@@ -53,8 +51,7 @@
 <p>现在想想，维基百科说的好像就是这么回事：<strong>闭包是由函数和与其相关的引用环境组合而成的实体</strong>。这就解释了为什么可以读取变量 name 了，因为 result 引用的环境是 fun1 函数相关的引用环境，可以理解为： result 处在 fun1 所处的作用域链的位置，既然这样，那自然可以读取变量 name 了。</p>
 <p>这就是闭包，现在看来也就是这么回事么，没什么难理解的。</p>
 <p>既然已经理解了，那我们再来看一个例子(引用自廖雪峰老师的 JS 教程)：</p>
-<center><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%814.png" alt=""></center>
-
+<p><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%814.png" alt=""></p>
 <p>这个例子中，每次循环，都创建了一个新的函数，然后，把创建的 3 个函数都添加到数组 arr 中返回了。</p>
 <p>那么调用 f1() 、f2()、f3() 的结果是什么呢？不就是 1，4，9 吗? 不是。</p>
 <center><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%815.png" alt=""></center>
@@ -243,9 +240,9 @@
       <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="网络" scheme="http://ikookblog.com/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="Google" scheme="http://ikookblog.com/tags/Google/"/>
     
