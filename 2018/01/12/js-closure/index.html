@@ -12,7 +12,7 @@
     
     <title>
         
-            无扩展，不 Chrome | 
+            浅谈 JavaScript 闭包 | 
         
         ikook Blog
     </title>
@@ -35,8 +35,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="ikook">
-    <meta name="description" itemprop="description" content="大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。">
-    <meta name="keywords" content="技术,编程,科技,互联网,感悟,生活,工具">
+    <meta name="description" itemprop="description" content="相信学习 JavaScript 的同学都知道「闭包(Closure)」">
+    <meta name="keywords" content="技术,编程,科技,互联网,感悟,生活,JavaScript,Web">
 
     <!-- Site Verification -->
     
@@ -65,26 +65,26 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://ikookblog.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="无扩展，不 Chrome | ikook Blog">
+    <meta property="og:title" content="浅谈 JavaScript 闭包 | ikook Blog">
     <meta property="og:image" content="/img/K.png" />
-    <meta property="og:description" content="大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。">
-    <meta property="og:article:tag" content="工具"> 
+    <meta property="og:description" content="相信学习 JavaScript 的同学都知道「闭包(Closure)」">
+    <meta property="og:article:tag" content="JavaScript"> <meta property="og:article:tag" content="Web"> 
 
     
-        <meta property="article:published_time" content="9月 01, 2017" />
-        <meta property="article:modified_time" content="1月 05, 2018" />
+        <meta property="article:published_time" content="1月 12, 2018" />
+        <meta property="article:modified_time" content="1月 12, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="无扩展，不 Chrome | ikook Blog">
-    <meta name="twitter:description" content="大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。">
+    <meta name="twitter:title" content="浅谈 JavaScript 闭包 | ikook Blog">
+    <meta name="twitter:description" content="相信学习 JavaScript 的同学都知道「闭包(Closure)」">
     <meta name="twitter:image" content="/img/K.png">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="http://ikookblog.com" />
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://ikookblog.com/2017/09/01/chrome-extended/index.html" />
+        <link rel="canonical" href="http://ikookblog.com/2018/01/12/js-closure/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -110,11 +110,11 @@
         },
         "description": "一切终将逝去,只有死神永生"
     },
-    "headline": "无扩展，不 Chrome",
-    "url": "http://ikookblog.com/2017/09/01/chrome-extended/index.html",
-    "datePublished": "9月 01, 2017",
-    "dateModified": "1月 05, 2018",
-    "description": "大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。",
+    "headline": "浅谈 JavaScript 闭包",
+    "url": "http://ikookblog.com/2018/01/12/js-closure/index.html",
+    "datePublished": "1月 12, 2018",
+    "dateModified": "1月 12, 2018",
+    "description": "相信学习 JavaScript 的同学都知道「闭包(Closure)」",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://ikookblog.com"
@@ -339,7 +339,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#为什么你们就是不能加个空格呢？"><span class="post-toc-number">1.</span> <span class="post-toc-text">为什么你们就是不能加个空格呢？</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Imagus"><span class="post-toc-number">2.</span> <span class="post-toc-text">Imagus</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Flatbook"><span class="post-toc-number">3.</span> <span class="post-toc-text">Flatbook</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Darkness"><span class="post-toc-number">4.</span> <span class="post-toc-text">Darkness</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Stylish"><span class="post-toc-number">5.</span> <span class="post-toc-text">Stylish</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Wikiwand"><span class="post-toc-number">6.</span> <span class="post-toc-text">Wikiwand</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#阅读模式"><span class="post-toc-number">7.</span> <span class="post-toc-text">阅读模式</span></a></li></ol>
+        
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -365,10 +365,10 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/chromelogo.jpg)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://meto.chinakook.com/blog-images/180112.jpeg)">
     
             <p class="article-headline-p">
-                无扩展，不 Chrome
+                浅谈 JavaScript 闭包
             </p>
         </div>
 
@@ -387,7 +387,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>ikook</strong>
-        <span>9月 01, 2017</span>
+        <span>1月 12, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -409,7 +409,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXElEQVR42u3aQW4CMQwFUO5/6XbbDfBtZ8wUvVmhEU3zghRbth8/X/088PDw8PDw8PDwbsZ7xM/T5YLv/32TfJ7sDQ8PD2+H9+aqDf5xQn39zQQc7Q0PDw9vkTffVhIS8hWqe8PDw8P7L7weqZpk4+Hh4X0Tb56Iv/4+Hh4e3p15yUYL5dQ4gb5RrQUPDw8v5uVNpv3Pq/09PDw8vIBXHmkqNv6TAJOHgctnyvDw8PAC3jxdzvHPANVBhDdFEDw8PLyLeZOrv1rAPRVaCmVcPDw8vAt41cs62XTe7soDTyHM4OHh4V3M65Uhkq1MhrHydtqxMi4eHh5esQHWS6zzhLsaQnpjXnh4eHj7vEkRIR+oqo6r5gEJDw8Pb5PXQ06KF/P3hVoLHh4e3lFeb9F8ZCofRZ3D8PDw8DZ51eLpZIXkCEaJOB4eHt4KL7mUk0JDnpTnqXyCx8PDw9vknRokPYWs/m2zAYaHh4c34PXa89WWWLWccXimDA8PD+8or3oFT1LhXgsteY+Hh4e3z5sMrfbS7uQImok7Hh4e3gpv/mY+EJCHkDer4eHh4S3yqldzUlzojSNUE2s8PDy8z/LyQavJQeSjCXl6jYeHh7fDqz7VIm/vOEZlETw8PLyLeY/4SbbYu9CrwwRvjg8PDw9vhTcPBr0Cx/w48PDw8D7Lm1/Q1US5WhCJfgw8PDy8W/IK7ahg/TycjKZx8fDw8G7Ae02qYvIBgqXAgIeHh3eoGHGq0ZUn6OXhAzw8PLwVXl4CaBYI4nZatdmGh4eHt8/7vgcPDw8PDw8PD+8Gzy/0kjUAKh33OQAAAABJRU5ErkJggg==">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACZ0lEQVR42u3awW7rMAwEQP//T7fXd3hxdylbNoLRKUhjWaMCIkHx+PnqceDh4eHh4eHh4b2Md8TjPxP98/2nz8lfz59q14aHh4e3h/fHUXv64vw37dYM14aHh4e3kffpwP30m+SV5/Ofz9yuDQ8PD+/9vISahIo8SODh4eF9B++ckT+bsPHw8PDexltJkduQ0JaJN9Va8PDw8GJefsm0//PW+z08PDy8gFe3NAWBoV16GwyKpis8PDy8G3j5QZyky215oi1eROvBw8PDe4i3ngTPQkVS2B22q+Lh4eFdxJu9ZqWckYeTNpXHw8PDe4qXHPHrASNPoJdaB/Dw8PBu4+WFiehoHjVX5YGkaB3Aw8PDu5nXLi5JtVdmHm4fHh4e3s289eurZJvOtyP5vpgNDw8P72ZecpTnZd+8HJw3xdYBCQ8PD+8FvJX2glngadNrPDw8vJ28tnl0lhy38882Fw8PD28P76qGgPyi69pno5QaDw8P7wbeSvlgFjxmxYioyQAPDw9vC+8IxkoJI0mmZ42qeHh4ePt5eaqaL71FFod+266Kh4eHt4XXXu2vXFblyXdSwsDDw8N7ildc0o8S7vUwg4eHh/dO3qxYsNJ6VZdr8fDw8B7itaNtL7gj7a6brvDw8PAu5c3KqckWJMd6G2CiNB0PDw9vC28WDJJDvy0H3xIY8PDw8G7jXXXdlR/ibTEi+mfg4eHhvZK3ki63m9I2EODh4eG9k9defSUl2nybHot7eHh4eKNixKxIMWsjGDYf4OHh4W3h5SWAWaqdp+DtU3h4eHj7ed838PDw8PDw8PDwXjB+AQzrFhG52PSLAAAAAElFTkSuQmCC">
     
 </ul>
     
@@ -422,7 +422,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/工具/">工具</a>
+        <a class="post_tag-link" href="/tags/JavaScript/">JavaScript</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/Web/">Web</a>
     </ul>
     
 
@@ -438,7 +438,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=无扩展，不 Chrome&url=http://ikookblog.com/2017/09/01/chrome-extended/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=浅谈 JavaScript 闭包&url=http://ikookblog.com/2018/01/12/js-closure/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -447,7 +447,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=无扩展，不 Chrome&url=http://ikookblog.com/2017/09/01/chrome-extended/index.html&via=ikook" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=浅谈 JavaScript 闭包&url=http://ikookblog.com/2018/01/12/js-closure/index.html&via=ikook" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -456,7 +456,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ikookblog.com/2017/09/01/chrome-extended/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ikookblog.com/2018/01/12/js-closure/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -465,7 +465,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://ikookblog.com/2017/09/01/chrome-extended/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://ikookblog.com/2018/01/12/js-closure/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -480,7 +480,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=http://ikookblog.com/2017/09/01/chrome-extended/index.html&text=无扩展，不 Chrome" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=http://ikookblog.com/2018/01/12/js-closure/index.html&text=浅谈 JavaScript 闭包" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Telegram
             </li>
@@ -495,44 +495,43 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。</p>
-<a id="more"></a>
-<p>为大家推荐一些我常用的 Chrome 扩展，相信 Chrome 大家并不陌生吧，一款优雅的超好用的浏览器。由于某些东西的存在，下载安装稍微有点限制。关注公众号「ikook」后台回复「Chrome」可获取各个离线版本 Chrome。</p>
-<p>好了，正文开始。想要用好 Chrome，非扩展不可，正所谓「无扩展，不 Chrome」。下面给大家介绍几款让 Chrome 变得更加优雅用起来更优雅的扩展。</p>
-<h3 id="为什么你们就是不能加个空格呢？"><a href="#为什么你们就是不能加个空格呢？" class="headerlink" title="为什么你们就是不能加个空格呢？"></a>为什么你们就是不能加个空格呢？</h3><p>你没看错，名字就是「为什么你们就是不能加个空格呢？」。有没有因为汉字与英文之间没有空格引起强迫症？其内置的空格之神，可以自动为一切中文字和半形的英文、数字、符号之间插入空白。</p>
-<center><br><img src="https://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/zlnOv4n" target="_blank" rel="external">http://t.cn/zlnOv4n</a></p>
-<p>Chrome 应用商店链接，要访问… 你懂得，下同</p>
-<h3 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h3><p>有没有过「查看原图」但是原图不够大的情况？有了 Imagus 扩展，鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑。</p>
-<center><br><img src="https://meto.chinakook.com/Imagus.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/8sDMJm6" target="_blank" rel="external">http://t.cn/8sDMJm6</a></p>
-<h3 id="Flatbook"><a href="#Flatbook" class="headerlink" title="Flatbook"></a>Flatbook</h3><p>是否厌倦了 Facebook 亘古不变的页面，来给你的脸书换个脸吧，瞬间清爽到爆啊。</p>
-<center><br><img src="https://meto.chinakook.com/flatbook.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNiRhcj" target="_blank" rel="external">http://t.cn/RNiRhcj</a></p>
-<h3 id="Darkness"><a href="#Darkness" class="headerlink" title="Darkness"></a>Darkness</h3><p>Darkness 可以为 Google，Facebook，YouTube，Reddit 等不存在的网站提供完美的夜间模式支持，不会有图片反转，文字颜色奇怪等尴尬问题。当然了，Darkness 适配的网站还很少，如果你需要广泛适用的，可能需要这款神级扩展：Stylish，在下面。</p>
-<center><br><img src="https://meto.chinakook.com/Darkness.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNinpUu" target="_blank" rel="external">http://t.cn/RNinpUu</a></p>
-<h3 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a>Stylish</h3><p>许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的了。通过安装 CSS，可以把知乎「拍扁」，让微博网页版变得简洁无比，让 Feedly 用上 Material Design 等等等…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
-<center><br><img src="https://meto.chinakook.com/1504266030349.jpg" alt=""></center>
-
-<p>关于 Stylish 更详细的介绍见：<a href="https://sspai.com/post/34508" target="_blank" rel="external">https://sspai.com/post/34508</a></p>
-<p>下载安装：<a href="http://t.cn/R9hCUIk" target="_blank" rel="external">http://t.cn/R9hCUIk</a></p>
-<h3 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a>Wikiwand</h3><p>多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代。Wikiwand 让你看到一个属于 21 世纪的维基百科。除了视觉上的提升，Wikiwand 也添加了一些人性化的交互：比如超链接悬浮窗，搜索联想，黑色模式等等…</p>
-<center><br><img src="https://meto.chinakook.com/1504266756635.jpg" alt=""></center>
-
-
-<p>下载安装：<a href="http://t.cn/R4TGWCh" target="_blank" rel="external">http://t.cn/R4TGWCh</a></p>
-<h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><p>「阅读模式」可以为 Chrome 带来了类似 Safari 的阅读体验。点击图标即可进入，再次点击退出，完全的无痛体验啊。有一种 Chrome 原生阅读模式的错觉，爽。</p>
-<center><br><img src="https://meto.chinakook.com/1504267091779.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNiFaDw" target="_blank" rel="external">http://t.cn/RNiFaDw</a></p>
-<p>今天主要介绍的是利用 Chrome 扩展改变网页视觉感觉，让浏览网页变得更加优雅，后面有机会再和大家说说其他实用扩展。</p>
-<p>完。</p>
-<p><br>ikook<br>2017.09.01</p>
+        <p>相信学习 JavaScript 的同学都知道「<strong>闭包(Closure)</strong>」<a id="more"></a>，这个概念在 JavaScript 中是非常重要的，并且在大多数人看来闭包是非常难以理解的概念。既然这样，那今天就带大家一起来看看这到底是何方神圣。</p>
+<p>维基百科是这样解释的：</p>
+<blockquote>
+<p>闭包，又称词法闭包或函数闭包，是引用了自由变量的函数，这个被引用的自由变量将和这个函数一同存在，即使离开了创造它的环境也不例外，所以，<strong>闭包是由函数和与其相关的引用环境组合而成的实体</strong>。</p>
+</blockquote>
+<p>说了半天一句也没看懂，那我们来看看 JS 官方是怎么解释的：</p>
+<blockquote>
+<p>闭包是指多个变量和绑定了这些变量的环境的表达式( 通常是一个函数 )，因而这些变量也是该表达式的一部分。</p>
+</blockquote>
+<p>我去，这又是什么东西？<strong>只看出闭包是个函数</strong>，其他的还是一概不知。</p>
+<p>既然这样不知道它们在说些什么，不如跟着我的思路来看一看到底是个什么。</p>
+<p>要理解闭包，首先我们要弄明白什么是<strong>词法作用域</strong>和<strong>作用域链</strong>。</p>
+<p>作用域一般有两种常见的模型，一种叫做<strong>词法作用域</strong>，另一种叫做<strong>动态作用域</strong>。我们的 JavaScript 就是基于词法作用域的语言。</p>
+<p>简单来讲，<strong>词法作用域就是一个变量的作用在出生(定义)时就已经被设定好了，当在本作用域中找不到变量时，就会一直向父作用域中去查找，直到直到为止</strong>。如果不明白的话，看下面的代码大概就能理解了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">function fun() &#123;</div><div class="line"></div><div class="line">	var x = &apos;How are you?&apos;;</div><div class="line">	var y = &apos;yes.&apos;;</div><div class="line"></div><div class="line">	function fun1() &#123;</div><div class="line">		var y = &apos;No.&apos;;</div><div class="line">		console.log(`$&#123;x&#125; $&#123;y&#125;`);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	fun1();</div><div class="line">&#125;</div><div class="line"></div><div class="line">fun();  //输出：How are you？ No.</div></pre></td></tr></table></figure>
+<p>代码中 fun1 在其内部已经定义了变量 y，所以在查找 y 时在该作用域(内部函数 fun1 中)内可以找到，则无需再往父作用域中去查找；如果在其作用域内没有查找到，则会在父作用域内查找，也就是使用 fun 函数中的变量 y。</p>
+<p>既然 JavaScript 中的函数和变量都有其作用域，那么作用域之间就会产生一条链，我们称之为<strong>作用域链</strong>。假设我们编写了一段 JS 代码，那这段代码就会有一个与之关联的作用域链。这个作用域链就是由全局对象(如：window)、我们自定义的对象(函数，局部变量)组成。比如上面的代码，其作用域链上是这样的：函数 fun1、变量 y ==&gt; 函数 fun、变量 x、y ==&gt; 全局对象。这就是所谓的<strong>作用域链</strong>。</p>
+<p>理解了上面的内容，就可以来看看咱们今天的主人公「闭包」了。</p>
+<p><strong>函数对象可以通过作用域链相互关联起来，函数体内部的变量都可以保存在函数作用域内，也就是函数变量可以被藏在作用域链之内，这种特性在计算机科学文献中称为闭包</strong>。看上去变量被“封闭包裹”了起来。由此可见，从理论上讲，所有的 JavaScript 函数全都是闭包的，因为它们都是对象，它们都关联在作用域链上。</p>
+<p>那么怎么才能<strong>显式</strong>的形成闭包呢？先来看下面的例子。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">function fun() &#123;</div><div class="line">	var name = &quot;Google&quot;;</div><div class="line"></div><div class="line">	function fun1() &#123;</div><div class="line">		console.log(`name = $&#123;name&#125;`);</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	return fun1;</div><div class="line">&#125;</div><div class="line"></div><div class="line">var result = fun();</div><div class="line"></div><div class="line">result(); // 输出：name = Google</div></pre></td></tr></table></figure>
+<p>注意这段代码中标记的地方：内部函数 fun1 在执行前通过外部函数被返回了，外部函数被赋值给了变量 result。这时，变量 result 的值就变成了函数 fun1，也就是说内部变量 name 在所属函数外部被调用了。我们来证实一下：</p>
+<p><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%813.png" alt=""></p>
+<p>可以看到 result 的值就是函数 fun1，那为什么还可以读取变量 name 呢？答案就是 result 变成闭包了。</p>
+<p>result 由两部分组成：<strong>函数以及创建该函数的环境。函数就是被外部函数返回的内部函数，而环境就是由闭包创建时在作用域中的任何局部变量组成的</strong>。在我们的例子中，result 是一个闭包，由<strong>函数 fun1 </strong>和闭包创建时存在的「<strong>“Google”</strong>」字符串形成。</p>
+<p>现在想想，维基百科说的好像就是这么回事：<strong>闭包是由函数和与其相关的引用环境组合而成的实体</strong>。这就解释了为什么可以读取变量 name 了，因为 result 引用的环境是 fun1 函数相关的引用环境，可以理解为： result 处在 fun1 所处的作用域链的位置，既然这样，那自然可以读取变量 name 了。</p>
+<p>这就是闭包，现在看来也就是这么回事么，没什么难理解的。</p>
+<p>既然已经理解了，那我们再来看一个例子(引用自廖雪峰老师的 JS 教程)：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">function count() &#123;</div><div class="line"></div><div class="line">    var arr = [];</div><div class="line"></div><div class="line">    for (var i=1; i&lt;=3; i++) &#123;</div><div class="line"></div><div class="line">        arr.push(function () &#123;</div><div class="line">            return i * i;</div><div class="line">        &#125;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line">    return arr;</div><div class="line">&#125;</div><div class="line"></div><div class="line">var results = count();</div><div class="line"></div><div class="line">var f1 = results[0];</div><div class="line">var f2 = results[1];</div><div class="line">var f3 = results[2];</div></pre></td></tr></table></figure>
+<p>这个例子中，每次循环，都创建了一个新的函数，然后，把创建的 3 个函数都添加到数组 arr 中返回了。</p>
+<p>那么调用 f1() 、f2()、f3() 的结果是什么呢？不就是 1，4，9 吗? 不是。</p>
+<p><img src="https://meto.chinakook.com/blog-images/%E4%BB%A3%E7%A0%815.png" alt=""></p>
+<p>你没看错，答案就是 16，全部都是！原因在于闭包 results 返回的数组中的函数引用了变量 i，但这个返回的数组中的函数并不是立刻执行的，等到执行时，它们所引用的变量 i 已经变成 4 了，所以结果为 16。还是没明白？上面我们说了，<strong>闭包是由函数和其相关的引用环境组合而成的</strong>，既然所处的环境还是在作用域链原来的位置，那么变量 i 就会在 for 循环的作用下变成 4，而到了你去调用闭包的时候，闭包引用的变量 i 的值自然为 4 了，所以结果自然就是 16 了。</p>
+<p>这个例子要提醒大家的是：<strong>返回的函数，不要引用任何循环变量和变量值后续会发生变化的变量</strong>。这一点在使用闭包时一定要牢记。</p>
+<p>还要说明的一点就是，<strong>避免滥用闭包</strong>。原因：使用闭包之后，闭包中函数所处的环境会一直存在，所以闭包会使得函数中的变量都被保存在内存中，不会被“垃圾回收机制”回收，进而内存消耗过大，造成网页性能下降。</p>
+<p>最后，理解清楚作用域链的概念不但对掌握闭包非常重要，并且对其他知识点（比如 with 语句）同样很重要。</p>
+<p><br>ikook<br>2018.01.12</p>
 
     
 
@@ -593,21 +592,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/11/06/alfred/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/08/28/seven-month-seven/" id="post_nav-older" class="next-content">
+        <a href="/2018/01/09/do-not-confused/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
