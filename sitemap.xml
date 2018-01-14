@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ikookblog.com/2017/06/16/kotlin01/</loc>
+    
+    <lastmod>2018-01-14T01:39:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ikookblog.com/2016/09/27/2016mdcc/</loc>
     
     <lastmod>2018-01-14T01:38:42.000Z</lastmod>
@@ -229,13 +236,6 @@
     <loc>http://ikookblog.com/2017/06/18/view-text-01/</loc>
     
     <lastmod>2018-01-05T15:26:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ikookblog.com/2017/06/16/kotlin01/</loc>
-    
-    <lastmod>2018-01-05T15:24:52.000Z</lastmod>
     
   </url>
   
