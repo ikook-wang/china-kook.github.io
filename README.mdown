@@ -1,11 +1,11 @@
-## **ikook的个人博客**
-基于hexo和GitHub Pages搭建的个人博客站点: [https://ikookblog.com](https://ikookblog.com)。
+## **ikook 的个人博客**
+基于 hexo 和 GitHub Pages 搭建的个人博客站点: [https://ikookblog.com](https://ikookblog.com)。
 
 ## **关于我**
 我，学生党一枚。相信你们通过 code 和 blog 会了解我的。
 
-## **关于Blog**
-搭建这个个人博客的目的是：方便自己在学习技术中的总结，分享自己学习技术的心得。同时希望这个站点可以帮助其他学习编程的人。
+## **关于 Blog**
+搭建个人博客的目的是：方便自己在学习技术中的总结，分享自己学习技术的心得。同时希望这个站点可以帮助其他学习编程的人。
 
 ## **联系我**
 
