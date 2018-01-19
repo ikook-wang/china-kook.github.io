@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-12T14:34:32.000Z</updated>
+  <updated>2018-01-19T10:42:35.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 工具启示录「上」</title>
+    <link href="http://ikookblog.com/2018/01/18/mac-software01/"/>
+    <id>http://ikookblog.com/2018/01/18/mac-software01/</id>
+    <published>2018-01-17T16:00:00.000Z</published>
+    <updated>2018-01-19T10:42:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>上次的调查反映还算是蛮强烈的，投票结果显示大多数人是需要这么一篇文章的，可能本身就需要这么一篇文章，也可能就是想知道我用的什么工具吧，哈哈。</p>
+<a id="more"></a>
+<p>首先，和大家说下 Mac 电脑吧。虽然我使用的只是 macOS，只是黑苹果系统，但依然可以体验到这款高效、安全、简洁、优雅、美观的操作系统的威力，更何况，macOS 还有点文艺青年的感觉。当然，macOS 就是为 Mac 电脑而生的，只有在真正的 Mac 上才能发挥其威力，软件系统和硬件的完美结合，流畅、优雅操作的手感，这在黑苹果上是无法体验的。</p>
+<p>个人认为，macOS 是最完美的计算机操作系统，也是最适合所有专业人士使用的系统，不只是程序员，还有设计师、视频编辑、音频制作等等。如果是玩游戏，那还是算了吧，Mac 真的非常不适合玩游戏，这里多句嘴，买来 Mac 电脑把 macOS 替换成 Win 的人，我真的想问一句，是不是脑残？</p>
+<p>关于选择 Mac 的原因有太多了，我就不给大家介绍了，毕竟不是这篇文章的重点。想知道的朋友可以关注池建强老师维护的公众号「MacTalk」，有很多关于 Mac 的文章，大家可以去看看。</p>
+<p>文章涉及的所有软件、工具均是我亲自使用之后推荐给大家的，只是在我个人角度上来推荐的，并不代表某些工具就是最好用的，而且很多也都有替代品，我之所以觉得好用，可能正好符合我的需求吧。</p>
+<p>还要告诉大家的是，工具就只是工具而已，只要能提高我们的工作效率就是好工具，不必纠结于到底使用哪个。我们的目的只有一个，那就是提高效率，当然，在保证效率的前提下，要是能有美观、优雅这些附加条件就再好不过了。</p>
+<p>先给大家看下我「Launchpad」首屏。</p>
+<p><img src="https://meto.chinakook.com/blog-images/180118-1.png" alt=""></p>
+<p>浏览器</p>
+<p>当然首选 Chrome，它的强大之处不必多说。Chrome 支持任何平台，这里推荐给不知道的人。以前写过一篇 Chrome 插件的文章，对大家更加优雅的使用 Chrome 很有帮助，在这儿：<a href="https://ikookblog.com/2017/09/01/chrome-extended/">无扩展，不 Chrome</a></p>
+<p>Safari 是 Mac 上自带的浏览器，也非常好用，其阅读器非常强大，同样是我喜欢的浏览器，也许很多人都没用过 Safari，相信我，用过之后你会感谢我的。</p>
+<p>IDE</p>
+<p>JetBrains 旗下 IDE，基本都是精品，比如我现在用的就有：IntelliJ IDEA、WebStorm、PyCharm，分别对应：Java、Web 开发、Python，IntelliJ IDEA 还天然支持 Kotlin，而且 Kotlin 本身就是由 JetBrains 团队开发的。当然，不止支持这些，还有很多，像 PHP、Ruby、Swift、C/C++、Go 等，几乎一应俱全。并且都非常优秀，著名的 Android Studio 也是在其基础上开发出来的。不过，JetBrains 的 IDE 都是收费的，并且还挺贵，拿 IntelliJ IDEA 来说，一年 $499，也可以购买支持旗下所有产品的注册码，一年 $649。学生可以免费申请正版授权，创业公司支持 5 折购买。像我们这些穷屌丝，看这里：<a href="http://idea.lanyus.com/" target="_blank" rel="external">http://idea.lanyus.com/</a>。需要声明的是，资金允许，还是去购买正版吧，省心，也是对开发者的一种支持。</p>
+<p>Eclipse，曾经的王者，几乎支持所有常用的编程语言，并且是免费的，插件丰富，现在非常多的开发者依然站在 Eclipse 的阵营中。无需多说。</p>
+<p>Xcode，Mac 上独有的非常优秀的 IDE，基本上我们使用的所有 Mac App 和 iOS App 都是用它开发出来的。并且 The Xcode suite 还支持 C/C++、Java、Python 等。可以在 Mac App Store 上免费下载。</p>
+<p>HBuilder，非常好用的 Web 开发 IDE，HBuilder 本身主体由 Java 开发，基于 Eclipse，兼容 Eclipse 的插件。据说“快”，是 HBuilder 最大的优势，大幅度提升了 Web 开发效率。嗯，确实挺快的，完整的语法提示和代码输入法、代码块等，用着很爽，免费。</p>
+<p>编辑器</p>
+<p>TextMate，Mac 下专有神级编辑器，目前已经免费开源了，以前收费。我用的不多，倒不是不好用，受不了“那朵花”。</p>
+<p>Atom，开源免费。简洁直观的图形界面，跨平台，有丰富的主题、插件。是 GitHub 专门为程序员开发的，目前非常火，很多人追随，其中就有我。</p>
+<p>Sublime Text，最性感的编辑器。可免费使用，但会时不时弹出烦人的提示框要你购买注册码。拥有很多优秀的前端开发插件，有重多前端开发者追随。小巧绿色速度快，没谁了。受不了弹框看这里：<a href="https://fatesinger.com/100121" target="_blank" rel="external">https://fatesinger.com/100121</a>，支持 Sublime Text 3 3143。</p>
+<p>Visual Studio Code，微软开发的跨平台文本编辑器，开源免费，支持调试。颜值也是蛮高的，并且是由微软开发的，实力保障啊。它可以说是前端开发者的福音，插件丰富。我最近使用比较多，非常爽。</p>
+<p>写着写着发现今天写不完了，还有不少好的软件和工具推荐给大家，如果接着写下去，我估计得写到明天凌晨。那不行啊，那不得耽搁我约会啊，不说了，我去约会了，改天见。</p>
+<p><br>ikook<br>2018.01.18</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上次的调查反映还算是蛮强烈的，投票结果显示大多数人是需要这么一篇文章的，可能本身就需要这么一篇文章，也可能就是想知道我用的什么工具吧，哈哈。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="软件说" scheme="http://ikookblog.com/categories/%E8%BD%AF%E4%BB%B6%E8%AF%B4/"/>
+    
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="Mac" scheme="http://ikookblog.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈 JavaScript 闭包</title>
@@ -1033,77 +1081,6 @@
     
     
       <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java 实现排序算法之「插入排序」</title>
-    <link href="http://ikookblog.com/2017/08/26/java-sort-series3/"/>
-    <id>http://ikookblog.com/2017/08/26/java-sort-series3/</id>
-    <published>2017-08-25T16:00:00.000Z</published>
-    <updated>2018-01-05T15:37:07.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>java 实现排序算法系列</p>
-</blockquote>
-<a id="more"></a>
-<p>这是 Java 实现排序算法的第三篇文章——插入排序算法。插入排序可以说成是「一类」简单的排序算法，因为插入排序可以有变种，比如二分查找插入排序算法，本文讲述的是直接插入排序。</p>
-<p>如文中出现错误，请在公众号「ikook」聊天窗口留言，十分感谢。</p>
-<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><p>插入排序「Insertion Sort」是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。</p>
-<p>来看一下插入排序算法的思路：<br></p>
-<ul>
-<li>将需排序的数据分成已排序和未排序两部分，从第一个元素开始，并将该元素看做已排序。<br><br></li>
-<li>取得下一个元素，即第二个元素，在已排序的序列中由后向前扫描，找出合适的位置将该元素插入。<br><br></li>
-<li>重复上述步骤，直到最后一个元素被插入到已排序序列中。<br><br></li>
-<li>排序完成。<br><br></li>
-</ul>
-<p>使用插入排序为一列数字进行排序的过程示意图（来自维基百科）：</p>
-<center><br><img src="https://meto.chinakook.com/Insertion-sort-example.gif" alt=""></center>
-
-<p>插入排序算法示意图（来自维基百科）：</p>
-<center><br><img src="https://meto.chinakook.com/Insertion_sort_animation.gif" alt=""></center>
-
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><p>从上面可以看到，算法思路非常简单，但是代码就不那么简单易写了。算法本身是没有问题的，之所以不易写我觉得是由于编程语言的问题。这里我们使用 Java 来实现，那就拿 Java 来讲。</p>
-<p>在上述思路中我们可以提出几个问题，先来看下。首先，我们该如何判断合适的位置？边界条件该怎么处理？在数组中插入元素，必然会移动数据，如何控制数据的移动？</p>
-<p>为了解决这些问题，我们可以在算法思路的第二步做手脚，将第二步细化。我们不在已排序的序列起始位置开始比较，从已排序序列的尾部开始逆序比较，只要比待插入的数据大，那就向后移动，直到不大于该数据，此时空出来的位置就放入待插入数据。</p>
-<p>上代码：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">insertionSort</span><span class="params">(<span class="keyword">int</span>[] arr)</span></span>&#123;</div><div class="line">      <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;arr.length; i++)&#123;</div><div class="line">          <span class="keyword">int</span> value = arr[i];</div><div class="line">          <span class="keyword">int</span> position=i;</div><div class="line">          <span class="keyword">while</span> (position&gt;<span class="number">0</span> &amp;&amp; arr[position-<span class="number">1</span>]&gt;value)&#123;</div><div class="line">              arr[position] = arr[position-<span class="number">1</span>];</div><div class="line">              position--;</div><div class="line">          &#125;</div><div class="line">          arr[position] = value;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>如果在代码的理解上遇到困难，可以利用 IDE 的调试功能来学习。如下图（IntelliJ IDEA）：</p>
-<center><br><img src="https://meto.chinakook.com/insert_debug.jpg" alt=""></center>
-
-<h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><p>从上述内容容易看出，无论输入的数据怎样，插入排序算法总会进行 n-1 次排序。</p>
-<p>由于每个元素插入点的不确定性，该算法复杂度并不是一定的。假设我们要将 n 个元素的序列升序排序，这时存在最好情况和最坏情况。</p>
-<p>最好情况就是，序列已经是升序排列了（即数据本身的顺序和我们需要的顺序相同）。此时，需要进行的比较操作需（n-1）次即可，时间复杂度为 O(n)。</p>
-<p>最坏情况很显然，序列为逆序排列时，即降序排序时为最坏。此时，需要进行的比较共有 1/2n(n-1) 次，时间复杂度为 O(n^2)。</p>
-<p>平均来说，插入排序算法复杂度为 O(n^2)。插入排序的赋值操作是比较操作的次数加上（n-1）次。</p>
-<p>空间复杂度，插入排序所有的数据移动均在内部进行，唯一的开销是我们使用了一个临时变量，则空间复杂度为 O(1)。</p>
-<h2 id="插入排序算法分析"><a href="#插入排序算法分析" class="headerlink" title="插入排序算法分析"></a>插入排序算法分析</h2><p><strong>算法稳定性：</strong><br>拿本文中的例子来讲，只需要找到需插入元素的位置即可，并不需要交换，则直接插入排序是稳定排序算法。</p>
-<p><strong>适用场景：</strong><br>从算法复杂度可以看出，该排序算法不适合数据较大的情况，数量级小于千时，插入排序是一个不错的选择。在 STL 的 sort 算法和 stdlib 的 qsort 算法中，都将插入排序作为快速排序的补充，用于少量数据的排序。</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>关于插入排序算法的变种大家有兴趣的自己 Google 一下，本文只讲述了基本的直接插入排序。插入排序的变种大概有这几种：二分查找插入排序、2 - 路插入排序、表插入排序。二分查找插入排序有的文献叫做折半插入排序，2 - 路插入排序和表插入排序可以参考《数据结构》（严蔚敏、吴伟民著）一书。</p>
-<p>完。</p>
-<p>相关阅读：<br><a href="http://ikookblog.com/2017/03/09/java_sort_algorithm_series1/">Java 实现「冒泡排序」</a><br><a href="http://ikookblog.com/2017/08/11/java_sort_algorithm_series2/">Java 实现「选择排序」</a></p>
-<p>PS：如果你觉得本文对你有一点帮助，点赞、转发，不胜感激。</p>
-<p><br>ikook<br>2017.08.26</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;java 实现排序算法系列&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="论算法" scheme="http://ikookblog.com/categories/%E8%AE%BA%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="Java" scheme="http://ikookblog.com/tags/Java/"/>
-    
-      <category term="计算机技术" scheme="http://ikookblog.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="排序算法" scheme="http://ikookblog.com/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="算法" scheme="http://ikookblog.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
