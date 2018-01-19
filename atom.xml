@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-19T10:44:16.000Z</updated>
+  <updated>2018-01-19T14:02:34.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 使用汇总</title>
+    <link href="http://ikookblog.com/2018/01/19/markdown/"/>
+    <id>http://ikookblog.com/2018/01/19/markdown/</id>
+    <published>2018-01-18T16:00:00.000Z</published>
+    <updated>2018-01-19T14:02:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 &ensp; 或 &#8194;<br>全方大的空白 &emsp; 或 &#8195;<br>不断行的空白格 &nbsp; 或 &#160;</p>
+<p><br>ikook<br>2018.01.19</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;如何实现段首空格的显示-？&quot;&gt;&lt;a href=&quot;#如何实现段首空格的显示-？&quot; class=&quot;headerlink&quot; title=&quot;如何实现段首空格的显示 ？&quot;&gt;&lt;/a&gt;如何实现段首空格的显示 ？&lt;/h3&gt;&lt;p&gt;半方大的空白 &amp;ensp; 或 &amp;#8194;&lt;br
+    
+    </summary>
+    
+      <category term="软件说" scheme="http://ikookblog.com/categories/%E8%BD%AF%E4%BB%B6%E8%AF%B4/"/>
+    
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac 工具启示录「上」</title>
@@ -1028,60 +1052,6 @@
     
     
       <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>七夕，过得怎样？</title>
-    <link href="http://ikookblog.com/2017/08/28/seven-month-seven/"/>
-    <id>http://ikookblog.com/2017/08/28/seven-month-seven/</id>
-    <published>2017-08-28T13:04:46.000Z</published>
-    <updated>2018-01-05T15:37:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p><br><br><br></p>
-<center><strong>七夕</strong></center>
-
-<center>这个狗吐血的特殊日子</center>
-
-<center>我是这样度过的</center>
-
-<center><br><img src="https://meto.chinakook.com/1503916978099.jpg" alt=""></center>
-
-<p><br></p>
-<center>我的心情是这样的</center>
-
-
-<center><br><img src="https://meto.chinakook.com/17.08.28.jpg" alt=""></center>
-
-<p><br><br><br></p>
-<center>祝</center>
-
-<center>虐狗节快乐</center>
-
-
-
-<p><br>ikook<br>2017.08.28</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;center&gt;&lt;strong&gt;七夕&lt;/strong&gt;&lt;/center&gt;
-
-&lt;center&gt;这个狗吐血的特殊日子&lt;/center&gt;
-
-&lt;center&gt;我是这样度过的&lt;/center&gt;
-
-&lt;center&gt;&lt;
-    
-    </summary>
-    
-      <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
-    
-    
-      <category term="随笔" scheme="http://ikookblog.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
