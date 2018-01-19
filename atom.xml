@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-19T14:02:34.000Z</updated>
+  <updated>2018-01-19T14:08:24.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,15 +20,17 @@
     <link href="http://ikookblog.com/2018/01/19/markdown/"/>
     <id>http://ikookblog.com/2018/01/19/markdown/</id>
     <published>2018-01-18T16:00:00.000Z</published>
-    <updated>2018-01-19T14:02:34.000Z</updated>
+    <updated>2018-01-19T14:08:24.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 &ensp; 或 &#8194;<br>全方大的空白 &emsp; 或 &#8195;<br>不断行的空白格 &nbsp; 或 &#160;</p>
+    <content type="html"><![CDATA[<p>汇总 Markdown 使用过程中遇见的一些较为“偏”的实现方法</p>
+<h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 &ensp; 或 &#8194;<br>全方大的空白 &emsp; 或 &#8195;<br>不断行的空白格 &nbsp; 或 &#160;</p>
 <p><br>ikook<br>2018.01.19</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;如何实现段首空格的显示-？&quot;&gt;&lt;a href=&quot;#如何实现段首空格的显示-？&quot; class=&quot;headerlink&quot; title=&quot;如何实现段首空格的显示 ？&quot;&gt;&lt;/a&gt;如何实现段首空格的显示 ？&lt;/h3&gt;&lt;p&gt;半方大的空白 &amp;ensp; 或 &amp;#8194;&lt;br
+      &lt;p&gt;汇总 Markdown 使用过程中遇见的一些较为“偏”的实现方法&lt;/p&gt;
+&lt;h3 id=&quot;如何实现段首空格的显示-？&quot;&gt;&lt;a href=&quot;#如何实现段首空格的显示-？&quot; class=&quot;headerlink&quot; title=&quot;如何实现段首空格的显示 ？&quot;&gt;&lt;/a&gt;如何实现段首空
     
     </summary>
     
