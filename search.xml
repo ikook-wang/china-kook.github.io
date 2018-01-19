@@ -6,7 +6,10 @@
       <title><![CDATA[Markdown 使用汇总]]></title>
       <url>/2018/01/19/markdown/</url>
       <content type="html"><![CDATA[<p>汇总 Markdown 使用过程中遇见的一些较为“偏”的实现方法</p>
-<h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 &ensp; 或 &#8194;<br>全方大的空白 &emsp; 或 &#8195;<br>不断行的空白格 &nbsp; 或 &#160;</p>
+<a id="more"></a>
+<h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 <code>&amp;ensp;</code> 或 <code>&amp;#8194;</code></p>
+<p>全方大的空白 <code>&amp;emsp;</code> 或 <code>&amp;#8195;</code></p>
+<p>不断行的空白格 <code>&amp;nbsp;</code> 或 <code>&amp;#160;</code></p>
 <p><br>ikook<br>2018.01.19</p>
 ]]></content>
       
@@ -3116,6 +3119,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -3138,12 +3147,6 @@
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25707139&auto=1&height=66"></iframe><br></p>
 <p><br>ikook<br>2016.10.07</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
