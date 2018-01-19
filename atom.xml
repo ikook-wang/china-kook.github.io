@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-19T10:42:35.000Z</updated>
+  <updated>2018-01-19T10:44:16.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2018/01/18/mac-software01/"/>
     <id>http://ikookblog.com/2018/01/18/mac-software01/</id>
     <published>2018-01-17T16:00:00.000Z</published>
-    <updated>2018-01-19T10:42:35.000Z</updated>
+    <updated>2018-01-19T10:44:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>上次的调查反映还算是蛮强烈的，投票结果显示大多数人是需要这么一篇文章的，可能本身就需要这么一篇文章，也可能就是想知道我用的什么工具吧，哈哈。</p>
 <a id="more"></a>
@@ -31,19 +31,20 @@
 <p>还要告诉大家的是，工具就只是工具而已，只要能提高我们的工作效率就是好工具，不必纠结于到底使用哪个。我们的目的只有一个，那就是提高效率，当然，在保证效率的前提下，要是能有美观、优雅这些附加条件就再好不过了。</p>
 <p>先给大家看下我「Launchpad」首屏。</p>
 <p><img src="https://meto.chinakook.com/blog-images/180118-1.png" alt=""></p>
-<p>浏览器</p>
+<p><strong>浏览器</strong></p>
 <p>当然首选 Chrome，它的强大之处不必多说。Chrome 支持任何平台，这里推荐给不知道的人。以前写过一篇 Chrome 插件的文章，对大家更加优雅的使用 Chrome 很有帮助，在这儿：<a href="https://ikookblog.com/2017/09/01/chrome-extended/">无扩展，不 Chrome</a></p>
 <p>Safari 是 Mac 上自带的浏览器，也非常好用，其阅读器非常强大，同样是我喜欢的浏览器，也许很多人都没用过 Safari，相信我，用过之后你会感谢我的。</p>
-<p>IDE</p>
+<p><strong>IDE</strong></p>
 <p>JetBrains 旗下 IDE，基本都是精品，比如我现在用的就有：IntelliJ IDEA、WebStorm、PyCharm，分别对应：Java、Web 开发、Python，IntelliJ IDEA 还天然支持 Kotlin，而且 Kotlin 本身就是由 JetBrains 团队开发的。当然，不止支持这些，还有很多，像 PHP、Ruby、Swift、C/C++、Go 等，几乎一应俱全。并且都非常优秀，著名的 Android Studio 也是在其基础上开发出来的。不过，JetBrains 的 IDE 都是收费的，并且还挺贵，拿 IntelliJ IDEA 来说，一年 $499，也可以购买支持旗下所有产品的注册码，一年 $649。学生可以免费申请正版授权，创业公司支持 5 折购买。像我们这些穷屌丝，看这里：<a href="http://idea.lanyus.com/" target="_blank" rel="external">http://idea.lanyus.com/</a>。需要声明的是，资金允许，还是去购买正版吧，省心，也是对开发者的一种支持。</p>
 <p>Eclipse，曾经的王者，几乎支持所有常用的编程语言，并且是免费的，插件丰富，现在非常多的开发者依然站在 Eclipse 的阵营中。无需多说。</p>
 <p>Xcode，Mac 上独有的非常优秀的 IDE，基本上我们使用的所有 Mac App 和 iOS App 都是用它开发出来的。并且 The Xcode suite 还支持 C/C++、Java、Python 等。可以在 Mac App Store 上免费下载。</p>
 <p>HBuilder，非常好用的 Web 开发 IDE，HBuilder 本身主体由 Java 开发，基于 Eclipse，兼容 Eclipse 的插件。据说“快”，是 HBuilder 最大的优势，大幅度提升了 Web 开发效率。嗯，确实挺快的，完整的语法提示和代码输入法、代码块等，用着很爽，免费。</p>
-<p>编辑器</p>
+<p><strong>编辑器</strong></p>
 <p>TextMate，Mac 下专有神级编辑器，目前已经免费开源了，以前收费。我用的不多，倒不是不好用，受不了“那朵花”。</p>
 <p>Atom，开源免费。简洁直观的图形界面，跨平台，有丰富的主题、插件。是 GitHub 专门为程序员开发的，目前非常火，很多人追随，其中就有我。</p>
 <p>Sublime Text，最性感的编辑器。可免费使用，但会时不时弹出烦人的提示框要你购买注册码。拥有很多优秀的前端开发插件，有重多前端开发者追随。小巧绿色速度快，没谁了。受不了弹框看这里：<a href="https://fatesinger.com/100121" target="_blank" rel="external">https://fatesinger.com/100121</a>，支持 Sublime Text 3 3143。</p>
 <p>Visual Studio Code，微软开发的跨平台文本编辑器，开源免费，支持调试。颜值也是蛮高的，并且是由微软开发的，实力保障啊。它可以说是前端开发者的福音，插件丰富。我最近使用比较多，非常爽。</p>
+<hr>
 <p>写着写着发现今天写不完了，还有不少好的软件和工具推荐给大家，如果接着写下去，我估计得写到明天凌晨。那不行啊，那不得耽搁我约会啊，不说了，我去约会了，改天见。</p>
 <p><br>ikook<br>2018.01.18</p>
 ]]></content>
