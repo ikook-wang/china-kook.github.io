@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-19T14:11:45.000Z</updated>
+  <updated>2018-01-22T11:05:07.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 工具启示录「中」</title>
+    <link href="http://ikookblog.com/2018/01/21/mac-software02/"/>
+    <id>http://ikookblog.com/2018/01/21/mac-software02/</id>
+    <published>2018-01-20T16:00:00.000Z</published>
+    <updated>2018-01-22T11:05:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家周末愉快啊，这两天比较忙，所以本来早该推送的文章愣是拖到了今天。<a id="more"></a>这篇文章是《<a href="https://ikookblog.com/2018/01/18/mac-software01/"> Mac 工具启示录「上」</a>》的续集，上篇只给大家介绍了浏览器、IDE、编辑器三个部分，今天来给大家介绍下其他一些好用的工具。</p>
+<p><strong>搜索工具</strong></p>
+<p>Spotlight，macOS 本身自带的强大的搜索工具，可以查找你计算机上所有的内容，像文件、文件夹、应用程序、邮件、歌曲等等。Spotlight 可以实现“随打即显”，意思就是在你键入的时候会随时匹配你想要的内容。用过 macOS 基本都知道有这么个工具，但用的人可能并不是很多，一部分是没用过的，对于这部分人建议去用一用，可以极大的提高效率；另一部分是使用它的替代者：Alfred。</p>
+<p>Alfred，这是 Mac 专属的一个神器中的神器。想必你就算没有用过也听说过，如果没有听说过，那好吧（打脸）。Alfred 是一个可以让我们丢掉鼠标的神器，堪称 Mac 上最强大的效率工具，它在 Spotlight 基础上优化了快速启动和搜索的功能，还加入了 Workflows 等强大的扩展功能。关于 Alfred 不做过多介绍了，去 Google 了解。收费的，个人版 19 欧元，是欧元。暂时没钱？关注我的公众号（文章底部扫码关注，下同）后台回复「Alfred」收货。</p>
+<p>Dash，用一句话概括：它是一个 API 文档浏览器，以及代码片段管理工具。如果你是搞编程的，那么它就是你要找的必须拥有的工具。它带有超过 200+ 的 API，也就是说无论你要查哪个技术的文档，基本都能找到。并且它能够集成在大量的编程工具和效率工具中，像上篇提到的 JetBrains 系列、Eclipse 系列、Xcode、Atom、Sublime Text、VSCode，还有今天的 Alfred，而且还能集成在你的 Terminal(终端) 中。Dash + Alfred 简直不能再爽，关于如何在 Alfred 集成 Dash，自行 Google。Dash 可免费使用，但几天(具体几天我忘了)之后搜索 API 会有延迟，好像 10 秒左右，作为程序员，简直不能忍。不能忍就去花 $24.99 买授权，还是有困难就后台回复「Dash」，我给你。</p>
+<p><strong>终端</strong></p>
+<p>iTerm 2，macOS 上优秀的开源免费的终端工具。macOS 自带的 Terminal 其实还算是蛮不错的，相比 Windows 的 cmd 简直不知道好到哪里去了，我是疯了才会去和 cmd 比较吧。但 Terminal 和 iTerm 2 相比就有些逊色了，关于 iTerm 2 的使用大家自己查阅。</p>
+<p>Oh My Zsh。介绍 Oh My Zsh 之前先说下 Shell，Shell 起到一个媒介的作用，可以理解成“代理人”，它负责外界与 Unix/Linux 内核的交互。也就是把接受到的用户或者应用程序的命令转化成内核能够理解的东西，然后传送给内核。Shell 有很多种，用过 Linux 的朋友肯定知道 bash，bash 就是 Shell 的一种，其他还有很多。Mac 中默认使用的 Shell 也是 bash，但最牛掰的还数深藏不露的 zsh，但是 zsh 配置太复杂，很少有人使用，于是就有人弄了 Oh My Zsh。Oh My Zsh 是用来管理 zsh 配置的，自带了很多好用的基本配置，基本就是 zsh 的标配，有了 Oh My Zsh 不用我们再配置复杂的 zsh，也能快速上手体验牛掰的 zsh 了。开源免费，如何使用呢？自己 Google：iTerm 2 + Oh My Zsh，然后配置你牛掰吊炸天的终端去装 b 吧。</p>
+<p>tmux，它是一个终端复用器，使用它可以让你轻松地在一个终端的几个程序之间切换，进行窗口分割，多窗口等，但它最大的优点是：远程 SSH 访问服务器，并能够持久地保存工作状态，即使是非正常掉线。开源免费，经常需要远程连接服务器的朋友赶紧用起来。</p>
+<p>Homebrew，它是 macOS 的包管理工具，使用它可以非常容易的安装、卸载、更新、搜索软件包，使用它只需简单的一条指令，就可以实现包管理，再也不需要关心各种依赖和文件路径。快速搜索使用，体验 hacker 的 feel。</p>
+<p><strong>文件比较工具</strong></p>
+<p>FileMerge，macOS 原生工具。文件比较对于我们开发的人来说应该是经常做的事情，FileMerge 基本可以满足我们日常的需求，不过比较速度较慢，对非 ASCII 内容的文件支持不友好。</p>
+<p>VisualDiffer，它是通过 UNIX diff 命令快速、标准、可靠的进行文件和文件夹的比较，操作非常简单，比较速度非常快。还支持文件过滤、颜色标注等。收费的，30 RMB，不贵，这个价格我觉得非常值。如果实在拮据，后台回复「VD」</p>
+<p><strong>设计类工具</strong></p>
+<p>Photoshop，根本不需要我多说，大家都知道。收费的，没钱赶紧后台回复「PS」，可以获取全套的「Adobe CC 2017」工具。类似的工具 Mac 上有个叫 Pixelmator 的，可以说是精简版的 PS，适合非专业人士使用，收费的。我用过几次，因为之前都是使用 PS，所以用不惯，就舍弃了，安装包也不知道跑哪儿去了，有兴趣的可以去 App Store 购买下载使用，或者在网上找找看。</p>
+<p>墨刀，原型设计工具。可以说是傻瓜式的工具，对非专业人士很友好，简单易用。如果是独立开发者，使用墨刀就可以自己设计出完美的原型图。有免费版，不过有限制，个人版 149 元/年，蛮实惠。</p>
+<p>Sketch，官方是这么介绍的：轻量、易用的矢量设计工具，让 UI 设计更简单、更高效。就是一个简单易用的设计图工具，如果是独立开发者，Sketch 也是你的选择，不需要去学 PS、Illustrator，使用它就可以替代。付费的，可以免费体验。还想着后台回复？没有 ^_^</p>
+<p>不过，后台回复「Mac 工具」可以获取文章中所有“可回复获取的软件和链接”，有点绕口。</p>
+<p>后台提供的这些免费的工具，仅仅帮助那些暂时比较拮据的人，如果资金比较富裕或是还可以，建议去购买正版，是一种支持。试想一下，如果别人用着你开发的付费工具，却没有花钱，你什么感受？</p>
+<hr>
+<p>我使用的与技术相关的、专业的软件工具基本都介绍完了，还有一些其他的通用的工具，本想着一口气写完的，可是我又要去约会了，哎，太忧伤了。</p>
+<p>上次的文章转发了没？没有，赶紧转发这篇吧，你离女朋友就差一个分享转发了 ^_^</p>
+<p>哈哈，希望大家多多转发分享，毕竟整理起来也蛮辛苦的，转发留言点赞都是对我的支持。</p>
+<p><br><br><br></p>
+<center>近期文章</center><br><center>「点击图片可跳转」</center>
+
+<p><a href="https://ikookblog.com/2018/01/18/mac-software01/"><img src="https://meto.chinakook.com/blog-images/180121-0.jpeg" alt="Mac 工具启示录「上」" title="Mac 工具启示录「上」"></a></p>
+<center> <a href="https://ikookblog.com/2018/01/18/mac-software01/"> Mac 工具启示录「上」</a> </center>
+
+<p><br></p>
+<p><a href="https://ikookblog.com/2018/01/12/js-closure/"><img src="https://meto.chinakook.com/blog-images/180121-2.jpeg" alt="浅谈 JavaScript 闭包" title="浅谈 JavaScript 闭包"></a></p>
+<center> <a href="https://ikookblog.com/2018/01/12/js-closure/">浅谈 JavaScript 闭包</a> </center>
+
+
+
+<p><br><br><br></p>
+<h3 id="赞赏"><a href="#赞赏" class="headerlink" title="赞赏"></a><center>赞赏</center></h3><p><img src="https://meto.chinakook.com/%E8%B5%9E%E8%B5%8F%E7%A0%81.jpeg" alt=""></p>
+<p><br>ikook<br>2018.01.21</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大家周末愉快啊，这两天比较忙，所以本来早该推送的文章愣是拖到了今天。
+    
+    </summary>
+    
+      <category term="软件说" scheme="http://ikookblog.com/categories/%E8%BD%AF%E4%BB%B6%E8%AF%B4/"/>
+    
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="Mac" scheme="http://ikookblog.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown 使用汇总</title>
@@ -996,66 +1058,6 @@
       <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="Alfred" scheme="http://ikookblog.com/tags/Alfred/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>无扩展，不 Chrome</title>
-    <link href="http://ikookblog.com/2017/09/01/chrome-extended/"/>
-    <id>http://ikookblog.com/2017/09/01/chrome-extended/</id>
-    <published>2017-08-31T16:00:00.000Z</published>
-    <updated>2018-01-05T15:39:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。</p>
-<a id="more"></a>
-<p>为大家推荐一些我常用的 Chrome 扩展，相信 Chrome 大家并不陌生吧，一款优雅的超好用的浏览器。由于某些东西的存在，下载安装稍微有点限制。关注公众号「ikook」后台回复「Chrome」可获取各个离线版本 Chrome。</p>
-<p>好了，正文开始。想要用好 Chrome，非扩展不可，正所谓「无扩展，不 Chrome」。下面给大家介绍几款让 Chrome 变得更加优雅用起来更优雅的扩展。</p>
-<h3 id="为什么你们就是不能加个空格呢？"><a href="#为什么你们就是不能加个空格呢？" class="headerlink" title="为什么你们就是不能加个空格呢？"></a>为什么你们就是不能加个空格呢？</h3><p>你没看错，名字就是「为什么你们就是不能加个空格呢？」。有没有因为汉字与英文之间没有空格引起强迫症？其内置的空格之神，可以自动为一切中文字和半形的英文、数字、符号之间插入空白。</p>
-<center><br><img src="https://meto.chinakook.com/%E7%A9%BA%E6%A0%BC%E4%B9%8B%E7%A5%9E.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/zlnOv4n" target="_blank" rel="external">http://t.cn/zlnOv4n</a></p>
-<p>Chrome 应用商店链接，要访问… 你懂得，下同</p>
-<h3 id="Imagus"><a href="#Imagus" class="headerlink" title="Imagus"></a>Imagus</h3><p>有没有过「查看原图」但是原图不够大的情况？有了 Imagus 扩展，鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频 / 音频和内容专辑。</p>
-<center><br><img src="https://meto.chinakook.com/Imagus.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/8sDMJm6" target="_blank" rel="external">http://t.cn/8sDMJm6</a></p>
-<h3 id="Flatbook"><a href="#Flatbook" class="headerlink" title="Flatbook"></a>Flatbook</h3><p>是否厌倦了 Facebook 亘古不变的页面，来给你的脸书换个脸吧，瞬间清爽到爆啊。</p>
-<center><br><img src="https://meto.chinakook.com/flatbook.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNiRhcj" target="_blank" rel="external">http://t.cn/RNiRhcj</a></p>
-<h3 id="Darkness"><a href="#Darkness" class="headerlink" title="Darkness"></a>Darkness</h3><p>Darkness 可以为 Google，Facebook，YouTube，Reddit 等不存在的网站提供完美的夜间模式支持，不会有图片反转，文字颜色奇怪等尴尬问题。当然了，Darkness 适配的网站还很少，如果你需要广泛适用的，可能需要这款神级扩展：Stylish，在下面。</p>
-<center><br><img src="https://meto.chinakook.com/Darkness.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNinpUu" target="_blank" rel="external">http://t.cn/RNinpUu</a></p>
-<h3 id="Stylish"><a href="#Stylish" class="headerlink" title="Stylish"></a>Stylish</h3><p>许多网页的视觉风格是用 CSS 文件进行管理的，替换网页本身的 CSS 可以达到美化的目的了。通过安装 CSS，可以把知乎「拍扁」，让微博网页版变得简洁无比，让 Feedly 用上 Material Design 等等等…… Stylish 作为一个 CSS 管理器，可以让替换 CSS 变得简单。</p>
-<center><br><img src="https://meto.chinakook.com/1504266030349.jpg" alt=""></center>
-
-<p>关于 Stylish 更详细的介绍见：<a href="https://sspai.com/post/34508" target="_blank" rel="external">https://sspai.com/post/34508</a></p>
-<p>下载安装：<a href="http://t.cn/R9hCUIk" target="_blank" rel="external">http://t.cn/R9hCUIk</a></p>
-<h3 id="Wikiwand"><a href="#Wikiwand" class="headerlink" title="Wikiwand"></a>Wikiwand</h3><p>多年来，维基百科网页的视觉风格坚定不移地停留在 Web2.0 时代。Wikiwand 让你看到一个属于 21 世纪的维基百科。除了视觉上的提升，Wikiwand 也添加了一些人性化的交互：比如超链接悬浮窗，搜索联想，黑色模式等等…</p>
-<center><br><img src="https://meto.chinakook.com/1504266756635.jpg" alt=""></center>
-
-
-<p>下载安装：<a href="http://t.cn/R4TGWCh" target="_blank" rel="external">http://t.cn/R4TGWCh</a></p>
-<h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><p>「阅读模式」可以为 Chrome 带来了类似 Safari 的阅读体验。点击图标即可进入，再次点击退出，完全的无痛体验啊。有一种 Chrome 原生阅读模式的错觉，爽。</p>
-<center><br><img src="https://meto.chinakook.com/1504267091779.jpg" alt=""></center>
-
-<p>下载安装：<a href="http://t.cn/RNiFaDw" target="_blank" rel="external">http://t.cn/RNiFaDw</a></p>
-<p>今天主要介绍的是利用 Chrome 扩展改变网页视觉感觉，让浏览网页变得更加优雅，后面有机会再和大家说说其他实用扩展。</p>
-<p>完。</p>
-<p><br>ikook<br>2017.09.01</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大家好啊，最近开学在折腾学校实训的事，比较忙，耽搁了更新，抱歉。为了表达歉意，给大家来点「刺激的」。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
-    
-    
-      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
