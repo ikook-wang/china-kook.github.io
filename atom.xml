@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-22T11:08:09.000Z</updated>
+  <updated>2018-01-22T11:09:55.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,18 +20,22 @@
     <link href="http://ikookblog.com/2018/01/21/mac-software02/"/>
     <id>http://ikookblog.com/2018/01/21/mac-software02/</id>
     <published>2018-01-20T16:00:00.000Z</published>
-    <updated>2018-01-22T11:08:09.000Z</updated>
+    <updated>2018-01-22T11:09:55.000Z</updated>
     
     <content type="html"><![CDATA[<p>大家周末愉快啊，这两天比较忙，所以本来早该推送的文章愣是拖到了今天。<a id="more"></a>这篇文章是《<a href="https://ikookblog.com/2018/01/18/mac-software01/"> Mac 工具启示录「上」</a>》的续集，上篇只给大家介绍了浏览器、IDE、编辑器三个部分，今天来给大家介绍下其他一些好用的工具。</p>
+<p><br></p>
 <h4 id="搜索工具"><a href="#搜索工具" class="headerlink" title="搜索工具"></a><strong>搜索工具</strong></h4><p>Spotlight，macOS 本身自带的强大的搜索工具，可以查找你计算机上所有的内容，像文件、文件夹、应用程序、邮件、歌曲等等。Spotlight 可以实现“随打即显”，意思就是在你键入的时候会随时匹配你想要的内容。用过 macOS 基本都知道有这么个工具，但用的人可能并不是很多，一部分是没用过的，对于这部分人建议去用一用，可以极大的提高效率；另一部分是使用它的替代者：Alfred。</p>
 <p>Alfred，这是 Mac 专属的一个神器中的神器。想必你就算没有用过也听说过，如果没有听说过，那好吧（打脸）。Alfred 是一个可以让我们丢掉鼠标的神器，堪称 Mac 上最强大的效率工具，它在 Spotlight 基础上优化了快速启动和搜索的功能，还加入了 Workflows 等强大的扩展功能。关于 Alfred 不做过多介绍了，去 Google 了解。收费的，个人版 19 欧元，是欧元。暂时没钱？关注我的公众号（文章底部扫码关注，下同）后台回复「Alfred」收货。</p>
 <p>Dash，用一句话概括：它是一个 API 文档浏览器，以及代码片段管理工具。如果你是搞编程的，那么它就是你要找的必须拥有的工具。它带有超过 200+ 的 API，也就是说无论你要查哪个技术的文档，基本都能找到。并且它能够集成在大量的编程工具和效率工具中，像上篇提到的 JetBrains 系列、Eclipse 系列、Xcode、Atom、Sublime Text、VSCode，还有今天的 Alfred，而且还能集成在你的 Terminal(终端) 中。Dash + Alfred 简直不能再爽，关于如何在 Alfred 集成 Dash，自行 Google。Dash 可免费使用，但几天(具体几天我忘了)之后搜索 API 会有延迟，好像 10 秒左右，作为程序员，简直不能忍。不能忍就去花 $24.99 买授权，还是有困难就后台回复「Dash」，我给你。</p>
+<p><br></p>
 <h4 id="终端"><a href="#终端" class="headerlink" title="终端"></a><strong>终端</strong></h4><p>iTerm 2，macOS 上优秀的开源免费的终端工具。macOS 自带的 Terminal 其实还算是蛮不错的，相比 Windows 的 cmd 简直不知道好到哪里去了，我是疯了才会去和 cmd 比较吧。但 Terminal 和 iTerm 2 相比就有些逊色了，关于 iTerm 2 的使用大家自己查阅。</p>
 <p>Oh My Zsh。介绍 Oh My Zsh 之前先说下 Shell，Shell 起到一个媒介的作用，可以理解成“代理人”，它负责外界与 Unix/Linux 内核的交互。也就是把接受到的用户或者应用程序的命令转化成内核能够理解的东西，然后传送给内核。Shell 有很多种，用过 Linux 的朋友肯定知道 bash，bash 就是 Shell 的一种，其他还有很多。Mac 中默认使用的 Shell 也是 bash，但最牛掰的还数深藏不露的 zsh，但是 zsh 配置太复杂，很少有人使用，于是就有人弄了 Oh My Zsh。Oh My Zsh 是用来管理 zsh 配置的，自带了很多好用的基本配置，基本就是 zsh 的标配，有了 Oh My Zsh 不用我们再配置复杂的 zsh，也能快速上手体验牛掰的 zsh 了。开源免费，如何使用呢？自己 Google：iTerm 2 + Oh My Zsh，然后配置你牛掰吊炸天的终端去装 b 吧。</p>
 <p>tmux，它是一个终端复用器，使用它可以让你轻松地在一个终端的几个程序之间切换，进行窗口分割，多窗口等，但它最大的优点是：远程 SSH 访问服务器，并能够持久地保存工作状态，即使是非正常掉线。开源免费，经常需要远程连接服务器的朋友赶紧用起来。</p>
 <p>Homebrew，它是 macOS 的包管理工具，使用它可以非常容易的安装、卸载、更新、搜索软件包，使用它只需简单的一条指令，就可以实现包管理，再也不需要关心各种依赖和文件路径。快速搜索使用，体验 hacker 的 feel。</p>
+<p><br></p>
 <h4 id="文件比较工具"><a href="#文件比较工具" class="headerlink" title="文件比较工具"></a><strong>文件比较工具</strong></h4><p>FileMerge，macOS 原生工具。文件比较对于我们开发的人来说应该是经常做的事情，FileMerge 基本可以满足我们日常的需求，不过比较速度较慢，对非 ASCII 内容的文件支持不友好。</p>
 <p>VisualDiffer，它是通过 UNIX diff 命令快速、标准、可靠的进行文件和文件夹的比较，操作非常简单，比较速度非常快。还支持文件过滤、颜色标注等。收费的，30 RMB，不贵，这个价格我觉得非常值。如果实在拮据，后台回复「VD」</p>
+<p><br></p>
 <h4 id="设计类工具"><a href="#设计类工具" class="headerlink" title="设计类工具"></a><strong>设计类工具</strong></h4><p>Photoshop，根本不需要我多说，大家都知道。收费的，没钱赶紧后台回复「PS」，可以获取全套的「Adobe CC 2017」工具。类似的工具 Mac 上有个叫 Pixelmator 的，可以说是精简版的 PS，适合非专业人士使用，收费的。我用过几次，因为之前都是使用 PS，所以用不惯，就舍弃了，安装包也不知道跑哪儿去了，有兴趣的可以去 App Store 购买下载使用，或者在网上找找看。</p>
 <p>墨刀，原型设计工具。可以说是傻瓜式的工具，对非专业人士很友好，简单易用。如果是独立开发者，使用墨刀就可以自己设计出完美的原型图。有免费版，不过有限制，个人版 149 元/年，蛮实惠。</p>
 <p>Sketch，官方是这么介绍的：轻量、易用的矢量设计工具，让 UI 设计更简单、更高效。就是一个简单易用的设计图工具，如果是独立开发者，Sketch 也是你的选择，不需要去学 PS、Illustrator，使用它就可以替代。付费的，可以免费体验。还想着后台回复？没有 ^_^</p>
@@ -65,14 +69,21 @@
     <link href="http://ikookblog.com/2018/01/19/markdown/"/>
     <id>http://ikookblog.com/2018/01/19/markdown/</id>
     <published>2018-01-18T16:00:00.000Z</published>
-    <updated>2018-01-19T14:11:45.000Z</updated>
+    <updated>2018-01-22T11:11:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>汇总 Markdown 使用过程中遇见的一些较为“偏”的实现方法</p>
 <a id="more"></a>
 <h3 id="如何实现段首空格的显示-？"><a href="#如何实现段首空格的显示-？" class="headerlink" title="如何实现段首空格的显示 ？"></a>如何实现段首空格的显示 ？</h3><p>半方大的空白 <code>&amp;ensp;</code> 或 <code>&amp;#8194;</code></p>
 <p>全方大的空白 <code>&amp;emsp;</code> 或 <code>&amp;#8195;</code></p>
 <p>不断行的空白格 <code>&amp;nbsp;</code> 或 <code>&amp;#160;</code></p>
-<p><br>ikook<br>2018.01.19</p>
+<h3 id="图片如何添加超链接？"><a href="#图片如何添加超链接？" class="headerlink" title="图片如何添加超链接？"></a>图片如何添加超链接？</h3><p>插入图片：</p>
+<p><code>![alt text](http://path/to/img.jpg &quot;title&quot;)</code></p>
+<p>文字链接：</p>
+<p><code>[Title](你的链接地址)</code></p>
+<p>图片加链接：</p>
+<p><code>[![alt text](http://path/to/img.jpg &quot;title&quot;)](你的链接地址)</code></p>
+<p>其实就是 图片 和 文字链接 2种语法结合起来用。</p>
+<p><br><br><br>ikook<br>2018.01.19</p>
 ]]></content>
     
     <summary type="html">
