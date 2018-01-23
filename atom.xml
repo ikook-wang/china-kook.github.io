@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-01-22T11:09:55.000Z</updated>
+  <updated>2018-01-23T13:12:33.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 工具启示录「中」</title>
+    <link href="http://ikookblog.com/2018/01/23/mac-software03/"/>
+    <id>http://ikookblog.com/2018/01/23/mac-software03/</id>
+    <published>2018-01-22T16:00:00.000Z</published>
+    <updated>2018-01-23T13:12:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这篇文章是「Mac 工具启示录」系列的最后一篇。这系列的三篇文章，基本涵盖了我自己使用的较为优秀的工具，但愿能有帮助到大家，对大家有所启示。<br><a id="more"></a></p>
+<p><br></p>
+<h4 id="清理工具"><a href="#清理工具" class="headerlink" title="清理工具"></a><strong>清理工具</strong></h4><p>首先 macOS 基本上是不需要进行系统清理的， 但使用过程中会产生一些可被清理的东西，像缓存文件、历史日志、临时文件、软件使用中产生的文件等；Mac 卸载软件只需将其丢到废纸篓，但软件使用过程中生成的文件不会被清理，虽然对系统使用没任何影响，但强迫症患者简直不能忍，尤其是有系统洁癖的童鞋。</p>
+<p>CleanMyMac，作为 Mac 最强大最知名的清理工具，刚好可以拯救强迫症 + 系统洁癖的我，简直不能再好用。简单的操作，只需选择智能清理，再点击扫描，一切都交由 CleanMyMac 去做，它会智能的将你不需要的文件和残留文件找出来，然后再点击清理，整个世界都干净了。卸载软件也变得再轻松不过，选择需要卸载的软件，点击卸载就 ok 了，它会自动清除有关要卸载的软件的一切。同时，还可以用它来优化你的 Mac，重建 Spotlight 索引、运行维护脚本优化 Mac，等等。</p>
+<p>Mac 清理和优化有它，足够了。收费的，老规矩，回复「CleanMyMac」收货。</p>
+<p><br></p>
+<h4 id="知识管理工具"><a href="#知识管理工具" class="headerlink" title="知识管理工具"></a><strong>知识管理工具</strong></h4><p>Evernote，印象笔记，就是那个大象头。印象笔记知名度非常高，其强大之处不必多言，集整理、同步、收集、搜索等于一体，不论是图片、文字、录音均可存储，强大的拓展能力，全平台支持。有免费、标准和高级三种选择，高级账户按年付费 ￥12.33/月，蛮实惠的。</p>
+<p>有道云笔记。网易出品，必属精品。分类整理、文件同步、支持文件上传和下载、支持 Markdown、云协作等等，全平台支持，相比印象笔记更符合国人使用习惯，同样也是我日常使用最多的软件。有免费版和收费版，免费版足够日常使用；收费版 198/年。</p>
+<p>幕布。极简舒爽的界面，没有半点多余的元素，令人心驰神往。写笔记、思维整理、内容创作、任务管理，还可以一键生成思维导图，简直不能再爽。幕布简单易用，同样支持云同步，同样支持全平台，非常好用。无论是整理思维、内容创作还是任务管理，都完成的游刃有余，可以说是一款非常优秀的辅助思考软件。有免费版和高级版，高级版支持插入图片、高级导出、文档数量无上限等特点，￥9/月、￥90/年、￥199/3年，够实惠不？</p>
+<p>XMind ZEN。XMind 团队推出的一款全新的思维导图软件。XMind 据说是最好用的思维导图软件之一，使用 ZEN 之前，也是一直在使用 XMind，确实很好用。但是用上 XMind ZEN 之后，再也不想回到 XMind 了。全新的引擎、优秀的主题、「禅」模式，导出为 Markdown 格式，更加简洁清爽的界面，兼容 XMind 8。XMind ZEN 也许是最好用的思维导图软件了吧，这次没有之一。XMind ZEN 公测时我就用上了，可以使用所有功能。正式上线后分为免费版和完整版，完整版 ￥380/2 年，也还买的起，第一时间进行了订阅。</p>
+<p><br></p>
+<h4 id="解压缩工具"><a href="#解压缩工具" class="headerlink" title="解压缩工具"></a><strong>解压缩工具</strong></h4><p>Mac 上原生的解压缩软件支持的格式比较少，所以一款优秀的解压缩软件是必需品。</p>
+<p>BetterZip，这是一款功能非常强大的解压缩软件，不必解压就能够快速地检查压缩的文档，能执行文件之间的合并并提供密码，可以更加快捷的向压缩包中添加和删除文件。支持多种格式：zip、gz、bz、bz2、tar、rar、7-zip、iso、chm、rpm 等等。收费，后台回复「BetterZip」</p>
+<p><br></p>
+<h4 id="写作工具"><a href="#写作工具" class="headerlink" title="写作工具"></a><strong>写作工具</strong></h4><p>写作工具我只选择支持 Markdown 语法的，自从我开始写博客就使用  Markdown，深深地被它所吸引。Markdown 是一门标记语言，简单易用还易学，使用 Markdown 可以使你专注于写作，而不必在意排版。所以，下面的工具全都支持 Markdown  ^_^</p>
+<p>MWeb，据说是程序员专属 Markdown 工具，全面支持 Github Flavored Markdown 语法，实时预览，生成静态博客等，还支持表格、流程图和数学公式的撰写。原生的 macOS 应用，运行速度更快，系统结合更加完美，拥有更好的写作体验。对了，还支持 iOS。收费的，98 RMB，不过，后台回复「MWeb」看看？</p>
+<p>Day One，日记工具。可能是 Mac 平台上最好用的、最简洁漂亮的日记工具了。Day One 一直以来以界面简洁、功能易用著称。使用它只需专注于打字，它会自动生成美观、耐看的界面，还可以添加时间、地点、天气、运动步数，可以新建日记分类，插入多张照片，添加标签，颜色区分，云同步等等。如果使用 iOS 版，它还能记录你去过的地点。收费的，还挺贵，想要 Mac 版后台回复「DayOne」试试。</p>
+<p>Ulysses，支持 iPhone、iPad、Mac，支持 iCloud 同步，在 Mac 没写完的文章可以在移动端无缝连接，接着之前的文章继续写；沉浸式的写作体验；文档的集中管理等，非常适合写非技术类文章，技术类文章略显不足。噢，对了，它还可以设置写作目标字数，设置之后会显示一个进度圆环，当圆环充满，文章也就差不多写完了。使用需付费订阅，可以免费体验 14 天，一年 ￥218。偶尔使用，不想花钱？回复「Ulysses」，不过会影响使用体验：不时的崩溃，然后我订阅了。</p>
+<p><br></p>
+<h4 id="影音工具"><a href="#影音工具" class="headerlink" title="影音工具"></a><strong>影音工具</strong></h4><p>MPlayerX，macOS 通用播放器，基本适配所有影音格式，基于 Mplayer 强力后端，界面简洁，操作方便。也正是因为基于 Mplayer，所以稍微有些过时，不再有大幅的更新，免费。</p>
+<p>QuickTime，macOS 自带播放器，支持格式较少，不做过多介绍。</p>
+<p>IINA，一个基于 mpv、契合 macOS 设计风格、力求做到最佳用户体验、轻便且功能强大的视频播放器，几乎支持所有格式，极好看的 UI，强大的解码能力，字幕挂载能力，毛玻璃特效的进度条和标题栏，画中画模式，强大的功能设置（涵盖了视频播放的方方面面），支持流播放，可谓真正面向现代的播放器。IINA 还有很多贴心的细节，大家自己去体验，毫不夸张的说，它是 macOS 上最好最完美的播放器。最重要的是，IINA 完全免费开源。</p>
+<p><br></p>
+<h4 id="办公工具"><a href="#办公工具" class="headerlink" title="办公工具"></a><strong>办公工具</strong></h4><p>iWork，包含 Pages、Keynote、Numbers，Mac 办公软件的标配，容易上手，学习成本低，简洁美观。免费使用，这么一想苹果还是很良心的。</p>
+<p>Microsoft Office，无需多言，能够做出极其复杂的文档、PPT、表格，当然学习成本很高，想要用好 Office 比较困难，毕竟计算机二级考试中通过率才 22% 左右。但 Office 功能完备，强大，这是毋庸置疑的，更适合专业人群。收费，毕竟微软。既然这样，那赶紧后台回复「Office」吧。</p>
+<p><br></p>
+<h4 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a><strong>虚拟机</strong></h4><p>Parallels Desktop，Mac 上最优秀的虚拟机，简单易用。在 Mac 上轻松使用 Win 和 Linux 等其他操作系统，使用过 Mac 基本对它不会陌生。收费的，而且升级新版本还要另外掏钱，这不坑爹么。后台回复「Parallels」拿走。</p>
+<p>免费的虚拟机工具：VirtualBox，我没有在 macOS 上用过，以前使用 Win 的时候用过不少，还可以，想必在 Mac 上也不错。</p>
+<p><br></p>
+<h4 id="云存储工具"><a href="#云存储工具" class="headerlink" title="云存储工具"></a><strong>云存储工具</strong></h4><p>我过的比较多。国外的 Dropbox，国内的坚果云、百度网盘。百度网盘我是真不想再用（原因不想再说，百毒必败），但是之前存的东西太多，转移成本太大，就这样用着吧。建议大家使用坚果云，体验还可以。有条件的可以使用 Dropbox，很好用。</p>
+<p><br></p>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a><strong>其他</strong></h4><p>FreshBackMac，壁纸软件，我觉得非常好用，上面的壁纸都很好看，壁纸源有 500px、Pixabay 等等，图片资源非常丰富。</p>
+<p>Navicat Premium，数据库客户端。我一般在终端中操作数据库，导致前两篇文章忘记了，这里补上。Navicat Premium，非常著名，非常好用，非常贵，奇贵。个人用户一般不会买，毕竟几千大洋。后台回复「Navicat」拿去耍。</p>
+<hr>
+<p>后台回复「Mac工具」可以获取这个系列文章中所有“可回复获取的软件”。</p>
+<p>如果文章对大家有所帮助，希望大家积极转发分享，感谢。同时，如果这个系列文章对大家有帮助，我之后会考虑将其整理成文档，以便大家查阅，如果有需要，大家可以在文章底部留言告知我。</p>
+<p>到此我使用的 Mac 工具基本介绍完了，文章中哪些工具对大家有帮助呢？你又有哪些好用的工具推荐给大家呢？欢迎大家积极留言交流。</p>
+<p><br></p>
+<h5 id="相关文章："><a href="#相关文章：" class="headerlink" title="相关文章："></a>相关文章：</h5><p><a href="https://ikookblog.com/2018/01/18/mac-software01/">Mac 工具启示录「上」</a></p>
+<p><a href="https://ikookblog.com/2018/01/21/mac-software02/">Mac 工具启示录「中」</a></p>
+<p><br></p>
+<p><br>ikook<br>2018.01.23</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这篇文章是「Mac 工具启示录」系列的最后一篇。这系列的三篇文章，基本涵盖了我自己使用的较为优秀的工具，但愿能有帮助到大家，对大家有所启示。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="软件说" scheme="http://ikookblog.com/categories/%E8%BD%AF%E4%BB%B6%E8%AF%B4/"/>
+    
+    
+      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="Mac" scheme="http://ikookblog.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac 工具启示录「中」</title>
@@ -1015,44 +1081,6 @@
     
     
       <category term="感悟" scheme="http://ikookblog.com/tags/%E6%84%9F%E6%82%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Alfred 每次开机运行提示「访问通讯录」问题</title>
-    <link href="http://ikookblog.com/2017/11/06/alfred/"/>
-    <id>http://ikookblog.com/2017/11/06/alfred/</id>
-    <published>2017-11-05T16:00:00.000Z</published>
-    <updated>2018-01-05T15:39:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。</p>
-</blockquote>
-<a id="more"></a>
-<p>自从用上「MacOS」之后就各种玩软件。用了软件，好用的东西很多，当然被我卸载的也很多。其中，Alfred 是我不会卸载的软件之一。</p>
-<p>由于，学生一枚（隐喻，穷屌丝），没办法只能用破解版，就像我「MacOS」一样，是黑的 —— 黑苹果。因为是破解版，随之而来的就有一些烦人的问题，Alfred 也一样，它每次开机的时候，都会提示是否允许访问通讯录。</p>
-<p><img src="https://meto.chinakook.com/blog-images/alfred1.png" alt=""></p>
-<p>这个问题我忍受了很久，大约有将近一个月吧，我去，我绑不住了，搞他。其实很简单。</p>
-<p>在终端输入一下命令，解决。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo codesign -f -d -s - /Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Alfred\ Framework</div></pre></td></tr></table></figure>
-<p>想要下载「Alfred 破解版」扫描下方二维码关注公众号，后台回复：<strong>Alfred</strong> 即可获取。</p>
-<p><br>ikook<br>2017.11.06</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;在忍受了许久「alfred 破解版」开机询问是否访问通讯录问题之后，终于忍不住了。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="软件说" scheme="http://ikookblog.com/categories/%E8%BD%AF%E4%BB%B6%E8%AF%B4/"/>
-    
-    
-      <category term="工具" scheme="http://ikookblog.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-      <category term="Alfred" scheme="http://ikookblog.com/tags/Alfred/"/>
     
   </entry>
   
