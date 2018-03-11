@@ -2616,9 +2616,9 @@
         
         <tags>
             
-            <tag> 随笔 </tag>
-            
             <tag> Android </tag>
+            
+            <tag> 随笔 </tag>
             
             <tag> Java </tag>
             
@@ -3365,6 +3365,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -3387,12 +3393,6 @@
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25707139&auto=1&height=66"></iframe><br></p>
 <p><br>ikook<br>2016.10.07</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
