@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-02-26T03:50:44.000Z</updated>
+  <updated>2018-03-20T11:56:06.000Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hibernate 插入中文乱码引起折腾 MySQL 编码事件</title>
+    <link href="http://ikookblog.com/2018/03/14/hibernate-mysql-encode/"/>
+    <id>http://ikookblog.com/2018/03/14/hibernate-mysql-encode/</id>
+    <published>2018-03-13T16:00:00.000Z</published>
+    <updated>2018-03-20T11:56:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>近些日子在折腾 Hibernate，遇到一个小问题：向 MySQL 数据库插入中文数据的时候会发现乱码，乱码形式表现为“?”。看到第一反应是：这还不简单，MySQL 建表时使用的是默认字符集，改成「UTF-8」不就得了。那就改啊，改完之后测试，顿时感觉心凉了一下。提示错误信息：</p>
+<blockquote>
+<p>org.hibernate.exception.GenericJDBCException: could not execute statement</p>
+</blockquote>
+<p>我擦，这是什么鬼？刚开始玩 Hibernate 的我一脸懵逼，还能怎么办，Google 啊。</p>
+<p>按照网上的解决办法就是在 Hibernate 核心配置文件中的数据库连接 url 后面添加如下代码：</p>
+<blockquote>
+<p>?useUnicode=true&amp;characterEncoding=utf-8</p>
+</blockquote>
+<p>再次测试，结果还是上面的错误信息，这就尴尬了。再查，发现我的 MySQL 数据库没有更改默认字符集，MySQL 的默认字符集是“latin1”（鬼知道 MySQL 设计者为什么弄它作为默认字符集）。开整。</p>
+<p>可以通过在终端进入 MySQL 然后输入：show variables like ‘%char%’; 查看字符集。</p>
+<center><br><img src="https://meto.chinakook.com/blog-images/180314-01.jpeg" alt=""><br></center>
+
+<p>图中标注的地方是更改之后，更改之前应该是「latin1」。想要更改 MySQL 的编码，就需要修改 MySQL 配置文件：my.cnf。修改配置文件之前一定要将 MySQL 进程关闭，一定要，不然会出现麻烦。</p>
+<p>将 MySQL 安装目录下的my.cnf文件复制到/etc目录下（如果 MySQL 安装目录没有 my.cnf 文件，则直接在/etc中新建一个名为 my.cnf 的文件）</p>
+<p>my.cnf 文件内容如下：</p>
+<center><br><img src="https://meto.chinakook.com/blog-images/180314-02.jpeg" alt=""><br></center>
+
+<p>在 my.cnf 文件中添加图中标注的内容。完整内容在后台回复「my.cnf」获取。对了，Mac 下是 my.cnf 文件，windows 对应的配置文件名是 my.ini</p>
+<p>更改完重启 MySQL 测试，心想这下应该可以了吧，然而，还是出现那个错误信息。别慌，Hibernate 要操作的数据库是更改默认编码之前创建的，所以去更改下待操作的数据库的字符集（一开始只更改了表的字符集）。再测试，OK。</p>
+<p>所以问题的根本在于数据库的编码。那折腾半天 MySQL 默认编码干啥？直接更改待操作数据库的字符集不就得了？更改 MySQL 默认编码之后再创建新的数据库，就不用再去手动设置字符集，省去了以后的麻烦，也算自己没白折腾。</p>
+<p><br>ikook<br>2018.03.14</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;近些日子在折腾 Hibernate，遇到一个小问题：向 MySQL 数据库插入中文数据的时候会发现乱码，乱码形式表现为“?”。看到第一反应是：这还不简单，MySQL 建表时使用的是默认字符集，改成「UTF-8」不就得了。那就改啊，改完之后测试，顿时感觉心凉了一下。提示错误信
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+      <category term="Hibernate" scheme="http://ikookblog.com/tags/Hibernate/"/>
+    
+      <category term="MySQL" scheme="http://ikookblog.com/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何提高自控力克服拖延？</title>
+    <link href="http://ikookblog.com/2018/03/08/18-03-08/"/>
+    <id>http://ikookblog.com/2018/03/08/18-03-08/</id>
+    <published>2018-03-07T16:00:00.000Z</published>
+    <updated>2018-03-20T11:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多人都觉得自己制定的计划完不成，会拖延，其实我自己也是这样，尤其是之前一段时间，拖延症晚期，无药可救。我和大多数人一样，觉得自己缺乏自控力，以为有了自控力这些拖延的问题都能迎刃而解，但事实是这样的吗？</p>
+<p>关于自控力有一个非常经典的实验，叫做「棉花糖测试」：</p>
+<p>它是 19 世纪后期，斯坦福大学的 Walter Mischel 在幼儿园里进行的一系列实验。实验中，大人将孩子一个人留在房间里，面前摆着一个盘子，盘子里有一粒棉花糖，然后称自己有事要离开。</p>
+<p>大人在离开前会叮嘱孩子说，他们有两种选择：如果坚持一小会儿（15分钟），等大人回来时还没有吃掉棉花糖的话，他们会再额外获得一枚糖的奖励；但如果实在想吃，也可以选择按铃并立刻吃掉棉花糖。</p>
+<p>孩子们抵御棉花糖诱惑的过程是痛苦的，一些孩子甚至没有等到按铃，就很快吃掉了糖，还有一些孩子不断地拿起糖又放下，或者捂住眼睛、踢桌腿，但最终还是按铃并吃掉了糖。在所有的孩子里，有大约三分之一的孩子成功地抵御了诱惑，在 15 分钟后得到了另一枚糖的奖励。</p>
+<p>实验中，有的孩子甚至在屋子里玩起了游戏，权当那颗糖不存在——棉花糖不会不存在，但随着孩子把注意力集中在玩游戏上而被暂时遗忘。这些孩子成功控制住了自己。</p>
+<p>相反，有些孩子死死盯住棉花糖，对自已说“我不能吃，我一定不能吃，我的目标是得到另一枚棉花糖”，这样的孩子全都很快就失败了。</p>
+<p>把注意力集中在诱惑上，即便是集中在“我要抵御诱惑”上，你自控的目标也会更容易失败。这是因为，只要你的注意力在诱惑上，你的自控力就在持续地被损耗。</p>
+<p>可见，自控力和肌肉力量一样是有限的。这个结论被大量心理学实验证明。</p>
+<p>当我们重复做一件消耗体力的动作时，我们很快就会发现自己吃不消，力气消耗殆尽，这是因为我们的肌肉力量被暂时耗尽，需要补充能量。</p>
+<p>自控力也一样，每当我们抵御一次诱惑，你的自制力就消耗一分。</p>
+<p>很多人都想要减肥、健身，制定了详细的计划，买了一堆装备，还去办了几千块的健身卡。然而，坚持不了几天之后，就已经将这些东西束之高阁了。</p>
+<p>为什么建立一个锻炼的习惯这么难？绝大多数原因是急于求成，太想在短期时间内看到显著的效果，没有得到反馈，他们就放弃了。我们做什么事都期望能够得到即时的反馈和满足感。我们天生就是这样一种动物。</p>
+<p>所以，为什么在认真学习时，忽然会冒出“学这么久了，看一集美剧吧！”的念头；为什么你打开手机想要背单词，却鬼使神差的戳开了微博，其实这些的本质都是原始大脑在作怪。</p>
+<p>说了这么多，有什么办法能克服它？</p>
+<p>1.转移注意力。有意识的让诱惑离开自己的视线，从而进一步离开自己的思绪，有意识的把注意力放在其他事情上。</p>
+<p>2.不要把目标设得太高。如果你之前没去过健身房，不要期望一周能去三次，更科学的计划是从一周去一次做起。如果你之前沉迷游戏，一周玩 7 天，不要指望明天就能戒了，科学一点的做法是，下周玩 6 天。承认自己一口吃不成胖子，敢于面对现实。「积极心理学」中的建议是：对于一般人，一个月能建立 1-2 个习惯就很不错了。如果能够做到 1 个月养成 1 个习惯，一年下来至少建立了 12 个习惯。</p>
+<p>3.对自己多一些鼓励。如果发现自己的自控力真的很差，不要急着苛责自己，自我批评对于提高自控力并没有什么帮助。在与欲望和弱点搏斗的时候，大多数时候都是一个人，只有自己给自己加油打气，才能更好的走下去。</p>
+<p>4.行动起来，从现在开始。无论是苛责还是鼓励自己，引发改变的是行动。想做什么现在就开始做吧，不要等到以后。大多数的 “明天再说” 等于 “明天就忘” 。只要去做了，都是在行动、在改变，正如一句话：再微小的改变，也值得褒奖。</p>
+<p><br>ikook<br>2018.03.08</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多人都觉得自己制定的计划完不成，会拖延，其实我自己也是这样，尤其是之前一段时间，拖延症晚期，无药可救。我和大多数人一样，觉得自己缺乏自控力，以为有了自控力这些拖延的问题都能迎刃而解，但事实是这样的吗？&lt;/p&gt;
+&lt;p&gt;关于自控力有一个非常经典的实验，叫做「棉花糖测试」：&lt;/
+    
+    </summary>
+    
+      <category term="随笔集" scheme="http://ikookblog.com/categories/%E9%9A%8F%E7%AC%94%E9%9B%86/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>18 年春节告终</title>
@@ -956,110 +1043,6 @@
     
     
       <category term="公号运营" scheme="http://ikookblog.com/tags/%E5%85%AC%E5%8F%B7%E8%BF%90%E8%90%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java 学习资源送给你们</title>
-    <link href="http://ikookblog.com/2017/12/09/java-res/"/>
-    <id>http://ikookblog.com/2017/12/09/java-res/</id>
-    <published>2017-12-08T16:00:00.000Z</published>
-    <updated>2018-01-05T15:43:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>前几天的文章：<a href="http://ikookblog.com/2017/12/05/back-end_dev/">后端开发基础都有哪些？</a>给大家简单介绍了下 JavaWeb 开发需要掌握的基础知识，文章中所涉及的都是必备知识。虽然给大家介绍了要学习什么知识，但还是会有同学不知怎么开始学习。</p>
-<p>既然是这样，那我就负责到底（还不是给自己挖了坑，哈哈）。今天给大家分享下 Java 整套的学习资源，包括：视频、书籍（电子书）、编程工具。初学者学习编程的正确方式是：视频 + 书籍。</p>
-<p>书籍比较系统，由浅入深，但是如果只看书籍容易造成抵抗心理，技术类书籍比较枯燥，想要认真看完一本技术类书籍非常困难，尤其是初学者，更何况一旦遇到知识难点，初学者只看书会很难看懂；有人会说了，那只看视频不就完了，就技术类视频来说：视频所讲解的内容会比较浅显，有时候一些小的知识点会一句话带过，而且由于视频本身限制更不会去讲解知识点的原理是什么，再者，视频不如书籍系统。所以视频 + 书籍结合一起学习对初学者最友好。</p>
-<p>好了，废话不多说，上干货。</p>
-<h3 id="视频："><a href="#视频：" class="headerlink" title="视频："></a>视频：</h3><h5 id="Java-基础："><a href="#Java-基础：" class="headerlink" title="Java 基础："></a>Java 基础：</h5><p><img src="https://meto.chinakook.com/blog-images/Java%E5%9F%BA%E7%A1%80.jpeg" alt="Java 基础视频"></p>
-<p>这些都是业内评价较高的 Java 基础入门视频，前 4 个视频就是围绕 Java SE 来讲，而最后一个主要讲解 Android 学习中要用到的一些 Java 基础，区别不大。毕向东老师的视频评价是非常高的，非常多的人是通过这个视频入门的，唯一不好的就是有点老了，现在 Java 都到 9 了，有些特性没有涉及到。第四个是比较新的视频，涉及到了 Lamda 表达式等一些 Java 8 的新特性。</p>
-<p>获取地址：<a href="https://pan.baidu.com/s/1jIkrYj8" target="_blank" rel="external">https://pan.baidu.com/s/1jIkrYj8</a>；密码：h8su</p>
-<h5 id="Java-Web："><a href="#Java-Web：" class="headerlink" title="Java Web："></a>Java Web：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaWeb.jpeg" alt="JavaWeb 视频"></p>
-<h5 id="Java-EE："><a href="#Java-EE：" class="headerlink" title="Java EE："></a>Java EE：</h5><p><img src="https://meto.chinakook.com/blog-images/JavaEE.jpeg" alt="JavaEE 视频"></p>
-<p>Java Web、Java EE 的视频均来自某培训机构公开的视频教程，我看过其中一些 Java Web 的，还算不错。</p>
-<p>Java Web 获取地址：<a href="https://pan.baidu.com/s/1eS4cWCy" target="_blank" rel="external">https://pan.baidu.com/s/1eS4cWCy</a>; 密码：ypx2</p>
-<p>Java EE 获取地址：<a href="https://pan.baidu.com/s/1i5J5QN7" target="_blank" rel="external">https://pan.baidu.com/s/1i5J5QN7</a>; 密码：7op4</p>
-<h3 id="书籍："><a href="#书籍：" class="headerlink" title="书籍："></a>书籍：</h3><p><img src="https://meto.chinakook.com/blog-images/Java%E4%B9%A6%E7%B1%8D.jpeg" alt="Java 书籍"></p>
-<p>以上差不多均为 Java 基础书籍，入门我推荐「Head First Java」，这本书能够让你轻松入门 Java，不过其中一些知识点没有讲解到。「Java 核心技术（上、下两卷）」这本书涉及知识非常全面，基本涵盖了 Java SE 所有的知识点，看起来有点困难，有些枯燥，不过还好，用心看，结合视频，坚持看完会有很大收货。</p>
-<p>Java Web 书籍我推荐传智播客推出的「Java Web 程序开发入门」和「Java  Web 程序开发进阶」两本书，基本涉及 Java Web 所有基础知识点，并且内容比较容易看懂，结合上面的视频掌握 Java Web 基础知识不成问题。</p>
-<p>关于 Java EE 的书籍我暂时无法推荐给大家，毕竟我也才开始踩坑，所以就暂时不给大家推荐了。不过需要的同学可以上网查一下，或是问一下身边的前辈，基本能够找到好的书籍。</p>
-<p>获取地址：<a href="https://pan.baidu.com/s/1c1GHZDe" target="_blank" rel="external">https://pan.baidu.com/s/1c1GHZDe</a>  密码：7e28</p>
-<h3 id="工具："><a href="#工具：" class="headerlink" title="工具："></a>工具：</h3><p>编程工具我就不给大家分享链接了，毕竟大家的系统不一定和我的一致，并且大都可以在网上下载，那就直接和你们说几个比较常用的 Java 编程工具吧。</p>
-<p>eclipse，它是老牌 Java 编程工具，也是曾经 Java 开发 IDE 中的霸主。其自身就是由 Java 开发，插件丰富，曾经是 Java 开发必选的 IDE。</p>
-<p>IntelliJ IDEA（简称 IDEA），它是由著名的 Jet Brains 团队开发的 IDE，Kotlin 就是由这个团队开发，非常牛。目前这个 IDE 非常火， 代码审查、代码自动提示、智能代码助手、重构、J2EE 支持、颜值高等等优点，更何况背后有这么屌的团队。IDEA 在业界被公认为最好用的 Java 开发工具，已经有越来越多的人使用它。它是 Java IDE 的未来。 对了，它的完整版需要购买注册码，并且价格不低，有条件的不妨直接购买，没条件的同学看这里：<a href="http://idea.lanyus.com/" target="_blank" rel="external">http://idea.lanyus.com/</a></p>
-<p>其他较为著名的 Java IDE 还有：Netbeans、Jbuilder。目前使用者比较少，有兴趣可以了解下。</p>
-<hr>
-<p>好了，关于 Java 的资料就先分享到这里。我自己的学习资料比较丰富，涉及面也算广泛。比如今天就该分享的 MySQL、Oracle 等数据库相关学习资料等等，其他的还有不少。之所以没有分享是想要看一下大家对这篇文章的反映，如果大家反映较好，之后我会慢慢把其他资料分享给大家。</p>
-<p>最后有个请求，我希望大家能够多多分享一下文章，毕竟我整理的这些资料都是经过用心寻找和花费大量时间整理出来的，这些分享出来的都是我精心挑选的，没有营养没有价值的我都剔除了。所以大家多多转发分享、点赞，也算是对我的支持了，不胜感激。</p>
-<p>PS：文中所有链接均可在我的公众号会话窗口回复「Java」获取（扫下方二维码关注）。</p>
-<p><br>ikook<br>2017.12.09</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;前几天的文章：&lt;a href=&quot;http://ikookblog.com/2017/12/05/back-end_dev/&quot;&gt;后端开发基础都有哪些？&lt;/a&gt;给大家简单介绍了下 JavaWeb 开发需要掌握的基础知识，文章中所涉及的都是必备
-    
-    </summary>
-    
-      <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    
-    
-      <category term="Java" scheme="http://ikookblog.com/tags/Java/"/>
-    
-      <category term="后端开发" scheme="http://ikookblog.com/tags/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
-      <category term="学习技巧" scheme="http://ikookblog.com/tags/%E5%AD%A6%E4%B9%A0%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后端开发基础都有哪些？</title>
-    <link href="http://ikookblog.com/2017/12/05/back-end_dev/"/>
-    <id>http://ikookblog.com/2017/12/05/back-end_dev/</id>
-    <published>2017-12-04T16:00:00.000Z</published>
-    <updated>2018-01-05T15:42:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>由于近来国内移动开发现状所致，应该有不少移动开发者在考虑转别的方向，个人感觉后端开发是个不错的选择。当然，人工智能、大数据异常火爆，有能力的同学不妨试一试。</p>
-<p>正好最近一段时间在学习 Java web，基础知识基本过了一篇，在这里回顾一下，刚好可以帮助想要转后端朋友熟悉下流程。</p>
-<p>后端开发一般是指 web 系统开发，想要学习后端开发，首先要有 HTML、CSS、JavaScript 基础。web 页面简单来说就是由这三者组成，HTML 负责结构、CSS 负责展现、JavaScript 负责行为。一般 web 页面是由前端工程师来做，我们要学习后端首先要有前端基础，不要求能够开发出多么漂亮的页面，能够掌握基础就 ok。</p>
-<p>过完前端基础知识之后就可以开始学习后端开发了，要掌握的基础知识有：XML、HTTP 协议、Servlet、会话（Cookie、Session）、JSP、JDBC、Filter ，还有自定义标签、各类标签库等，下面分别给大家介绍下其中一些关键技术。</p>
-<h3 id="XML："><a href="#XML：" class="headerlink" title="XML："></a>XML：</h3><p>看到 XML 有人会问：它和 HTML 有什么关系吗？首先，它们都是标记文本，结构上大致相同，但实际上有本质的区别。</p>
-<p>HTML 是 HyperText Markup Language，超文本标记语言，用来显示数据，不区分大小写，标记为预定义的；而 XML 是 Extensible Markup Language，可扩展标记语言，用来描述数据的性质和结构，严格区分大小写和标签书写方式，其标记可随意定义并且可扩展。</p>
-<p>其次，XML 可用作配置文件，目前绝大多数 Java 应用程序的配置文件都是 XML。所以，XML 主要用于程序之间的数据交换，以及描述程序的配置信息。</p>
-<h3 id="HTTP-协议："><a href="#HTTP-协议：" class="headerlink" title="HTTP 协议："></a>HTTP 协议：</h3><p>HTTP，Hyper Text Transfer Protocol 的缩写，译为超文本传输协议。在浏览器与服务器的交互过程中，需要遵循一定的规则，这个规则就是 HTTP，它专门用于定义浏览器与服务器之间交换数据的过程以及数据本身的格式。</p>
-<p>说白了，HTTP 就是浏览器和服务器聊天的一种约定，这个约定需要确保双方之间互相理解。HTTP 协议是一种“无状态”协议，就是说每次浏览器和服务器通讯都会建立一次连接，数据交互完成则断开连接，下次通讯只能再建立连接，由于建立连接非常消耗资源，所以引出了 HTTP 1.1 版本，具体我们下次再谈。</p>
-<p>HTTP 协议是非常复杂的，不过最重要的就几点，比如 GET、POST 请求；HTTP 状态码；同步、异步；如何维持状态（会话技术：Cookie、Session）。</p>
-<h3 id="Servlet："><a href="#Servlet：" class="headerlink" title="Servlet："></a>Servlet：</h3><p>Servlet 是开发动态 web 资源的重要技术，其他常见的还有：JSP、ASP 和 PHP 等，同时 Serlvet 是后端开发的重要基础技术。其主要功能在于交互式地浏览和修改数据，生成动态 web 内容。</p>
-<p>绝大多数情况下 Servlet 用来扩展基于 HTTP 协议的 web 服务器，但它是可以响应任何类型请求的。其工作模式为：浏览器请求服务器；服务器启动并调用 Servlet，Servlet 根据客户端的请求生成响应内容；服务器将响应内容返回客户端。</p>
-<p>需要重点掌握的是：Servlet 生命周期、HttpServlet「doGet() 和 doPost() 方法」、请求和响应。</p>
-<h3 id="JSP："><a href="#JSP：" class="headerlink" title="JSP："></a>JSP：</h3><p>JSP 全称为 Java Server Page，即 Java 服务器页面。它其实是 Servlet 的扩展，由于 Servlet 大多是用来响应 HTTP 请求，并返回 web 页面，所以在编写 Servlet 时会涉及大量的 HTML 代码，这给 Servlet 代码的编写和维护带来非常大的障碍，为了解决这一问题，就此产生了 JSP。</p>
-<p>它的作用是使用 HTML 的编写方式，在适当的地方嵌入 Java 代码，同时，JSP 增加称为「JSP 动作」的 XML 标签，用来调用内建功能。</p>
-<p>JSP 在首次被访问是会被服务器转成 Servlet，以后 web 容器则直接调用这个 Servlet，而不再访问 JSP 页面，所以 JSP 实质上还是 Servlet。需要重点掌握的是 JSP 标签库。</p>
-<h3 id="JDBC："><a href="#JDBC：" class="headerlink" title="JDBC："></a>JDBC：</h3><p>说 JDBC 之前要先谈谈数据库，因为 JDBC 操作的就是数据库，所以我们要先学会写 SQL 语句。</p>
-<p>数据库在后端开发中是不可或缺的一部分，也是开发中最重要的一部分，我们日常使用的所有软件都是由数据支撑，操作的也都是数据，没有数据我们的软件将都不可使用，我们的生活将黯淡无光，可见数据库的重要性，推荐学习 MySQL，原因以后再谈。</p>
-<p>JDBC 全称是 Java Database Connectivity ，即 Java 数据库连接，它是一套用与执行 SQL 语句的 Java API，Java 应用程序通过使用 JDBC 来连接到关系型数据库，并使用 SQL 语句来完成对数据库中数据的操作，包括查询、更新、删除等。主要掌握 JDBC 中的 Connection，Statement，Resultset 三个基础。</p>
-<hr>
-<p>好了，由于篇幅较长就主要介绍这几个关键的技术。还有一些基础像：Filter「过滤器」、文件的上传和下载、EL 表达式、自定义标签等都非常重要，建议大家自行查阅。在以后的文章中会具体讲解这些技术，这篇就算是一个目录吧。</p>
-<p>当然，这些技术只是后端开发的基础，也是学习后端必备的知识，只有掌握了基础知识，才能有去学习像 SSH、SSM 等框架的资格。</p>
-<p><br>ikook<br>2017.12.05</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;由于近来国内移动开发现状所致，应该有不少移动开发者在考虑转别的方向，个人感觉后端开发是个不错的选择。当然，人工智能、大数据异常火爆，有能力的同学不妨试一试。&lt;/p&gt;
-&lt;p&gt;正好最近一段时间在学习 Java web，基础知识基本过了一篇，在
-    
-    </summary>
-    
-      <category term="技术栈" scheme="http://ikookblog.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    
-    
-      <category term="Java" scheme="http://ikookblog.com/tags/Java/"/>
-    
-      <category term="后端开发" scheme="http://ikookblog.com/tags/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
