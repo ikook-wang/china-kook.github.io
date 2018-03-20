@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title><![CDATA[Hibernate 插入中文乱码引起折腾 MySQL 编码事件]]></title>
+      <title><![CDATA[Hibernate 插入中文乱码]]></title>
       <url>/2018/03/14/hibernate-mysql-encode/</url>
       <content type="html"><![CDATA[<p>近些日子在折腾 Hibernate，遇到一个小问题：向 MySQL 数据库插入中文数据的时候会发现乱码，乱码形式表现为“?”。看到第一反应是：这还不简单，MySQL 建表时使用的是默认字符集，改成「UTF-8」不就得了。那就改啊，改完之后测试，顿时感觉心凉了一下。提示错误信息：</p>
 <blockquote>
@@ -23,7 +23,7 @@
 <p>my.cnf 文件内容如下：</p>
 <center><br><img src="https://meto.chinakook.com/blog-images/180314-02.jpeg" alt=""><br></center>
 
-<p>在 my.cnf 文件中添加图中标注的内容。完整内容在后台回复「my.cnf」获取。对了，Mac 下是 my.cnf 文件，windows 对应的配置文件名是 my.ini</p>
+<p>在 my.cnf 文件中添加图中标注的内容。完整内容在我的公众号后台回复「my.cnf」获取。对了，Mac 下是 my.cnf 文件，windows 对应的配置文件名是 my.ini</p>
 <p>更改完重启 MySQL 测试，心想这下应该可以了吧，然而，还是出现那个错误信息。别慌，Hibernate 要操作的数据库是更改默认编码之前创建的，所以去更改下待操作的数据库的字符集（一开始只更改了表的字符集）。再测试，OK。</p>
 <p>所以问题的根本在于数据库的编码。那折腾半天 MySQL 默认编码干啥？直接更改待操作数据库的字符集不就得了？更改 MySQL 默认编码之后再创建新的数据库，就不用再去手动设置字符集，省去了以后的麻烦，也算自己没白折腾。</p>
 <p><br>ikook<br>2018.03.14</p>
