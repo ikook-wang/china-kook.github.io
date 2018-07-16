@@ -3,15 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[text]]></title>
-      <url>/2018/07/16/text/</url>
-      <content type="html"><![CDATA[<p>测试，这是测试</p>
-]]></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hibernate 插入中文乱码]]></title>
       <url>/2018/03/14/hibernate-mysql-encode/</url>
       <content type="html"><![CDATA[<p>近些日子在折腾 Hibernate，遇到一个小问题：向 MySQL 数据库插入中文数据的时候会发现乱码，乱码形式表现为“?”。看到第一反应是：这还不简单，MySQL 建表时使用的是默认字符集，改成「UTF-8」不就得了。那就改啊，改完之后测试，顿时感觉心凉了一下。提示错误信息：</p>
@@ -3489,14 +3480,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[timeline]]></title>
+      <url>/timeline/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[timeline]]></title>
-      <url>/timeline/index.html</url>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
