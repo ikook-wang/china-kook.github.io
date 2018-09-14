@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-03-20T12:00:14.000Z</updated>
+  <updated>2018-09-14T03:22:51.423Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2018/03/14/hibernate-mysql-encode/"/>
     <id>http://ikookblog.com/2018/03/14/hibernate-mysql-encode/</id>
     <published>2018-03-13T16:00:00.000Z</published>
-    <updated>2018-03-20T12:00:14.000Z</updated>
+    <updated>2018-09-14T03:22:51.423Z</updated>
     
     <content type="html"><![CDATA[<p>近些日子在折腾 Hibernate，遇到一个小问题：向 MySQL 数据库插入中文数据的时候会发现乱码，乱码形式表现为“?”。看到第一反应是：这还不简单，MySQL 建表时使用的是默认字符集，改成「UTF-8」不就得了。那就改啊，改完之后测试，顿时感觉心凉了一下。提示错误信息：</p>
 <blockquote>
@@ -29,7 +29,7 @@
 <p>我擦，这是什么鬼？刚开始玩 Hibernate 的我一脸懵逼，还能怎么办，Google 啊。</p>
 <p>按照网上的解决办法就是在 Hibernate 核心配置文件中的数据库连接 url 后面添加如下代码：</p>
 <blockquote>
-<p>?useUnicode=true&amp;characterEncoding=utf-8</p>
+<p>?useUnicode=true&amp;characterEncoding=utf-8 </p>
 </blockquote>
 <p>再次测试，结果还是上面的错误信息，这就尴尬了。再查，发现我的 MySQL 数据库没有更改默认字符集，MySQL 的默认字符集是“latin1”（鬼知道 MySQL 设计者为什么弄它作为默认字符集）。开整。</p>
 <p>可以通过在终端进入 MySQL 然后输入：show variables like ‘%char%’; 查看字符集。</p>

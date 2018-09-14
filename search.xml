@@ -12,7 +12,7 @@
 <p>我擦，这是什么鬼？刚开始玩 Hibernate 的我一脸懵逼，还能怎么办，Google 啊。</p>
 <p>按照网上的解决办法就是在 Hibernate 核心配置文件中的数据库连接 url 后面添加如下代码：</p>
 <blockquote>
-<p>?useUnicode=true&amp;characterEncoding=utf-8</p>
+<p>?useUnicode=true&amp;characterEncoding=utf-8 </p>
 </blockquote>
 <p>再次测试，结果还是上面的错误信息，这就尴尬了。再查，发现我的 MySQL 数据库没有更改默认字符集，MySQL 的默认字符集是“latin1”（鬼知道 MySQL 设计者为什么弄它作为默认字符集）。开整。</p>
 <p>可以通过在终端进入 MySQL 然后输入：show variables like ‘%char%’; 查看字符集。</p>
@@ -3443,6 +3443,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[gallery]]></title>
+      <url>/gallery/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Me]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<blockquote>
@@ -3465,12 +3471,6 @@
 <p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25707139&auto=1&height=66"></iframe><br></p>
 <p><br>ikook<br>2016.10.07</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[gallery]]></title>
-      <url>/gallery/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
