@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ikookblog.com/"/>
-  <updated>2018-11-25T14:08:14.876Z</updated>
+  <updated>2018-11-25T14:11:55.967Z</updated>
   <id>http://ikookblog.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ikookblog.com/2018/11/25/new_google-cloud/"/>
     <id>http://ikookblog.com/2018/11/25/new_google-cloud/</id>
     <published>2018-11-24T16:00:00.000Z</published>
-    <updated>2018-11-25T14:08:14.876Z</updated>
+    <updated>2018-11-25T14:11:55.967Z</updated>
     
     <content type="html"><![CDATA[<p>废话少说，开搞。</p>
 <p>首先，准备一个可以临时使用的科学上网服务和一个谷歌账号，还有你的信用卡，然后点这里 <a href="https://cloud.google.com" target="_blank" rel="noopener">https://cloud.google.com</a> 登录你的谷歌账号，再点击首页的免费试用。如下图：</p>
