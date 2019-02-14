@@ -67,9 +67,9 @@
         
         <tags>
             
-            <tag> 网络 </tag>
-            
             <tag> 工具 </tag>
+            
+            <tag> 网络 </tag>
             
             <tag> Google </tag>
             
@@ -689,9 +689,9 @@
         
         <tags>
             
-            <tag> 网络 </tag>
-            
             <tag> 工具 </tag>
+            
+            <tag> 网络 </tag>
             
             <tag> Google </tag>
             
@@ -3551,6 +3551,12 @@
     </entry>
     
     <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[links]]></title>
       <url>/links/index.html</url>
       <content type="html"></content>
@@ -3559,12 +3565,6 @@
     <entry>
       <title><![CDATA[timeline]]></title>
       <url>/timeline/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[tags]]></title>
-      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
